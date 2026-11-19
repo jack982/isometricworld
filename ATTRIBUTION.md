@@ -103,6 +103,23 @@ Culture / ICCD [Palazzo d'Accursio metadata](https://catalogo.beniculturali.it/d
 Official basilica text and historical repository descriptions are factual audit references,
 not imported imagery or geometry. No additional geographic dataset or image source is activated.
 
+BO-003F retains those geographic sources and adds a separately labelled **appearance-only**
+roof topology proposal on four verified church partitions. Reference photographs are
+[Zairon, roof view (2022)](https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg),
+[Congolandia.g, facade (2019)](https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg),
+and [Raffacossa, clock tower (2017)](https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg),
+all [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (the CC option is selected
+for the dual-licensed clock photo). Originals, licence provenance and checksums are retained
+locally, under their original licences. Photos are inspected for appearance; no pixels,
+tracing, texture or photogrammetric measurements enter the map or proof images. Only the roof
+view informs the estimated shed topology; facade/clock photos are audit references and neither
+feature receives a new metric mesh. New roof rise/pitch remain explicit estimates above the
+unchanged municipal eaves. Credit lines are conditional on BO-003F in region source metadata,
+manifests/proofs, video notices and linked footer; existing modes keep their original credits.
+The official basilica, ICCD, government tourism guide and tower operator safety document are
+factual audit references only, not imported image/model assets. See
+[the source and fidelity audit](docs/bologna-landmark-fidelity-audit.md).
+
 ## Software
 
 Polygon-clipping (MIT, [source](https://github.com/mfogel/polygon-clipping)) performs planar

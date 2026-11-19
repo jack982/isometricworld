@@ -77,6 +77,10 @@ export const REGIONS: Record<string, Region> = {
       "Terrain: Copernicus DEM © DLR, Airbus DS",
     ],
     creditsBySource: {
+      fidelity: [
+        "BO-003F appearance references: Zairon (roof, 2022), Congolandia.g (facade, 2019), Raffacossa (clock, 2017) · CC BY-SA 4.0 · appearance only; estimated geometry, no photo pixels",
+        "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg · https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg · https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg · https://creativecommons.org/licenses/by-sa/4.0/",
+      ],
       ctc: ["Comune di Bologna – SIT · CTC Edifici volumetrici · CC BY 4.0 (projected, filtered and extruded)", "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/ · https://creativecommons.org/licenses/by/4.0/"],
       trees: ["Comune di Bologna – Settore Ambiente e Verde · Alberi in manutenzione · CC BY 4.0 (projected, filtered; class-based estimates)", "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/ · https://creativecommons.org/licenses/by/4.0/"],
     },

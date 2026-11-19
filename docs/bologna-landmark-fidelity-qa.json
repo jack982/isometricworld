@@ -1,0 +1,5183 @@
+{
+  "gates": {
+    "gate0": "AUDIT_COMPLETE_WITH_SCOPED_EXCEPTIONS",
+    "gateA": "PARTIAL_FOUR_ROOF_ESTIMATES_ONLY",
+    "gateB": "NOT_ACCEPTED_HUMAN_REVIEW_AND_EVIDENCE_REQUIRED",
+    "gateC": "PASS_ENGINEERING"
+  },
+  "automatedPassed": true,
+  "conclusions": {
+    "geometricValidity": "PASS_BOUNDED_PROPOSAL",
+    "architecturalRecognizability": {
+      "status": "HUMAN_REVIEW_REQUIRED",
+      "independentHumanValidation": false,
+      "agentReview": "Comparative JPGs inspected; roof silhouette changes are real but two-landmark recognizability is not established"
+    },
+    "measuredFidelity": {
+      "status": "UNVERIFIED",
+      "sourcePartitionsAndRelativeEavesRetained": true,
+      "roofRiseMeasured": false,
+      "clockBodyConclusive": false,
+      "porticoArchesMeasured": false
+    }
+  },
+  "decision": "REFINE GEOMETRY",
+  "aiPaintingPilot": "NO_GO_AT_THIS_GATE",
+  "decisionMatrix": [
+    {
+      "choice": "GO AI painting pilot",
+      "selected": false,
+      "effort": "Later: one crop / single tile only",
+      "requires": "Independent human silhouette acceptance and an explicit, scoped painting request"
+    },
+    {
+      "choice": "REFINE GEOMETRY",
+      "selected": true,
+      "effort": "Estimate: 0.5–2 days for a small sourced elevation/roofline study",
+      "requires": "Current openly licensed source elevations/roof plans; documented controls and independent review"
+    },
+    {
+      "choice": "BLOCKED BY MISSING EVIDENCE",
+      "selected": true,
+      "scope": "Clock body, metric facade profile and historic portico proportions",
+      "effort": "Evidence search/municipal response: uncertain",
+      "requires": "Conclusive body geometry join and height endpoint reconciliation; facade/arcade measurements with reusable rights"
+    }
+  ],
+  "camera": {
+    "region": "bologna",
+    "origin": {
+      "lat": 44.4938,
+      "lon": 11.343,
+      "h": 0
+    },
+    "headingDeg": 315,
+    "pitchDeg": 45,
+    "mpp": 0.25,
+    "tile": 1024
+  },
+  "bbox": [
+    44.4893,
+    11.337,
+    44.4983,
+    11.349
+  ],
+  "geoidM": 39.647,
+  "sourceCounts": {
+    "volumes": 9401,
+    "ctc": 6167,
+    "holes": 712,
+    "trees": 784
+  },
+  "changedSourceIds": [
+    17875,
+    31864,
+    45799,
+    52776
+  ],
+  "ctcMetadataCount": 6167,
+  "roofMethods": {
+    "unchanged-generic-flat": 9388,
+    "flat": 4,
+    "gable-estimate": 2,
+    "shed-estimate": 4,
+    "segmented-hip-estimate": 2,
+    "hipped-estimate": 1
+  },
+  "roofValidation": [
+    {
+      "id": "ctc/39022/0/piece0",
+      "ctcId": 39022,
+      "method": "flat",
+      "sourceEaveM": 59.7,
+      "terrainMinM": 110.4308513321312,
+      "terrainMaxM": 110.99999160860443,
+      "anchoredEaveUpM": 170.69999160860442,
+      "estimatedRiseM": 0,
+      "measured": false,
+      "projectedAreaM2": 100.17225099999987,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/17871/0/piece0",
+      "ctcId": 17871,
+      "method": "gable-estimate",
+      "sourceEaveM": 47.3,
+      "terrainMinM": 108.79888193771728,
+      "terrainMaxM": 110.38535122931673,
+      "anchoredEaveUpM": 157.68535122931672,
+      "estimatedRiseM": 3.5,
+      "measured": false,
+      "projectedAreaM2": 2325.094038,
+      "outsideAreaM2": 2.1097013025439537e-12,
+      "internalOverlapM2": 2.220446049250313e-16,
+      "closure": null
+    },
+    {
+      "id": "ctc/59850/0/piece0",
+      "ctcId": 59850,
+      "method": "flat",
+      "sourceEaveM": 39.7,
+      "terrainMinM": 109.67864578406082,
+      "terrainMaxM": 110.47226501659394,
+      "anchoredEaveUpM": 150.17226501659394,
+      "estimatedRiseM": 0,
+      "measured": false,
+      "projectedAreaM2": 206.33034899999993,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 2.784827923818513e-15,
+      "closure": null
+    },
+    {
+      "id": "ctc/17875/0/piece0",
+      "ctcId": 17875,
+      "method": "shed-estimate",
+      "sourceEaveM": 27.8,
+      "terrainMinM": 108.79888193771728,
+      "terrainMaxM": 109.64956714814836,
+      "anchoredEaveUpM": 137.44956714814836,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 1268.2286790000003,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 1.7763568394002505e-15,
+      "closure": {
+        "toleranceM": 0.00001,
+        "exposedSegments": 29,
+        "openSegments": [],
+        "buriedBottomIntentionallyUncapped": true
+      }
+    },
+    {
+      "id": "ctc/31864/0/piece0",
+      "ctcId": 31864,
+      "method": "shed-estimate",
+      "sourceEaveM": 27.8,
+      "terrainMinM": 108.86191789388124,
+      "terrainMaxM": 110.83679235660553,
+      "anchoredEaveUpM": 138.63679235660553,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 1297.8678055,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": {
+        "toleranceM": 0.00001,
+        "exposedSegments": 50,
+        "openSegments": [],
+        "buriedBottomIntentionallyUncapped": true
+      }
+    },
+    {
+      "id": "ctc/61154/0/piece0",
+      "ctcId": 61154,
+      "method": "segmented-hip-estimate",
+      "sourceEaveM": 26.6,
+      "terrainMinM": 108.2803036896692,
+      "terrainMaxM": 109.17772608046852,
+      "anchoredEaveUpM": 135.7777260804685,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 500.2433330000001,
+      "outsideAreaM2": 2.673122140306461e-13,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/47682/0/piece0",
+      "ctcId": 47682,
+      "method": "segmented-hip-estimate",
+      "sourceEaveM": 24.8,
+      "terrainMinM": 106.41217216471941,
+      "terrainMaxM": 108.40208447420807,
+      "anchoredEaveUpM": 133.20208447420808,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 956.4188939999998,
+      "outsideAreaM2": 2.8730999784148947e-13,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/18063/0/piece0",
+      "ctcId": 18063,
+      "method": "flat",
+      "sourceEaveM": 21.6,
+      "terrainMinM": 110.65357182455139,
+      "terrainMaxM": 111.44160300742188,
+      "anchoredEaveUpM": 133.04160300742188,
+      "estimatedRiseM": 0,
+      "measured": false,
+      "projectedAreaM2": 158.62185550000018,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/45799/0/piece0",
+      "ctcId": 45799,
+      "method": "shed-estimate",
+      "sourceEaveM": 21.1,
+      "terrainMinM": 108.88088884489746,
+      "terrainMaxM": 109.36215371215431,
+      "anchoredEaveUpM": 130.4621537121543,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 990.8361055,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": {
+        "toleranceM": 0.00001,
+        "exposedSegments": 50,
+        "openSegments": [],
+        "buriedBottomIntentionallyUncapped": true
+      }
+    },
+    {
+      "id": "ctc/52776/0/piece0",
+      "ctcId": 52776,
+      "method": "shed-estimate",
+      "sourceEaveM": 20.9,
+      "terrainMinM": 108.99378357808592,
+      "terrainMaxM": 110.78368238989867,
+      "anchoredEaveUpM": 131.68368238989868,
+      "estimatedRiseM": 2,
+      "measured": false,
+      "projectedAreaM2": 821.0950765000002,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": {
+        "toleranceM": 0.00001,
+        "exposedSegments": 22,
+        "openSegments": [],
+        "buriedBottomIntentionallyUncapped": true
+      }
+    },
+    {
+      "id": "ctc/61450/0/piece0",
+      "ctcId": 61450,
+      "method": "gable-estimate",
+      "sourceEaveM": 14.9,
+      "terrainMinM": 111.90546668214843,
+      "terrainMaxM": 112.17093095746765,
+      "anchoredEaveUpM": 127.07093095746765,
+      "estimatedRiseM": 1.8,
+      "measured": false,
+      "projectedAreaM2": 102.27578749999981,
+      "outsideAreaM2": 6.039613253960852e-14,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/32021/0/piece0",
+      "ctcId": 32021,
+      "method": "flat",
+      "sourceEaveM": 4.7,
+      "terrainMinM": 108.97575433458596,
+      "terrainMaxM": 109.15907363563538,
+      "anchoredEaveUpM": 113.85907363563538,
+      "estimatedRiseM": 0,
+      "measured": false,
+      "projectedAreaM2": 314.57447499999984,
+      "outsideAreaM2": 0,
+      "internalOverlapM2": 0,
+      "closure": null
+    },
+    {
+      "id": "ctc/35700/0/piece0",
+      "ctcId": 35700,
+      "method": "hipped-estimate",
+      "sourceEaveM": 9.7,
+      "terrainMinM": 106.67560400413895,
+      "terrainMaxM": 106.9491672711754,
+      "anchoredEaveUpM": 116.6491672711754,
+      "estimatedRiseM": 1.8,
+      "measured": false,
+      "projectedAreaM2": 99.04883500000003,
+      "outsideAreaM2": 9.136788547969843e-14,
+      "internalOverlapM2": 0,
+      "closure": null
+    }
+  ],
+  "geometryTolerances": {
+    "outsideOrOverlapM2": 0.01,
+    "areaAbsoluteM2": 0.05,
+    "areaRelative": 0.001,
+    "closureM": 0.00001,
+    "estimatedNewRiseM": [
+      0,
+      2
+    ]
+  },
+  "terrainUnchanged": true,
+  "treesUnchanged": 784,
+  "courtyardsUnchanged": 712,
+  "nonTargetTuplesAndPorticoUnchanged": true,
+  "portico": {
+    "ctcId": 21018,
+    "columns": 17,
+    "columnSolidOverlapM2": 0,
+    "minimumSampledClearanceM": 4.6073428064632225,
+    "unchanged": true,
+    "historicalArcade": false
+  },
+  "tiles": [
+    {
+      "mode": "before",
+      "x": -1,
+      "y": -2,
+      "colorSha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "heightSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": 0,
+      "y": -2,
+      "colorSha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "heightSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": -2,
+      "y": -1,
+      "colorSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "heightSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": -1,
+      "y": -1,
+      "colorSha256": "2521eaa5b6e6cf5b24bbd9949dfb3942cca7ae75baa06a4ce84a1a61f45ca236",
+      "heightSha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": 0,
+      "y": -1,
+      "colorSha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "heightSha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": 1,
+      "y": -1,
+      "colorSha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "heightSha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": -2,
+      "y": 0,
+      "colorSha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "heightSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": -1,
+      "y": 0,
+      "colorSha256": "da0995ffd295aa85b8d93b8c8835867cf9d9509d27ae710bfb5f9497f55c34ee",
+      "heightSha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": 0,
+      "y": 0,
+      "colorSha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "heightSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "before",
+      "x": 1,
+      "y": 0,
+      "colorSha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "heightSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": -1,
+      "y": -2,
+      "colorSha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "heightSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": 0,
+      "y": -2,
+      "colorSha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "heightSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": -2,
+      "y": -1,
+      "colorSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "heightSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": -1,
+      "y": -1,
+      "colorSha256": "2fd3a01c0ad901ae21cd0b6af759355a524b6058b893a6df3d2e0b895098ba1a",
+      "heightSha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": 0,
+      "y": -1,
+      "colorSha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "heightSha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": 1,
+      "y": -1,
+      "colorSha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "heightSha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": -2,
+      "y": 0,
+      "colorSha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "heightSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": -1,
+      "y": 0,
+      "colorSha256": "c4f8989463b2739dec608a114b011f84c52d87dbdd90bd04483a91c5aaddb3d6",
+      "heightSha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": 0,
+      "y": 0,
+      "colorSha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "heightSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "after",
+      "x": 1,
+      "y": 0,
+      "colorSha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "heightSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": -1,
+      "y": -2,
+      "colorSha256": "a386b4cf8c9b5a9d5c10a5e9e1bda7b85cf2d5b85c4d0d3b2294a817a0e34063",
+      "heightSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": 0,
+      "y": -2,
+      "colorSha256": "6a352cf4e6c9dddb8b548c5111ffa76a19642aa595929233b40546de6fdf59d7",
+      "heightSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": -2,
+      "y": -1,
+      "colorSha256": "7833c438bacde6f80158b536821e626540dce3c626b6673e277705fa2d8d641d",
+      "heightSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": -1,
+      "y": -1,
+      "colorSha256": "a0141612feaa42536adb73325e7cfab78e419edb8d3ff37638d21af9be971083",
+      "heightSha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": 0,
+      "y": -1,
+      "colorSha256": "0cd005040c7f21baf2de233108fd0ca18ba8d986e6d009226724fda3d81fe38e",
+      "heightSha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": 1,
+      "y": -1,
+      "colorSha256": "0fdae05b3a5209099188eb113d5990de40f850ceb0c22e669e1b59e28fec082b",
+      "heightSha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": -2,
+      "y": 0,
+      "colorSha256": "28caaa862d9220208a1241fad50d5034f36246c22c77e12c3f9e7fa861359d26",
+      "heightSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": -1,
+      "y": 0,
+      "colorSha256": "6d9802e55503d2d4cc7a010fec62ff7c684422689dd5363d7db06144529876ee",
+      "heightSha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": 0,
+      "y": 0,
+      "colorSha256": "7eced4a0a8e00e5fd326208504b5adf30aae502317582e8a33771cc5122938e6",
+      "heightSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralBefore",
+      "x": 1,
+      "y": 0,
+      "colorSha256": "2ee6529ee615fd7d6f59f20f97152515f99a989edc0998f92b9738d2987ee3e6",
+      "heightSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": -1,
+      "y": -2,
+      "colorSha256": "a386b4cf8c9b5a9d5c10a5e9e1bda7b85cf2d5b85c4d0d3b2294a817a0e34063",
+      "heightSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": 0,
+      "y": -2,
+      "colorSha256": "6a352cf4e6c9dddb8b548c5111ffa76a19642aa595929233b40546de6fdf59d7",
+      "heightSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": -2,
+      "y": -1,
+      "colorSha256": "7833c438bacde6f80158b536821e626540dce3c626b6673e277705fa2d8d641d",
+      "heightSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": -1,
+      "y": -1,
+      "colorSha256": "619d1937f060df62cd0a19ddd0c78bb8b5ad2bd50f52477a2256a6597e75a032",
+      "heightSha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": 0,
+      "y": -1,
+      "colorSha256": "0cd005040c7f21baf2de233108fd0ca18ba8d986e6d009226724fda3d81fe38e",
+      "heightSha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": 1,
+      "y": -1,
+      "colorSha256": "0fdae05b3a5209099188eb113d5990de40f850ceb0c22e669e1b59e28fec082b",
+      "heightSha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": -2,
+      "y": 0,
+      "colorSha256": "28caaa862d9220208a1241fad50d5034f36246c22c77e12c3f9e7fa861359d26",
+      "heightSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": -1,
+      "y": 0,
+      "colorSha256": "71095c90ffcb4eaf01f3a63600223b85f31d74a02e6e78d751841d98e66ad200",
+      "heightSha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": 0,
+      "y": 0,
+      "colorSha256": "7eced4a0a8e00e5fd326208504b5adf30aae502317582e8a33771cc5122938e6",
+      "heightSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    },
+    {
+      "mode": "neutralAfter",
+      "x": 1,
+      "y": 0,
+      "colorSha256": "2ee6529ee615fd7d6f59f20f97152515f99a989edc0998f92b9738d2987ee3e6",
+      "heightSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "nonblank": true
+    }
+  ],
+  "seams": [
+    {
+      "mode": "after",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 7.588867187500002,
+      "adjacentInteriorMae": 9.111816406249991,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 10.337239583333345,
+      "adjacentInteriorMae": 9.3818359375,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 7.657226562499997,
+      "adjacentInteriorMae": 7.207682291666662,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 9.181640625000005,
+      "adjacentInteriorMae": 8.198567708333329,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 7.475585937499996,
+      "adjacentInteriorMae": 7.748535156249995,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 5.1875,
+      "adjacentInteriorMae": 5.66715494791667,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 8.053059895833334,
+      "adjacentInteriorMae": 8.137858072916663,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 9.654296875,
+      "adjacentInteriorMae": 9.285319010416668,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 7.342447916666671,
+      "adjacentInteriorMae": 7.253906249999996,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 6.171874999999998,
+      "adjacentInteriorMae": 6.916015625000003,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 7.207031250000006,
+      "adjacentInteriorMae": 7.509602864583336,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 7.513346354166667,
+      "adjacentInteriorMae": 8.34798177083333,
+      "review": false
+    },
+    {
+      "mode": "after",
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 11.989583333333329,
+      "adjacentInteriorMae": 9.478841145833329,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 1.4934895833333333,
+      "adjacentInteriorMae": 1.7814127604166665,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 1.955078125,
+      "adjacentInteriorMae": 1.7529296875000002,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 2.1481119791666665,
+      "adjacentInteriorMae": 2.11181640625,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 2.0748697916666656,
+      "adjacentInteriorMae": 2.0034179687500004,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 2.2626953124999996,
+      "adjacentInteriorMae": 2.173990885416667,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 1.4501953125000004,
+      "adjacentInteriorMae": 1.5429687500000002,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 1.732421875,
+      "adjacentInteriorMae": 1.75439453125,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 2.748697916666666,
+      "adjacentInteriorMae": 2.2265625,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 1.2910156250000004,
+      "adjacentInteriorMae": 1.3605143229166665,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 1.8740234374999998,
+      "adjacentInteriorMae": 2.1598307291666674,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 1.8307291666666674,
+      "adjacentInteriorMae": 2.2763671875,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 1.4033203125,
+      "adjacentInteriorMae": 1.4729817708333333,
+      "review": false
+    },
+    {
+      "mode": "neutralBefore",
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 1.3414713541666667,
+      "adjacentInteriorMae": 1.9222005208333335,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 1.4934895833333333,
+      "adjacentInteriorMae": 1.7814127604166665,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 1.955078125,
+      "adjacentInteriorMae": 1.7529296875000002,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 2.1481119791666665,
+      "adjacentInteriorMae": 2.11181640625,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 2.0748697916666656,
+      "adjacentInteriorMae": 2.0034179687500004,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 2.2626953124999996,
+      "adjacentInteriorMae": 2.173990885416667,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 1.4501953125000004,
+      "adjacentInteriorMae": 1.5429687500000002,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 1.626953125,
+      "adjacentInteriorMae": 1.65185546875,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 2.748697916666666,
+      "adjacentInteriorMae": 2.2265625,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 1.2910156250000004,
+      "adjacentInteriorMae": 1.3605143229166665,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 1.8740234374999998,
+      "adjacentInteriorMae": 2.1598307291666674,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 1.8307291666666674,
+      "adjacentInteriorMae": 2.2763671875,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 1.4033203125,
+      "adjacentInteriorMae": 1.4729817708333333,
+      "review": false
+    },
+    {
+      "mode": "neutralAfter",
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 1.3414713541666667,
+      "adjacentInteriorMae": 1.9222005208333335,
+      "review": false
+    }
+  ],
+  "seamPassed": true,
+  "regressionReady": true,
+  "regressionPassed": true,
+  "regressions": [
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": -1,
+      "y": -2,
+      "sha256": "1bcc08ae144ca83686b7f069409c63249c8172d8e5b09ea3610bf9199aec01d9",
+      "baselineSha256": "1bcc08ae144ca83686b7f069409c63249c8172d8e5b09ea3610bf9199aec01d9",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": -1,
+      "y": -2,
+      "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "baselineSha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": 0,
+      "y": -2,
+      "sha256": "d5a7c4f01feb1b4af37f9a35676f2efd15588ddfa682edf08d752a885948db8e",
+      "baselineSha256": "d5a7c4f01feb1b4af37f9a35676f2efd15588ddfa682edf08d752a885948db8e",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": 0,
+      "y": -2,
+      "sha256": "895a90824de703d15a0829a7a0dd70da3ec10d0c4b8b8b09637958bc1c97877c",
+      "baselineSha256": "895a90824de703d15a0829a7a0dd70da3ec10d0c4b8b8b09637958bc1c97877c",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": -2,
+      "y": -1,
+      "sha256": "902f684509fc4b2941fc5f372e80eebcd9266ff3d5e2c050d7b1e7e806a27f79",
+      "baselineSha256": "902f684509fc4b2941fc5f372e80eebcd9266ff3d5e2c050d7b1e7e806a27f79",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": -2,
+      "y": -1,
+      "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "baselineSha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": -1,
+      "y": -1,
+      "sha256": "9de5eec7a9ef987f45e42bfa110b840510df899d72ed61f9cb8ab7e62edba271",
+      "baselineSha256": "9de5eec7a9ef987f45e42bfa110b840510df899d72ed61f9cb8ab7e62edba271",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": -1,
+      "y": -1,
+      "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "baselineSha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": 0,
+      "y": -1,
+      "sha256": "fad2e04e8882b388e9aa22ed357d9ef136d15ba50882c4a589728b753a0c3698",
+      "baselineSha256": "fad2e04e8882b388e9aa22ed357d9ef136d15ba50882c4a589728b753a0c3698",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": 0,
+      "y": -1,
+      "sha256": "811fdba324822b3f35669f4ae8573c0fc5d11a4520465565744d11e3a687e322",
+      "baselineSha256": "811fdba324822b3f35669f4ae8573c0fc5d11a4520465565744d11e3a687e322",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": 1,
+      "y": -1,
+      "sha256": "caa6a0d9220a537475d82b4284398663d3f2c9faa1da0868c0a1b1355187665c",
+      "baselineSha256": "caa6a0d9220a537475d82b4284398663d3f2c9faa1da0868c0a1b1355187665c",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": 1,
+      "y": -1,
+      "sha256": "39d4ec65c0e09c799435ea77723aa0573fee5569bb8d47d0284d99946341a604",
+      "baselineSha256": "39d4ec65c0e09c799435ea77723aa0573fee5569bb8d47d0284d99946341a604",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": -2,
+      "y": 0,
+      "sha256": "029ae6233cfb4a78dbf659c31a1db13f97623a897219f2b765aac987855a731e",
+      "baselineSha256": "029ae6233cfb4a78dbf659c31a1db13f97623a897219f2b765aac987855a731e",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": -2,
+      "y": 0,
+      "sha256": "61478a454947ec8518be8e669c6d3a17bbe808e58b38ff03603babee8ea7f401",
+      "baselineSha256": "61478a454947ec8518be8e669c6d3a17bbe808e58b38ff03603babee8ea7f401",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": -1,
+      "y": 0,
+      "sha256": "c65d30c4bf38605c52b2dcf688e1f5d64f993c6b3e8019c508b4b70c5aa91cf0",
+      "baselineSha256": "c65d30c4bf38605c52b2dcf688e1f5d64f993c6b3e8019c508b4b70c5aa91cf0",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": -1,
+      "y": 0,
+      "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "baselineSha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": 0,
+      "y": 0,
+      "sha256": "23461bf002a7ffc8b0c9176d352ee8b2f5f6c3c66894cdd580858ac29f5cba3d",
+      "baselineSha256": "23461bf002a7ffc8b0c9176d352ee8b2f5f6c3c66894cdd580858ac29f5cba3d",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": 0,
+      "y": 0,
+      "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "baselineSha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "render",
+      "x": 1,
+      "y": 0,
+      "sha256": "d5eeb8503cf41ba8b1ba7661abe08902188641dc6b4a0762cf9aedcc66e90925",
+      "baselineSha256": "d5eeb8503cf41ba8b1ba7661abe08902188641dc6b4a0762cf9aedcc66e90925",
+      "matches": true
+    },
+    {
+      "mode": "original",
+      "layer": "height",
+      "x": 1,
+      "y": 0,
+      "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "baselineSha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": -1,
+      "y": -2,
+      "sha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+      "baselineSha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": -1,
+      "y": -2,
+      "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "baselineSha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": 0,
+      "y": -2,
+      "sha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+      "baselineSha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": 0,
+      "y": -2,
+      "sha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+      "baselineSha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": -2,
+      "y": -1,
+      "sha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+      "baselineSha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": -2,
+      "y": -1,
+      "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "baselineSha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": -1,
+      "y": -1,
+      "sha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+      "baselineSha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": -1,
+      "y": -1,
+      "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "baselineSha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": 0,
+      "y": -1,
+      "sha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+      "baselineSha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": 0,
+      "y": -1,
+      "sha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+      "baselineSha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": 1,
+      "y": -1,
+      "sha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+      "baselineSha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": 1,
+      "y": -1,
+      "sha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+      "baselineSha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": -2,
+      "y": 0,
+      "sha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+      "baselineSha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": -2,
+      "y": 0,
+      "sha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+      "baselineSha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": -1,
+      "y": 0,
+      "sha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+      "baselineSha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": -1,
+      "y": 0,
+      "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "baselineSha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": 0,
+      "y": 0,
+      "sha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+      "baselineSha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": 0,
+      "y": 0,
+      "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "baselineSha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "render",
+      "x": 1,
+      "y": 0,
+      "sha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+      "baselineSha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+      "matches": true
+    },
+    {
+      "mode": "osm",
+      "layer": "height",
+      "x": 1,
+      "y": 0,
+      "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "baselineSha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": -1,
+      "y": -2,
+      "sha256": "e402bf410a5e022b97eb1a05ea1e06fded1adc2ed65295cc9b4120712f300e67",
+      "baselineSha256": "e402bf410a5e022b97eb1a05ea1e06fded1adc2ed65295cc9b4120712f300e67",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": -1,
+      "y": -2,
+      "sha256": "f542dd54c241a21caf32ffebad69255a8e76a298e67ae0c825dbe5673de1acdb",
+      "baselineSha256": "f542dd54c241a21caf32ffebad69255a8e76a298e67ae0c825dbe5673de1acdb",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": 0,
+      "y": -2,
+      "sha256": "4d8f09c0080985b91f4357f5a0a12be2256ab1159ffc83927cce1a1dd4858def",
+      "baselineSha256": "4d8f09c0080985b91f4357f5a0a12be2256ab1159ffc83927cce1a1dd4858def",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": 0,
+      "y": -2,
+      "sha256": "f071174cc3deb03e8ca45d80acea485aac8e1b256e55d5e3a4ac2feb620ae79f",
+      "baselineSha256": "f071174cc3deb03e8ca45d80acea485aac8e1b256e55d5e3a4ac2feb620ae79f",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": -2,
+      "y": -1,
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "baselineSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": -2,
+      "y": -1,
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "baselineSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": -1,
+      "y": -1,
+      "sha256": "5f22d662c695c19b354a2cbb71db25835589a69f2ee94a955400367be67acb4a",
+      "baselineSha256": "5f22d662c695c19b354a2cbb71db25835589a69f2ee94a955400367be67acb4a",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": -1,
+      "y": -1,
+      "sha256": "215a42345d4a686dfa7f3191d5cb29515d38f8f5a7942b830c223251518b483a",
+      "baselineSha256": "215a42345d4a686dfa7f3191d5cb29515d38f8f5a7942b830c223251518b483a",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": 0,
+      "y": -1,
+      "sha256": "aca4059233f3ee2ca57d7b9355671b8e70c217ba398c771bb64f95720ee4881a",
+      "baselineSha256": "aca4059233f3ee2ca57d7b9355671b8e70c217ba398c771bb64f95720ee4881a",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": 0,
+      "y": -1,
+      "sha256": "1871396316bf6d2a47846c9aef027219c5e782fa7ee1532f9023de5839ad2618",
+      "baselineSha256": "1871396316bf6d2a47846c9aef027219c5e782fa7ee1532f9023de5839ad2618",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": 1,
+      "y": -1,
+      "sha256": "1d65fe58100b5525b537a3e64736c299088a258f359f19e05d083b35579aa33f",
+      "baselineSha256": "1d65fe58100b5525b537a3e64736c299088a258f359f19e05d083b35579aa33f",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": 1,
+      "y": -1,
+      "sha256": "5e3775568c01762499e10942e7efd97df2f3a185f6df6508d74b7f0852ab513f",
+      "baselineSha256": "5e3775568c01762499e10942e7efd97df2f3a185f6df6508d74b7f0852ab513f",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": -2,
+      "y": 0,
+      "sha256": "409c2184f927d43caded391775ae208fb802ee1f3cfb03324fb1dfcd914ecf42",
+      "baselineSha256": "409c2184f927d43caded391775ae208fb802ee1f3cfb03324fb1dfcd914ecf42",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": -2,
+      "y": 0,
+      "sha256": "fb6dff309a304cc3013333a789c2628b5e06d9c66d5aca381eb1de813ca73fc0",
+      "baselineSha256": "fb6dff309a304cc3013333a789c2628b5e06d9c66d5aca381eb1de813ca73fc0",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": -1,
+      "y": 0,
+      "sha256": "ef7990a95602d9d4e0df8f9eaff38335b1f34f825b21e05bf4d7228bdf8222b2",
+      "baselineSha256": "ef7990a95602d9d4e0df8f9eaff38335b1f34f825b21e05bf4d7228bdf8222b2",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": -1,
+      "y": 0,
+      "sha256": "ba11d08db7425aed52f074d13dad3d2dc33f2a5451cbbe6bcf8e961b139ea9a3",
+      "baselineSha256": "ba11d08db7425aed52f074d13dad3d2dc33f2a5451cbbe6bcf8e961b139ea9a3",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": 0,
+      "y": 0,
+      "sha256": "07de40297ba8cfc3397c6992ed120ecfbde37a282cb6ac80ef9741990d5a9f07",
+      "baselineSha256": "07de40297ba8cfc3397c6992ed120ecfbde37a282cb6ac80ef9741990d5a9f07",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": 0,
+      "y": 0,
+      "sha256": "2ef6ed5b1f20c403a2a1992071ef5467bd1cdb02a93b431efb0bc0594c1360ba",
+      "baselineSha256": "2ef6ed5b1f20c403a2a1992071ef5467bd1cdb02a93b431efb0bc0594c1360ba",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "render",
+      "x": 1,
+      "y": 0,
+      "sha256": "16ff82cdae01a30520ca0b615eb83eab1f4a30d839ade98e27a598adb2dcb989",
+      "baselineSha256": "16ff82cdae01a30520ca0b615eb83eab1f4a30d839ade98e27a598adb2dcb989",
+      "matches": true
+    },
+    {
+      "mode": "buildings",
+      "layer": "height",
+      "x": 1,
+      "y": 0,
+      "sha256": "e75d92ce37022bcbfc0ba87a96325baa3a8a3b2a70e184c6d90976e11cf961b0",
+      "baselineSha256": "e75d92ce37022bcbfc0ba87a96325baa3a8a3b2a70e184c6d90976e11cf961b0",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": -1,
+      "y": -2,
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "baselineSha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": -1,
+      "y": -2,
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "baselineSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": 0,
+      "y": -2,
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "baselineSha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": 0,
+      "y": -2,
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "baselineSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": -2,
+      "y": -1,
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "baselineSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": -2,
+      "y": -1,
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "baselineSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": -1,
+      "y": -1,
+      "sha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+      "baselineSha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": -1,
+      "y": -1,
+      "sha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+      "baselineSha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": 0,
+      "y": -1,
+      "sha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+      "baselineSha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": 0,
+      "y": -1,
+      "sha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+      "baselineSha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": 1,
+      "y": -1,
+      "sha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+      "baselineSha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": 1,
+      "y": -1,
+      "sha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+      "baselineSha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": -2,
+      "y": 0,
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "baselineSha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": -2,
+      "y": 0,
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "baselineSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": -1,
+      "y": 0,
+      "sha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+      "baselineSha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": -1,
+      "y": 0,
+      "sha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+      "baselineSha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": 0,
+      "y": 0,
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "baselineSha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": 0,
+      "y": 0,
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "baselineSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "render",
+      "x": 1,
+      "y": 0,
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "baselineSha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "matches": true
+    },
+    {
+      "mode": "trees",
+      "layer": "height",
+      "x": 1,
+      "y": 0,
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "baselineSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": -1,
+      "y": -2,
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "baselineSha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": -1,
+      "y": -2,
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "baselineSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": 0,
+      "y": -2,
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "baselineSha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": 0,
+      "y": -2,
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "baselineSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": -2,
+      "y": -1,
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "baselineSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": -2,
+      "y": -1,
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "baselineSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": -1,
+      "y": -1,
+      "sha256": "2521eaa5b6e6cf5b24bbd9949dfb3942cca7ae75baa06a4ce84a1a61f45ca236",
+      "baselineSha256": "2521eaa5b6e6cf5b24bbd9949dfb3942cca7ae75baa06a4ce84a1a61f45ca236",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": -1,
+      "y": -1,
+      "sha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "baselineSha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": 0,
+      "y": -1,
+      "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "baselineSha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": 0,
+      "y": -1,
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "baselineSha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": 1,
+      "y": -1,
+      "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "baselineSha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": 1,
+      "y": -1,
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "baselineSha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": -2,
+      "y": 0,
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "baselineSha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": -2,
+      "y": 0,
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "baselineSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": -1,
+      "y": 0,
+      "sha256": "da0995ffd295aa85b8d93b8c8835867cf9d9509d27ae710bfb5f9497f55c34ee",
+      "baselineSha256": "da0995ffd295aa85b8d93b8c8835867cf9d9509d27ae710bfb5f9497f55c34ee",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": -1,
+      "y": 0,
+      "sha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "baselineSha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": 0,
+      "y": 0,
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "baselineSha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": 0,
+      "y": 0,
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "baselineSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "render",
+      "x": 1,
+      "y": 0,
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "baselineSha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "matches": true
+    },
+    {
+      "mode": "architecture",
+      "layer": "height",
+      "x": 1,
+      "y": 0,
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "baselineSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "matches": true
+    }
+  ],
+  "changesByTile": [
+    {
+      "x": -1,
+      "y": -2,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "colorChanged": true,
+      "heightChanged": true,
+      "neutralChanged": true
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "colorChanged": true,
+      "heightChanged": true,
+      "neutralChanged": true
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "colorChanged": false,
+      "heightChanged": false,
+      "neutralChanged": false
+    }
+  ],
+  "intentionalBlankCells": [
+    {
+      "x": -2,
+      "y": -2
+    },
+    {
+      "x": 1,
+      "y": -2
+    }
+  ],
+  "preservation": {
+    "initialFiles": 473,
+    "originalBO001Files": 73,
+    "records": [
+      {
+        "path": "docs/bologna-architecture-inputs.json",
+        "sha256": "30190d374475877254486cdd96be5d4f8586ecb53237395a8d26029dab14cae6",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-checksums.json",
+        "sha256": "cd8d75cc83a6aaebd762c7f7beabd65af7d0ef3b33bcfd75c4b9c48b194f04dc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/manifest.json",
+        "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "6c82c8947da4484d003cf7e70abcc6be42aa575f8cb8f47aaecca05636477c95",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "4c6e06044a4daf4294cdb1d638a36207176d8b7c0d7cebb5d9e635b0295f3c21",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "f49757f0d8ec1d8c5777db3371bb623f4c6b71ccc73ee59beed171a9779580a0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "c6929dddf68b1447a9fd3581d1e149a2ad1ae110f8ea8d80209714d0bd3f27d3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "3d26d2665487c3ffaa026d60f919fe5464b14e8e57df2e935eed3ba365be2223",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "b21f4516f391bb5c41dd64970b0286ac3470355b431af8ef20b0dcf7da35fabe",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "85496a66e6a8a61e2e31367b87ce316034f340ebf4b4f0da3a863903fbf81754",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "79ae5523a30d565aca1dfd1698a3c121b828cae59a82774303b6de51c1a4d1e7",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "6f2b5ab22a9df2c72390f00779c9c90b42e35bcf48d563cdbd4c209dddd94804",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "c1c3ffdef990b393bf5fdfc820cf3b9b612cfa35aec72b8785005429b0e6f2ec",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "68e5fb04e4f320931118a381d334935a17bd663f0158836f4353f0041edcf621",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "658509e242aca1d625751350984ccdbbf7a0eacf9bf574c2c4909ef09f6a4a5a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "5a901a3ad2907494cc41049549b13626f658b3e516ace82a7f2895bd6978595d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "455387f2a0182dea4556d0f7774309eee8112e4f879428a853272206a76bf4fd",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "7d1ccdc9768c42b27dab2d14c7de1a075c72325e29e563f06e2326ef030e255a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "ff8c5fe4f6c8d34802b4b4aa94b473e65a1ef4027e8cedd9f632d67edc0db15c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "11714b3a82157b5653cb67b7d1027bc11ce5c6675387cc13dcde4acd926d6f74",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "3f9bdddf563802428d34c698a8bd70534a1a6c88d38ddf37698248aa208f0454",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "23d9d34c8de9ca02c6e2e3b8f3cf47aa4ef7f677abf6d288e919ac4188ff6f38",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "0766d448782dea1a37d25dbd660cc2a077cdd1cc5889da6d33ea7091418f825b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "ea2aa323f9d4897ccfa862bafcafb0882e10e280191cc1fb34ea3b8693a62b1a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/raw/dem/Copernicus_DSM_COG_10_N44_00_E011_00_DEM.tif",
+        "sha256": "dec25503aa95a0956bb572f48fe7537a8aa767a1709f19f5d929b57f9e54281f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/raw/piazza-maggiore/ground.json",
+        "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/raw/piazza-maggiore/osm.json",
+        "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/raw/piazza-maggiore/roads.json",
+        "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/download.headers",
+        "sha256": "8f4bff1d6d30e490c0a70b9a492bee106db56ab74f91c429062e19907639b06c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/geofabrik.html",
+        "sha256": "cc8a59349dd4e2326648d10c412182e3c469b1d1230ac10630bb52f1b502234a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/nord-est-261117.osm.pbf",
+        "sha256": "3890fed2562138931ae60f155f977feb9fe4f4eca0413620a036b9dea0f85e2e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/nord-est-261117.osm.pbf.md5",
+        "sha256": "acf42958ff2ed3c21a6c5ed406f286a7755dc833beb12a12329ada6bb38face6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/piazza-maggiore-surface.osm.pbf",
+        "sha256": "fe9c9a437a75b89fe5a6ec06ca872df71576cf07194a561275710301775b7502",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-001r/source/surface.opl",
+        "sha256": "291f4153cad17c488a375b9b1efdf78a7e9cf81f141bf2d44ea2bd649f5b0844",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/adapter-report.json",
+        "sha256": "7367cbc748c87b4618fffd172b32e0efe0cdae0cefaace80446d2e43ade12dd3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "215a42345d4a686dfa7f3191d5cb29515d38f8f5a7942b830c223251518b483a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "f542dd54c241a21caf32ffebad69255a8e76a298e67ae0c825dbe5673de1acdb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "ba11d08db7425aed52f074d13dad3d2dc33f2a5451cbbe6bcf8e961b139ea9a3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "fb6dff309a304cc3013333a789c2628b5e06d9c66d5aca381eb1de813ca73fc0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "1871396316bf6d2a47846c9aef027219c5e782fa7ee1532f9023de5839ad2618",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "f071174cc3deb03e8ca45d80acea485aac8e1b256e55d5e3a4ac2feb620ae79f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "2ef6ed5b1f20c403a2a1992071ef5467bd1cdb02a93b431efb0bc0594c1360ba",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "5e3775568c01762499e10942e7efd97df2f3a185f6df6508d74b7f0852ab513f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "e75d92ce37022bcbfc0ba87a96325baa3a8a3b2a70e184c6d90976e11cf961b0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/manifest.json",
+        "sha256": "661ea97499945b3343dd2755d908d9d31f157f0ce98a689e4c71c9d0592c33ff",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "5f22d662c695c19b354a2cbb71db25835589a69f2ee94a955400367be67acb4a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "e402bf410a5e022b97eb1a05ea1e06fded1adc2ed65295cc9b4120712f300e67",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "ef7990a95602d9d4e0df8f9eaff38335b1f34f825b21e05bf4d7228bdf8222b2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "409c2184f927d43caded391775ae208fb802ee1f3cfb03324fb1dfcd914ecf42",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "aca4059233f3ee2ca57d7b9355671b8e70c217ba398c771bb64f95720ee4881a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "4d8f09c0080985b91f4357f5a0a12be2256ab1159ffc83927cce1a1dd4858def",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "07de40297ba8cfc3397c6992ed120ecfbde37a282cb6ac80ef9741990d5a9f07",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "1d65fe58100b5525b537a3e64736c299088a258f359f19e05d083b35579aa33f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "16ff82cdae01a30520ca0b615eb83eab1f4a30d839ade98e27a598adb2dcb989",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "71d8118560ce8fac9f18f2e373198d99b90ef04e03ef5f36f074645d2cf532ef",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "0ef3642ff1deaa76d64fc20064607925ccf18d6d04816b7b56a1d3a91cf80176",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "0e897e91fdc0bfd4bf916f2f9a724bcc764e64406ccb4ea3838820bb1c3e4995",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "bd3c3c7d5693cc33f6ce9b13b30ecb9b3ba25400381af2c919f3391177f6adf1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "459284b5bbf584e9d092214c381865ae2784fc5d36336b2237d9960fea6a207f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-1_2.json",
+        "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "990c830b36d61265e731bdcd168a7a7f94bd331fd3e58b08c5411822e4bed66c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-2_-3.json",
+        "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "f1269babddd28c60d762cf1ab1b3b7aee087b2960a7f79df4b740b2247514174",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "061346c098869d9a8370ded409bf6432c0d4d4bbaf1aebf7b149bf26b0fea0e2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "9907387c3f462f12105a95404d85b24c662605e585ad5630ff46b802abdbce8d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-3_-2.json",
+        "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "a8c9e07d43a4ad02ef1c17b698d226dc5447e4b5aa665a1c2cae8c475dca6175",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-3_1.json",
+        "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-4_-1.json",
+        "sha256": "c928ba02aaacbcce9f89de155e06f519a8938754834dc4a5acd2c93869053d1f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/-4_0.json",
+        "sha256": "981c18d8793a72c42224231830f7fbf7fe214ec0ce23fdd1651f7eecdeece5c6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "0eaa4d28f07ab0a4d5c502c3652f1a388ca12715139bf641e433c90d81c9a0cb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "fb2b2c81037a2a2a1ba3ac4d6fd151b19eef72e0b1505b22936e75b2d4342023",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "741a6ae9285beab62898d22b7938eab2a00a21d406a95ffa0e609137c3de2e64",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_-4.json",
+        "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "3fc2c1c45a9417898dea1b074dd1682496642258537ff5c60e31074079c3b287",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "f912e3089c196eb301b1d844c122bb63cca96ccb88ec5a10d502e6a6c4c861d1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/0_2.json",
+        "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "70fdec8b7f2c47533a2d6c939da6943789bba33436d08882f0c144ddf70342af",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "1114006b17460e5aaa2e7dc98bef8ea4dcceea6e0333db3375cc4bd89bc38523",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/1_-3.json",
+        "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "640951534364b982b3d8cc24196cd17b210900330c97351bae3635f405c27c73",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/1_1.json",
+        "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "61da7fb653f0d069c76267073db4b27da8909390e4c29b677992729c0408824d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/2_-2.json",
+        "sha256": "c0abeded440e161e87ad9734c5fca4b0169bd6a74094f53f8d94fedaa04dd7c2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "10708b0a9656db01f6ad411c129457e421a27cbd70c41c744c51135f457dcb54",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/3_-1.json",
+        "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/3_-2.json",
+        "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/derived/piazza-maggiore/scene/3_0.json",
+        "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/preservation.json",
+        "sha256": "79eebac695b6c6ebd67c4a4b896f2f35e434eb88458fb1cd72a7d94b8e7e3076",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/raw/piazza-maggiore/ground.json",
+        "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/raw/piazza-maggiore/municipal-buildings.json",
+        "sha256": "c3924f9c02a5868ac9bca5e5836677e635b7dd5b73d8eba81e2bee6fb224c807",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/raw/piazza-maggiore/osm.json",
+        "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/raw/piazza-maggiore/roads.json",
+        "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-buildings/run.json",
+        "sha256": "74268662cf0f7371e0602ba9eacfa07ae3e134ca47f6fe24edb874262beae5e4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/adapter-report.json",
+        "sha256": "d40c94caddd1a04bdcc08208ca05d158d1a34a8165892e26e1af74fdbd47e3fb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/adapter-report.json.before-class-label-correction",
+        "sha256": "69667475d62dd9caf8b380d776159458059ab1fc76a6d75dc3165a928a008943",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/manifest.json",
+        "sha256": "634c87b2a9a448321148b482d20b00e8fb17f87276c1a9493226794c7a5af864",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "d8f6c56782b898378941e04b461f5777da4ad7315785f8351fce8ff23baf1997",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "a7091282fd0ddfa543e68ef3cee1c067e10a351ab007920950046058f4d4dbb2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "40cb934833c4733c4093198dbfadd2d45cb771641f5a0eaf70269e8a2fa86b4e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "9498cbb8c632b79de3a9cc2d3556ef165d7fb2e88596a8ba91603a8926c2b27f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "c64cd9477321370fc31d7b85ec14bd4e415f335b61d5702f59822532f04da3fc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-1_2.json",
+        "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "870ea2dd1ab35866606a7282d36550f2ae37d793cdd326b2789f9a66fbbe626c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-2_-3.json",
+        "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "82e6fcfc313cf8cc1e06045be7baf2afda145c3d0214a3d34af4960919d7794e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "ef42b5ad2c47f8375f52f68873ea6be6917e8b0ff62cb7f29d1c04acbc4fa596",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "d4a42d7e341d0a17b1a86a2c997c0d034aa6ab4ff346ca83551db228dca9aee1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-3_-2.json",
+        "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "31479edeff86b09b094436996c94218b8a0903e3f4a18b6c3bc3bd609fb31185",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-3_1.json",
+        "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-4_-1.json",
+        "sha256": "22f1ee3b94d295a00b7e081c770bb3086be373702bbeab33ff1e7939284c15d0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/-4_0.json",
+        "sha256": "8ef9459d694d334850463c1b104115a1ebfc710dbb1e0e2210235b114e48b431",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "f49d10d2680232745a55c8b424eac82bfed45a08f27b01a82aff19940c59d20c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "09825a4df947194651dbc9150e72eeb58ac6e4f47400cec511c0039faef66608",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "0f08c3e0e5dd1de2dbe52b9889f653a1ddabab51bd72159b1051cdaf1659fdec",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_-4.json",
+        "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "29750ca624d6cbe3928823ca9a67f3f65f16a0e9b9afd6f36f0a16d3350ddce4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "122c376c0f3008a75fd5a6780911681cd598752b153890de60f348da62497a71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/0_2.json",
+        "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "2074b0cb6f76fa7f82fe68c6f3ac8acfa5696f281a6065ad23060ba37fa01359",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "571f9ce2bc5b1e9127212064f4127e53ace2cd7d5f2f9fe0ef1408a18bfa4cdb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/1_-3.json",
+        "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "770d553620f1024b76358672ed586c5877c8bb7b79ca9626169a00fee0522eb9",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/1_1.json",
+        "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "09d0686d41782ddd58c0bbaa10adaecba28444511ffc72b8923e18bd2884256d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/2_-2.json",
+        "sha256": "df038fbcd1c7516a13c0a344837c322e09f34a4b1055d264046f66c9cbff5064",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "98ff083f39f246bf74caf733848c6780bdf07601028416db7d4df3e6e7b391b4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/3_-1.json",
+        "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/3_-2.json",
+        "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/derived/piazza-maggiore/scene/3_0.json",
+        "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/preservation.json",
+        "sha256": "79eebac695b6c6ebd67c4a4b896f2f35e434eb88458fb1cd72a7d94b8e7e3076",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/raw/piazza-maggiore/ground.json",
+        "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/raw/piazza-maggiore/municipal-buildings.json",
+        "sha256": "c3924f9c02a5868ac9bca5e5836677e635b7dd5b73d8eba81e2bee6fb224c807",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/raw/piazza-maggiore/osm.json",
+        "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/raw/piazza-maggiore/roads.json",
+        "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-002-trees/run.json",
+        "sha256": "46e6f9bc7ce4f0013fb490edb02b87102e3227a4e038343610121023ba7db8fa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/architecture.json",
+        "sha256": "0876d4c36387868a31b06a660197aae62613fc6c8b1d7f7a420ef14a76960134",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/manifest.json",
+        "sha256": "a4f508fe4878a4e4000b9f7e448e80744147463a923c083d47dcef2a65319dcc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "2521eaa5b6e6cf5b24bbd9949dfb3942cca7ae75baa06a4ce84a1a61f45ca236",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "da0995ffd295aa85b8d93b8c8835867cf9d9509d27ae710bfb5f9497f55c34ee",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "bbba6bba2ac84536ad29596332970212cbdc96a2b22327a7d5db0d92f95e2de5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "877cf95cc919e8b179b7678af39f0ac9edc2b03d6cc6e261c1a011144879cc25",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "964816c6cedb2bfba508471c6d568eaca196569ce09d0fac9e32629291390923",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "1eb5f940f044831ccc921c7ed48a4b2b644de1149bbf47d205b5503b1ec0c38f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "83965adf4ed7b98c0019f249d671c4c20915b987bed0ddcd9c3bf13af197bc68",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-1_2.json",
+        "sha256": "fd850e86c527a7fdd65126fd19da1ca07c6b2f465f078366e6c946048280fcd4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "95e99a7a4280e4756ce117cc908feb8fe8d358c30939e364a11b8c3e23968ed2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "33dff55e1c24b1ee208507fb26956aea42ffe96cafbf9e9781937a94ba2f1909",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-2_-3.json",
+        "sha256": "3ebb1f2c7b547094b7a246228bbba3fea572277f9369f9ad7b93d23194570e97",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "2a98d84c4ad3af722dab3c9eb3c24e8dc0fe1066f9258ed336c37353ca3d7759",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "10ff6e60fdeccda56306532b872f6fe2cb58d7e38442c4e42c2325e79963f586",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "d858f0c68eef5a74f9bda6070d1610054d3e54ace8518d5f5151d670c6fff4db",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-3_-2.json",
+        "sha256": "e0db03274113dd872a9343b0608c19140fadc4ee3b2a5f69944b7179aa80c096",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "ae856bc5cbbed9b0e00849e201efd64d3ffe18c941acb6c5093846d540aef717",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-3_1.json",
+        "sha256": "0cd4347c7c5dcefbff3f3f80665f140f3e6fb55462b231c696133d5acf4ae775",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-4_-1.json",
+        "sha256": "43df75368cf1fa69931a12f198e3ad7ced887f69cff953b1649a01639accdea6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/-4_0.json",
+        "sha256": "9a68c7a918e138ab8db68e9ca32fd46a020908aa5242843727fcfd9f0293b07f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "15078b8e1f9c431712d7a9fcbbdb27e39038494ee77d5331b2dd4336fb91e9f4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "59a5fac34486428c3ac7d35d43388cdf6b850df9b3f413bdeebe4a725deb5e12",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "8ea123031964ce1ec3cadde445a03e083480c032d8c9f477212b8c90c67ab5b8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_-4.json",
+        "sha256": "64d6f1856eb34394cf4f44b1b7954f2c8d2cff02dca4cf5602ca3b317a2e220f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "c2bec7c74a3af5ab9c7176ad3c8a571c635ddb3b334001df3e0024e612bee46f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "793873fe8fae360703974ccf658646e0d0913c17a4f1914c8d39167e9ae04111",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/0_2.json",
+        "sha256": "4512386ae88a7879c3067f62cc2fa3a5c72c4cfc33dc0e50a12d409e32d3a4a1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "3fe22ad69b0c675011853ec3afeb3320a5630486db030e0ebcc3b14257532fad",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "37830016351228c02b9b2f578253ff766ce011a5ed5a01c015c1bcb519357315",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/1_-3.json",
+        "sha256": "e3d7d49751b596c112d9f5aafe71a614ea989a8e32e88dc883f21d5c1d696c5c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "2345d2243c03fbdf01bc9c4e68a4337a63dccef640c686322096ba336144abb7",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/1_1.json",
+        "sha256": "111c6b0bb3ae0e88758840823b71e5940629ae66b616fcd8696a9ecf272cdf57",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "d0cc2600f10f66cefc95dc5c46d480d46fc01adc10cec68b977a0ee41b4bf32e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/2_-2.json",
+        "sha256": "5882c2006208602f5c760a61bb2e416aea0e4e27cf64b884e8063e331c7a8d11",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "7cb651c36e4f869c6bae8b36840748f77eecbbd4b038c1d9b8f959daa4ebccfa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/3_-1.json",
+        "sha256": "811a7f4547133f08d99328690f5d630ac01918a3392a2d89af468bf216aa5508",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/3_-2.json",
+        "sha256": "ac8b612cc440b1d57834bab404062afc2debf8560b53b944b34b09f612680c34",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/derived/piazza-maggiore/scene/3_0.json",
+        "sha256": "66d49084d7ef2fa3b560ef565d912261e64d26d5c52c0f18fbe3ada1b71966c2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/raw/piazza-maggiore/ground.json",
+        "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/raw/piazza-maggiore/municipal-buildings.json",
+        "sha256": "c3924f9c02a5868ac9bca5e5836677e635b7dd5b73d8eba81e2bee6fb224c807",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/raw/piazza-maggiore/osm.json",
+        "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/raw/piazza-maggiore/roads.json",
+        "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/run.json",
+        "sha256": "f043cf4b03675fe9ad9831020233cc31196ff062d7c507d34a7b515ad2938231",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "215a42345d4a686dfa7f3191d5cb29515d38f8f5a7942b830c223251518b483a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "f542dd54c241a21caf32ffebad69255a8e76a298e67ae0c825dbe5673de1acdb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "ba11d08db7425aed52f074d13dad3d2dc33f2a5451cbbe6bcf8e961b139ea9a3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "fb6dff309a304cc3013333a789c2628b5e06d9c66d5aca381eb1de813ca73fc0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "1871396316bf6d2a47846c9aef027219c5e782fa7ee1532f9023de5839ad2618",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "f071174cc3deb03e8ca45d80acea485aac8e1b256e55d5e3a4ac2feb620ae79f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "2ef6ed5b1f20c403a2a1992071ef5467bd1cdb02a93b431efb0bc0594c1360ba",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "5e3775568c01762499e10942e7efd97df2f3a185f6df6508d74b7f0852ab513f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "e75d92ce37022bcbfc0ba87a96325baa3a8a3b2a70e184c6d90976e11cf961b0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/manifest.json",
+        "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "5f22d662c695c19b354a2cbb71db25835589a69f2ee94a955400367be67acb4a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "e402bf410a5e022b97eb1a05ea1e06fded1adc2ed65295cc9b4120712f300e67",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "ef7990a95602d9d4e0df8f9eaff38335b1f34f825b21e05bf4d7228bdf8222b2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "409c2184f927d43caded391775ae208fb802ee1f3cfb03324fb1dfcd914ecf42",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "aca4059233f3ee2ca57d7b9355671b8e70c217ba398c771bb64f95720ee4881a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "4d8f09c0080985b91f4357f5a0a12be2256ab1159ffc83927cce1a1dd4858def",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "07de40297ba8cfc3397c6992ed120ecfbde37a282cb6ac80ef9741990d5a9f07",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "1d65fe58100b5525b537a3e64736c299088a258f359f19e05d083b35579aa33f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "16ff82cdae01a30520ca0b615eb83eab1f4a30d839ade98e27a598adb2dcb989",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "71d8118560ce8fac9f18f2e373198d99b90ef04e03ef5f36f074645d2cf532ef",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "0ef3642ff1deaa76d64fc20064607925ccf18d6d04816b7b56a1d3a91cf80176",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "0e897e91fdc0bfd4bf916f2f9a724bcc764e64406ccb4ea3838820bb1c3e4995",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "bd3c3c7d5693cc33f6ce9b13b30ecb9b3ba25400381af2c919f3391177f6adf1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "459284b5bbf584e9d092214c381865ae2784fc5d36336b2237d9960fea6a207f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-1_2.json",
+        "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "990c830b36d61265e731bdcd168a7a7f94bd331fd3e58b08c5411822e4bed66c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-2_-3.json",
+        "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "f1269babddd28c60d762cf1ab1b3b7aee087b2960a7f79df4b740b2247514174",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "061346c098869d9a8370ded409bf6432c0d4d4bbaf1aebf7b149bf26b0fea0e2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "9907387c3f462f12105a95404d85b24c662605e585ad5630ff46b802abdbce8d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-3_-2.json",
+        "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "a8c9e07d43a4ad02ef1c17b698d226dc5447e4b5aa665a1c2cae8c475dca6175",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-3_1.json",
+        "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-4_-1.json",
+        "sha256": "c928ba02aaacbcce9f89de155e06f519a8938754834dc4a5acd2c93869053d1f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/-4_0.json",
+        "sha256": "981c18d8793a72c42224231830f7fbf7fe214ec0ce23fdd1651f7eecdeece5c6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "0eaa4d28f07ab0a4d5c502c3652f1a388ca12715139bf641e433c90d81c9a0cb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "fb2b2c81037a2a2a1ba3ac4d6fd151b19eef72e0b1505b22936e75b2d4342023",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "741a6ae9285beab62898d22b7938eab2a00a21d406a95ffa0e609137c3de2e64",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_-4.json",
+        "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "3fc2c1c45a9417898dea1b074dd1682496642258537ff5c60e31074079c3b287",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "f912e3089c196eb301b1d844c122bb63cca96ccb88ec5a10d502e6a6c4c861d1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/0_2.json",
+        "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "70fdec8b7f2c47533a2d6c939da6943789bba33436d08882f0c144ddf70342af",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "1114006b17460e5aaa2e7dc98bef8ea4dcceea6e0333db3375cc4bd89bc38523",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/1_-3.json",
+        "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "640951534364b982b3d8cc24196cd17b210900330c97351bae3635f405c27c73",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/1_1.json",
+        "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "61da7fb653f0d069c76267073db4b27da8909390e4c29b677992729c0408824d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/2_-2.json",
+        "sha256": "c0abeded440e161e87ad9734c5fca4b0169bd6a74094f53f8d94fedaa04dd7c2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "10708b0a9656db01f6ad411c129457e421a27cbd70c41c744c51135f457dcb54",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/3_-1.json",
+        "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/3_-2.json",
+        "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/ctc/derived/piazza-maggiore/scene/3_0.json",
+        "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/manifest.json",
+        "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "6c82c8947da4484d003cf7e70abcc6be42aa575f8cb8f47aaecca05636477c95",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "4c6e06044a4daf4294cdb1d638a36207176d8b7c0d7cebb5d9e635b0295f3c21",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "f49757f0d8ec1d8c5777db3371bb623f4c6b71ccc73ee59beed171a9779580a0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "c6929dddf68b1447a9fd3581d1e149a2ad1ae110f8ea8d80209714d0bd3f27d3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "3d26d2665487c3ffaa026d60f919fe5464b14e8e57df2e935eed3ba365be2223",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "b21f4516f391bb5c41dd64970b0286ac3470355b431af8ef20b0dcf7da35fabe",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "85496a66e6a8a61e2e31367b87ce316034f340ebf4b4f0da3a863903fbf81754",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "79ae5523a30d565aca1dfd1698a3c121b828cae59a82774303b6de51c1a4d1e7",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "6f2b5ab22a9df2c72390f00779c9c90b42e35bcf48d563cdbd4c209dddd94804",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "c1c3ffdef990b393bf5fdfc820cf3b9b612cfa35aec72b8785005429b0e6f2ec",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "68e5fb04e4f320931118a381d334935a17bd663f0158836f4353f0041edcf621",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "658509e242aca1d625751350984ccdbbf7a0eacf9bf574c2c4909ef09f6a4a5a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "5a901a3ad2907494cc41049549b13626f658b3e516ace82a7f2895bd6978595d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "455387f2a0182dea4556d0f7774309eee8112e4f879428a853272206a76bf4fd",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "7d1ccdc9768c42b27dab2d14c7de1a075c72325e29e563f06e2326ef030e255a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "ff8c5fe4f6c8d34802b4b4aa94b473e65a1ef4027e8cedd9f632d67edc0db15c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "11714b3a82157b5653cb67b7d1027bc11ce5c6675387cc13dcde4acd926d6f74",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "3f9bdddf563802428d34c698a8bd70534a1a6c88d38ddf37698248aa208f0454",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "23d9d34c8de9ca02c6e2e3b8f3cf47aa4ef7f677abf6d288e919ac4188ff6f38",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "0766d448782dea1a37d25dbd660cc2a077cdd1cc5889da6d33ea7091418f825b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/osm/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "ea2aa323f9d4897ccfa862bafcafb0882e10e280191cc1fb34ea3b8693a62b1a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/ground/bridge-ends.json",
+        "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/ground/features.json",
+        "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/ground/height.bin",
+        "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/ground/meta.json",
+        "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/-1_-1.png",
+        "sha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/-1_-2.png",
+        "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/-1_0.png",
+        "sha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/-2_-1.png",
+        "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/-2_0.png",
+        "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/0_-1.png",
+        "sha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/0_-2.png",
+        "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/0_0.png",
+        "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/1_-1.png",
+        "sha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/height/1_0.png",
+        "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/manifest.json",
+        "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/-1_-1.png",
+        "sha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/-1_-2.png",
+        "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/-1_0.png",
+        "sha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/-2_-1.png",
+        "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/-2_0.png",
+        "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/0_-1.png",
+        "sha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/0_-2.png",
+        "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/0_0.png",
+        "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/1_-1.png",
+        "sha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/render/1_0.png",
+        "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_-1.json",
+        "sha256": "d8f6c56782b898378941e04b461f5777da4ad7315785f8351fce8ff23baf1997",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_-2.json",
+        "sha256": "a7091282fd0ddfa543e68ef3cee1c067e10a351ab007920950046058f4d4dbb2",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_-3.json",
+        "sha256": "40cb934833c4733c4093198dbfadd2d45cb771641f5a0eaf70269e8a2fa86b4e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_0.json",
+        "sha256": "9498cbb8c632b79de3a9cc2d3556ef165d7fb2e88596a8ba91603a8926c2b27f",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_1.json",
+        "sha256": "c64cd9477321370fc31d7b85ec14bd4e415f335b61d5702f59822532f04da3fc",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-1_2.json",
+        "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-2_-1.json",
+        "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-2_-2.json",
+        "sha256": "870ea2dd1ab35866606a7282d36550f2ae37d793cdd326b2789f9a66fbbe626c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-2_-3.json",
+        "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-2_0.json",
+        "sha256": "82e6fcfc313cf8cc1e06045be7baf2afda145c3d0214a3d34af4960919d7794e",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-2_1.json",
+        "sha256": "ef42b5ad2c47f8375f52f68873ea6be6917e8b0ff62cb7f29d1c04acbc4fa596",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-3_-1.json",
+        "sha256": "d4a42d7e341d0a17b1a86a2c997c0d034aa6ab4ff346ca83551db228dca9aee1",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-3_-2.json",
+        "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-3_0.json",
+        "sha256": "31479edeff86b09b094436996c94218b8a0903e3f4a18b6c3bc3bd609fb31185",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-3_1.json",
+        "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-4_-1.json",
+        "sha256": "22f1ee3b94d295a00b7e081c770bb3086be373702bbeab33ff1e7939284c15d0",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/-4_0.json",
+        "sha256": "8ef9459d694d334850463c1b104115a1ebfc710dbb1e0e2210235b114e48b431",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_-1.json",
+        "sha256": "f49d10d2680232745a55c8b424eac82bfed45a08f27b01a82aff19940c59d20c",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_-2.json",
+        "sha256": "09825a4df947194651dbc9150e72eeb58ac6e4f47400cec511c0039faef66608",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_-3.json",
+        "sha256": "0f08c3e0e5dd1de2dbe52b9889f653a1ddabab51bd72159b1051cdaf1659fdec",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_-4.json",
+        "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_0.json",
+        "sha256": "29750ca624d6cbe3928823ca9a67f3f65f16a0e9b9afd6f36f0a16d3350ddce4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_1.json",
+        "sha256": "122c376c0f3008a75fd5a6780911681cd598752b153890de60f348da62497a71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/0_2.json",
+        "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/1_-1.json",
+        "sha256": "2074b0cb6f76fa7f82fe68c6f3ac8acfa5696f281a6065ad23060ba37fa01359",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/1_-2.json",
+        "sha256": "571f9ce2bc5b1e9127212064f4127e53ace2cd7d5f2f9fe0ef1408a18bfa4cdb",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/1_-3.json",
+        "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/1_0.json",
+        "sha256": "770d553620f1024b76358672ed586c5877c8bb7b79ca9626169a00fee0522eb9",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/1_1.json",
+        "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/2_-1.json",
+        "sha256": "09d0686d41782ddd58c0bbaa10adaecba28444511ffc72b8923e18bd2884256d",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/2_-2.json",
+        "sha256": "df038fbcd1c7516a13c0a344837c322e09f34a4b1055d264046f66c9cbff5064",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/2_0.json",
+        "sha256": "98ff083f39f246bf74caf733848c6780bdf07601028416db7d4df3e6e7b391b4",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/3_-1.json",
+        "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/3_-2.json",
+        "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+        "unchanged": true
+      },
+      {
+        "path": "data/bo-003-architecture/verification/trees/derived/piazza-maggiore/scene/3_0.json",
+        "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-audit.md",
+        "sha256": "5e1696c39b49b9a65a1a6b32a321011cd09a0b4f8aeb2bc6f9818198a9d07146",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-checksums.ts",
+        "sha256": "a2a451d3f76b53937743f06ed93e8565e0d2a42a956e871300679cdf799dd233",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-comparison.jpg",
+        "sha256": "616eb85ef10a93815eb44b1dc6ad2ec54e04672411166b7f0ca576c9c53e436c",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-gate0.json",
+        "sha256": "48c94c30b430d4ce1e9bc3a3fb82ccb66b5275170e02eb8b799918eebcf8bfd3",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-gate0.ts",
+        "sha256": "157b60ef95b637971c5a1d0d6ee88929779de81d642c2c8a8d6bca61a0ee82cb",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-geometry-qa.ts",
+        "sha256": "c74f1abffd87e455a4b80d33482896022354125cecb9457282a3fec19a7f7797",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-landmarks.jpg",
+        "sha256": "23fafeea0da7b42057ed16e48642bd3b0183ed413e791026eecfccc5c87dd96b",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-proof.jpg",
+        "sha256": "77ca602f7111fe1db3b16cc523d0b706de8c8fa558653678cf4539b551dcb177",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-qa.json",
+        "sha256": "edf37261b116c4876bb6bc338f42a397fce2cd724cd869c7bb82155e4aad08ae",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-qa.test.ts",
+        "sha256": "6977bc5a0da29fab582ccbcbd7c2af08969e02f87aa4f926882e06ea36b82c73",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-architecture-qa.ts",
+        "sha256": "d29c41fe12287258d92e76b31b1ec6d921cce2a5d095a53454d30c4092f1ff9d",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-buildings-comparison.jpg",
+        "sha256": "084936e06472aeb61cbde33fa5526054bdc52f9338e1e78ace9b597abcf34722",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-comparison.jpg",
+        "sha256": "0615957ee5cd1510656d901d5a782008ae35dbcd3055d58d49a69c405f352a84",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-fix.md",
+        "sha256": "3487e34809a009cb2cc09f192d3005eb5aa07a559ffee57af9837c730fb38962",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-preservation.json",
+        "sha256": "401c129ea398e5ca3e2ae89f3bd99561a4aeac4569d3f2e72ae966f68a504dad",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-qa.json",
+        "sha256": "39d4a2d0f1439fca1e2e9088789b258c72b1b3099161243b9fd377f21e49a659",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-qa.test.ts",
+        "sha256": "1a32ddefc313ee10e436bb0080f0c429988e999c7608b3fb137b2b2ec783431e",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-qa.ts",
+        "sha256": "f408eb247a16413497c4e982c08f8d5d19455bcb0d9e7fc76ee9b92462306b0d",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-coverage-source.json",
+        "sha256": "f3bcebdf09962087caac9cbcf98ef89624ab1abf33e107e722efc85d8284e818",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-data-audit.md",
+        "sha256": "045a5470d11178f52a98210ef0da161be61d66f8d4951557d4906a78bc08c686",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-data-audit.ts",
+        "sha256": "d4ceb805950c3964576bbf9040d797becff405e8f265809b605e3f01cb0d89b5",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-data-validation.json",
+        "sha256": "6e0ca26ff51de3c3b39b5ca223a37146fbe43c5b5733a22bd4b211b50c32f698",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-fetch-surface.ts",
+        "sha256": "df118a44feb359770c69080aaac59fc2bbc1526b5743e60213c5c77b35d6da47",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-buildings-landmarks.jpg",
+        "sha256": "6e18b3ddd495e7e3f5c4930a9114f39598b84d88faa713a173e02179800dca56",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-buildings-proof.jpg",
+        "sha256": "4afc2445190f14157ec8848aea38c7ebb163a1d30539770763cc95d2590642b9",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-implementation.md",
+        "sha256": "e7b8e4968852d4f34c71bc517c8b569d2447305c1d414e668bb94ea1707d9129",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-qa.json",
+        "sha256": "8a710218ba96cb61024ef3aced94050708c836c771060c63adfeea54ed12609e",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-qa.ts",
+        "sha256": "e443dbb611e2cfbba2efefddea7d35e2e343cf53f8efa7f49935190998c0d4e5",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-trees-landmarks.jpg",
+        "sha256": "5ffb03899256a8da0dc745cb27f345b3f471d83ad67098f284f47a40030dc7f5",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-trees-proof.jpg",
+        "sha256": "78bff0cc6147512a8d2da6ef7e46ba8b5b8ef945b7bf2547da5e4839576514fd",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-municipal-trees-qa.json",
+        "sha256": "f99174d3cb6c798e69f113a1e7855d390b9be2c116ae4cf31391eb3ec37d9eba",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-osm-coverage.ts",
+        "sha256": "6cce22370663598aa01ea2a58bc367b7b54c62287283dc2c1dd40a9ce029affa",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-proof-coverage.jpg",
+        "sha256": "4a4da235c57909ea3efdb20396e6da986db3ac8f85e1bb1d8d7094ef91608f9f",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-proof.jpg",
+        "sha256": "d1201d35f9c901614652891ec6f8f2762a6febeee8f150f0cab85c0760e54217",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-render-qa.json",
+        "sha256": "f574c9c3a90cb32a5d143cafbb8b96f7d4e804f89e562a1de118f3347922a39c",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-render-qa.ts",
+        "sha256": "1fa65d54dddd6eeeda048ae83f3c29ef55418f9294a28bd157bec558fe6c8334",
+        "unchanged": true
+      },
+      {
+        "path": "docs/bologna-trees-comparison.jpg",
+        "sha256": "c19f65f79cb2040ff8086eeff57b8081ebfac7afe14ea9fdf5dc39964c31689e",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/bologna-audit/buildings.geojson",
+        "sha256": "38ed98285663d6c3080c1b2f9929e99455d422590af92bd8c3c071bbbb3e465e",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/bologna-audit/trees.geojson",
+        "sha256": "fa1a94f527b97a7afcef7ac2db4b5ef3695ee2d42966c1dd4c3d4a5184975a8d",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/bologna-audit/bologna-buildings-metadata.json",
+        "sha256": "0bedf3b89319e4d774dd7e1db04f4dfa7a1df360f73d6cdd552762e353bc4f62",
+        "unchanged": true
+      },
+      {
+        "path": "data/raw/bologna-audit/bologna-trees-metadata.json",
+        "sha256": "208e3919dbb99733ca5b52e1b090854326e82714398e4831fbd3f70ae112d380",
+        "unchanged": true
+      },
+      {
+        "path": "bologna-review.zip",
+        "sha256": "073753a8f28249986ba707cdeb63353ef49f22fa15c1728f176af6ab84703fe8",
+        "unchanged": true
+      },
+      {
+        "path": "pipeline/src/pipeline.zip",
+        "sha256": "6ad4d7c7c0eef253dbb31fc6b6bd133a8fe1023baabdfc2c26d6a2a5d620a430",
+        "unchanged": true
+      },
+      {
+        "path": "pipeline/src/bologna-architecture.test.ts",
+        "sha256": "ecbffe7d177edd27580d0f205e75c25657cb6c0b5f0190e07efc288295b30f68",
+        "unchanged": true
+      },
+      {
+        "path": "plans/BO-003F-codex-task.md",
+        "sha256": "d9a66dab22253f1524f13ce51d354661b4bbbe22396c4d59c0b869eb587169dd",
+        "unchanged": true
+      },
+      {
+        "path": "pipeline/src/places.ts",
+        "status": "source-credit-only change; full config tested separately",
+        "originalSha256": "23ab5b51115fb6d7940a040cce5d4a2dfb012db46a0c907740df0065406e4995",
+        "currentSha256": "3d3f0ed0de0e0f2d209f3874a0831ae574aec21b62f38a55010b2c8e415f2e98"
+      },
+      {
+        "path": "pipeline/src/areas.ts",
+        "sha256": "3c65c5d63319a5f1ed0f55a792db29ed7a192682a0fea731368974590e2c22f4",
+        "unchanged": true
+      },
+      {
+        "path": "pipeline/src/camera.ts",
+        "sha256": "e2fdac0e20bf9b0909bf75997d715191de1f589dfe1519a589e99876056444c2",
+        "unchanged": true
+      }
+    ],
+    "allOriginalDataAndProofsUnchanged": true,
+    "configurationOnlyNewConditionalSourceCredits": true
+  },
+  "references": {
+    "references": [
+      {
+        "key": "facade",
+        "title": "Basilica_di_San_Petronio,_facciata.jpg",
+        "author": "Congolandia.g",
+        "photographDate": "2019-02-24",
+        "retrievedAt": "2026-11-19T18:08:36.665Z",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Basilica_di_San_Petronio%2C_facciata.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio%2C_facciata.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "use": "Inspection only; no facade or clock mesh imported",
+        "file": "/home/jacopo/projects/isometricworld/data/bo-003f-landmarks/references/facade.jpg",
+        "sha256": "3bc5f21af225fd3cfa425da8543e197e4f34c2b98063710a99e37a999f20fe5d",
+        "bytes": 2307441,
+        "downloadStatus": "complete",
+        "originalUnmodified": true
+      },
+      {
+        "key": "clock",
+        "title": "Torre_dell'Orologio_(Bologna).jpg",
+        "author": "Raffacossa",
+        "photographDate": "2017-05-05",
+        "retrievedAt": "2026-11-19T18:08:36.669Z",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Torre_dell'Orologio_(Bologna).jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Torre_dell'Orologio_(Bologna).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "use": "Inspection only; no facade or clock mesh imported",
+        "file": "/home/jacopo/projects/isometricworld/data/bo-003f-landmarks/references/clock.jpg",
+        "sha256": "24fd695eebd718f62f6ff3263cad662a6c0835e70dfbc54dea196cc8b249447c",
+        "bytes": 709021,
+        "downloadStatus": "complete",
+        "originalUnmodified": true
+      },
+      {
+        "key": "roof",
+        "title": "Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg",
+        "author": "Zairon",
+        "photographDate": "2022-04-27",
+        "retrievedAt": "2026-11-19T18:08:36.689Z",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg",
+        "sourcePage": "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "use": "Appearance-only topology proposal; no image pixels/tracing/metric fitting",
+        "file": "/home/jacopo/projects/isometricworld/data/bo-003f-landmarks/references/roof.jpg",
+        "sha256": "dacc5b9d80fba0f6b96e27456c3847b4e373603e722929c1a4ce96638ae543e9",
+        "bytes": 7563050,
+        "downloadStatus": "complete",
+        "originalUnmodified": true
+      }
+    ],
+    "downloadCommand": "curl --fail --location --retry 1 --connect-timeout 20 --max-time 90 --user-agent IsometricWorld-BO003F-source-audit/1.0 --output <file> <url>",
+    "sandboxAttempt": "DNS resolution failed; approved network retry completed all three originals",
+    "gisDownloads": "none; pinned BO-001R/002/003 retained"
+  },
+  "attributions": [
+    "© OpenStreetMap contributors (ODbL)",
+    "Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA",
+    "Comune di Bologna – SIT · CTC Edifici volumetrici · CC BY 4.0 (projected, filtered and extruded)",
+    "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/ · https://creativecommons.org/licenses/by/4.0/",
+    "Comune di Bologna – Settore Ambiente e Verde · Alberi in manutenzione · CC BY 4.0 (projected, filtered; class-based estimates)",
+    "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/ · https://creativecommons.org/licenses/by/4.0/",
+    "BO-003 procedural pilot: estimated roofs and portico clearance; no measured ridge/column claim",
+    "BO-003F appearance references: Zairon (roof, 2022), Congolandia.g (facade, 2019), Raffacossa (clock, 2017) · CC BY-SA 4.0 · appearance only; estimated geometry, no photo pixels",
+    "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg · https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg · https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg · https://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "unresolved": {
+    "heightConventions": {
+      "ctc": "relative eave = quota_gron - quota_pied; absolute datum unverified",
+      "basilicaOfficial44M": "generic overall description; no control surface/datum",
+      "metropolitanGuide45M": "central vaults; distinct from 51 m facade",
+      "clockOperatorM": {
+        "body": 36.2,
+        "lanternApprox": 10,
+        "totalApprox": 46.2,
+        "base": [
+          10.3,
+          8.44
+        ]
+      },
+      "noScalingApplied": true
+    },
+    "facadeVisibility": {
+      "outwardNorthAxis": [
+        0.20498052416136978,
+        0.9787660520852417
+      ],
+      "towardViewer": [
+        0.5000000000000001,
+        -0.4999999999999999
+      ],
+      "normalDotTowardViewer": -0.38689276396193584,
+      "backFacing": true,
+      "centre": [
+        3.5344999999999995,
+        -113.705
+      ],
+      "consequence": "Main north facade cannot be demonstrated from this frozen southeast camera; do not rotate camera or transplant marble onto the south apse."
+    },
+    "clock": {
+      "osmId": 149041465,
+      "wikidata": "Q30888017",
+      "tags": {
+        "building": "yes",
+        "building:material": "brick",
+        "height": "20",
+        "name": "Torre dell'Orologio",
+        "opening_hours": "Mo-Su 10:00-18:20",
+        "roof:colour": "#e7be92",
+        "tourism": "attraction",
+        "website": "https://www.bolognawelcome.com/",
+        "wikidata": "Q30888017"
+      },
+      "geometry": [
+        [
+          [
+            -68.618,
+            -21.157
+          ],
+          [
+            -62.271,
+            -23.135
+          ],
+          [
+            -61.109,
+            -23.502
+          ],
+          [
+            -58.62,
+            -13.068
+          ],
+          [
+            -66.041,
+            -11.234
+          ],
+          [
+            -68.618,
+            -21.157
+          ]
+        ]
+      ],
+      "parts": [
+        {
+          "ctcId": 26676,
+          "id": "ctc/26676/0/piece0",
+          "relativeEaveM": 36.4,
+          "classification": "Edificio generico",
+          "outerCoverage": 0.6464433862492014,
+          "acceptedCoverage": 0.4897469093321849,
+          "fullOuterAreaM2": 83.28229700000009,
+          "polygonAreaM2": 53.94845300000014,
+          "frame": {
+            "u": [
+              -0.23974263925268272,
+              -0.9708364779529857
+            ],
+            "v": [
+              0.9708364779529857,
+              -0.23974263925268272
+            ],
+            "loU": 23.754738773852417,
+            "hiU": 34.47946408359714,
+            "loV": -62.32669366407322,
+            "hiV": -54.282882315771836,
+            "length": 10.724725309744727,
+            "width": 8.043811348301382,
+            "coverage": 0.9653941012614565,
+            "holes": 0,
+            "area": 83.28229700000009
+          },
+          "sourceGeometry": [
+            [
+              [
+                -58.476,
+                -10.028
+              ],
+              [
+                -66.085,
+                -8.149
+              ],
+              [
+                -68.661,
+                -18.069
+              ],
+              [
+                -62.176,
+                -20.086
+              ],
+              [
+                -60.966,
+                -20.46
+              ],
+              [
+                -58.476,
+                -10.028
+              ]
+            ],
+            [
+              [
+                -63.959,
+                -11.081
+              ],
+              [
+                -61.763,
+                -11.604
+              ],
+              [
+                -60.54,
+                -13.98
+              ],
+              [
+                -61.055,
+                -16.246
+              ],
+              [
+                -62.818,
+                -17.346
+              ],
+              [
+                -65.457,
+                -16.94
+              ],
+              [
+                -66.878,
+                -14.509
+              ],
+              [
+                -66.325,
+                -12.314
+              ],
+              [
+                -63.959,
+                -11.081
+              ]
+            ]
+          ],
+          "conclusiveSinglePartJoin": false,
+          "role": "probable clock body; full outline fails 80% rule"
+        },
+        {
+          "ctcId": 56137,
+          "id": "ctc/56137/0/piece0",
+          "relativeEaveM": 42.6,
+          "classification": "Edificio generico",
+          "outerCoverage": 0.9346269778788397,
+          "acceptedCoverage": 0.8880549639065648,
+          "fullOuterAreaM2": 29.333843999999942,
+          "polygonAreaM2": 17.130210500000146,
+          "frame": {
+            "u": [
+              0.46214324633496984,
+              -0.886805288587622
+            ],
+            "v": [
+              0.886805288587622,
+              0.46214324633496984
+            ],
+            "loU": -19.731530489498898,
+            "hiU": -13.648389912429243,
+            "loV": -66.01300045123706,
+            "hiV": -60.13446526950828,
+            "length": 6.0831405770696545,
+            "width": 5.878535181728779,
+            "coverage": 0.8202986626692628,
+            "holes": 0,
+            "area": 29.333843999999942
+          },
+          "sourceGeometry": [
+            [
+              [
+                -63.959,
+                -11.081
+              ],
+              [
+                -66.325,
+                -12.314
+              ],
+              [
+                -66.878,
+                -14.509
+              ],
+              [
+                -65.457,
+                -16.94
+              ],
+              [
+                -62.818,
+                -17.346
+              ],
+              [
+                -61.055,
+                -16.246
+              ],
+              [
+                -60.54,
+                -13.98
+              ],
+              [
+                -61.763,
+                -11.604
+              ],
+              [
+                -63.959,
+                -11.081
+              ]
+            ],
+            [
+              [
+                -63.646,
+                -12.381
+              ],
+              [
+                -62.173,
+                -12.653
+              ],
+              [
+                -61.285,
+                -14.119
+              ],
+              [
+                -61.702,
+                -15.407
+              ],
+              [
+                -63.139,
+                -16.337
+              ],
+              [
+                -64.822,
+                -16.078
+              ],
+              [
+                -65.538,
+                -14.527
+              ],
+              [
+                -65.245,
+                -13.365
+              ],
+              [
+                -63.646,
+                -12.381
+              ]
+            ]
+          ],
+          "conclusiveSinglePartJoin": true,
+          "role": "probable octagonal lantern; source geometry verified, functional level not explicit"
+        },
+        {
+          "ctcId": 35259,
+          "id": "ctc/35259/0/piece0",
+          "relativeEaveM": 45.2,
+          "classification": "Edificio generico",
+          "outerCoverage": 0.9999999999999953,
+          "acceptedCoverage": 0.9999999999999866,
+          "fullOuterAreaM2": 12.20363349999991,
+          "polygonAreaM2": 8.495263999999963,
+          "frame": {
+            "u": [
+              -0.8516583167045444,
+              -0.5240974256643337
+            ],
+            "v": [
+              0.5240974256643337,
+              -0.8516583167045444
+            ],
+            "loU": 59.58155725140246,
+            "hiU": 63.632633815253136,
+            "loV": -22.812323134713218,
+            "hiV": -19.177445439018225,
+            "length": 4.051076563850678,
+            "width": 3.6348776956949926,
+            "coverage": 0.828760230650592,
+            "holes": 0,
+            "area": 12.20363349999991
+          },
+          "sourceGeometry": [
+            [
+              [
+                -63.646,
+                -12.381
+              ],
+              [
+                -65.245,
+                -13.365
+              ],
+              [
+                -65.538,
+                -14.527
+              ],
+              [
+                -64.822,
+                -16.078
+              ],
+              [
+                -63.139,
+                -16.337
+              ],
+              [
+                -61.702,
+                -15.407
+              ],
+              [
+                -61.285,
+                -14.119
+              ],
+              [
+                -62.173,
+                -12.653
+              ],
+              [
+                -63.646,
+                -12.381
+              ]
+            ],
+            [
+              [
+                -63.422,
+                -13.287
+              ],
+              [
+                -62.512,
+                -13.664
+              ],
+              [
+                -62.173,
+                -14.384
+              ],
+              [
+                -62.564,
+                -15.123
+              ],
+              [
+                -64.03,
+                -15.661
+              ],
+              [
+                -64.456,
+                -14.468
+              ],
+              [
+                -64.282,
+                -13.643
+              ],
+              [
+                -63.422,
+                -13.287
+              ]
+            ]
+          ],
+          "conclusiveSinglePartJoin": true,
+          "role": "probable upper lantern ring"
+        },
+        {
+          "ctcId": 49154,
+          "id": "ctc/49154/0/piece0",
+          "relativeEaveM": 49.6,
+          "classification": "Edificio generico",
+          "outerCoverage": 0.9999999999999694,
+          "acceptedCoverage": 0.9999999999999694,
+          "fullOuterAreaM2": 3.708369500000117,
+          "polygonAreaM2": 3.708369500000117,
+          "frame": {
+            "u": [
+              0.9387796905938581,
+              0.34451805834890553
+            ],
+            "v": [
+              -0.34451805834890553,
+              0.9387796905938581
+            ],
+            "loU": -65.50556090052694,
+            "hiU": -63.3222974545826,
+            "loV": 7.357262541690009,
+            "hiV": 9.376458547683692,
+            "length": 2.183263445944341,
+            "width": 2.019196005993683,
+            "coverage": 0.841198284773982,
+            "holes": 0,
+            "area": 3.708369500000117
+          },
+          "sourceGeometry": [
+            [
+              [
+                -63.422,
+                -13.287
+              ],
+              [
+                -64.282,
+                -13.643
+              ],
+              [
+                -64.456,
+                -14.468
+              ],
+              [
+                -64.03,
+                -15.661
+              ],
+              [
+                -62.564,
+                -15.123
+              ],
+              [
+                -62.173,
+                -14.384
+              ],
+              [
+                -62.512,
+                -13.664
+              ],
+              [
+                -63.422,
+                -13.287
+              ]
+            ]
+          ],
+          "conclusiveSinglePartJoin": true,
+          "role": "probable terminal cap; relative eave 49.6 conflicts with generic 46.2 m total"
+        }
+      ],
+      "identity": "Named clock site verified; body/ring level association probable. No clock/belfry override approved.",
+      "minimumWholeBodyCoverage": 0.8,
+      "actualWholeBodyCoverage": 0.6464433862492014
+    },
+    "chapelRhythm": "No measured bay positions; no invented repeated windows/buttresses",
+    "palaceRoofTransition": "BO-003 estimate retained; no verified current ridge network",
+    "portico": "Reference colonnade retained; no sourced arcade measurements"
+  },
+  "proofs": {
+    "proof": {
+      "path": "docs/bologna-landmark-fidelity-proof.jpg",
+      "sha256": "b66ab2ac01dddc5c5f03af82802527cbb2da5c491ca76e3ecd8c92012d380cd2"
+    },
+    "comparison": {
+      "path": "docs/bologna-landmark-fidelity-comparison.jpg",
+      "sha256": "d415ea2a206dc1eb1d09bb52df7c9645545715572dfc613e8ea7315fdbd2a77d"
+    },
+    "crops": {
+      "path": "docs/bologna-landmark-fidelity-crops.jpg",
+      "sha256": "22abce1ab5cc2ef92deb5fd349ab4d90e713794ee95c542cb68fc20e9eda418a"
+    }
+  }
+}

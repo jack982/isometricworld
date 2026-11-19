@@ -11,6 +11,7 @@ function distanceToBoundary(p:Point,poly:Polygon){
   let d=Infinity;for(const ring of poly)for(let i=0;i<ring.length-1;i++){const a=ring[i],b=ring[i+1],dx=b[0]-a[0],dy=b[1]-a[1],t=Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(dx*dx+dy*dy)));d=Math.min(d,Math.hypot(p[0]-a[0]-t*dx,p[1]-a[1]-t*dy));}return d;
 }
 export function buildRoof(poly:Polygon,method:RoofPlan["method"],upliftM:number,explicitLandmark=false):RoofPlan {
+  if(method==="shed-estimate")throw Error("BO-003F sheds require the verified-ID, nave-oriented builder");
   if(!Number.isFinite(upliftM)||upliftM<0||upliftM>3.5)throw Error("Estimated roof uplift must be bounded 0–3.5 m");
   const frame=footprintFrame(poly),b=bounds(poly),triangles:number[]=[],upperWalls:number[]=[];
   let reason="Pinned source footprint, estimated uplift above relative eave";

@@ -29,9 +29,11 @@ const { values: args, positionals } = parseArgs({
     force: { type: "boolean", default: false },
     ss: { type: "string", default: "2" },
     markers: { type: "string", default: "" },
+    materials: { type: "string", default: "normal" },
   },
 });
 const areaName = positionals[0] ?? "rothschild";
+if (!["normal", "neutral"].includes(args.materials!)) throw new Error("materials must be normal or neutral");
 const area = openArea(areaName);
 
 const COPERNICUS = "Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA";
@@ -71,7 +73,7 @@ async function openPage(browser: Awaited<ReturnType<typeof chromium.launch>>, di
     return route.fulfill({ body: readFileSync(file), contentType: type });
   });
   page.on("pageerror", (e) => console.error("  [page]", e.message));
-  await page.goto(`http://iso.local/?region=${area.region}&ss=${args.ss}&markers=${encodeURIComponent(args.markers!)}`);
+  await page.goto(`http://iso.local/?region=${area.region}&ss=${args.ss}&markers=${encodeURIComponent(args.markers!)}${args.materials === "neutral" ? "&materials=neutral" : ""}`);
   await page.waitForFunction(() => window.ready === true, null, { timeout: 30_000 });
   return page;
 }

@@ -1,0 +1,1959 @@
+{
+  "algorithm": "sha256",
+  "baseCommit": "1444694f9d9e08db7276b195ee894572f8557c62",
+  "originalInventory": "docs/bologna-landmark-fidelity-inputs.json",
+  "files": {
+    "data/bo-003f-landmarks/commands.ndjson": {
+      "sha256": "6d6a509321afb3d068e5b607e68e9426a2598442ccc351e2daee6109650fc504",
+      "bytes": 1657
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "bytes": 75502
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "bytes": 67370
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/manifest.json": {
+      "sha256": "68c6dafd787e05d872fea55b389735a0cfc25cc1399beb921856701d0426f11c",
+      "bytes": 3344
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "619d1937f060df62cd0a19ddd0c78bb8b5ad2bd50f52477a2256a6597e75a032",
+      "bytes": 335481
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "a386b4cf8c9b5a9d5c10a5e9e1bda7b85cf2d5b85c4d0d3b2294a817a0e34063",
+      "bytes": 362808
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "71095c90ffcb4eaf01f3a63600223b85f31d74a02e6e78d751841d98e66ad200",
+      "bytes": 420668
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "7833c438bacde6f80158b536821e626540dce3c626b6673e277705fa2d8d641d",
+      "bytes": 356753
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "28caaa862d9220208a1241fad50d5034f36246c22c77e12c3f9e7fa861359d26",
+      "bytes": 412591
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "0cd005040c7f21baf2de233108fd0ca18ba8d986e6d009226724fda3d81fe38e",
+      "bytes": 332349
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "6a352cf4e6c9dddb8b548c5111ffa76a19642aa595929233b40546de6fdf59d7",
+      "bytes": 353365
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "7eced4a0a8e00e5fd326208504b5adf30aae502317582e8a33771cc5122938e6",
+      "bytes": 359979
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "0fdae05b3a5209099188eb113d5990de40f850ceb0c22e669e1b59e28fec082b",
+      "bytes": 352677
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "2ee6529ee615fd7d6f59f20f97152515f99a989edc0998f92b9738d2987ee3e6",
+      "bytes": 357345
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "0473ee566543f7bff6b8e8104b82ebe673c82e787e4020fd06761b05d411cdf0",
+      "bytes": 679752
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "877cf95cc919e8b179b7678af39f0ac9edc2b03d6cc6e261c1a011144879cc25",
+      "bytes": 473528
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "964816c6cedb2bfba508471c6d568eaca196569ce09d0fac9e32629291390923",
+      "bytes": 155489
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "276b1c57c52558202751e4dcdcbd5867b4c6fb751268738bdc1df02531adced0",
+      "bytes": 523440
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "83965adf4ed7b98c0019f249d671c4c20915b987bed0ddcd9c3bf13af197bc68",
+      "bytes": 403054
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "fd850e86c527a7fdd65126fd19da1ca07c6b2f465f078366e6c946048280fcd4",
+      "bytes": 38951
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "95e99a7a4280e4756ce117cc908feb8fe8d358c30939e364a11b8c3e23968ed2",
+      "bytes": 576495
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "33dff55e1c24b1ee208507fb26956aea42ffe96cafbf9e9781937a94ba2f1909",
+      "bytes": 328048
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "3ebb1f2c7b547094b7a246228bbba3fea572277f9369f9ad7b93d23194570e97",
+      "bytes": 15614
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "2a98d84c4ad3af722dab3c9eb3c24e8dc0fe1066f9258ed336c37353ca3d7759",
+      "bytes": 442023
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "10ff6e60fdeccda56306532b872f6fe2cb58d7e38442c4e42c2325e79963f586",
+      "bytes": 97528
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "d858f0c68eef5a74f9bda6070d1610054d3e54ace8518d5f5151d670c6fff4db",
+      "bytes": 318704
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "e0db03274113dd872a9343b0608c19140fadc4ee3b2a5f69944b7179aa80c096",
+      "bytes": 82998
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "ae856bc5cbbed9b0e00849e201efd64d3ffe18c941acb6c5093846d540aef717",
+      "bytes": 184648
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "0cd4347c7c5dcefbff3f3f80665f140f3e6fb55462b231c696133d5acf4ae775",
+      "bytes": 9663
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "43df75368cf1fa69931a12f198e3ad7ced887f69cff953b1649a01639accdea6",
+      "bytes": 41694
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "9a68c7a918e138ab8db68e9ca32fd46a020908aa5242843727fcfd9f0293b07f",
+      "bytes": 20385
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "15078b8e1f9c431712d7a9fcbbdb27e39038494ee77d5331b2dd4336fb91e9f4",
+      "bytes": 594922
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "59a5fac34486428c3ac7d35d43388cdf6b850df9b3f413bdeebe4a725deb5e12",
+      "bytes": 512432
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "8ea123031964ce1ec3cadde445a03e083480c032d8c9f477212b8c90c67ab5b8",
+      "bytes": 155965
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "64d6f1856eb34394cf4f44b1b7954f2c8d2cff02dca4cf5602ca3b317a2e220f",
+      "bytes": 5270
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "c2bec7c74a3af5ab9c7176ad3c8a571c635ddb3b334001df3e0024e612bee46f",
+      "bytes": 604555
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "793873fe8fae360703974ccf658646e0d0913c17a4f1914c8d39167e9ae04111",
+      "bytes": 377237
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "4512386ae88a7879c3067f62cc2fa3a5c72c4cfc33dc0e50a12d409e32d3a4a1",
+      "bytes": 7625
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "3fe22ad69b0c675011853ec3afeb3320a5630486db030e0ebcc3b14257532fad",
+      "bytes": 632305
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "37830016351228c02b9b2f578253ff766ce011a5ed5a01c015c1bcb519357315",
+      "bytes": 374439
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "e3d7d49751b596c112d9f5aafe71a614ea989a8e32e88dc883f21d5c1d696c5c",
+      "bytes": 59442
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "2345d2243c03fbdf01bc9c4e68a4337a63dccef640c686322096ba336144abb7",
+      "bytes": 523142
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "111c6b0bb3ae0e88758840823b71e5940629ae66b616fcd8696a9ecf272cdf57",
+      "bytes": 86815
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "d0cc2600f10f66cefc95dc5c46d480d46fc01adc10cec68b977a0ee41b4bf32e",
+      "bytes": 482670
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "5882c2006208602f5c760a61bb2e416aea0e4e27cf64b884e8063e331c7a8d11",
+      "bytes": 116571
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "7cb651c36e4f869c6bae8b36840748f77eecbbd4b038c1d9b8f959daa4ebccfa",
+      "bytes": 169359
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "811a7f4547133f08d99328690f5d630ac01918a3392a2d89af468bf216aa5508",
+      "bytes": 179214
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "ac8b612cc440b1d57834bab404062afc2debf8560b53b944b34b09f612680c34",
+      "bytes": 1991
+    },
+    "data/bo-003f-landmarks/controls/after/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "66d49084d7ef2fa3b560ef565d912261e64d26d5c52c0f18fbe3ada1b71966c2",
+      "bytes": 18846
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "bytes": 75433
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "bytes": 67189
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/manifest.json": {
+      "sha256": "68c6dafd787e05d872fea55b389735a0cfc25cc1399beb921856701d0426f11c",
+      "bytes": 3344
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "a0141612feaa42536adb73325e7cfab78e419edb8d3ff37638d21af9be971083",
+      "bytes": 334911
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "a386b4cf8c9b5a9d5c10a5e9e1bda7b85cf2d5b85c4d0d3b2294a817a0e34063",
+      "bytes": 362808
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "6d9802e55503d2d4cc7a010fec62ff7c684422689dd5363d7db06144529876ee",
+      "bytes": 420591
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "7833c438bacde6f80158b536821e626540dce3c626b6673e277705fa2d8d641d",
+      "bytes": 356753
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "28caaa862d9220208a1241fad50d5034f36246c22c77e12c3f9e7fa861359d26",
+      "bytes": 412591
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "0cd005040c7f21baf2de233108fd0ca18ba8d986e6d009226724fda3d81fe38e",
+      "bytes": 332349
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "6a352cf4e6c9dddb8b548c5111ffa76a19642aa595929233b40546de6fdf59d7",
+      "bytes": 353365
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "7eced4a0a8e00e5fd326208504b5adf30aae502317582e8a33771cc5122938e6",
+      "bytes": 359979
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "0fdae05b3a5209099188eb113d5990de40f850ceb0c22e669e1b59e28fec082b",
+      "bytes": 352677
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "2ee6529ee615fd7d6f59f20f97152515f99a989edc0998f92b9738d2987ee3e6",
+      "bytes": 357345
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "bbba6bba2ac84536ad29596332970212cbdc96a2b22327a7d5db0d92f95e2de5",
+      "bytes": 676489
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "877cf95cc919e8b179b7678af39f0ac9edc2b03d6cc6e261c1a011144879cc25",
+      "bytes": 473528
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "964816c6cedb2bfba508471c6d568eaca196569ce09d0fac9e32629291390923",
+      "bytes": 155489
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "1eb5f940f044831ccc921c7ed48a4b2b644de1149bbf47d205b5503b1ec0c38f",
+      "bytes": 522333
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "83965adf4ed7b98c0019f249d671c4c20915b987bed0ddcd9c3bf13af197bc68",
+      "bytes": 403054
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "fd850e86c527a7fdd65126fd19da1ca07c6b2f465f078366e6c946048280fcd4",
+      "bytes": 38951
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "95e99a7a4280e4756ce117cc908feb8fe8d358c30939e364a11b8c3e23968ed2",
+      "bytes": 576495
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "33dff55e1c24b1ee208507fb26956aea42ffe96cafbf9e9781937a94ba2f1909",
+      "bytes": 328048
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "3ebb1f2c7b547094b7a246228bbba3fea572277f9369f9ad7b93d23194570e97",
+      "bytes": 15614
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "2a98d84c4ad3af722dab3c9eb3c24e8dc0fe1066f9258ed336c37353ca3d7759",
+      "bytes": 442023
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "10ff6e60fdeccda56306532b872f6fe2cb58d7e38442c4e42c2325e79963f586",
+      "bytes": 97528
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "d858f0c68eef5a74f9bda6070d1610054d3e54ace8518d5f5151d670c6fff4db",
+      "bytes": 318704
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "e0db03274113dd872a9343b0608c19140fadc4ee3b2a5f69944b7179aa80c096",
+      "bytes": 82998
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "ae856bc5cbbed9b0e00849e201efd64d3ffe18c941acb6c5093846d540aef717",
+      "bytes": 184648
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "0cd4347c7c5dcefbff3f3f80665f140f3e6fb55462b231c696133d5acf4ae775",
+      "bytes": 9663
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "43df75368cf1fa69931a12f198e3ad7ced887f69cff953b1649a01639accdea6",
+      "bytes": 41694
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "9a68c7a918e138ab8db68e9ca32fd46a020908aa5242843727fcfd9f0293b07f",
+      "bytes": 20385
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "15078b8e1f9c431712d7a9fcbbdb27e39038494ee77d5331b2dd4336fb91e9f4",
+      "bytes": 594922
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "59a5fac34486428c3ac7d35d43388cdf6b850df9b3f413bdeebe4a725deb5e12",
+      "bytes": 512432
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "8ea123031964ce1ec3cadde445a03e083480c032d8c9f477212b8c90c67ab5b8",
+      "bytes": 155965
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "64d6f1856eb34394cf4f44b1b7954f2c8d2cff02dca4cf5602ca3b317a2e220f",
+      "bytes": 5270
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "c2bec7c74a3af5ab9c7176ad3c8a571c635ddb3b334001df3e0024e612bee46f",
+      "bytes": 604555
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "793873fe8fae360703974ccf658646e0d0913c17a4f1914c8d39167e9ae04111",
+      "bytes": 377237
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "4512386ae88a7879c3067f62cc2fa3a5c72c4cfc33dc0e50a12d409e32d3a4a1",
+      "bytes": 7625
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "3fe22ad69b0c675011853ec3afeb3320a5630486db030e0ebcc3b14257532fad",
+      "bytes": 632305
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "37830016351228c02b9b2f578253ff766ce011a5ed5a01c015c1bcb519357315",
+      "bytes": 374439
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "e3d7d49751b596c112d9f5aafe71a614ea989a8e32e88dc883f21d5c1d696c5c",
+      "bytes": 59442
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "2345d2243c03fbdf01bc9c4e68a4337a63dccef640c686322096ba336144abb7",
+      "bytes": 523142
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "111c6b0bb3ae0e88758840823b71e5940629ae66b616fcd8696a9ecf272cdf57",
+      "bytes": 86815
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "d0cc2600f10f66cefc95dc5c46d480d46fc01adc10cec68b977a0ee41b4bf32e",
+      "bytes": 482670
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "5882c2006208602f5c760a61bb2e416aea0e4e27cf64b884e8063e331c7a8d11",
+      "bytes": 116571
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "7cb651c36e4f869c6bae8b36840748f77eecbbd4b038c1d9b8f959daa4ebccfa",
+      "bytes": 169359
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "811a7f4547133f08d99328690f5d630ac01918a3392a2d89af468bf216aa5508",
+      "bytes": 179214
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "ac8b612cc440b1d57834bab404062afc2debf8560b53b944b34b09f612680c34",
+      "bytes": 1991
+    },
+    "data/bo-003f-landmarks/controls/before/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "66d49084d7ef2fa3b560ef565d912261e64d26d5c52c0f18fbe3ada1b71966c2",
+      "bytes": 18846
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "bytes": 75502
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "bytes": 67370
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/manifest.json": {
+      "sha256": "db35c6235740548041eea730c6d4ae2c965e3d5517785ead3287da2f00421b09",
+      "bytes": 3349
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "2fd3a01c0ad901ae21cd0b6af759355a524b6058b893a6df3d2e0b895098ba1a",
+      "bytes": 1173612
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "bytes": 1374102
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "c4f8989463b2739dec608a114b011f84c52d87dbdd90bd04483a91c5aaddb3d6",
+      "bytes": 1264871
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "bytes": 1218677
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "bytes": 1232494
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "bytes": 1324201
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "bytes": 1269475
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "bytes": 1295782
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "bytes": 1268287
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "0473ee566543f7bff6b8e8104b82ebe673c82e787e4020fd06761b05d411cdf0",
+      "bytes": 679752
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "877cf95cc919e8b179b7678af39f0ac9edc2b03d6cc6e261c1a011144879cc25",
+      "bytes": 473528
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "964816c6cedb2bfba508471c6d568eaca196569ce09d0fac9e32629291390923",
+      "bytes": 155489
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "276b1c57c52558202751e4dcdcbd5867b4c6fb751268738bdc1df02531adced0",
+      "bytes": 523440
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "83965adf4ed7b98c0019f249d671c4c20915b987bed0ddcd9c3bf13af197bc68",
+      "bytes": 403054
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "fd850e86c527a7fdd65126fd19da1ca07c6b2f465f078366e6c946048280fcd4",
+      "bytes": 38951
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "95e99a7a4280e4756ce117cc908feb8fe8d358c30939e364a11b8c3e23968ed2",
+      "bytes": 576495
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "33dff55e1c24b1ee208507fb26956aea42ffe96cafbf9e9781937a94ba2f1909",
+      "bytes": 328048
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "3ebb1f2c7b547094b7a246228bbba3fea572277f9369f9ad7b93d23194570e97",
+      "bytes": 15614
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "2a98d84c4ad3af722dab3c9eb3c24e8dc0fe1066f9258ed336c37353ca3d7759",
+      "bytes": 442023
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "10ff6e60fdeccda56306532b872f6fe2cb58d7e38442c4e42c2325e79963f586",
+      "bytes": 97528
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "d858f0c68eef5a74f9bda6070d1610054d3e54ace8518d5f5151d670c6fff4db",
+      "bytes": 318704
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "e0db03274113dd872a9343b0608c19140fadc4ee3b2a5f69944b7179aa80c096",
+      "bytes": 82998
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "ae856bc5cbbed9b0e00849e201efd64d3ffe18c941acb6c5093846d540aef717",
+      "bytes": 184648
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "0cd4347c7c5dcefbff3f3f80665f140f3e6fb55462b231c696133d5acf4ae775",
+      "bytes": 9663
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "43df75368cf1fa69931a12f198e3ad7ced887f69cff953b1649a01639accdea6",
+      "bytes": 41694
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "9a68c7a918e138ab8db68e9ca32fd46a020908aa5242843727fcfd9f0293b07f",
+      "bytes": 20385
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "15078b8e1f9c431712d7a9fcbbdb27e39038494ee77d5331b2dd4336fb91e9f4",
+      "bytes": 594922
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "59a5fac34486428c3ac7d35d43388cdf6b850df9b3f413bdeebe4a725deb5e12",
+      "bytes": 512432
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "8ea123031964ce1ec3cadde445a03e083480c032d8c9f477212b8c90c67ab5b8",
+      "bytes": 155965
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "64d6f1856eb34394cf4f44b1b7954f2c8d2cff02dca4cf5602ca3b317a2e220f",
+      "bytes": 5270
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "c2bec7c74a3af5ab9c7176ad3c8a571c635ddb3b334001df3e0024e612bee46f",
+      "bytes": 604555
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "793873fe8fae360703974ccf658646e0d0913c17a4f1914c8d39167e9ae04111",
+      "bytes": 377237
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "4512386ae88a7879c3067f62cc2fa3a5c72c4cfc33dc0e50a12d409e32d3a4a1",
+      "bytes": 7625
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "3fe22ad69b0c675011853ec3afeb3320a5630486db030e0ebcc3b14257532fad",
+      "bytes": 632305
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "37830016351228c02b9b2f578253ff766ce011a5ed5a01c015c1bcb519357315",
+      "bytes": 374439
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "e3d7d49751b596c112d9f5aafe71a614ea989a8e32e88dc883f21d5c1d696c5c",
+      "bytes": 59442
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "2345d2243c03fbdf01bc9c4e68a4337a63dccef640c686322096ba336144abb7",
+      "bytes": 523142
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "111c6b0bb3ae0e88758840823b71e5940629ae66b616fcd8696a9ecf272cdf57",
+      "bytes": 86815
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "d0cc2600f10f66cefc95dc5c46d480d46fc01adc10cec68b977a0ee41b4bf32e",
+      "bytes": 482670
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "5882c2006208602f5c760a61bb2e416aea0e4e27cf64b884e8063e331c7a8d11",
+      "bytes": 116571
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "7cb651c36e4f869c6bae8b36840748f77eecbbd4b038c1d9b8f959daa4ebccfa",
+      "bytes": 169359
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "811a7f4547133f08d99328690f5d630ac01918a3392a2d89af468bf216aa5508",
+      "bytes": 179214
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "ac8b612cc440b1d57834bab404062afc2debf8560b53b944b34b09f612680c34",
+      "bytes": 1991
+    },
+    "data/bo-003f-landmarks/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "66d49084d7ef2fa3b560ef565d912261e64d26d5c52c0f18fbe3ada1b71966c2",
+      "bytes": 18846
+    },
+    "data/bo-003f-landmarks/proposal.json": {
+      "sha256": "1e94b8788a4e4d2e59a9b2521d510378df3fac9d62375b3af6230db6880fc2a3",
+      "bytes": 13958
+    },
+    "data/bo-003f-landmarks/raw/piazza-maggiore/ground.json": {
+      "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b",
+      "bytes": 9770454
+    },
+    "data/bo-003f-landmarks/raw/piazza-maggiore/municipal-buildings.json": {
+      "sha256": "c3924f9c02a5868ac9bca5e5836677e635b7dd5b73d8eba81e2bee6fb224c807",
+      "bytes": 18147558
+    },
+    "data/bo-003f-landmarks/raw/piazza-maggiore/osm.json": {
+      "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+      "bytes": 2502799
+    },
+    "data/bo-003f-landmarks/raw/piazza-maggiore/roads.json": {
+      "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+      "bytes": 198963
+    },
+    "data/bo-003f-landmarks/references/clock.jpg": {
+      "sha256": "24fd695eebd718f62f6ff3263cad662a6c0835e70dfbc54dea196cc8b249447c",
+      "bytes": 709021
+    },
+    "data/bo-003f-landmarks/references/facade.jpg": {
+      "sha256": "3bc5f21af225fd3cfa425da8543e197e4f34c2b98063710a99e37a999f20fe5d",
+      "bytes": 2307441
+    },
+    "data/bo-003f-landmarks/references/provenance.json": {
+      "sha256": "aa8d55358f565caf727a65f9fc677e1262e67c95c6de0a4fd0f7e83276d8dcba",
+      "bytes": 3039
+    },
+    "data/bo-003f-landmarks/references/roof.jpg": {
+      "sha256": "dacc5b9d80fba0f6b96e27456c3847b4e373603e722929c1a4ce96638ae543e9",
+      "bytes": 7563050
+    },
+    "data/bo-003f-landmarks/run.json": {
+      "sha256": "982c8b01ffe569e612727f5e09eada041a5da2704e0829c0966ccb3a96e9387c",
+      "bytes": 523
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "0e80e4e9dacb98d41d86b8e273976dd634ef3664f2c8f422fc2dee127a6fb292",
+      "bytes": 75433
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "576f858b7b07a8ad0a6714bdf5a2b0c0bcfb63efe1aa7b80119f76b47b1c8737",
+      "bytes": 67189
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/manifest.json": {
+      "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+      "bytes": 989
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "2521eaa5b6e6cf5b24bbd9949dfb3942cca7ae75baa06a4ce84a1a61f45ca236",
+      "bytes": 1173356
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "bytes": 1374102
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "da0995ffd295aa85b8d93b8c8835867cf9d9509d27ae710bfb5f9497f55c34ee",
+      "bytes": 1264362
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "bytes": 1218677
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "bytes": 1232494
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "bytes": 1324201
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "bytes": 1269475
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "bytes": 1295782
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "bytes": 1268287
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "bbba6bba2ac84536ad29596332970212cbdc96a2b22327a7d5db0d92f95e2de5",
+      "bytes": 676489
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "877cf95cc919e8b179b7678af39f0ac9edc2b03d6cc6e261c1a011144879cc25",
+      "bytes": 473528
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "964816c6cedb2bfba508471c6d568eaca196569ce09d0fac9e32629291390923",
+      "bytes": 155489
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "1eb5f940f044831ccc921c7ed48a4b2b644de1149bbf47d205b5503b1ec0c38f",
+      "bytes": 522333
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "83965adf4ed7b98c0019f249d671c4c20915b987bed0ddcd9c3bf13af197bc68",
+      "bytes": 403054
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "fd850e86c527a7fdd65126fd19da1ca07c6b2f465f078366e6c946048280fcd4",
+      "bytes": 38951
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "95e99a7a4280e4756ce117cc908feb8fe8d358c30939e364a11b8c3e23968ed2",
+      "bytes": 576495
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "33dff55e1c24b1ee208507fb26956aea42ffe96cafbf9e9781937a94ba2f1909",
+      "bytes": 328048
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "3ebb1f2c7b547094b7a246228bbba3fea572277f9369f9ad7b93d23194570e97",
+      "bytes": 15614
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "2a98d84c4ad3af722dab3c9eb3c24e8dc0fe1066f9258ed336c37353ca3d7759",
+      "bytes": 442023
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "10ff6e60fdeccda56306532b872f6fe2cb58d7e38442c4e42c2325e79963f586",
+      "bytes": 97528
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "d858f0c68eef5a74f9bda6070d1610054d3e54ace8518d5f5151d670c6fff4db",
+      "bytes": 318704
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "e0db03274113dd872a9343b0608c19140fadc4ee3b2a5f69944b7179aa80c096",
+      "bytes": 82998
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "ae856bc5cbbed9b0e00849e201efd64d3ffe18c941acb6c5093846d540aef717",
+      "bytes": 184648
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "0cd4347c7c5dcefbff3f3f80665f140f3e6fb55462b231c696133d5acf4ae775",
+      "bytes": 9663
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "43df75368cf1fa69931a12f198e3ad7ced887f69cff953b1649a01639accdea6",
+      "bytes": 41694
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "9a68c7a918e138ab8db68e9ca32fd46a020908aa5242843727fcfd9f0293b07f",
+      "bytes": 20385
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "15078b8e1f9c431712d7a9fcbbdb27e39038494ee77d5331b2dd4336fb91e9f4",
+      "bytes": 594922
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "59a5fac34486428c3ac7d35d43388cdf6b850df9b3f413bdeebe4a725deb5e12",
+      "bytes": 512432
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "8ea123031964ce1ec3cadde445a03e083480c032d8c9f477212b8c90c67ab5b8",
+      "bytes": 155965
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "64d6f1856eb34394cf4f44b1b7954f2c8d2cff02dca4cf5602ca3b317a2e220f",
+      "bytes": 5270
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "c2bec7c74a3af5ab9c7176ad3c8a571c635ddb3b334001df3e0024e612bee46f",
+      "bytes": 604555
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "793873fe8fae360703974ccf658646e0d0913c17a4f1914c8d39167e9ae04111",
+      "bytes": 377237
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "4512386ae88a7879c3067f62cc2fa3a5c72c4cfc33dc0e50a12d409e32d3a4a1",
+      "bytes": 7625
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "3fe22ad69b0c675011853ec3afeb3320a5630486db030e0ebcc3b14257532fad",
+      "bytes": 632305
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "37830016351228c02b9b2f578253ff766ce011a5ed5a01c015c1bcb519357315",
+      "bytes": 374439
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "e3d7d49751b596c112d9f5aafe71a614ea989a8e32e88dc883f21d5c1d696c5c",
+      "bytes": 59442
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "2345d2243c03fbdf01bc9c4e68a4337a63dccef640c686322096ba336144abb7",
+      "bytes": 523142
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "111c6b0bb3ae0e88758840823b71e5940629ae66b616fcd8696a9ecf272cdf57",
+      "bytes": 86815
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "d0cc2600f10f66cefc95dc5c46d480d46fc01adc10cec68b977a0ee41b4bf32e",
+      "bytes": 482670
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "5882c2006208602f5c760a61bb2e416aea0e4e27cf64b884e8063e331c7a8d11",
+      "bytes": 116571
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "7cb651c36e4f869c6bae8b36840748f77eecbbd4b038c1d9b8f959daa4ebccfa",
+      "bytes": 169359
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "811a7f4547133f08d99328690f5d630ac01918a3392a2d89af468bf216aa5508",
+      "bytes": 179214
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "ac8b612cc440b1d57834bab404062afc2debf8560b53b944b34b09f612680c34",
+      "bytes": 1991
+    },
+    "data/bo-003f-landmarks/verification/architecture/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "66d49084d7ef2fa3b560ef565d912261e64d26d5c52c0f18fbe3ada1b71966c2",
+      "bytes": 18846
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "215a42345d4a686dfa7f3191d5cb29515d38f8f5a7942b830c223251518b483a",
+      "bytes": 71780
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "f542dd54c241a21caf32ffebad69255a8e76a298e67ae0c825dbe5673de1acdb",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "ba11d08db7425aed52f074d13dad3d2dc33f2a5451cbbe6bcf8e961b139ea9a3",
+      "bytes": 66553
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "fb6dff309a304cc3013333a789c2628b5e06d9c66d5aca381eb1de813ca73fc0",
+      "bytes": 63658
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "1871396316bf6d2a47846c9aef027219c5e782fa7ee1532f9023de5839ad2618",
+      "bytes": 71474
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "f071174cc3deb03e8ca45d80acea485aac8e1b256e55d5e3a4ac2feb620ae79f",
+      "bytes": 71688
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "2ef6ed5b1f20c403a2a1992071ef5467bd1cdb02a93b431efb0bc0594c1360ba",
+      "bytes": 67618
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "5e3775568c01762499e10942e7efd97df2f3a185f6df6508d74b7f0852ab513f",
+      "bytes": 68141
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "e75d92ce37022bcbfc0ba87a96325baa3a8a3b2a70e184c6d90976e11cf961b0",
+      "bytes": 67758
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/manifest.json": {
+      "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+      "bytes": 989
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "5f22d662c695c19b354a2cbb71db25835589a69f2ee94a955400367be67acb4a",
+      "bytes": 1172514
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "e402bf410a5e022b97eb1a05ea1e06fded1adc2ed65295cc9b4120712f300e67",
+      "bytes": 1373972
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "ef7990a95602d9d4e0df8f9eaff38335b1f34f825b21e05bf4d7228bdf8222b2",
+      "bytes": 1240827
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "409c2184f927d43caded391775ae208fb802ee1f3cfb03324fb1dfcd914ecf42",
+      "bytes": 1178576
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "aca4059233f3ee2ca57d7b9355671b8e70c217ba398c771bb64f95720ee4881a",
+      "bytes": 1229754
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "4d8f09c0080985b91f4357f5a0a12be2256ab1159ffc83927cce1a1dd4858def",
+      "bytes": 1322643
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "07de40297ba8cfc3397c6992ed120ecfbde37a282cb6ac80ef9741990d5a9f07",
+      "bytes": 1268730
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "1d65fe58100b5525b537a3e64736c299088a258f359f19e05d083b35579aa33f",
+      "bytes": 1295337
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "16ff82cdae01a30520ca0b615eb83eab1f4a30d839ade98e27a598adb2dcb989",
+      "bytes": 1262705
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "71d8118560ce8fac9f18f2e373198d99b90ef04e03ef5f36f074645d2cf532ef",
+      "bytes": 372210
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "0ef3642ff1deaa76d64fc20064607925ccf18d6d04816b7b56a1d3a91cf80176",
+      "bytes": 394966
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "0e897e91fdc0bfd4bf916f2f9a724bcc764e64406ccb4ea3838820bb1c3e4995",
+      "bytes": 123922
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "bd3c3c7d5693cc33f6ce9b13b30ecb9b3ba25400381af2c919f3391177f6adf1",
+      "bytes": 424521
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "459284b5bbf584e9d092214c381865ae2784fc5d36336b2237d9960fea6a207f",
+      "bytes": 337518
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+      "bytes": 30799
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+      "bytes": 498313
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "990c830b36d61265e731bdcd168a7a7f94bd331fd3e58b08c5411822e4bed66c",
+      "bytes": 267757
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+      "bytes": 13144
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "f1269babddd28c60d762cf1ab1b3b7aee087b2960a7f79df4b740b2247514174",
+      "bytes": 380876
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "061346c098869d9a8370ded409bf6432c0d4d4bbaf1aebf7b149bf26b0fea0e2",
+      "bytes": 75344
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "9907387c3f462f12105a95404d85b24c662605e585ad5630ff46b802abdbce8d",
+      "bytes": 263621
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+      "bytes": 66309
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "a8c9e07d43a4ad02ef1c17b698d226dc5447e4b5aa665a1c2cae8c475dca6175",
+      "bytes": 151640
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+      "bytes": 8333
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "c928ba02aaacbcce9f89de155e06f519a8938754834dc4a5acd2c93869053d1f",
+      "bytes": 29018
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "981c18d8793a72c42224231830f7fbf7fe214ec0ce23fdd1651f7eecdeece5c6",
+      "bytes": 14885
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "0eaa4d28f07ab0a4d5c502c3652f1a388ca12715139bf641e433c90d81c9a0cb",
+      "bytes": 389548
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "fb2b2c81037a2a2a1ba3ac4d6fd151b19eef72e0b1505b22936e75b2d4342023",
+      "bytes": 431126
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "741a6ae9285beab62898d22b7938eab2a00a21d406a95ffa0e609137c3de2e64",
+      "bytes": 119127
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+      "bytes": 5080
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "3fc2c1c45a9417898dea1b074dd1682496642258537ff5c60e31074079c3b287",
+      "bytes": 519249
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "f912e3089c196eb301b1d844c122bb63cca96ccb88ec5a10d502e6a6c4c861d1",
+      "bytes": 308593
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+      "bytes": 6295
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "70fdec8b7f2c47533a2d6c939da6943789bba33436d08882f0c144ddf70342af",
+      "bytes": 536694
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "1114006b17460e5aaa2e7dc98bef8ea4dcceea6e0333db3375cc4bd89bc38523",
+      "bytes": 304106
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+      "bytes": 47091
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "640951534364b982b3d8cc24196cd17b210900330c97351bae3635f405c27c73",
+      "bytes": 435484
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+      "bytes": 68005
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "61da7fb653f0d069c76267073db4b27da8909390e4c29b677992729c0408824d",
+      "bytes": 390451
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "c0abeded440e161e87ad9734c5fca4b0169bd6a74094f53f8d94fedaa04dd7c2",
+      "bytes": 89281
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "10708b0a9656db01f6ad411c129457e421a27cbd70c41c744c51135f457dcb54",
+      "bytes": 131615
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+      "bytes": 140757
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+      "bytes": 1611
+    },
+    "data/bo-003f-landmarks/verification/buildings/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+      "bytes": 15046
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "72d9bed21cad927b47543d77b32df4ab59f287637a248334b826d5580aa99d12",
+      "bytes": 1587
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "95338100d8f8596f3b927dd6366023d51b71f8ad6b81d686b387858aee30d05a",
+      "bytes": 1955846
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "d6d49d8e4f0ed6fd4407212e0e4b17090021499409fbd33ffbeac76dd7d116f7",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "bytes": 51606
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "bytes": 50788
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "bytes": 53664
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "bytes": 51367
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "61478a454947ec8518be8e669c6d3a17bbe808e58b38ff03603babee8ea7f401",
+      "bytes": 46375
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "811fdba324822b3f35669f4ae8573c0fc5d11a4520465565744d11e3a687e322",
+      "bytes": 54236
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "895a90824de703d15a0829a7a0dd70da3ec10d0c4b8b8b09637958bc1c97877c",
+      "bytes": 53287
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "bytes": 54033
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "39d4ec65c0e09c799435ea77723aa0573fee5569bb8d47d0284d99946341a604",
+      "bytes": 57494
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "bytes": 46540
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/manifest.json": {
+      "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+      "bytes": 989
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "9de5eec7a9ef987f45e42bfa110b840510df899d72ed61f9cb8ab7e62edba271",
+      "bytes": 929908
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "1bcc08ae144ca83686b7f069409c63249c8172d8e5b09ea3610bf9199aec01d9",
+      "bytes": 921084
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "c65d30c4bf38605c52b2dcf688e1f5d64f993c6b3e8019c508b4b70c5aa91cf0",
+      "bytes": 1031328
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "902f684509fc4b2941fc5f372e80eebcd9266ff3d5e2c050d7b1e7e806a27f79",
+      "bytes": 990597
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "029ae6233cfb4a78dbf659c31a1db13f97623a897219f2b765aac987855a731e",
+      "bytes": 812970
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "fad2e04e8882b388e9aa22ed357d9ef136d15ba50882c4a589728b753a0c3698",
+      "bytes": 981230
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "d5a7c4f01feb1b4af37f9a35676f2efd15588ddfa682edf08d752a885948db8e",
+      "bytes": 990758
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "23461bf002a7ffc8b0c9176d352ee8b2f5f6c3c66894cdd580858ac29f5cba3d",
+      "bytes": 1066439
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "caa6a0d9220a537475d82b4284398663d3f2c9faa1da0868c0a1b1355187665c",
+      "bytes": 1076117
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "d5eeb8503cf41ba8b1ba7661abe08902188641dc6b4a0762cf9aedcc66e90925",
+      "bytes": 703800
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "6c82c8947da4484d003cf7e70abcc6be42aa575f8cb8f47aaecca05636477c95",
+      "bytes": 46800
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "4c6e06044a4daf4294cdb1d638a36207176d8b7c0d7cebb5d9e635b0295f3c21",
+      "bytes": 41670
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "f49757f0d8ec1d8c5777db3371bb623f4c6b71ccc73ee59beed171a9779580a0",
+      "bytes": 2481
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "c6929dddf68b1447a9fd3581d1e149a2ad1ae110f8ea8d80209714d0bd3f27d3",
+      "bytes": 50006
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "3d26d2665487c3ffaa026d60f919fe5464b14e8e57df2e935eed3ba365be2223",
+      "bytes": 22377
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "b21f4516f391bb5c41dd64970b0286ac3470355b431af8ef20b0dcf7da35fabe",
+      "bytes": 63725
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "85496a66e6a8a61e2e31367b87ce316034f340ebf4b4f0da3a863903fbf81754",
+      "bytes": 19203
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "79ae5523a30d565aca1dfd1698a3c121b828cae59a82774303b6de51c1a4d1e7",
+      "bytes": 31504
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "6f2b5ab22a9df2c72390f00779c9c90b42e35bcf48d563cdbd4c209dddd94804",
+      "bytes": 1955
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "c1c3ffdef990b393bf5fdfc820cf3b9b612cfa35aec72b8785005429b0e6f2ec",
+      "bytes": 16354
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "68e5fb04e4f320931118a381d334935a17bd663f0158836f4353f0041edcf621",
+      "bytes": 2420
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "658509e242aca1d625751350984ccdbbf7a0eacf9bf574c2c4909ef09f6a4a5a",
+      "bytes": 47018
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "5a901a3ad2907494cc41049549b13626f658b3e516ace82a7f2895bd6978595d",
+      "bytes": 52956
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "455387f2a0182dea4556d0f7774309eee8112e4f879428a853272206a76bf4fd",
+      "bytes": 3690
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "7d1ccdc9768c42b27dab2d14c7de1a075c72325e29e563f06e2326ef030e255a",
+      "bytes": 60978
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "ff8c5fe4f6c8d34802b4b4aa94b473e65a1ef4027e8cedd9f632d67edc0db15c",
+      "bytes": 15992
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "11714b3a82157b5653cb67b7d1027bc11ce5c6675387cc13dcde4acd926d6f74",
+      "bytes": 63364
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "3f9bdddf563802428d34c698a8bd70534a1a6c88d38ddf37698248aa208f0454",
+      "bytes": 14610
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "23d9d34c8de9ca02c6e2e3b8f3cf47aa4ef7f677abf6d288e919ac4188ff6f38",
+      "bytes": 35896
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "0766d448782dea1a37d25dbd660cc2a077cdd1cc5889da6d33ea7091418f825b",
+      "bytes": 22492
+    },
+    "data/bo-003f-landmarks/verification/original/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "ea2aa323f9d4897ccfa862bafcafb0882e10e280191cc1fb34ea3b8693a62b1a",
+      "bytes": 2829
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "bytes": 51606
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "bytes": 50788
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "bytes": 53664
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "bytes": 51367
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+      "bytes": 46378
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+      "bytes": 54324
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+      "bytes": 53299
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "bytes": 54033
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+      "bytes": 57470
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "bytes": 46540
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/manifest.json": {
+      "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+      "bytes": 989
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+      "bytes": 926218
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+      "bytes": 921610
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+      "bytes": 1037205
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+      "bytes": 990573
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+      "bytes": 813017
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+      "bytes": 982068
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+      "bytes": 994191
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+      "bytes": 1066936
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+      "bytes": 1078308
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+      "bytes": 704467
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "6c82c8947da4484d003cf7e70abcc6be42aa575f8cb8f47aaecca05636477c95",
+      "bytes": 46800
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "4c6e06044a4daf4294cdb1d638a36207176d8b7c0d7cebb5d9e635b0295f3c21",
+      "bytes": 41670
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "f49757f0d8ec1d8c5777db3371bb623f4c6b71ccc73ee59beed171a9779580a0",
+      "bytes": 2481
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "c6929dddf68b1447a9fd3581d1e149a2ad1ae110f8ea8d80209714d0bd3f27d3",
+      "bytes": 50006
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "3d26d2665487c3ffaa026d60f919fe5464b14e8e57df2e935eed3ba365be2223",
+      "bytes": 22377
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "b21f4516f391bb5c41dd64970b0286ac3470355b431af8ef20b0dcf7da35fabe",
+      "bytes": 63725
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "85496a66e6a8a61e2e31367b87ce316034f340ebf4b4f0da3a863903fbf81754",
+      "bytes": 19203
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "79ae5523a30d565aca1dfd1698a3c121b828cae59a82774303b6de51c1a4d1e7",
+      "bytes": 31504
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "6f2b5ab22a9df2c72390f00779c9c90b42e35bcf48d563cdbd4c209dddd94804",
+      "bytes": 1955
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "c1c3ffdef990b393bf5fdfc820cf3b9b612cfa35aec72b8785005429b0e6f2ec",
+      "bytes": 16354
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "68e5fb04e4f320931118a381d334935a17bd663f0158836f4353f0041edcf621",
+      "bytes": 2420
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "658509e242aca1d625751350984ccdbbf7a0eacf9bf574c2c4909ef09f6a4a5a",
+      "bytes": 47018
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "5a901a3ad2907494cc41049549b13626f658b3e516ace82a7f2895bd6978595d",
+      "bytes": 52956
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "455387f2a0182dea4556d0f7774309eee8112e4f879428a853272206a76bf4fd",
+      "bytes": 3690
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "7d1ccdc9768c42b27dab2d14c7de1a075c72325e29e563f06e2326ef030e255a",
+      "bytes": 60978
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "ff8c5fe4f6c8d34802b4b4aa94b473e65a1ef4027e8cedd9f632d67edc0db15c",
+      "bytes": 15992
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "11714b3a82157b5653cb67b7d1027bc11ce5c6675387cc13dcde4acd926d6f74",
+      "bytes": 63364
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "3f9bdddf563802428d34c698a8bd70534a1a6c88d38ddf37698248aa208f0454",
+      "bytes": 14610
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "23d9d34c8de9ca02c6e2e3b8f3cf47aa4ef7f677abf6d288e919ac4188ff6f38",
+      "bytes": 35896
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "0766d448782dea1a37d25dbd660cc2a077cdd1cc5889da6d33ea7091418f825b",
+      "bytes": 22492
+    },
+    "data/bo-003f-landmarks/verification/osm/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "ea2aa323f9d4897ccfa862bafcafb0882e10e280191cc1fb34ea3b8693a62b1a",
+      "bytes": 2829
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+      "bytes": 71683
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+      "bytes": 67260
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+      "bytes": 71480
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+      "bytes": 68145
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/manifest.json": {
+      "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1",
+      "bytes": 989
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+      "bytes": 1167482
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "bytes": 1374102
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+      "bytes": 1264030
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "bytes": 1218677
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+      "bytes": 1230119
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "bytes": 1324201
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "bytes": 1269475
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+      "bytes": 1295392
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "bytes": 1268287
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_-1.json": {
+      "sha256": "d8f6c56782b898378941e04b461f5777da4ad7315785f8351fce8ff23baf1997",
+      "bytes": 373492
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_-2.json": {
+      "sha256": "a7091282fd0ddfa543e68ef3cee1c067e10a351ab007920950046058f4d4dbb2",
+      "bytes": 395055
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_-3.json": {
+      "sha256": "40cb934833c4733c4093198dbfadd2d45cb771641f5a0eaf70269e8a2fa86b4e",
+      "bytes": 124191
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_0.json": {
+      "sha256": "9498cbb8c632b79de3a9cc2d3556ef165d7fb2e88596a8ba91603a8926c2b27f",
+      "bytes": 430252
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_1.json": {
+      "sha256": "c64cd9477321370fc31d7b85ec14bd4e415f335b61d5702f59822532f04da3fc",
+      "bytes": 337960
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-1_2.json": {
+      "sha256": "faba6532e97fb74550743fd1247dfa91bf4425399192c40083d5eb038e1a2100",
+      "bytes": 30799
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-2_-1.json": {
+      "sha256": "bba5bdb01e5262abddfac59e3c0f9852727c739d0bf4d0b1a021bab25cd82f68",
+      "bytes": 498313
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-2_-2.json": {
+      "sha256": "870ea2dd1ab35866606a7282d36550f2ae37d793cdd326b2789f9a66fbbe626c",
+      "bytes": 272264
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-2_-3.json": {
+      "sha256": "ec350c5f8cd9696ef2c07ab40095753ae2d38a55b84ec38ccec0307cd5139eca",
+      "bytes": 13144
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-2_0.json": {
+      "sha256": "82e6fcfc313cf8cc1e06045be7baf2afda145c3d0214a3d34af4960919d7794e",
+      "bytes": 387847
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-2_1.json": {
+      "sha256": "ef42b5ad2c47f8375f52f68873ea6be6917e8b0ff62cb7f29d1c04acbc4fa596",
+      "bytes": 78537
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-3_-1.json": {
+      "sha256": "d4a42d7e341d0a17b1a86a2c997c0d034aa6ab4ff346ca83551db228dca9aee1",
+      "bytes": 264423
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-3_-2.json": {
+      "sha256": "118fcd8c4209bf2845394dc539d2c718f3aae5321479dfafb0d1eb23d0e64a14",
+      "bytes": 66309
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-3_0.json": {
+      "sha256": "31479edeff86b09b094436996c94218b8a0903e3f4a18b6c3bc3bd609fb31185",
+      "bytes": 153715
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-3_1.json": {
+      "sha256": "918e8fe879dbdc4014c05f12c1d53c5277a4620af39da3f4043cd30194ad65f8",
+      "bytes": 8333
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-4_-1.json": {
+      "sha256": "22f1ee3b94d295a00b7e081c770bb3086be373702bbeab33ff1e7939284c15d0",
+      "bytes": 32957
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/-4_0.json": {
+      "sha256": "8ef9459d694d334850463c1b104115a1ebfc710dbb1e0e2210235b114e48b431",
+      "bytes": 16595
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_-1.json": {
+      "sha256": "f49d10d2680232745a55c8b424eac82bfed45a08f27b01a82aff19940c59d20c",
+      "bytes": 390416
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_-2.json": {
+      "sha256": "09825a4df947194651dbc9150e72eeb58ac6e4f47400cec511c0039faef66608",
+      "bytes": 431725
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_-3.json": {
+      "sha256": "0f08c3e0e5dd1de2dbe52b9889f653a1ddabab51bd72159b1051cdaf1659fdec",
+      "bytes": 128042
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_-4.json": {
+      "sha256": "e1497591f9c187a2fc6f7d87f7e5ae7de3e635a9c69dff7b35eba3957cc7c69b",
+      "bytes": 5080
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_0.json": {
+      "sha256": "29750ca624d6cbe3928823ca9a67f3f65f16a0e9b9afd6f36f0a16d3350ddce4",
+      "bytes": 520406
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_1.json": {
+      "sha256": "122c376c0f3008a75fd5a6780911681cd598752b153890de60f348da62497a71",
+      "bytes": 308967
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/0_2.json": {
+      "sha256": "279804be87f2a791f52ce52b0941730be2dce4b839d77f6c863b64c784fede71",
+      "bytes": 6295
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/1_-1.json": {
+      "sha256": "2074b0cb6f76fa7f82fe68c6f3ac8acfa5696f281a6065ad23060ba37fa01359",
+      "bytes": 536900
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/1_-2.json": {
+      "sha256": "571f9ce2bc5b1e9127212064f4127e53ace2cd7d5f2f9fe0ef1408a18bfa4cdb",
+      "bytes": 306201
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/1_-3.json": {
+      "sha256": "8d65f546e139a03fe7ad0ba7d78aec1879a26affb20c288e80e475df918b2f52",
+      "bytes": 47091
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/1_0.json": {
+      "sha256": "770d553620f1024b76358672ed586c5877c8bb7b79ca9626169a00fee0522eb9",
+      "bytes": 435842
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/1_1.json": {
+      "sha256": "cb131e8988959e3bedd36d643dd9e5e7cb94e59801e7e27a8efbddce83fd4c8a",
+      "bytes": 68005
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/2_-1.json": {
+      "sha256": "09d0686d41782ddd58c0bbaa10adaecba28444511ffc72b8923e18bd2884256d",
+      "bytes": 392632
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/2_-2.json": {
+      "sha256": "df038fbcd1c7516a13c0a344837c322e09f34a4b1055d264046f66c9cbff5064",
+      "bytes": 91306
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/2_0.json": {
+      "sha256": "98ff083f39f246bf74caf733848c6780bdf07601028416db7d4df3e6e7b391b4",
+      "bytes": 138609
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/3_-1.json": {
+      "sha256": "b3523c090f494d27bc1a958e6addf66e26378b6538927f3d9642022cffc5cad8",
+      "bytes": 140757
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/3_-2.json": {
+      "sha256": "50c0a075fe06c31b1633ba1a7126ceff5f83f49b57eb134f9fc52c37c8130d70",
+      "bytes": 1611
+    },
+    "data/bo-003f-landmarks/verification/trees/derived/piazza-maggiore/scene/3_0.json": {
+      "sha256": "f2cc7a15fdabf35a66b3b1c2107f9e0649086be16f4b06a3c61ef5d06ccf5288",
+      "bytes": 15046
+    },
+    "ATTRIBUTION.md": {
+      "sha256": "9d3c40a5342e496958f3f251876cff4ed0013ecc9d42d1dd990441c13e9a93c1",
+      "bytes": 16076
+    },
+    "pipeline/page/renderer.ts": {
+      "sha256": "11127c422016a23cd6b10bce7153483ded83975f07cadd16895bc7a5efbb923b",
+      "bytes": 58675
+    },
+    "pipeline/page/neutral.ts": {
+      "sha256": "b3584f69be0765b0854e9c06144dd856b21df54a575552445c75520e419f094d",
+      "bytes": 549
+    },
+    "pipeline/src/render.ts": {
+      "sha256": "577245c17297bfd454888cedd02a86d75784d22b057153e2dd4c944659e7b1a4",
+      "bytes": 6645
+    },
+    "pipeline/src/places.ts": {
+      "sha256": "3d3f0ed0de0e0f2d209f3874a0831ae574aec21b62f38a55010b2c8e415f2e98",
+      "bytes": 8876
+    },
+    "pipeline/src/bologna-metadata.ts": {
+      "sha256": "19fa471befbae7b5b28d3cae285c695c9d4381c35e9424a42a80970492e508f8",
+      "bytes": 1588
+    },
+    "pipeline/src/bologna-roofs.ts": {
+      "sha256": "d2f9c1126f5f250a460bbb71714416d88e78772d0746f912ce990321e2323055",
+      "bytes": 5910
+    },
+    "web/src/scripts/map.ts": {
+      "sha256": "986c995a22ab5a003189317bdbf29a077c3a94e390840e41723e6cc28891b852",
+      "bytes": 19513
+    },
+    "pipeline/src/bologna-fidelity-run.ts": {
+      "sha256": "f4ce360a47fc7552c9f3456bbfc648d663a8e51dbcf65308015a384d0b6db9c6",
+      "bytes": 7937
+    },
+    "pipeline/src/bologna-fidelity-safety.ts": {
+      "sha256": "e2e2d317168eb81c4d52e65eb93e063f6396469bac2f62fe3fa68895ec2235ff",
+      "bytes": 1109
+    },
+    "pipeline/src/bologna-fidelity.test.ts": {
+      "sha256": "dfc4d7d96f833789b581edceca9e46710d843d950fe968fd56c9aa576476da42",
+      "bytes": 4433
+    },
+    "pipeline/src/bologna-fidelity.ts": {
+      "sha256": "c54acbcf427499acd04d51f3673a38ec4e02de0ca495be1a46291b5b36783ce6",
+      "bytes": 1778
+    },
+    "docs/bologna-landmark-fidelity-audit.json": {
+      "sha256": "7c6d33572ed46196273f6d6d97f413b24b43dd2ddc0694848ad634d64163cb4c",
+      "bytes": 218234
+    },
+    "docs/bologna-landmark-fidelity-audit.md": {
+      "sha256": "da6bb98a9384f813cffcd827e25d51f0827e895ef0763c71b701fdb0f6c57a08",
+      "bytes": 11953
+    },
+    "docs/bologna-landmark-fidelity-audit.ts": {
+      "sha256": "09aef583ab76d6173cff5209e501f2c87090d73d66078b472b04dee0d9ae2237",
+      "bytes": 8402
+    },
+    "docs/bologna-landmark-fidelity-checksums.ts": {
+      "sha256": "f876657e67aab63fcb540ee198e78cbe5ae408e983a66d92c0e38520da6b2bda",
+      "bytes": 1289
+    },
+    "docs/bologna-landmark-fidelity-comparison.jpg": {
+      "sha256": "d415ea2a206dc1eb1d09bb52df7c9645545715572dfc613e8ea7315fdbd2a77d",
+      "bytes": 812345
+    },
+    "docs/bologna-landmark-fidelity-configuration.json": {
+      "sha256": "a864e31cb0f3f720a763123953f1e5472ef42a1ed6701f0753aa15f2caafd24e",
+      "bytes": 4336
+    },
+    "docs/bologna-landmark-fidelity-crops.jpg": {
+      "sha256": "22abce1ab5cc2ef92deb5fd349ab4d90e713794ee95c542cb68fc20e9eda418a",
+      "bytes": 854845
+    },
+    "docs/bologna-landmark-fidelity-geometry.ts": {
+      "sha256": "6990844c8be954946c1a903e0bc30bc8ad1c23df3abe93090b2ef9c983aeca44",
+      "bytes": 1492
+    },
+    "docs/bologna-landmark-fidelity-inputs.json": {
+      "sha256": "93a5b5039f3612218c5cd2556f9442e5623000fa6229020bc7e270973a49efdb",
+      "bytes": 88181
+    },
+    "docs/bologna-landmark-fidelity-proof.jpg": {
+      "sha256": "b66ab2ac01dddc5c5f03af82802527cbb2da5c491ca76e3ecd8c92012d380cd2",
+      "bytes": 862123
+    },
+    "docs/bologna-landmark-fidelity-qa.json": {
+      "sha256": "077c095882dc0e1061441786c100002fbf571baad97c374c52d96eb8754c6313",
+      "bytes": 179881
+    },
+    "docs/bologna-landmark-fidelity-qa.ts": {
+      "sha256": "a4451794cf664910c022db6c1a179fdaa591029f9db8ca787b22c3cb4772aa74",
+      "bytes": 19542
+    },
+    "docs/bologna-landmark-fidelity-report.md": {
+      "sha256": "a31067aaaa0340ba194ec6cb52fd058cb4e522a2aba4330c3d09c90eaceac6f9",
+      "bytes": 18651
+    }
+  }
+}

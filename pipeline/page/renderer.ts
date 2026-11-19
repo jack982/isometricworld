@@ -10,6 +10,7 @@ import { drawGround, type Feature } from "./ground.ts";
 import { deckHeight } from "../src/bridges.ts";
 import type { BuildingMetadata, PorticoPlan } from "../src/bologna-metadata.ts";
 import { appendArchitecturalBuilding, appendPortico, architectureBuffers, architectureMesh } from "./architecture.ts";
+import { neutralBuildingMaterial } from "./neutral.ts";
 
 const params = new URLSearchParams(location.search);
 const REGION = params.get("region") ?? "israel-center";
@@ -70,6 +71,8 @@ const SUN = STYLED ? (() => {
   const { right: r, dir: d } = axes(), f = new THREE.Vector2(d[0], d[1]).normalize();
   return new THREE.Vector3(-0.45 * f.x - 0.55 * r[0], -0.45 * f.y - 0.55 * r[1], 0.8).normalize();
 })() : new THREE.Vector3(-0.55, -0.35, 0.76).normalize();
+/** Opt-in diagnostic only; default generic, architecture and LoD2 materials are untouched. */
+const NEUTRAL_MATERIAL = params.get("materials") === "neutral" ? neutralBuildingMaterial(SUN) : null;
 /** ground contact shadows point away from the sun */
 const SHADOW: [number, number] = (() => { const v = new THREE.Vector2(-SUN.x, -SUN.y).normalize(); return [v.x, v.y]; })();
 const groundTexture = new THREE.CanvasTexture(document.createElement("canvas"));
@@ -989,6 +992,9 @@ function placeCamera(tx: number, ty: number) {
 async function renderTile(tx: number, ty: number, data?: TileObjects) {
   placeCamera(tx, ty);
   buildObjects(data ?? { b: [], t: [] });
+  if (NEUTRAL_MATERIAL) objects.traverse((o) => {
+    if (o instanceof THREE.Mesh && !(o instanceof THREE.InstancedMesh)) o.material = NEUTRAL_MATERIAL;
+  });
   buildGround(tx, ty, data);
   if (STYLED) {
     renderer.setRenderTarget(colorTarget);

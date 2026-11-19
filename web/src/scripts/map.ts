@@ -46,7 +46,7 @@ const avifReady = new Promise<boolean>((done) => {
 });
 const [world, avif] = await Promise.all([worldReady, avifReady]);
 if (REGION === "bologna") {
-  const activeMunicipal = world.attributions.filter(s => s.includes("Comune di Bologna") || s.includes("opendata.comune.bologna.it"));
+  const activeMunicipal = world.attributions.filter(s => s.includes("Comune di Bologna") || s.includes("opendata.comune.bologna.it") || s.includes("BO-003F appearance references"));
   const videoCredit = document.getElementById("video-credit");
   if (videoCredit && activeMunicipal.length) {
     videoCredit.textContent = [...REGIONS.bologna.credits, ...activeMunicipal].join("\n");
@@ -323,6 +323,7 @@ document.getElementById("credits")!.innerHTML = [
     : REGION === "bologna" ? [
       ...(world.attributions.some(s => s.includes("Comune di Bologna – SIT")) ? [`<a href="https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/">Comune di Bologna – SIT</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (projected, filtered and extruded)`] : []),
       ...(world.attributions.some(s => s.includes("Settore Ambiente e Verde")) ? [`<a href="https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/">Comune di Bologna – Settore Ambiente e Verde</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (class-based estimates)`] : []),
+      ...(world.attributions.some(s => s.includes("BO-003F appearance references")) ? [`Appearance references: <a href="https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg">Zairon (roof)</a>, <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg">Congolandia.g (facade)</a>, <a href="https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg">Raffacossa (clock)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (appearance only; estimated geometry)`] : []),
     ] : [`<a href="https://opendatasource.tel-aviv.gov.il/">Tel Aviv-Yafo Municipality</a>`]),
   `<span title="© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA">Copernicus DEM</span>`,
   // the method to recreate the derived database (ODbL) and the code

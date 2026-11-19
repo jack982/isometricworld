@@ -12,10 +12,11 @@ export interface BuildingMetadata {
     landmark?:string;
     frontNormal?:[number,number];
     roof:RoofPlan;
+    refinement?: { mode:"bo-003f"; evidence:"appearance-only"; measured:false; reference:string };
   };
 }
 export interface RoofPlan {
-  method:"flat"|"gable-estimate"|"hipped-estimate"|"segmented-hip-estimate";
+  method:"flat"|"gable-estimate"|"hipped-estimate"|"segmented-hip-estimate"|"shed-estimate";
   estimated:true;
   upliftM:number;
   triangles:number[]; // x,y,uplift above unchanged eave; no absolute CTC elevations
