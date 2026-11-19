@@ -1,0 +1,284 @@
+{
+  "complete": true,
+  "source": {
+    "url": "https://download.geofabrik.de/europe/italy/nord-est-261117.osm.pbf",
+    "downloadedAt": "2026-11-19T09:18:48.877Z",
+    "httpDate": "Wed, 18 Nov 2026 02:58:22 GMT",
+    "bytes": 627405116,
+    "sha256": "3890fed2562138931ae60f155f977feb9fe4f4eca0413620a036b9dea0f85e2e",
+    "publisherMd5": "d5f5b980a0c0350eb34c2bb358230d85",
+    "license": "ODbL 1.0",
+    "credit": "© OpenStreetMap contributors",
+    "provenance": "https://download.geofabrik.de/europe/italy/nord-est.html",
+    "fileinfo": {
+      "file": {
+        "name": "data/bo-001r/source/nord-est-261117.osm.pbf",
+        "format": "PBF",
+        "compression": "none",
+        "size": 627405116
+      },
+      "header": {
+        "boxes": [
+          [
+            9.195461,
+            43.72977,
+            14.82597,
+            47.31101
+          ]
+        ],
+        "with_history": false,
+        "option": {
+          "generator": "osmium/1.16.0",
+          "osmosis_replication_base_url": "https://download.geofabrik.de/europe/italy/nord-est-updates",
+          "osmosis_replication_sequence_number": "4032",
+          "osmosis_replication_timestamp": "2026-11-17T21:24:30Z",
+          "pbf_dense_nodes": "true",
+          "pbf_optional_feature_0": "Sort.Type_then_ID",
+          "sorting": "Type_then_ID",
+          "timestamp": "2026-11-17T21:24:30Z"
+        }
+      },
+      "data": {
+        "bbox": [
+          7.6736093,
+          38.2262711,
+          21.7191723,
+          47.2522021
+        ],
+        "timestamp": {
+          "first": "2006-06-30T10:53:38Z",
+          "last": "2026-11-17T21:24:30Z"
+        },
+        "objects_ordered": true,
+        "multiple_versions": false,
+        "crc32": "6610c8ad",
+        "count": {
+          "changesets": 0,
+          "nodes": 72157668,
+          "ways": 8215676,
+          "relations": 128476
+        },
+        "minid": {
+          "changesets": 0,
+          "nodes": 6714615,
+          "ways": 1784572,
+          "relations": 8569
+        },
+        "maxid": {
+          "changesets": 0,
+          "nodes": 14388376641,
+          "ways": 1580791257,
+          "relations": 22091468
+        },
+        "buffers": {
+          "count": 106618,
+          "size": 6725657792,
+          "capacity": 7007240192
+        },
+        "metadata": {
+          "all_objects": {
+            "version": true,
+            "timestamp": true,
+            "changeset": false,
+            "user": false,
+            "uid": false
+          },
+          "some_objects": {
+            "version": true,
+            "timestamp": true,
+            "changeset": false,
+            "user": false,
+            "uid": false
+          }
+        }
+      }
+    }
+  },
+  "clipping": {
+    "bboxLonLat": [
+      11.317,
+      44.4693,
+      11.369,
+      44.5183
+    ],
+    "marginDeg": 0.02,
+    "command": [
+      "/tmp/bo-001r-tools/usr/bin/osmium",
+      "extract",
+      "-b",
+      "11.317,44.4693,11.369,44.5183",
+      "--strategy",
+      "smart",
+      "-S",
+      "types=any",
+      "-S",
+      "tags=landuse,leisure,natural,water,waterway,amenity,man_made,place,golf,area:highway,aeroway",
+      "-o",
+      "data/bo-001r/source/piazza-maggiore-surface.osm.pbf",
+      "data/bo-001r/source/nord-est-261117.osm.pbf"
+    ],
+    "tool": "osmium version 1.18.0\nlibosmium version 2.22.0\nSupported PBF compression types: none zlib lz4\n\nCopyright (C) 2013-2025  Jochen Topf <jochen@topf.org>\nLicense: GNU GENERAL PUBLIC LICENSE Version 3 <https://gnu.org/licenses/gpl.html>.\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\n",
+    "referenceCheck": "",
+    "cutSha256": "fe9c9a437a75b89fe5a6ec06ca872df71576cf07194a561275710301775b7502",
+    "oplSha256": "291f4153cad17c488a375b9b1efdf78a7e9cf81f141bf2d44ea2bd649f5b0844",
+    "method": "Smart whole ways and complete surface-tagged relations; select objects with node/member vertices in bbox, matching Overpass bbox semantics; no geometry truncation"
+  },
+  "counts": {
+    "nodes": 332542,
+    "ways": 46863,
+    "relations": 2183,
+    "selected": 16158,
+    "before": 14729,
+    "retainedBaseline": 14729,
+    "missingBaseline": 0
+  },
+  "categories": {
+    "highways": {
+      "status": "acquired-and-parsed",
+      "source": 12032,
+      "parsed": 12032,
+      "before": 12032,
+      "byType": {
+        "node": 0,
+        "way": 12032,
+        "relation": 0
+      }
+    },
+    "areaHighway": {
+      "status": "acquired-and-parsed",
+      "source": 97,
+      "parsed": 97,
+      "before": 97,
+      "byType": {
+        "node": 0,
+        "way": 97,
+        "relation": 0
+      }
+    },
+    "surfaceRail": {
+      "status": "acquired-and-parsed",
+      "source": 600,
+      "parsed": 600,
+      "before": 600,
+      "byType": {
+        "node": 0,
+        "way": 600,
+        "relation": 0
+      }
+    },
+    "landuse": {
+      "status": "acquired-and-parsed",
+      "source": 2005,
+      "parsed": 2005,
+      "before": 2005,
+      "byType": {
+        "node": 1,
+        "way": 1972,
+        "relation": 32
+      }
+    },
+    "leisure": {
+      "status": "acquired-and-parsed",
+      "source": 575,
+      "parsed": 575,
+      "before": 5,
+      "byType": {
+        "node": 29,
+        "way": 528,
+        "relation": 18
+      }
+    },
+    "natural": {
+      "status": "acquired-and-parsed",
+      "source": 97,
+      "parsed": 97,
+      "before": 2,
+      "byType": {
+        "node": 0,
+        "way": 93,
+        "relation": 4
+      }
+    },
+    "water": {
+      "status": "acquired-and-parsed",
+      "source": 23,
+      "parsed": 23,
+      "before": 0,
+      "byType": {
+        "node": 0,
+        "way": 21,
+        "relation": 2
+      }
+    },
+    "amenities": {
+      "status": "acquired-and-parsed",
+      "source": 727,
+      "parsed": 727,
+      "before": 1,
+      "byType": {
+        "node": 145,
+        "way": 564,
+        "relation": 18
+      }
+    },
+    "manMade": {
+      "status": "acquired-and-parsed",
+      "source": 16,
+      "parsed": 16,
+      "before": 0,
+      "byType": {
+        "node": 0,
+        "way": 16,
+        "relation": 0
+      }
+    },
+    "squares": {
+      "status": "acquired-and-parsed",
+      "source": 30,
+      "parsed": 30,
+      "before": 9,
+      "byType": {
+        "node": 2,
+        "way": 25,
+        "relation": 3
+      }
+    },
+    "golf": {
+      "status": "acquired-empty",
+      "source": 0,
+      "parsed": 0,
+      "before": 0,
+      "byType": {
+        "node": 0,
+        "way": 0,
+        "relation": 0
+      },
+      "emptyReason": "No matching elements in successfully decoded local clip within bbox; not a failed download"
+    },
+    "aeroway": {
+      "status": "acquired-and-parsed",
+      "source": 2,
+      "parsed": 2,
+      "before": 0,
+      "byType": {
+        "node": 0,
+        "way": 2,
+        "relation": 0
+      }
+    }
+  },
+  "ground": {
+    "path": "data/bo-001r/raw/piazza-maggiore/ground.json",
+    "sha256": "a8910b42b33be5c625eb071e7f7aa486cbb4750c1c214e9d32e39ee938c8522b"
+  },
+  "baselineInputs": {
+    "osm": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+    "roads": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12",
+    "dem": "dec25503aa95a0956bb572f48fe7537a8aa767a1709f19f5d929b57f9e54281f"
+  },
+  "optionalRailRoutes": {
+    "status": "not-acquired-for-animation",
+    "partialRelationsInClip": 48,
+    "reason": "Geographic clip contains incomplete long-distance route membership; not emitted as complete rails.json. Surface rail ways acquired independently."
+  }
+}

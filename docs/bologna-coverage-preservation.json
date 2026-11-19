@@ -1,0 +1,330 @@
+{
+  "bo-001-review.patch": {
+    "bytes": 5185,
+    "sha256": "15b8eab298415463c9b1caa29f2313f1f4736346555ad2296ae5d502c2d67c4f"
+  },
+  "data/derived/piazza-maggiore/ground/bridge-ends.json": {
+    "bytes": 1587,
+    "sha256": "72d9bed21cad927b47543d77b32df4ab59f287637a248334b826d5580aa99d12"
+  },
+  "data/derived/piazza-maggiore/ground/features.json": {
+    "bytes": 1955846,
+    "sha256": "95338100d8f8596f3b927dd6366023d51b71f8ad6b81d686b387858aee30d05a"
+  },
+  "data/derived/piazza-maggiore/ground/height.bin": {
+    "bytes": 908020,
+    "sha256": "d6d49d8e4f0ed6fd4407212e0e4b17090021499409fbd33ffbeac76dd7d116f7"
+  },
+  "data/derived/piazza-maggiore/ground/meta.json": {
+    "bytes": 51,
+    "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276"
+  },
+  "data/derived/piazza-maggiore/height/-1_-1.png": {
+    "bytes": 51606,
+    "sha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01"
+  },
+  "data/derived/piazza-maggiore/height/-1_-2.png": {
+    "bytes": 50788,
+    "sha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596"
+  },
+  "data/derived/piazza-maggiore/height/-1_0.png": {
+    "bytes": 53664,
+    "sha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00"
+  },
+  "data/derived/piazza-maggiore/height/-2_-1.png": {
+    "bytes": 51367,
+    "sha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9"
+  },
+  "data/derived/piazza-maggiore/height/-2_0.png": {
+    "bytes": 46375,
+    "sha256": "61478a454947ec8518be8e669c6d3a17bbe808e58b38ff03603babee8ea7f401"
+  },
+  "data/derived/piazza-maggiore/height/0_-1.png": {
+    "bytes": 54236,
+    "sha256": "811fdba324822b3f35669f4ae8573c0fc5d11a4520465565744d11e3a687e322"
+  },
+  "data/derived/piazza-maggiore/height/0_-2.png": {
+    "bytes": 53287,
+    "sha256": "895a90824de703d15a0829a7a0dd70da3ec10d0c4b8b8b09637958bc1c97877c"
+  },
+  "data/derived/piazza-maggiore/height/0_0.png": {
+    "bytes": 54033,
+    "sha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d"
+  },
+  "data/derived/piazza-maggiore/height/1_-1.png": {
+    "bytes": 57494,
+    "sha256": "39d4ec65c0e09c799435ea77723aa0573fee5569bb8d47d0284d99946341a604"
+  },
+  "data/derived/piazza-maggiore/height/1_0.png": {
+    "bytes": 46540,
+    "sha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c"
+  },
+  "data/derived/piazza-maggiore/manifest.json": {
+    "bytes": 989,
+    "sha256": "d9ea0f4dcee8b25b8c7ffd9886870dab2f5f3d3e953098a6ba13249b52de3bb1"
+  },
+  "data/derived/piazza-maggiore/render/-1_-1.png": {
+    "bytes": 929908,
+    "sha256": "9de5eec7a9ef987f45e42bfa110b840510df899d72ed61f9cb8ab7e62edba271"
+  },
+  "data/derived/piazza-maggiore/render/-1_-2.png": {
+    "bytes": 921084,
+    "sha256": "1bcc08ae144ca83686b7f069409c63249c8172d8e5b09ea3610bf9199aec01d9"
+  },
+  "data/derived/piazza-maggiore/render/-1_0.png": {
+    "bytes": 1031328,
+    "sha256": "c65d30c4bf38605c52b2dcf688e1f5d64f993c6b3e8019c508b4b70c5aa91cf0"
+  },
+  "data/derived/piazza-maggiore/render/-2_-1.png": {
+    "bytes": 990597,
+    "sha256": "902f684509fc4b2941fc5f372e80eebcd9266ff3d5e2c050d7b1e7e806a27f79"
+  },
+  "data/derived/piazza-maggiore/render/-2_0.png": {
+    "bytes": 812970,
+    "sha256": "029ae6233cfb4a78dbf659c31a1db13f97623a897219f2b765aac987855a731e"
+  },
+  "data/derived/piazza-maggiore/render/0_-1.png": {
+    "bytes": 981230,
+    "sha256": "fad2e04e8882b388e9aa22ed357d9ef136d15ba50882c4a589728b753a0c3698"
+  },
+  "data/derived/piazza-maggiore/render/0_-2.png": {
+    "bytes": 990758,
+    "sha256": "d5a7c4f01feb1b4af37f9a35676f2efd15588ddfa682edf08d752a885948db8e"
+  },
+  "data/derived/piazza-maggiore/render/0_0.png": {
+    "bytes": 1066439,
+    "sha256": "23461bf002a7ffc8b0c9176d352ee8b2f5f6c3c66894cdd580858ac29f5cba3d"
+  },
+  "data/derived/piazza-maggiore/render/1_-1.png": {
+    "bytes": 1076117,
+    "sha256": "caa6a0d9220a537475d82b4284398663d3f2c9faa1da0868c0a1b1355187665c"
+  },
+  "data/derived/piazza-maggiore/render/1_0.png": {
+    "bytes": 703800,
+    "sha256": "d5eeb8503cf41ba8b1ba7661abe08902188641dc6b4a0762cf9aedcc66e90925"
+  },
+  "data/derived/piazza-maggiore/scene/-1_-1.json": {
+    "bytes": 46800,
+    "sha256": "6c82c8947da4484d003cf7e70abcc6be42aa575f8cb8f47aaecca05636477c95"
+  },
+  "data/derived/piazza-maggiore/scene/-1_-2.json": {
+    "bytes": 41670,
+    "sha256": "4c6e06044a4daf4294cdb1d638a36207176d8b7c0d7cebb5d9e635b0295f3c21"
+  },
+  "data/derived/piazza-maggiore/scene/-1_-3.json": {
+    "bytes": 2481,
+    "sha256": "f49757f0d8ec1d8c5777db3371bb623f4c6b71ccc73ee59beed171a9779580a0"
+  },
+  "data/derived/piazza-maggiore/scene/-1_0.json": {
+    "bytes": 50006,
+    "sha256": "c6929dddf68b1447a9fd3581d1e149a2ad1ae110f8ea8d80209714d0bd3f27d3"
+  },
+  "data/derived/piazza-maggiore/scene/-1_1.json": {
+    "bytes": 22377,
+    "sha256": "3d26d2665487c3ffaa026d60f919fe5464b14e8e57df2e935eed3ba365be2223"
+  },
+  "data/derived/piazza-maggiore/scene/-2_-1.json": {
+    "bytes": 63725,
+    "sha256": "b21f4516f391bb5c41dd64970b0286ac3470355b431af8ef20b0dcf7da35fabe"
+  },
+  "data/derived/piazza-maggiore/scene/-2_-2.json": {
+    "bytes": 19203,
+    "sha256": "85496a66e6a8a61e2e31367b87ce316034f340ebf4b4f0da3a863903fbf81754"
+  },
+  "data/derived/piazza-maggiore/scene/-2_0.json": {
+    "bytes": 31504,
+    "sha256": "79ae5523a30d565aca1dfd1698a3c121b828cae59a82774303b6de51c1a4d1e7"
+  },
+  "data/derived/piazza-maggiore/scene/-2_1.json": {
+    "bytes": 1955,
+    "sha256": "6f2b5ab22a9df2c72390f00779c9c90b42e35bcf48d563cdbd4c209dddd94804"
+  },
+  "data/derived/piazza-maggiore/scene/-3_-1.json": {
+    "bytes": 16354,
+    "sha256": "c1c3ffdef990b393bf5fdfc820cf3b9b612cfa35aec72b8785005429b0e6f2ec"
+  },
+  "data/derived/piazza-maggiore/scene/-3_0.json": {
+    "bytes": 2420,
+    "sha256": "68e5fb04e4f320931118a381d334935a17bd663f0158836f4353f0041edcf621"
+  },
+  "data/derived/piazza-maggiore/scene/0_-1.json": {
+    "bytes": 47018,
+    "sha256": "658509e242aca1d625751350984ccdbbf7a0eacf9bf574c2c4909ef09f6a4a5a"
+  },
+  "data/derived/piazza-maggiore/scene/0_-2.json": {
+    "bytes": 52956,
+    "sha256": "5a901a3ad2907494cc41049549b13626f658b3e516ace82a7f2895bd6978595d"
+  },
+  "data/derived/piazza-maggiore/scene/0_-3.json": {
+    "bytes": 3690,
+    "sha256": "455387f2a0182dea4556d0f7774309eee8112e4f879428a853272206a76bf4fd"
+  },
+  "data/derived/piazza-maggiore/scene/0_0.json": {
+    "bytes": 60978,
+    "sha256": "7d1ccdc9768c42b27dab2d14c7de1a075c72325e29e563f06e2326ef030e255a"
+  },
+  "data/derived/piazza-maggiore/scene/0_1.json": {
+    "bytes": 15992,
+    "sha256": "ff8c5fe4f6c8d34802b4b4aa94b473e65a1ef4027e8cedd9f632d67edc0db15c"
+  },
+  "data/derived/piazza-maggiore/scene/1_-1.json": {
+    "bytes": 63364,
+    "sha256": "11714b3a82157b5653cb67b7d1027bc11ce5c6675387cc13dcde4acd926d6f74"
+  },
+  "data/derived/piazza-maggiore/scene/1_-2.json": {
+    "bytes": 14610,
+    "sha256": "3f9bdddf563802428d34c698a8bd70534a1a6c88d38ddf37698248aa208f0454"
+  },
+  "data/derived/piazza-maggiore/scene/1_0.json": {
+    "bytes": 35896,
+    "sha256": "23d9d34c8de9ca02c6e2e3b8f3cf47aa4ef7f677abf6d288e919ac4188ff6f38"
+  },
+  "data/derived/piazza-maggiore/scene/2_-1.json": {
+    "bytes": 22492,
+    "sha256": "0766d448782dea1a37d25dbd660cc2a077cdd1cc5889da6d33ea7091418f825b"
+  },
+  "data/derived/piazza-maggiore/scene/2_0.json": {
+    "bytes": 2829,
+    "sha256": "ea2aa323f9d4897ccfa862bafcafb0882e10e280191cc1fb34ea3b8693a62b1a"
+  },
+  "data/raw/bologna-audit/bologna-buildings-metadata.json": {
+    "bytes": 13155,
+    "sha256": "0bedf3b89319e4d774dd7e1db04f4dfa7a1df360f73d6cdd552762e353bc4f62"
+  },
+  "data/raw/bologna-audit/bologna-geoid.html": {
+    "bytes": 5198,
+    "sha256": "a822ae8962ebd5e094dea54d73981a8f553364e07782256f37c8b04c3d6e08b9"
+  },
+  "data/raw/bologna-audit/bologna-trees-metadata.json": {
+    "bytes": 10377,
+    "sha256": "208e3919dbb99733ca5b52e1b090854326e82714398e4831fbd3f70ae112d380"
+  },
+  "data/raw/bologna-audit/boundary.json": {
+    "bytes": 1373,
+    "sha256": "2bd1ce6479e3241a88ede4757539ccbd2735aa92e7239831196b6556db4ef7c2"
+  },
+  "data/raw/bologna-audit/buildings.geojson": {
+    "bytes": 47821655,
+    "sha256": "38ed98285663d6c3080c1b2f9929e99455d422590af92bd8c3c071bbbb3e465e"
+  },
+  "data/raw/bologna-audit/cc-by-4.0.html": {
+    "bytes": 31950,
+    "sha256": "8dda1ccec4be91fc80821d4e4fd5c568072b9a3a74b2fdc07c249a27e920ef01"
+  },
+  "data/raw/bologna-audit/copernicus-terms.html": {
+    "bytes": 115071,
+    "sha256": "fc8a9f8f0e0907f412fd9183c4f0b121b8b6139435e809b87bd26568836db93c"
+  },
+  "data/raw/bologna-audit/copernicus.html": {
+    "bytes": 10002,
+    "sha256": "04b2d63198acecd854a2a04100feb63d71aeecd83773c692b7f5093a0a4defca"
+  },
+  "data/raw/bologna-audit/download-ground-split.mjs": {
+    "bytes": 1932,
+    "sha256": "a138425f75df0d2c8420d4fd505fc2e5f6e9cc6a753128a63c468abac2fbdd08"
+  },
+  "data/raw/bologna-audit/download-ground.mjs": {
+    "bytes": 1621,
+    "sha256": "09d1e6ea850f69b6a3c5c0d7744db1b60e3379577f6a2e039b20d42471a83444"
+  },
+  "data/raw/bologna-audit/geographiclib-geoid.html": {
+    "bytes": 33506,
+    "sha256": "6e8e28296737d1d5175cf83386e5ba2a2373430d58b94e84b349f3cb7a3a443a"
+  },
+  "data/raw/bologna-audit/ground-part1.json": {
+    "bytes": 7737993,
+    "sha256": "65957d4aa7b647cf0adabfbeeec64b7428371cb8a376fb56e20e6ec483e213f1"
+  },
+  "data/raw/bologna-audit/ground-part2.json": {
+    "bytes": 2255828,
+    "sha256": "403edf6bf1624057e94cc5cd55820f17f80ac36925f70550377cacd0b2b0cf57"
+  },
+  "data/raw/bologna-audit/osm-copyright.html": {
+    "bytes": 21314,
+    "sha256": "5c525644e47233a3bf110741e2177264d20f00d343959f864eea76530e0d60cc"
+  },
+  "data/raw/bologna-audit/surface-provenance.json": {
+    "bytes": 667,
+    "sha256": "93f5d51653516549d99070fb687a5c82b398b6aab29f28819e8fb12f57a1703b"
+  },
+  "data/raw/bologna-audit/trees.geojson": {
+    "bytes": 54630770,
+    "sha256": "fa1a94f527b97a7afcef7ac2db4b5ef3695ee2d42966c1dd4c3d4a5184975a8d"
+  },
+  "data/raw/piazza-maggiore/BO-001-partial-surface.json": {
+    "bytes": 288,
+    "sha256": "88db204a34da373559deb28fa54107730e579625372a61ff5eb340dc7e79b395"
+  },
+  "data/raw/piazza-maggiore/ground.json": {
+    "bytes": 9989725,
+    "sha256": "ec85448b5c0d73a55994218be96d9e7479d8ed6346ea6289d44744f1d6f6a067"
+  },
+  "data/raw/piazza-maggiore/osm.json": {
+    "bytes": 2502799,
+    "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c"
+  },
+  "data/raw/piazza-maggiore/roads.json": {
+    "bytes": 198963,
+    "sha256": "e9b8c74fedb3025b64fad9ff5b9e638927c9aed9097ee2b60ba19827af6d5a12"
+  },
+  "docs/bologna-data-audit.md": {
+    "bytes": 18789,
+    "sha256": "045a5470d11178f52a98210ef0da161be61d66f8d4951557d4906a78bc08c686"
+  },
+  "docs/bologna-data-audit.ts": {
+    "bytes": 4481,
+    "sha256": "d4ceb805950c3964576bbf9040d797becff405e8f265809b605e3f01cb0d89b5"
+  },
+  "docs/bologna-data-validation.json": {
+    "bytes": 11550,
+    "sha256": "6e0ca26ff51de3c3b39b5ca223a37146fbe43c5b5733a22bd4b211b50c32f698"
+  },
+  "docs/bologna-fetch-surface.ts": {
+    "bytes": 3301,
+    "sha256": "df118a44feb359770c69080aaac59fc2bbc1526b5743e60213c5c77b35d6da47"
+  },
+  "docs/bologna-proof.jpg": {
+    "bytes": 661521,
+    "sha256": "d1201d35f9c901614652891ec6f8f2762a6febeee8f150f0cab85c0760e54217"
+  },
+  "docs/bologna-render-qa.json": {
+    "bytes": 1479,
+    "sha256": "f574c9c3a90cb32a5d143cafbb8b96f7d4e804f89e562a1de118f3347922a39c"
+  },
+  "docs/bologna-render-qa.ts": {
+    "bytes": 3422,
+    "sha256": "1fa65d54dddd6eeeda048ae83f3c29ef55418f9294a28bd157bec558fe6c8334"
+  },
+  "pipeline/src/areas.ts": {
+    "bytes": 6966,
+    "sha256": "3c65c5d63319a5f1ed0f55a792db29ed7a192682a0fea731368974590e2c22f4"
+  },
+  "pipeline/src/camera.ts": {
+    "bytes": 5698,
+    "sha256": "e2fdac0e20bf9b0909bf75997d715191de1f589dfe1519a589e99876056444c2"
+  },
+  "pipeline/src/fetch.ts": {
+    "bytes": 9577,
+    "sha256": "e8b4af8194c83ebea4f25d2959c1a832c303d9ba62900613d7475d8ac78e4d67"
+  },
+  "pipeline/src/ground.ts": {
+    "bytes": 21435,
+    "sha256": "282502c508fee45238b0a3cc739ec906452cf43a8be58841532b845a197e8498"
+  },
+  "pipeline/src/osmlocal.ts": {
+    "bytes": 7004,
+    "sha256": "743d2b016c230195a25f7c250f3b129ee46ca29b08882ed063be30db0bbd0e07"
+  },
+  "pipeline/src/places.ts": {
+    "bytes": 7638,
+    "sha256": "70bdcd56dc75c310b92ed11d6911f0b1cf1e98df689ea4e8bd675b2814ab8cd8"
+  },
+  "pipeline/src/render.ts": {
+    "bytes": 6422,
+    "sha256": "be3e39904bb767611d6febd6e71c75a5008c0203acacef33e369d6d8de1f7b35"
+  },
+  "pipeline/src/scene.ts": {
+    "bytes": 33708,
+    "sha256": "ff11276fafad514fb4ff48f2b942e6728c9263ab666947f5e76c9e5d30b66e1c"
+  }
+}

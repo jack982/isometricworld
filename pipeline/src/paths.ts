@@ -1,10 +1,11 @@
 import { existsSync, readFileSync } from "node:fs";
-import { dirname, join } from "node:path";
+import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const PIPELINE = join(dirname(fileURLToPath(import.meta.url)), "..");
 export const ROOT = join(PIPELINE, "..");
-export const DATA = join(ROOT, "data");
+/** Optional isolated run directory; defaults preserve all existing region/cache paths. */
+export const DATA = process.env.PIPELINE_DATA_ROOT ? resolve(process.env.PIPELINE_DATA_ROOT) : join(ROOT, "data");
 export const RAW = join(DATA, "raw");
 export const DERIVED = join(DATA, "derived");
 /** Built map data waiting to be published (served by the dev server over production); emptied by publish. */

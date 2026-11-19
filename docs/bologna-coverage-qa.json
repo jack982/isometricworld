@@ -1,0 +1,460 @@
+{
+  "expectedTiles": 10,
+  "validTiles": 10,
+  "compositionCells": 12,
+  "intentionalBlankCells": [
+    {
+      "x": -2,
+      "y": -2
+    },
+    {
+      "x": 1,
+      "y": -2
+    }
+  ],
+  "missingExpectedTiles": [],
+  "preservedFiles": 82,
+  "frozenCameraUnchanged": true,
+  "tiles": [
+    {
+      "x": -1,
+      "y": -2,
+      "colorSha256": "518377e3be70de1c176d4ae0827e69676cd54f887b7df8bb6096c5d8ecae060f",
+      "heightSha256": "6eebac1f609f9d36f898fbf18e513a84374498f4d165b18139f60dc56136a596",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 32.33296761521892,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.004771232604980469,
+      "meanAbsoluteRgbChange": 0.10853163401285808
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "colorSha256": "8749ee52957f5fd3d8d69e79a7d852e6ceebbab9cf7f83775555f86aae28aef1",
+      "heightSha256": "2cf56014602ee1e5665dd8a6c872ff14879d8603e075ac10f7395aaf51e22f0e",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 32.39078056824065,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.0068187713623046875,
+      "meanAbsoluteRgbChange": 0.23852221171061197
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "colorSha256": "36776fab5c644e568b536e90751aedc37f547f2bf860ffffb9b4d649de2aa570",
+      "heightSha256": "62d7ec32bcb183f8626cc4eefe19ec6f6df149a2817e25ece53594df3c9600a9",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 31.568663947392267,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.000576019287109375,
+      "meanAbsoluteRgbChange": 0.0033152898152669272
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "colorSha256": "1d6bc37bbc94e2d8e14a7a5c23221c22273a8e5690f64e172f7a86c50874b53b",
+      "heightSha256": "8317b03c9da9a664f69beaa88424db28749621df94f61064ccb49c9517572f01",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 33.19361414401003,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.05353069305419922,
+      "meanAbsoluteRgbChange": 0.8855320612589518
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "colorSha256": "f1da3dd3e8ba481f2143c1207cd53c0f06db6dad03627b9375cc0e6e8af652de",
+      "heightSha256": "44d72963d7b644b9cff9428405e4eda6c143d578b2eda2f914a2040088c5bff5",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 31.514229595364394,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.03456878662109375,
+      "meanAbsoluteRgbChange": 0.679377555847168
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "colorSha256": "bb5961a8525df4e01ac40c2218204fec5f231c44e55b4dd14e65ca7b94d8d59b",
+      "heightSha256": "9a70f50b333b59c55c5f3a9765507c442da107f05985bb6e7310742ecadebbdc",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 31.883105601359855,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.012621879577636719,
+      "meanAbsoluteRgbChange": 0.31952857971191406
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "colorSha256": "6fde6371c4a54780477c00e95d5fbb65360ccf1e30aab71f1091ebdabf4c4f84",
+      "heightSha256": "525067bb5655be80d97e07ae19ef622010ab1b859e721524d67a2bc079e6e102",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 33.23044892604747,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 9.5367431640625e-7,
+      "meanAbsoluteRgbChange": 0.0002740224202473958
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "colorSha256": "37f03bae8239ac82882f296168b377f3b4736ec753efb8f900c03c75ee5e9110",
+      "heightSha256": "7e19cf49584f4ac42fbce25f02d0457de18e427a095b8c6e4b6b1221a2914e00",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 37.47941935062548,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.02145099639892578,
+      "meanAbsoluteRgbChange": 0.5035155614217123
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "colorSha256": "e16972b262894d5f0c3953b3e32eb080b410788ff0b835a3fb6e08d8da5e0cbc",
+      "heightSha256": "fb7bf4d598a0cc6e4321ed03459dfb6c8797cec3a65020ef32e509a0194a9f8d",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 31.915224063432156,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.0011911392211914062,
+      "meanAbsoluteRgbChange": 0.04922612508138021
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "colorSha256": "e2343d04fe11c5fade69f59efdb66543534f75086c35db397ba748081007b274",
+      "heightSha256": "5989ce400877ceeb70f77e5419086093945ac1c7b29cb9bd33d3030644a3897c",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "minChannelStdev": 27.885011172492185,
+      "heightChannelStdev": 0,
+      "changedPixelFraction": 0.003559112548828125,
+      "meanAbsoluteRgbChange": 0.05350176493326823
+    }
+  ],
+  "seams": [
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "before": {
+        "edgeMae": 5.576171875000003,
+        "adjacentInteriorMae": 6.2646484374999964
+      },
+      "after": {
+        "edgeMae": 5.580403645833336,
+        "adjacentInteriorMae": 6.2690429687499964
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "before": {
+        "edgeMae": 7.935221354166663,
+        "adjacentInteriorMae": 7.721679687500003
+      },
+      "after": {
+        "edgeMae": 7.935221354166663,
+        "adjacentInteriorMae": 7.721679687500003
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "before": {
+        "edgeMae": 5.445638020833334,
+        "adjacentInteriorMae": 5.553710937500003
+      },
+      "after": {
+        "edgeMae": 5.444010416666667,
+        "adjacentInteriorMae": 5.553385416666669
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "before": {
+        "edgeMae": 5.559895833333332,
+        "adjacentInteriorMae": 6.297688802083333
+      },
+      "after": {
+        "edgeMae": 5.559895833333332,
+        "adjacentInteriorMae": 6.297688802083333
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "before": {
+        "edgeMae": 8.052734374999998,
+        "adjacentInteriorMae": 8.615722656250002
+      },
+      "after": {
+        "edgeMae": 8.051106770833332,
+        "adjacentInteriorMae": 8.616536458333336
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "before": {
+        "edgeMae": 4.298828125,
+        "adjacentInteriorMae": 4.072102864583335
+      },
+      "after": {
+        "edgeMae": 4.261718750000001,
+        "adjacentInteriorMae": 4.026529947916666
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "before": {
+        "edgeMae": 5.574544270833334,
+        "adjacentInteriorMae": 5.55419921875
+      },
+      "after": {
+        "edgeMae": 5.574544270833334,
+        "adjacentInteriorMae": 5.55419921875
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "before": {
+        "edgeMae": 7.301757812499994,
+        "adjacentInteriorMae": 7.596028645833341
+      },
+      "after": {
+        "edgeMae": 7.28580729166666,
+        "adjacentInteriorMae": 7.597656250000007
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "before": {
+        "edgeMae": 7.732747395833331,
+        "adjacentInteriorMae": 7.309570312500007
+      },
+      "after": {
+        "edgeMae": 7.732747395833331,
+        "adjacentInteriorMae": 7.309570312500007
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "before": {
+        "edgeMae": 7.169270833333323,
+        "adjacentInteriorMae": 7.473958333333344
+      },
+      "after": {
+        "edgeMae": 7.169270833333323,
+        "adjacentInteriorMae": 7.473958333333344
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "before": {
+        "edgeMae": 8.40625,
+        "adjacentInteriorMae": 8.648600260416655
+      },
+      "after": {
+        "edgeMae": 8.40625,
+        "adjacentInteriorMae": 8.648600260416655
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "before": {
+        "edgeMae": 6.508138020833338,
+        "adjacentInteriorMae": 6.179850260416667
+      },
+      "after": {
+        "edgeMae": 6.508138020833338,
+        "adjacentInteriorMae": 6.179850260416667
+      },
+      "review": "no-large-color-jump"
+    },
+    {
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "before": {
+        "edgeMae": 9.933268229166668,
+        "adjacentInteriorMae": 8.328287760416671
+      },
+      "after": {
+        "edgeMae": 9.933268229166668,
+        "adjacentInteriorMae": 8.328287760416671
+      },
+      "review": "no-large-color-jump"
+    }
+  ],
+  "features": {
+    "before": {
+      "lane": 1995,
+      "street": 2295,
+      "plaza": 213,
+      "path": 5696,
+      "cycle": 1035,
+      "paving": 280,
+      "rail": 619,
+      "dirtroad": 26,
+      "park": 1708,
+      "gravel": 2,
+      "commercial": 34,
+      "farm": 38,
+      "industrial": 46,
+      "dirt": 50,
+      "residential": 52,
+      "wood": 7,
+      "scrub": 1,
+      "campus": 1,
+      "flowerbed": 51,
+      "junctions": 1,
+      "zebras": 1
+    },
+    "after": {
+      "lane": 1995,
+      "street": 2295,
+      "park": 2076,
+      "plaza": 213,
+      "path": 5696,
+      "commercial": 34,
+      "cycle": 1035,
+      "paving": 298,
+      "parking": 492,
+      "rail": 619,
+      "pitch": 91,
+      "wood": 24,
+      "dirtroad": 26,
+      "farm": 38,
+      "industrial": 46,
+      "pool": 31,
+      "campus": 90,
+      "track": 5,
+      "playground": 34,
+      "dirt": 50,
+      "water": 23,
+      "scrub": 56,
+      "residential": 52,
+      "flowerbed": 51,
+      "tarmac": 2,
+      "gravel": 2,
+      "pier": 1,
+      "junctions": 1,
+      "zebras": 1
+    }
+  },
+  "terrain": {
+    "finite": true,
+    "samples": 227005,
+    "beforeSha256": "d6d49d8e4f0ed6fd4407212e0e4b17090021499409fbd33ffbeac76dd7d116f7",
+    "afterSha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+    "identical": false
+  },
+  "sceneBins": {
+    "before": 21,
+    "after": 21
+  },
+  "proof": {
+    "sha256": "4a4da235c57909ea3efdb20396e6da986db3ac8f85e1bb1d8d7094ef91608f9f",
+    "comparisonSha256": "0615957ee5cd1510656d901d5a782008ae35dbcd3055d58d49a69c405f352a84"
+  }
+}

@@ -73,6 +73,14 @@ Municipal datasets downloaded **for the data audit only**, not yet incorporated 
 Before municipal geometry is used on a map, add its publisher/licence to Bologna's region credits,
 render manifest and linked footer. See [the reproducible audit](docs/bologna-data-audit.md).
 
+BO-001R acquires the same OpenStreetMap data via the [Geofabrik Nord-Est dated PBF extract](https://download.geofabrik.de/europe/italy/nord-est.html)
+(`nord-est-261117.osm.pbf`), under ODbL 1.0. It is a distribution of OSM, not an additional
+geographic source: existing OSM region credits and footer copyright/licence link apply.
+The extract is clipped with whole ways and complete surface relations; selection, decoding and
+rendering are adaptations. [Coverage provenance and validation](docs/bologna-coverage-fix.md)
+record the URL, download date, checksums, tool commands and source categories. No Geofabrik
+imagery is used; no municipal geometry is added.
+
 ## Software
 
 [three.js](https://threejs.org) (MIT), [OpenSeadragon](https://openseadragon.github.io) (BSD-3-Clause),
