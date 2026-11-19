@@ -24,6 +24,8 @@ interface World {
   /** content-hashed data files (absent in data exported before them: then the legacy names) */
   files?: { "tiles-map"?: string; "tiles-photo"?: string; borders?: string; roads?: string; trains?: string };
   format?: string;
+  features?: { animations?: boolean };
+  localPreview?: { procedural:boolean; areaTitles:string[]; edgeFade:boolean; municipalBorders:boolean };
 }
 type Index = Record<number, Record<string, string>>; // zoom → "x_y" → content hash
 interface Border { id: number; name: string; name_en?: string; rings: Array<Array<[number, number]>>; label?: [number, number] }
@@ -45,11 +47,12 @@ const avifReady = new Promise<boolean>((done) => {
   img.src = "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAANZtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAACJpbG9jAAAAAERAAAEAAQAAAAAA+gABAAAAAAAAAB0AAAAjaWluZgAAAAAAAQAAABVpbmZlAgAAAAABAABhdjAxAAAAAA5waXRtAAAAAAABAAAAVmlwcnAAAAA4aXBjbwAAAAxhdjFDgSACAAAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAABZpcG1hAAAAAAAAAAEAAQOBAgMAAAAlbWRhdBIACgc4AAaQENBpMhAdgmLE4AAWAACQNY48fpPA";
 });
 const [world, avif] = await Promise.all([worldReady, avifReady]);
+const COPERNICUS_CREDIT = "© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved";
 if (REGION === "bologna") {
   const activeMunicipal = world.attributions.filter(s => s.includes("Comune di Bologna") || s.includes("opendata.comune.bologna.it") || s.includes("BO-003F appearance references"));
   const videoCredit = document.getElementById("video-credit");
   if (videoCredit && activeMunicipal.length) {
-    videoCredit.textContent = [...REGIONS.bologna.credits, ...activeMunicipal].join("\n");
+    videoCredit.textContent = [...REGIONS.bologna.credits, ...activeMunicipal, ...(world.localPreview ? [COPERNICUS_CREDIT] : [])].join("\n");
     videoCredit.style.whiteSpace = "pre-line";
   }
 }
@@ -134,6 +137,7 @@ let traffic: Traffic | null = null, cats: Cats | null = null, parrots: Parrots |
 // the animations (their code and the roads, ~0.7 MB) wait until the first view's tiles are in
 let animationsRequested = false;
 function loadAnimations() {
+  if (world.features?.animations === false) return;
   if (animationsRequested) return;
   animationsRequested = true;
   Promise.all([
@@ -325,7 +329,8 @@ document.getElementById("credits")!.innerHTML = [
       ...(world.attributions.some(s => s.includes("Settore Ambiente e Verde")) ? [`<a href="https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/">Comune di Bologna – Settore Ambiente e Verde</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (class-based estimates)`] : []),
       ...(world.attributions.some(s => s.includes("BO-003F appearance references")) ? [`Appearance references: <a href="https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg">Zairon (roof)</a>, <a href="https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg">Congolandia.g (facade)</a>, <a href="https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg">Raffacossa (clock)</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> (appearance only; estimated geometry)`] : []),
     ] : [`<a href="https://opendatasource.tel-aviv.gov.il/">Tel Aviv-Yafo Municipality</a>`]),
-  `<span title="© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA">Copernicus DEM</span>`,
+  `<a href="https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM" title="${COPERNICUS_CREDIT}">Copernicus DEM</a>`,
+  ...(world.localPreview ? [`Terrain: ${COPERNICUS_CREDIT}`] : []),
   // the method to recreate the derived database (ODbL) and the code
   `<a href="https://github.com/krasun/isometricworld">Source</a>`,
   REGION === "stuttgart" // the Stuttgart region was built by Lukas Hermann

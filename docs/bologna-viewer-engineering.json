@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "node": "v24.22.3",
+  "versions": {
+    "astro": "7.4.7",
+    "vite": "8.3.7",
+    "openseadragon": "6.1.1",
+    "sharp": "0.35.5",
+    "typescript": "7.0.2"
+  },
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "status": "PASS",
+      "command": [
+        "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "environment": {},
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "status": "PASS",
+      "command": [
+        "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "environment": {},
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "qa-typescript",
+      "status": "PASS",
+      "command": [
+        "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-viewer-browser.ts",
+        "docs/bologna-viewer-prepare.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-viewer-check.ts",
+        "docs/bologna-viewer-checksums.ts"
+      ],
+      "environment": {},
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/qa-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "relevant-tests",
+      "status": "PASS",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts"
+      ],
+      "environment": {},
+      "exitCode": 0,
+      "expectedExit": 0,
+      "tests": 38,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/relevant-tests.log",
+      "logSha256": "9e94ba5cecd6841479f78f7bd585eb33a6744979aa66f776c4dac92853a887c8"
+    },
+    {
+      "name": "web-build-loopback-only",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "-w",
+        "web",
+        "run",
+        "build"
+      ],
+      "environment": {
+        "LOCAL_MAP_ROOT": "",
+        "TILES_ORIGIN": "http://127.0.0.1:4375"
+      },
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-build-loopback-only.log",
+      "logSha256": "453f83a91003a3a0d906799c4c04b2e18b5f58ebb448d6b5319e99413348bad9"
+    },
+    {
+      "name": "reject-local-override-production-build",
+      "status": "PASS",
+      "command": [
+        "npm",
+        "-w",
+        "web",
+        "run",
+        "build"
+      ],
+      "environment": {
+        "LOCAL_MAP_ROOT": "/home/jacopo/projects/isometricworld/data/bo-005p-viewer/web"
+      },
+      "exitCode": 1,
+      "expectedExit": 1,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/reject-local-override-production-build.log",
+      "logSha256": "c4e09d783a9cc8a21147dbe7e8b60af5622e0c273431ca9935b91b4c721d6f90"
+    },
+    {
+      "name": "diff-check",
+      "status": "PASS",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "environment": {},
+      "exitCode": 0,
+      "expectedExit": 0,
+      "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preservedFiles": 990,
+  "allBaselineHashesUnchanged": true,
+  "exportRegionFiles": 146,
+  "screenshotsVerified": 4,
+  "pyramidFilesVerified": 140,
+  "productionBuildRoutes": [
+    "/",
+    "/404",
+    "/bologna",
+    "/tel-aviv-yafo",
+    "/stuttgart"
+  ],
+  "server": {
+    "url": "http://127.0.0.1:4375/bologna",
+    "taskOwnedPidAtStartup": 829536,
+    "source": "PID reported by the successful BO-005P Astro dev start command",
+    "port": 4375,
+    "host": "127.0.0.1",
+    "httpRechecked": true,
+    "keptRunning": true,
+    "stop": "kill -TERM <the PID printed by this task's start command>; verify ownership first; never astro dev stop"
+  }
+}

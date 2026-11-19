@@ -1,0 +1,810 @@
+{
+  "algorithm": "sha256",
+  "baselinePins": "docs/bologna-viewer-inputs.json",
+  "files": {
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/qa-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/reject-local-override-production-build.log": {
+      "sha256": "c4e09d783a9cc8a21147dbe7e8b60af5622e0c273431ca9935b91b4c721d6f90",
+      "bytes": 2457
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/relevant-tests.log": {
+      "sha256": "9e94ba5cecd6841479f78f7bd585eb33a6744979aa66f776c4dac92853a887c8",
+      "bytes": 3639
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-build-loopback-only.log": {
+      "sha256": "453f83a91003a3a0d906799c4c04b2e18b5f58ebb448d6b5319e99413348bad9",
+      "bytes": 847
+    },
+    "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/ground/bridge-ends.json": {
+      "sha256": "d5a3fae5822e5b949c5c78f23733c9b7802937a72cff76a96612980e3d18dcb4",
+      "bytes": 1588
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/ground/features.json": {
+      "sha256": "3f65246a3e2a81f4bcec40dca7b3b00197004c0217237f9bf2560ce5912ed241",
+      "bytes": 2220242
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/ground/height.bin": {
+      "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+      "bytes": 908020
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/ground/meta.json": {
+      "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+      "bytes": 51
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/-1_-1.png": {
+      "sha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "bytes": 75502
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/-1_0.png": {
+      "sha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "bytes": 67370
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/manifest.json": {
+      "sha256": "db35c6235740548041eea730c6d4ae2c965e3d5517785ead3287da2f00421b09",
+      "bytes": 3349
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/-1_-1.png": {
+      "sha256": "2fd3a01c0ad901ae21cd0b6af759355a524b6058b893a6df3d2e0b895098ba1a",
+      "bytes": 1173612
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/-1_-2.png": {
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "bytes": 1374102
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/-1_0.png": {
+      "sha256": "c4f8989463b2739dec608a114b011f84c52d87dbdd90bd04483a91c5aaddb3d6",
+      "bytes": 1264871
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/-2_0.png": {
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "bytes": 1218677
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/0_-1.png": {
+      "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "bytes": 1232494
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/0_-2.png": {
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "bytes": 1324201
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/0_0.png": {
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "bytes": 1269475
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/1_-1.png": {
+      "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "bytes": 1295782
+    },
+    "data/bo-005p-viewer/derived/piazza-maggiore/render/1_0.png": {
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "bytes": 1268287
+    },
+    "data/bo-005p-viewer/dev-server.json": {
+      "sha256": "6f1a0cd025e54dd6052c502c1270e2540c80f4ad3a42ba6d43291d07fbe5f7a3",
+      "bytes": 155
+    },
+    "data/bo-005p-viewer/run.json": {
+      "sha256": "69db1d21de59c16e3e9d7d40f422d70dfc81945b72e3acaa3172ca59d1985d49",
+      "bytes": 372
+    },
+    "data/bo-005p-viewer/web/bologna.state.json": {
+      "sha256": "ae23ecab5925fc55420c84a456df5dcf2bf6a1e381a9ca410478e1ad335d179d",
+      "bytes": 9027
+    },
+    "data/bo-005p-viewer/web/regions/bologna/data/borders.97d170e155.json": {
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    "data/bo-005p-viewer/web/regions/bologna/data/tiles-map.753cff2682.json": {
+      "sha256": "2e6c73ac5cca486bd3f6d1fd7898a4ada0442e8003707126eb6ee1e0ca23aac8",
+      "bytes": 1448
+    },
+    "data/bo-005p-viewer/web/regions/bologna/data/tiles-photo.753cff2682.json": {
+      "sha256": "2e6c73ac5cca486bd3f6d1fd7898a4ada0442e8003707126eb6ee1e0ca23aac8",
+      "bytes": 1448
+    },
+    "data/bo-005p-viewer/web/regions/bologna/data/world.json": {
+      "sha256": "28e00992d2227637fc61ceb6a2d2e2df47d95414c0c5e1f5924e452ce96a5408",
+      "bytes": 3248
+    },
+    "data/bo-005p-viewer/web/regions/bologna/preview/bologna-land.290f24b161.avif": {
+      "sha256": "4827581af4af9bca1f78d81cf2808e1ae0c850f26d41c927f6e96ee9bfcedc04",
+      "bytes": 22001
+    },
+    "data/bo-005p-viewer/web/regions/bologna/preview/bologna-port.66864b2890.avif": {
+      "sha256": "8cd82ce955ca741cd4446a12fb3c32e5d044b35b6cf9c7fa265ee726c533128b",
+      "bytes": 8736
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/2/-1/-1.avif": {
+      "sha256": "c0c1b4723a97fb07b0fcf49f3c26172eba5a215981ca44ceb0fd0f647e76357a",
+      "bytes": 529
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/2/-1/0.avif": {
+      "sha256": "745a3564a298d68124550d5fb2f50fff0498ee4e2d8c688c85580186fac02846",
+      "bytes": 454
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/2/0/-1.avif": {
+      "sha256": "fb3513734f87c1bba6dab4558174e83e34e41d42d02d643f119426bd3104ed62",
+      "bytes": 503
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/2/0/0.avif": {
+      "sha256": "ae0f53297b0d66479d1bfd5060caef949a3786d37f882a8032baef9518360c0c",
+      "bytes": 440
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/3/-1/-1.avif": {
+      "sha256": "4d143e7ac930234ff5da7c24dafc24f9712ae3d727549eaefa402e21ab588e61",
+      "bytes": 862
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/3/-1/0.avif": {
+      "sha256": "ac630aafc8523e7ea246c4359433158addf1eccceccb5293cf111f9694c6047f",
+      "bytes": 721
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/3/0/-1.avif": {
+      "sha256": "5d44e56b22d03300adc24880531ff681450dc6e59d03fb579a5351933ecd13c3",
+      "bytes": 820
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/3/0/0.avif": {
+      "sha256": "56bfd03543dc0ef9d6d65e2b4540cc0d527dc97e808cd04ba5aed04a29d7108b",
+      "bytes": 664
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/4/-1/-1.avif": {
+      "sha256": "741f14c790f4884d071e70df913a0d12486277794272d8a1953bf36738f2ab1e",
+      "bytes": 2208
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/4/-1/0.avif": {
+      "sha256": "42caa93cda3842cd9fb5e3d494ac4b3f50d8c02b844da487d0da751e2941db26",
+      "bytes": 1626
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/4/0/-1.avif": {
+      "sha256": "abc5453c67db7d3f02e3033164c114c8261d7b4ca98aed0bfac353a4251e9a65",
+      "bytes": 2185
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/4/0/0.avif": {
+      "sha256": "10322fe35305861bdc51c2cbe52c039cc67267aab37876e65bc817f80105b716",
+      "bytes": 1518
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/5/-1/-1.avif": {
+      "sha256": "ea49bf97c4d5e795095f6c6b0ef72d0eb99be3594943350f34997212fcb4d434",
+      "bytes": 7403
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/5/-1/0.avif": {
+      "sha256": "341db1218129191223d1e0100c6bdc6c59dc5f2e3b0d4b9187a732cf4a412d73",
+      "bytes": 5131
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/5/0/-1.avif": {
+      "sha256": "bc11ff75d04b2b36664799f67fcb15b6aafdf6cea70a14a91a9ea5f380ef7bdd",
+      "bytes": 7391
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/5/0/0.avif": {
+      "sha256": "68f84f727b23a095a8b3e7e713e975b6f229894eb9cf8d2671dfcf7a474f97d1",
+      "bytes": 5056
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/6/-1/-1.avif": {
+      "sha256": "ea88d98288baa5136b15031212324e918c48861dd1ef987476a907b269d34446",
+      "bytes": 29991
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/6/-1/0.avif": {
+      "sha256": "921a7268b59d00a6424a66593c73e8220ad6818c94fd1d32d0937f0364d99a80",
+      "bytes": 19493
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/6/0/-1.avif": {
+      "sha256": "2b9482f8d79fe180da3614f6ed83c9682eb9d03c54ceac4c3b44975fee4c5ead",
+      "bytes": 30503
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/6/0/0.avif": {
+      "sha256": "31790589d4185b214e2c63131021ed995a9d922d39aeb3571a2c318befb12a3b",
+      "bytes": 19430
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/-1/-1.avif": {
+      "sha256": "b0366d0002afb1aa0d4b4d54e8044833f0f68241c9917cbbc8710a619fc65bf0",
+      "bytes": 31181
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/-1/-2.avif": {
+      "sha256": "db46fd3f720cf8a93a5d1fd9abfb453c57dfd3928aa33d611934629d239b01e6",
+      "bytes": 35915
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/-1/0.avif": {
+      "sha256": "e176b16a7d11e274ac6d39a7a07975dab72c95c695df249518810a04e74993ae",
+      "bytes": 34254
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/-2/-1.avif": {
+      "sha256": "32bd153ac91c3c612a3068098ca4643c7743cd2261a03f59b7847321d677dc7c",
+      "bytes": 32410
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/-2/0.avif": {
+      "sha256": "1f4dbe726b11afcd585f760b4257c1a0e61b73dc6a952aae9e48332d5b8ef479",
+      "bytes": 33031
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/0/-1.avif": {
+      "sha256": "d1a26e80c2f1ade59ada43dd06a32e7feea64f2896a6725103ffc03b151e87e7",
+      "bytes": 32141
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/0/-2.avif": {
+      "sha256": "d634d363e86b92f1f44e2b3de79bf7a6f10caaf1cb507f03434eb634b01a9ca1",
+      "bytes": 36023
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/0/0.avif": {
+      "sha256": "a9f215d99f9c8856ab15bc04a936f496640edb03a0b7160226e86ff620688222",
+      "bytes": 32981
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/1/-1.avif": {
+      "sha256": "de192ecddb400753e5b1a8eb459de5ec5250d3fb33a8295fd499380a20fc201c",
+      "bytes": 35003
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/7/1/0.avif": {
+      "sha256": "bb94ff4518e6fbd9819afe37269f45fcdce023054c0a93b1854b74a9b38fde7a",
+      "bytes": 33843
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/-1.avif": {
+      "sha256": "7c4fbd70c80109c42fe3c9214227138740b90092a6c8391749941bb41b298ce8",
+      "bytes": 16205
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/-2.avif": {
+      "sha256": "935a31eff568142d6d21a439366681c7427b7678443d15a76e317be67d2696bc",
+      "bytes": 23916
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/-3.avif": {
+      "sha256": "1168b4fc26f826aafca1d2587d8bc4fb06475cd22ddf541da92e83b204d59ea9",
+      "bytes": 26763
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/-4.avif": {
+      "sha256": "683b3f71eaedbd33977503bcee0ea1a9f1c2f3707e7575260f40e27bdc625cf3",
+      "bytes": 29402
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/0.avif": {
+      "sha256": "807e756b99c41c6ab74d92cf25265e1267500077e47ed4cebf4ed9f784898936",
+      "bytes": 23792
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-1/1.avif": {
+      "sha256": "6a7ceeda4b2ccb9a677d5e5dae62d894591aa79f75d748baa8dfe26ab02e198c",
+      "bytes": 24751
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/-1.avif": {
+      "sha256": "937573d7a0b1a2289a64d58152f59064fe07aa586cc7703bf32fc646d4cd2981",
+      "bytes": 24876
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/-2.avif": {
+      "sha256": "40539d276e049e80d4f243c735868bb30774ae40a129deea7b87cf64628202dd",
+      "bytes": 26022
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/-3.avif": {
+      "sha256": "3fbbb8a85500a6c28e44bf27f63852139f6c452763ea6024d89344954234e6c5",
+      "bytes": 26213
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/-4.avif": {
+      "sha256": "c068d013be1026c6c8fea8bac1ef8d688acef338294a6fc20acf4c4916503477",
+      "bytes": 27330
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/0.avif": {
+      "sha256": "a326c71a4236be28ce6741255b2eb8db114594bc7d5189de540ba9e0da71369a",
+      "bytes": 24712
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-2/1.avif": {
+      "sha256": "3059b580df3e1a63a098864b318a4355a8f298484a4fe6676f460a363fe0f812",
+      "bytes": 26238
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-3/-1.avif": {
+      "sha256": "7c4c67b762e08f0aa6cceb6c6cd0ff580bc55a55f74deb69d339bb2727eb9be2",
+      "bytes": 24403
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-3/-2.avif": {
+      "sha256": "af4887c5840ae18519744f7492f4f2bdbab7234560d44810b9e864dac844d066",
+      "bytes": 23819
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-3/0.avif": {
+      "sha256": "16c509dd0ad646678f2540dad5e4ed15427d31dd6a93aa70fd5218dfcccc7fcf",
+      "bytes": 25363
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-3/1.avif": {
+      "sha256": "eb71f9fb8234e7ad08580b44b5b9f69dca13c3f6a6628ff31bc700876c4f55ee",
+      "bytes": 20772
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-4/-1.avif": {
+      "sha256": "fbc6815eb44fe13625892f8f26fe4348c27a10fe06281cc55f7c215b54b0f3fa",
+      "bytes": 23113
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-4/-2.avif": {
+      "sha256": "66219eb0c1e96ae05bdfb2137982a7cf07a3974fd317659ff88c8276bf2efdf5",
+      "bytes": 22527
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-4/0.avif": {
+      "sha256": "0af747d5966d60a6ed9dbb05b98866c0745b2916b4816b186e2f6bc4f55839f1",
+      "bytes": 25352
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/-4/1.avif": {
+      "sha256": "b9517d687188170d84b811f3d3ef8401222415d93793174da6517252e02b36c3",
+      "bytes": 25467
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/-1.avif": {
+      "sha256": "1e978a181269141fde7c8c975e180f950a3c830a23e58ca5a9c73a235a23460e",
+      "bytes": 21115
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/-2.avif": {
+      "sha256": "2e7c315cc37a11d79940d3919bd90f69382e107e375e8832a87037ad7ecd66cc",
+      "bytes": 23863
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/-3.avif": {
+      "sha256": "e828f603fac9cbf4810ee7711b1d5424610b63faef24a33f35ec42aca418fa29",
+      "bytes": 26404
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/-4.avif": {
+      "sha256": "84c26167d31ec82844d290273aa569354243d343bd9fa14b0ed355aff7a843f8",
+      "bytes": 27952
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/0.avif": {
+      "sha256": "53fad336a0a72292f425e5c024a9a597157eb1af8908b0c92a49f18296c89d93",
+      "bytes": 24339
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/0/1.avif": {
+      "sha256": "17965d22a5d0686071ad491d3f5fa907149d7264089508d372bd55bd441e51b8",
+      "bytes": 25398
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/-1.avif": {
+      "sha256": "befc8a7c0e2cf397ff6049b38ee6e76b19ccaff217ad0858fe4588855335c73c",
+      "bytes": 26228
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/-2.avif": {
+      "sha256": "060383a62745160c45bfdbacbe1dd8294434816c598cbd5095b9a26382a857bb",
+      "bytes": 25092
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/-3.avif": {
+      "sha256": "6376fb2d5943b7eadaf4fbb2ff8bee1c2bf24530ba5786f6991545ce1da44f24",
+      "bytes": 25527
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/-4.avif": {
+      "sha256": "8f6b3dfc410c1d1282450150812fdf8d4cc481a568259c7f1eaf0659f49628cc",
+      "bytes": 27279
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/0.avif": {
+      "sha256": "ad36a0ae8dd894434385218e2740a8995c0be42dbd880acae7bac352c6038e10",
+      "bytes": 25526
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/1/1.avif": {
+      "sha256": "0adc4f922431e1a8dfe10c0fe368c44f930b9d391c7a7cf8da979dc683e1ef8c",
+      "bytes": 23236
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/2/-1.avif": {
+      "sha256": "5a478815ae5e67c3231aae879fe536eac042be1131245acafb4084bc6fca066a",
+      "bytes": 25568
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/2/-2.avif": {
+      "sha256": "104f6a9def91481c4f5e0693a134f586e722c9e6de7e3ced239fb7fadb8b9984",
+      "bytes": 26775
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/2/0.avif": {
+      "sha256": "06186cde8db5e31c5d3cf274230675312580ecbd5d7a35f87646e5fd50a29fd9",
+      "bytes": 25037
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/2/1.avif": {
+      "sha256": "a7e42d4b13db2a146ca997f4e2096d8790de8d7fa0e24e0779f23453dd10194e",
+      "bytes": 25580
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/3/-1.avif": {
+      "sha256": "e3d70c816ed0fa9e39908923aca8986a6f3df907402c73ddc245702150cb3120",
+      "bytes": 24518
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/3/-2.avif": {
+      "sha256": "cb7ccf1bfc94ca39ce4b03266a671242a01c0ab13c45f74af89cbd556979eea2",
+      "bytes": 25991
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/3/0.avif": {
+      "sha256": "bc1489b11d56a683523b77db6463a0cff3a73667d4619e101fb6748134b36480",
+      "bytes": 23951
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/map/8/3/1.avif": {
+      "sha256": "59f518c333dd23bff57de0c3ddb12f6a0ebc86341189712381bda2b1b818ad91",
+      "bytes": 26315
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/2/-1/-1.avif": {
+      "sha256": "c0c1b4723a97fb07b0fcf49f3c26172eba5a215981ca44ceb0fd0f647e76357a",
+      "bytes": 529
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/2/-1/0.avif": {
+      "sha256": "745a3564a298d68124550d5fb2f50fff0498ee4e2d8c688c85580186fac02846",
+      "bytes": 454
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/2/0/-1.avif": {
+      "sha256": "fb3513734f87c1bba6dab4558174e83e34e41d42d02d643f119426bd3104ed62",
+      "bytes": 503
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/2/0/0.avif": {
+      "sha256": "ae0f53297b0d66479d1bfd5060caef949a3786d37f882a8032baef9518360c0c",
+      "bytes": 440
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/3/-1/-1.avif": {
+      "sha256": "4d143e7ac930234ff5da7c24dafc24f9712ae3d727549eaefa402e21ab588e61",
+      "bytes": 862
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/3/-1/0.avif": {
+      "sha256": "ac630aafc8523e7ea246c4359433158addf1eccceccb5293cf111f9694c6047f",
+      "bytes": 721
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/3/0/-1.avif": {
+      "sha256": "5d44e56b22d03300adc24880531ff681450dc6e59d03fb579a5351933ecd13c3",
+      "bytes": 820
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/3/0/0.avif": {
+      "sha256": "56bfd03543dc0ef9d6d65e2b4540cc0d527dc97e808cd04ba5aed04a29d7108b",
+      "bytes": 664
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/4/-1/-1.avif": {
+      "sha256": "741f14c790f4884d071e70df913a0d12486277794272d8a1953bf36738f2ab1e",
+      "bytes": 2208
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/4/-1/0.avif": {
+      "sha256": "42caa93cda3842cd9fb5e3d494ac4b3f50d8c02b844da487d0da751e2941db26",
+      "bytes": 1626
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/4/0/-1.avif": {
+      "sha256": "abc5453c67db7d3f02e3033164c114c8261d7b4ca98aed0bfac353a4251e9a65",
+      "bytes": 2185
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/4/0/0.avif": {
+      "sha256": "10322fe35305861bdc51c2cbe52c039cc67267aab37876e65bc817f80105b716",
+      "bytes": 1518
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/5/-1/-1.avif": {
+      "sha256": "ea49bf97c4d5e795095f6c6b0ef72d0eb99be3594943350f34997212fcb4d434",
+      "bytes": 7403
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/5/-1/0.avif": {
+      "sha256": "341db1218129191223d1e0100c6bdc6c59dc5f2e3b0d4b9187a732cf4a412d73",
+      "bytes": 5131
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/5/0/-1.avif": {
+      "sha256": "bc11ff75d04b2b36664799f67fcb15b6aafdf6cea70a14a91a9ea5f380ef7bdd",
+      "bytes": 7391
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/5/0/0.avif": {
+      "sha256": "68f84f727b23a095a8b3e7e713e975b6f229894eb9cf8d2671dfcf7a474f97d1",
+      "bytes": 5056
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/6/-1/-1.avif": {
+      "sha256": "ea88d98288baa5136b15031212324e918c48861dd1ef987476a907b269d34446",
+      "bytes": 29991
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/6/-1/0.avif": {
+      "sha256": "921a7268b59d00a6424a66593c73e8220ad6818c94fd1d32d0937f0364d99a80",
+      "bytes": 19493
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/6/0/-1.avif": {
+      "sha256": "2b9482f8d79fe180da3614f6ed83c9682eb9d03c54ceac4c3b44975fee4c5ead",
+      "bytes": 30503
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/6/0/0.avif": {
+      "sha256": "31790589d4185b214e2c63131021ed995a9d922d39aeb3571a2c318befb12a3b",
+      "bytes": 19430
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/-1/-1.avif": {
+      "sha256": "b0366d0002afb1aa0d4b4d54e8044833f0f68241c9917cbbc8710a619fc65bf0",
+      "bytes": 31181
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/-1/-2.avif": {
+      "sha256": "db46fd3f720cf8a93a5d1fd9abfb453c57dfd3928aa33d611934629d239b01e6",
+      "bytes": 35915
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/-1/0.avif": {
+      "sha256": "e176b16a7d11e274ac6d39a7a07975dab72c95c695df249518810a04e74993ae",
+      "bytes": 34254
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/-2/-1.avif": {
+      "sha256": "32bd153ac91c3c612a3068098ca4643c7743cd2261a03f59b7847321d677dc7c",
+      "bytes": 32410
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/-2/0.avif": {
+      "sha256": "1f4dbe726b11afcd585f760b4257c1a0e61b73dc6a952aae9e48332d5b8ef479",
+      "bytes": 33031
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/0/-1.avif": {
+      "sha256": "d1a26e80c2f1ade59ada43dd06a32e7feea64f2896a6725103ffc03b151e87e7",
+      "bytes": 32141
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/0/-2.avif": {
+      "sha256": "d634d363e86b92f1f44e2b3de79bf7a6f10caaf1cb507f03434eb634b01a9ca1",
+      "bytes": 36023
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/0/0.avif": {
+      "sha256": "a9f215d99f9c8856ab15bc04a936f496640edb03a0b7160226e86ff620688222",
+      "bytes": 32981
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/1/-1.avif": {
+      "sha256": "de192ecddb400753e5b1a8eb459de5ec5250d3fb33a8295fd499380a20fc201c",
+      "bytes": 35003
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/7/1/0.avif": {
+      "sha256": "bb94ff4518e6fbd9819afe37269f45fcdce023054c0a93b1854b74a9b38fde7a",
+      "bytes": 33843
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/-1.avif": {
+      "sha256": "7c4fbd70c80109c42fe3c9214227138740b90092a6c8391749941bb41b298ce8",
+      "bytes": 16205
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/-2.avif": {
+      "sha256": "935a31eff568142d6d21a439366681c7427b7678443d15a76e317be67d2696bc",
+      "bytes": 23916
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/-3.avif": {
+      "sha256": "1168b4fc26f826aafca1d2587d8bc4fb06475cd22ddf541da92e83b204d59ea9",
+      "bytes": 26763
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/-4.avif": {
+      "sha256": "683b3f71eaedbd33977503bcee0ea1a9f1c2f3707e7575260f40e27bdc625cf3",
+      "bytes": 29402
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/0.avif": {
+      "sha256": "807e756b99c41c6ab74d92cf25265e1267500077e47ed4cebf4ed9f784898936",
+      "bytes": 23792
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-1/1.avif": {
+      "sha256": "6a7ceeda4b2ccb9a677d5e5dae62d894591aa79f75d748baa8dfe26ab02e198c",
+      "bytes": 24751
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/-1.avif": {
+      "sha256": "937573d7a0b1a2289a64d58152f59064fe07aa586cc7703bf32fc646d4cd2981",
+      "bytes": 24876
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/-2.avif": {
+      "sha256": "40539d276e049e80d4f243c735868bb30774ae40a129deea7b87cf64628202dd",
+      "bytes": 26022
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/-3.avif": {
+      "sha256": "3fbbb8a85500a6c28e44bf27f63852139f6c452763ea6024d89344954234e6c5",
+      "bytes": 26213
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/-4.avif": {
+      "sha256": "c068d013be1026c6c8fea8bac1ef8d688acef338294a6fc20acf4c4916503477",
+      "bytes": 27330
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/0.avif": {
+      "sha256": "a326c71a4236be28ce6741255b2eb8db114594bc7d5189de540ba9e0da71369a",
+      "bytes": 24712
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-2/1.avif": {
+      "sha256": "3059b580df3e1a63a098864b318a4355a8f298484a4fe6676f460a363fe0f812",
+      "bytes": 26238
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-3/-1.avif": {
+      "sha256": "7c4c67b762e08f0aa6cceb6c6cd0ff580bc55a55f74deb69d339bb2727eb9be2",
+      "bytes": 24403
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-3/-2.avif": {
+      "sha256": "af4887c5840ae18519744f7492f4f2bdbab7234560d44810b9e864dac844d066",
+      "bytes": 23819
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-3/0.avif": {
+      "sha256": "16c509dd0ad646678f2540dad5e4ed15427d31dd6a93aa70fd5218dfcccc7fcf",
+      "bytes": 25363
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-3/1.avif": {
+      "sha256": "eb71f9fb8234e7ad08580b44b5b9f69dca13c3f6a6628ff31bc700876c4f55ee",
+      "bytes": 20772
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-4/-1.avif": {
+      "sha256": "fbc6815eb44fe13625892f8f26fe4348c27a10fe06281cc55f7c215b54b0f3fa",
+      "bytes": 23113
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-4/-2.avif": {
+      "sha256": "66219eb0c1e96ae05bdfb2137982a7cf07a3974fd317659ff88c8276bf2efdf5",
+      "bytes": 22527
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-4/0.avif": {
+      "sha256": "0af747d5966d60a6ed9dbb05b98866c0745b2916b4816b186e2f6bc4f55839f1",
+      "bytes": 25352
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/-4/1.avif": {
+      "sha256": "b9517d687188170d84b811f3d3ef8401222415d93793174da6517252e02b36c3",
+      "bytes": 25467
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/-1.avif": {
+      "sha256": "1e978a181269141fde7c8c975e180f950a3c830a23e58ca5a9c73a235a23460e",
+      "bytes": 21115
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/-2.avif": {
+      "sha256": "2e7c315cc37a11d79940d3919bd90f69382e107e375e8832a87037ad7ecd66cc",
+      "bytes": 23863
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/-3.avif": {
+      "sha256": "e828f603fac9cbf4810ee7711b1d5424610b63faef24a33f35ec42aca418fa29",
+      "bytes": 26404
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/-4.avif": {
+      "sha256": "84c26167d31ec82844d290273aa569354243d343bd9fa14b0ed355aff7a843f8",
+      "bytes": 27952
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/0.avif": {
+      "sha256": "53fad336a0a72292f425e5c024a9a597157eb1af8908b0c92a49f18296c89d93",
+      "bytes": 24339
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/0/1.avif": {
+      "sha256": "17965d22a5d0686071ad491d3f5fa907149d7264089508d372bd55bd441e51b8",
+      "bytes": 25398
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/-1.avif": {
+      "sha256": "befc8a7c0e2cf397ff6049b38ee6e76b19ccaff217ad0858fe4588855335c73c",
+      "bytes": 26228
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/-2.avif": {
+      "sha256": "060383a62745160c45bfdbacbe1dd8294434816c598cbd5095b9a26382a857bb",
+      "bytes": 25092
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/-3.avif": {
+      "sha256": "6376fb2d5943b7eadaf4fbb2ff8bee1c2bf24530ba5786f6991545ce1da44f24",
+      "bytes": 25527
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/-4.avif": {
+      "sha256": "8f6b3dfc410c1d1282450150812fdf8d4cc481a568259c7f1eaf0659f49628cc",
+      "bytes": 27279
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/0.avif": {
+      "sha256": "ad36a0ae8dd894434385218e2740a8995c0be42dbd880acae7bac352c6038e10",
+      "bytes": 25526
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/1/1.avif": {
+      "sha256": "0adc4f922431e1a8dfe10c0fe368c44f930b9d391c7a7cf8da979dc683e1ef8c",
+      "bytes": 23236
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/2/-1.avif": {
+      "sha256": "5a478815ae5e67c3231aae879fe536eac042be1131245acafb4084bc6fca066a",
+      "bytes": 25568
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/2/-2.avif": {
+      "sha256": "104f6a9def91481c4f5e0693a134f586e722c9e6de7e3ced239fb7fadb8b9984",
+      "bytes": 26775
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/2/0.avif": {
+      "sha256": "06186cde8db5e31c5d3cf274230675312580ecbd5d7a35f87646e5fd50a29fd9",
+      "bytes": 25037
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/2/1.avif": {
+      "sha256": "a7e42d4b13db2a146ca997f4e2096d8790de8d7fa0e24e0779f23453dd10194e",
+      "bytes": 25580
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/3/-1.avif": {
+      "sha256": "e3d70c816ed0fa9e39908923aca8986a6f3df907402c73ddc245702150cb3120",
+      "bytes": 24518
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/3/-2.avif": {
+      "sha256": "cb7ccf1bfc94ca39ce4b03266a671242a01c0ab13c45f74af89cbd556979eea2",
+      "bytes": 25991
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/3/0.avif": {
+      "sha256": "bc1489b11d56a683523b77db6463a0cff3a73667d4619e101fb6748134b36480",
+      "bytes": 23951
+    },
+    "data/bo-005p-viewer/web/regions/bologna/tiles/photo/8/3/1.avif": {
+      "sha256": "59f518c333dd23bff57de0c3ddb12f6a0ebc86341189712381bda2b1b818ad91",
+      "bytes": 26315
+    },
+    "README.md": {
+      "sha256": "cfef227ecf0d30b51871a76b276348f6b8d6894af43f3d1301e56d768f961627",
+      "bytes": 16753
+    },
+    "pipeline/src/export.ts": {
+      "sha256": "c3b85dc73b05d41b2312a9591cbaff01de815754e7f46a0aef060762b6e051de",
+      "bytes": 55318
+    },
+    "pipeline/src/export-mode.ts": {
+      "sha256": "8f0f6726822e1e1a76ec321edf0eb6bd22011862aefd3b05ff598567a45971c2",
+      "bytes": 876
+    },
+    "web/astro.config.mjs": {
+      "sha256": "1306bf5f6c474073751378176c0da540ff28920aed2bcedf2b0dedb575999131",
+      "bytes": 4516
+    },
+    "web/local-map.ts": {
+      "sha256": "3d2fbd17bd97056e762ed1aa191717140b7eb6a4915a121ebcf15f595f9e3d5d",
+      "bytes": 806
+    },
+    "web/src/env.d.ts": {
+      "sha256": "9c9283a414423d9223e5ea86941b142443b8af7a007f77612dc2c098de2d2500",
+      "bytes": 39
+    },
+    "web/src/components/MapPage.astro": {
+      "sha256": "cbfe21255f3d8f14dff07eab6a8ec3968daad28d20ec80bd3f7b14798cb7c154",
+      "bytes": 9962
+    },
+    "web/src/scripts/map.ts": {
+      "sha256": "b055199e39c6035be2d79be0bb0774958ddb84a7955955df82e6a48f0e04f0be",
+      "bytes": 20029
+    },
+    "docs/bologna-viewer-browser.ts": {
+      "sha256": "4fc5bc61bf48b17b2ea4f3aa71c36f85f49470365fc0f47d38ba0ec65fe322c0",
+      "bytes": 20797
+    },
+    "docs/bologna-viewer-check.ts": {
+      "sha256": "5f013260fc833215673d806f7b0d807b743c3b0494a95fc6c4abae612b5947e3",
+      "bytes": 5707
+    },
+    "docs/bologna-viewer-checksums.ts": {
+      "sha256": "659f18b98e6adbb0be0cd03d7d3d0734f6a67be0fe2a58e8d03d96f2d11cfe20",
+      "bytes": 1131
+    },
+    "docs/bologna-viewer-close.png": {
+      "sha256": "adbca817fee3f1137e65222765e4206c620bafa2d123a6d2730b6604e80a4d83",
+      "bytes": 1057616
+    },
+    "docs/bologna-viewer-engineering.json": {
+      "sha256": "ce97665d86e707868b2919d69123495812018ff2c8d44e23da02051fd3965d3c",
+      "bytes": 4913
+    },
+    "docs/bologna-viewer-inputs.json": {
+      "sha256": "b70755ee99acba57f03b79b67cf9c85d40c3db3a4ead60fa8c2146f8deb039ec",
+      "bytes": 199486
+    },
+    "docs/bologna-viewer-medium.png": {
+      "sha256": "ca291584d3827b4fb5d2e7b7e1b267894e9d983e5bfb01347bd1c8bef12f0c2a",
+      "bytes": 2058254
+    },
+    "docs/bologna-viewer-overview.png": {
+      "sha256": "7dfea05ae499af3f9ebcb8b7a8a393a6aec519c69b7709c7c3f58d590e13915b",
+      "bytes": 1689890
+    },
+    "docs/bologna-viewer-prepare.ts": {
+      "sha256": "7ffeb97a43d1c00f57901ca53ded76cbcfbfa0fe714ba309396e48c6e83ac2ee",
+      "bytes": 4539
+    },
+    "docs/bologna-viewer-qa.json": {
+      "sha256": "72c2769a2e1e9dcd481d774825aaa5c6fe8ef4b0ddfc4f66a4c72573f6f3dc14",
+      "bytes": 131988
+    },
+    "docs/bologna-viewer-touch.png": {
+      "sha256": "d32cfe9c36096ca7e96c4b8f433c7e1304f4502a5af754b221fdf47844e4af10",
+      "bytes": 476178
+    },
+    "docs/bologna-viewer-spike.md": {
+      "sha256": "b1269e5e57778a17b89fddda91d8ec36f57a752fcb37e07838a02d6f9ebb6703",
+      "bytes": 18712
+    }
+  }
+}

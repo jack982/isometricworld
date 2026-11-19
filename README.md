@@ -43,6 +43,28 @@ login for publishing (`.env.example`).
 datasets and licences are acceptable, code changes, pipeline commands and checks. Sources and credit lines:
 [ATTRIBUTION.md](ATTRIBUTION.md).
 
+### Local procedural preview (no R2 account)
+
+An existing render can be exported into an isolated data root and viewed with the same Astro/OpenSeadragon
+application, without production fallback or animations. The Bologna spike uses the preserved BO-003F
+Piazza Maggiore render; it does not change geometry or establish measured landmark fidelity.
+
+```sh
+nvm use 24
+node --import tsx docs/bologna-viewer-prepare.ts   # once: requires the preserved inputs and a fresh data/bo-005p-viewer
+PIPELINE_DATA_ROOT=data/bo-005p-viewer npm run export -- piazza-maggiore --local-preview
+LOCAL_MAP_ROOT=data/bo-005p-viewer/web npm -w web run dev -- --host 127.0.0.1 --port 4375
+# Open http://127.0.0.1:4375/bologna; drag, wheel/pinch, or share the generated #@x,y,zoom link.
+```
+
+`--local-preview` requires isolated cache/state paths, builds a complete AVIF pyramid, retains source
+attribution, and disables remote tile reads, wide edge fading and unused municipal/animation overlays.
+`LOCAL_MAP_ROOT` is relative to the repository (or absolute), works only in dev, and returns explicit
+404s for absent assets. Other unexported cities show a local-data notice. Unset it for normal production
+builds. Existing export/viewer defaults remain available. The start command prints its server PID;
+stop only that task-owned process with `kill -TERM <pid>`, not a shared `astro dev stop` command.
+See [the spike report](docs/bologna-viewer-spike.md) for validation, screenshots and exact commands.
+
 ## Regions and cities
 
 `pipeline/src/places.ts` is the one table of places, shared by the pipeline and the site.

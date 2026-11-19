@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import { HOSTING } from '../pipeline/src/hosting.ts';
 import { CITIES } from '../pipeline/src/places.ts';
+import { mapCache, regionAsset } from './local-map.ts';
 
 // hosting settings (TILES_ORIGIN, SITE_DOMAIN) live in the repo-root .env, never in git
 const ENV = fileURLToPath(new URL('../.env', import.meta.url));
@@ -15,7 +16,8 @@ if (existsSync(ENV)) process.loadEnvFile(ENV);
  * everything else is proxied from production (R2), same-origin, so any dev port works without CORS.
  * The built site loads R2 directly.
  */
-const CACHE = fileURLToPath(new URL('../data/web/', import.meta.url));
+const LOCAL_ONLY = Boolean(process.env.LOCAL_MAP_ROOT);
+const CACHE = mapCache(process.env.LOCAL_MAP_ROOT, fileURLToPath(new URL('../', import.meta.url)));
 const TYPES = { avif: 'image/avif', webp: 'image/webp', json: 'application/json' };
 
 /** @returns {import('vite').Plugin} */
@@ -23,15 +25,16 @@ const regionsOverlay = () => ({
 	name: 'regions-overlay',
 	configureServer(server) {
 		server.middlewares.use('/regions/', (req, res) => {
-			const path = decodeURIComponent((req.url ?? '/').split('?')[0]);
-			const file = CACHE + 'regions' + path;
-			if (!path.includes('..') && existsSync(file) && statSync(file).isFile()) {
+			const file = regionAsset(CACHE, req.url);
+			if (!file) { res.statusCode = 400; res.end('Invalid asset path'); return; }
+			if (existsSync(file) && statSync(file).isFile()) {
 				res.setHeader('Content-Type', TYPES[/** @type {'avif'|'webp'|'json'} */ (file.split('.').pop())] ?? 'application/octet-stream');
 				res.setHeader('Cache-Control', 'no-store');
 				res.setHeader('X-Source', 'local-cache');
 				createReadStream(file).pipe(res);
 				return;
 			}
+			if (LOCAL_ONLY) { res.statusCode = 404; res.setHeader('X-Source', 'local-only-missing'); res.end('Asset not present in the local map export'); return; }
 			fetch(`${HOSTING.origin}/regions${req.url}`).then(async (r) => {
 				res.statusCode = r.status;
 				for (const h of ['content-type', 'cache-control', 'etag']) { const v = r.headers.get(h); if (v) res.setHeader(h, v); }
@@ -40,6 +43,15 @@ const regionsOverlay = () => ({
 			}).catch((e) => { res.statusCode = 502; res.end(String(e)); });
 		});
 	},
+});
+
+/** The asset override is for local development; it must never silently configure deployment. */
+/** @returns {import('astro').AstroIntegration} */
+const localOnlyGuard = () => ({
+	name: 'local-map-dev-only',
+	hooks: { 'astro:config:setup': ({ command }) => {
+		if (LOCAL_ONLY && ['build', 'preview'].includes(command)) throw new Error('LOCAL_MAP_ROOT is dev-only; unset it before a production build/preview');
+	} },
 });
 
 /**
@@ -68,11 +80,13 @@ const cityRedirects = () => ({
 
 // https://astro.build/config
 export default defineConfig({
-	integrations: [cityRedirects()],
+	integrations: [cityRedirects(), localOnlyGuard()],
+	devToolbar: { enabled: !LOCAL_ONLY }, // keep attribution unobscured in the local end-user spike
 	site: process.env.SITE_DOMAIN ? `https://${process.env.SITE_DOMAIN}` : undefined,
 	vite: {
 		// the browser has no process.env: bake the tile origin into the viewer
-		define: { __TILES_ORIGIN__: JSON.stringify(HOSTING.origin), __WEB_CACHE__: JSON.stringify(CACHE) },
+		define: { __TILES_ORIGIN__: JSON.stringify(LOCAL_ONLY ? '' : HOSTING.origin), __WEB_CACHE__: JSON.stringify(CACHE), __LOCAL_MAP_ONLY__: JSON.stringify(LOCAL_ONLY) },
+		server: { strictPort: LOCAL_ONLY },
 		// pre-bundle the viewer so the dev server never serves a stale dependency
 		optimizeDeps: { include: ['openseadragon'] },
 		plugins: [regionsOverlay()],

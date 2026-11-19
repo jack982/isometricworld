@@ -4,11 +4,13 @@ import { CITIES, REGIONS } from "../../../pipeline/src/places.ts";
 import { existsSync, readFileSync } from "node:fs";
 import { HOSTING } from "../../../pipeline/src/hosting.ts";
 declare const __WEB_CACHE__: string; // data/web/, injected by astro.config.mjs
+declare const __LOCAL_MAP_ONLY__: boolean;
 interface Props { city: string; home?: boolean }
 interface Preview { file: string; lqip: string }
-interface World { files?: Record<string, string>; previews?: Record<string, { land: Preview; port: Preview }> }
+interface World { files?: Record<string, string>; previews?: Record<string, { land: Preview; port: Preview }>; localPreview?: { procedural:boolean; areaTitles:string[] } }
 const { city, home = false } = Astro.props;
 const c = CITIES[city], region = REGIONS[c.region];
+const localOnly = import.meta.env.DEV && __LOCAL_MAP_ONLY__;
 // map data comes from R2 (same-origin /regions in dev): start its downloads with the HTML, not after the script
 const tilesOrigin = import.meta.env.DEV ? "" : HOSTING.origin;
 const regionBase = `${tilesOrigin}/regions/${c.region}`, data = `${regionBase}/data`;
@@ -17,13 +19,16 @@ const regionBase = `${tilesOrigin}/regions/${c.region}`, data = `${regionBase}/d
 async function loadWorld(): Promise<World> {
   const local = `${__WEB_CACHE__}regions/${c.region}/data/world.json`;
   if (import.meta.env.DEV && existsSync(local)) return JSON.parse(readFileSync(local, "utf8"));
+  if (localOnly) return {}; // do not probe production for other cities in an isolated local preview
   try {
     const r = await fetch(`${HOSTING.origin}/regions/${c.region}/data/world.json?build=${Date.now()}`);
     return r.ok ? await r.json() : {};
   } catch { return {}; }
 }
 const world = await loadWorld();
-const preload = world.files ? [world.files["tiles-map"], world.files.borders].filter(Boolean) : ["tiles.json", "borders.json"];
+const localMissing = localOnly && !world.files;
+const localCities = localMissing ? Object.entries(CITIES).filter(([, c]) => existsSync(`${__WEB_CACHE__}regions/${c.region}/data/world.json`)) : [];
+const preload = localMissing ? [] : world.files ? [world.files["tiles-map"], world.files.borders].filter(Boolean) : ["tiles.json", "borders.json"];
 const pv = world.previews?.[city];
 const title = home ? "Isometric World" : `${c.title} · Isometric World`;
 const description = home ? "An isometric city map from open data." : `${c.title}: an isometric city map from open data.`;
@@ -44,7 +49,7 @@ const pageUrl = new URL(Astro.url.pathname.replace(/(.)\/$/, "$1"), site).href, 
 		<meta name="color-scheme" content="dark" />
 		<title>{title}</title>
 		{tilesOrigin && <link rel="preconnect" href={tilesOrigin} crossorigin="anonymous" />}
-		<link rel="preload" href={`${data}/world.json`} as="fetch" crossorigin="anonymous" />
+		{!localMissing && <link rel="preload" href={`${data}/world.json`} as="fetch" crossorigin="anonymous" />}
 		{preload.map((f) => <link rel="preload" href={`${data}/${f}`} as="fetch" crossorigin="anonymous" />)}
 		<meta name="description" content={description} />
 		{/* social cards: web/public/og/<city>.jpg, made by pipeline/src/og.ts from the published tiles */}
@@ -65,8 +70,10 @@ const pageUrl = new URL(Astro.url.pathname.replace(/(.)\/$/, "$1"), site).href, 
 		{/* Pirsch Analytics (cookie-free), proxied first-party by worker/index.ts; the access key is a Worker secret */}
 		{!import.meta.env.DEV && <script is:inline defer src="/p/s.js" id="pianjs" data-hit-endpoint="/p/v" data-event-endpoint="/p/e" data-session-endpoint="/p/k"></script>}
 	</head>
-	<body data-city={city} data-region={c.region}>
+	<body data-city={city} data-region={c.region} data-local-map-missing={localMissing ? "true" : undefined} data-local-preview={localOnly ? "true" : undefined}>
 		<div id="map"></div>
+		{localMissing && <main id="local-map-unavailable"><h1>No local map for {c.title}</h1><p>This local session contains only the exported test area.</p>{localCities.map(([slug, c]) => <p><a href={`/${slug}`}>Open {c.title}</a></p>)}</main>}
+		{localOnly && world.localPreview && <aside id="local-preview">{world.localPreview.procedural ? "Procedural preview" : "Local preview"} · {world.localPreview.areaTitles.join(", ")} · Limited test area</aside>}
 		{pv && (
 			/* the opening view as one image (and a blurred inline version until it loads); map.ts fades it out
 			   once the tiles are in. Laid out like the viewer opens the city: full width, centred vertically. */
@@ -94,6 +101,10 @@ const pageUrl = new URL(Astro.url.pathname.replace(/(.)\/$/, "$1"), site).href, 
 			/* the map owns every gesture: no browser pan/pinch/double-tap zoom of the page, no long-press callout */
 			#map { touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
 			#map { position: fixed; inset: 0; background: #0e0f12; }
+			#local-preview { position: fixed; left: 12px; top: 12px; z-index: 3; max-width: calc(100vw - 48px); padding: 6px 10px; border-radius: 6px; background: rgba(255,255,255,.9); color: #333; font-size: 12px; pointer-events: none; }
+			#local-map-unavailable { position: relative; z-index: 3; margin: 10vh auto; padding: 24px; max-width: 520px; color: white; }
+			#local-map-unavailable a { color: #9dccff; }
+			body[data-local-preview="true"] #credits .credit { white-space: normal; }
 			#preview { position: fixed; inset: 0; z-index: 1; pointer-events: none; overflow: hidden; background: #0e0f12; }
 			/* landscape: the image is 0.8 × as tall as wide; portrait and squarish screens: 2.2 × (export.ts PREVIEWS) */
 			#preview .frame { position: absolute; left: 0; top: 50%; width: 100%; aspect-ratio: 1 / 0.8; transform: translateY(-50%); }
@@ -124,7 +135,7 @@ const pageUrl = new URL(Astro.url.pathname.replace(/(.)\/$/, "$1"), site).href, 
 		</style>
 
 		<script>
-			import '../scripts/map.ts';
+			if (document.body.dataset.localMapMissing !== 'true') await import('../scripts/map.ts');
 		</script>
 	</body>
 </html>

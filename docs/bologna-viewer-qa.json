@@ -1,0 +1,5164 @@
+{
+  "gates": {
+    "gate0": "PASS",
+    "gateA": "PASS",
+    "gateB": "PASS_AUTOMATION_HUMAN_NOT_TESTED",
+    "gateC": "PASS"
+  },
+  "automatedPassed": true,
+  "checks": [
+    {
+      "name": "source preservation, frozen camera and source attributions",
+      "status": "PASS",
+      "details": {
+        "protectedFiles": 990,
+        "sourceTiles": 10,
+        "intentionalBlankCells": [
+          {
+            "x": -2,
+            "y": -2
+          },
+          {
+            "x": 1,
+            "y": -2
+          }
+        ]
+      }
+    },
+    {
+      "name": "all sparse pyramid coordinates, AVIFs, alpha, hashes and native color agreement",
+      "status": "PASS",
+      "details": {
+        "files": 140,
+        "nativeTiles": 40,
+        "maxNativeMae": 4.570128122965495,
+        "seams": 66
+      }
+    },
+    {
+      "name": "Bologna initial route, first fully-loaded view and no analytics",
+      "status": "PASS"
+    },
+    {
+      "name": "mouse drag changes map position",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "x": 0,
+          "y": -512,
+          "zoom": 13.653333333333334,
+          "hash": "#@0,-512,13.65"
+        },
+        "after": {
+          "x": -785.9553834122744,
+          "y": -878.7787135035433,
+          "zoom": 13.653333333333334,
+          "hash": "#@0,-512,13.65"
+        }
+      }
+    },
+    {
+      "name": "mouse wheel zoom",
+      "status": "PASS",
+      "details": {
+        "before": {
+          "x": -785.9623441818694,
+          "y": -878.7819618513604,
+          "zoom": 13.653333333333334,
+          "hash": "#@0,-512,13.65"
+        },
+        "after": {
+          "x": -83.62335265754518,
+          "y": -612.0941508028554,
+          "zoom": 18.432000000000002,
+          "hash": "#@-84,-612,18.43"
+        }
+      }
+    },
+    {
+      "name": "existing shareable pixel/zoom deep link survives reload",
+      "status": "PASS",
+      "details": {
+        "url": "http://127.0.0.1:4375/bologna#@-343,-162,110.59",
+        "before": {
+          "x": -342.88065843621007,
+          "y": -161.52263374485847,
+          "zoom": 110.59200000000001,
+          "hash": "#@-343,-162,110.59"
+        },
+        "after": {
+          "x": -343,
+          "y": -162,
+          "zoom": 110.59,
+          "hash": "#@-343,-162,110.59"
+        }
+      }
+    },
+    {
+      "name": "existing lat/lon/width deep link",
+      "status": "PASS",
+      "details": {
+        "x": -3.965396899729967e-10,
+        "y": -282.8427124753034,
+        "zoom": 32.768,
+        "hash": "#@0,-283,32.77"
+      }
+    },
+    {
+      "name": "raw render layer toggle",
+      "status": "PASS"
+    },
+    {
+      "name": "no animations/traffic/birds or animation datasets",
+      "status": "PASS"
+    },
+    {
+      "name": "visible linked credits and clickability",
+      "status": "PASS",
+      "details": {
+        "externalNavigation": "prevented for local-only QA; external HTTP status NOT_TESTED",
+        "links": {
+          "text": "© OpenStreetMap contributors · Comune di Bologna – SIT, CC BY 4.0 (projected, filtered and extruded) · Comune di Bologna – Settore Ambiente e Verde, CC BY 4.0 (class-based estimates) · Appearance references: Zairon (roof), Congolandia.g (facade), Raffacossa (clock), CC BY-SA 4.0 (appearance only; estimated geometry) · Copernicus DEM · Terrain: © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved · Source · Made by Dmytro Krasun",
+          "anchors": [
+            {
+              "text": "OpenStreetMap contributors",
+              "href": "https://www.openstreetmap.org/copyright",
+              "width": 148.9375,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Comune di Bologna – SIT",
+              "href": "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/",
+              "width": 128.5,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "CC BY 4.0",
+              "href": "https://creativecommons.org/licenses/by/4.0/",
+              "width": 48.3125,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Comune di Bologna – Settore Ambiente e Verde",
+              "href": "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/",
+              "width": 245.390625,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "CC BY 4.0",
+              "href": "https://creativecommons.org/licenses/by/4.0/",
+              "width": 48.3125,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Zairon (roof)",
+              "href": "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg",
+              "width": 64.40625,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Congolandia.g (facade)",
+              "href": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg",
+              "width": 118.96875,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Raffacossa (clock)",
+              "href": "https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg",
+              "width": 90.796875,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "CC BY-SA 4.0",
+              "href": "https://creativecommons.org/licenses/by-sa/4.0/",
+              "width": 64.921875,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Copernicus DEM",
+              "href": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+              "width": 85.09375,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Source",
+              "href": "https://github.com/krasun/isometricworld",
+              "width": 35.3125,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            },
+            {
+              "text": "Dmytro Krasun",
+              "href": "https://dmytrokrasun.com/",
+              "width": 77.90625,
+              "height": 15,
+              "pointerEvents": "auto",
+              "unobscured": true
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "local video-mode credit retains exact Copernicus and active municipal notices",
+      "status": "PASS"
+    },
+    {
+      "name": "emulated touch pinch/pan and mobile credit wrapping",
+      "status": "PASS",
+      "details": {
+        "start": {
+          "x": -3.965396899729967e-10,
+          "y": -282.8427124753034,
+          "zoom": 32.768,
+          "hash": "#@0,-283,32.77"
+        },
+        "pinched": {
+          "x": -13.530900401998224,
+          "y": -393.16135835777095,
+          "zoom": 64.22528000000004,
+          "hash": "#@-14,-393,64.23"
+        },
+        "dragged": {
+          "x": -160.05104692213717,
+          "y": -435.02425736353325,
+          "zoom": 64.22528000000004,
+          "hash": "#@-160,-435,64.23"
+        },
+        "horizontalPageOverflow": false
+      }
+    },
+    {
+      "name": "other configured city routes remain explicit and offline",
+      "status": "PASS",
+      "details": {
+        "routes": [
+          {
+            "slug": "tel-aviv-yafo",
+            "status": "PASS_LOCAL_UNAVAILABLE",
+            "requestsToProduction": false
+          },
+          {
+            "slug": "stuttgart",
+            "status": "PASS_LOCAL_UNAVAILABLE",
+            "requestsToProduction": false
+          }
+        ],
+        "zagreb": "NOT_TESTED: no Zagreb city or route exists in the current source configuration"
+      }
+    },
+    {
+      "name": "appearance reference credits are conditional on source notice",
+      "status": "PASS",
+      "details": {
+        "method": "Browser-only non-F attribution fixture; no export/source files modified"
+      }
+    },
+    {
+      "name": "missing local assets return 404 without production fallback",
+      "status": "PASS"
+    },
+    {
+      "name": "encoded path cannot expose repo secrets",
+      "status": "PASS"
+    },
+    {
+      "name": "no failed required assets, console errors or unexpected production calls",
+      "status": "PASS"
+    }
+  ],
+  "url": "http://127.0.0.1:4375/bologna",
+  "source": "data/bo-003f-landmarks",
+  "sourceCommit": "0a63773",
+  "camera": {
+    "region": "bologna",
+    "origin": {
+      "lat": 44.4938,
+      "lon": 11.343,
+      "h": 0
+    },
+    "headingDeg": 315,
+    "pitchDeg": 45,
+    "mpp": 0.25,
+    "tile": 1024
+  },
+  "bbox": [
+    44.4893,
+    11.337,
+    44.4983,
+    11.349
+  ],
+  "geoidM": 39.647,
+  "inputManifest": "docs/bologna-viewer-inputs.json",
+  "preservation": {
+    "files": 990,
+    "allUnchanged": true
+  },
+  "expected": {
+    "sourceColorTiles": 10,
+    "sourceHeightTiles": 10,
+    "pyramidFiles": 140,
+    "nativePerLayer": 40,
+    "levels": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "metadataFiles": 4,
+    "previewFiles": 2,
+    "exportedRegionFiles": 146,
+    "intentionalBlankSourceCells": [
+      {
+        "x": -2,
+        "y": -2
+      },
+      {
+        "x": 1,
+        "y": -2
+      }
+    ]
+  },
+  "loaded": {
+    "httpResponses": 256,
+    "regionResponses": 161,
+    "tileResponses": 140,
+    "uniqueTileUrls": 60,
+    "responseBodyBytes": 21356490,
+    "regionBodyBytes": 1761642,
+    "observationBasis": "Decoded HTTP response-body bytes across desktop, reloads, touch, other-route and browser-only negative-credit fixture checks; includes dev modules, not a benchmark or compressed wire-byte target"
+  },
+  "pyramid": [
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": -4,
+      "sha256": "c068d013be1026c6c8fea8bac1ef8d688acef338294a6fc20acf4c4916503477",
+      "bytes": 27330,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": -4,
+      "sha256": "683b3f71eaedbd33977503bcee0ea1a9f1c2f3707e7575260f40e27bdc625cf3",
+      "bytes": 29402,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": -3,
+      "sha256": "3fbbb8a85500a6c28e44bf27f63852139f6c452763ea6024d89344954234e6c5",
+      "bytes": 26213,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": -3,
+      "sha256": "1168b4fc26f826aafca1d2587d8bc4fb06475cd22ddf541da92e83b204d59ea9",
+      "bytes": 26763,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": -4,
+      "sha256": "84c26167d31ec82844d290273aa569354243d343bd9fa14b0ed355aff7a843f8",
+      "bytes": 27952,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": -4,
+      "sha256": "8f6b3dfc410c1d1282450150812fdf8d4cc481a568259c7f1eaf0659f49628cc",
+      "bytes": 27279,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": -3,
+      "sha256": "e828f603fac9cbf4810ee7711b1d5424610b63faef24a33f35ec42aca418fa29",
+      "bytes": 26404,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": -3,
+      "sha256": "6376fb2d5943b7eadaf4fbb2ff8bee1c2bf24530ba5786f6991545ce1da44f24",
+      "bytes": 25527,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -4,
+      "y": -2,
+      "sha256": "66219eb0c1e96ae05bdfb2137982a7cf07a3974fd317659ff88c8276bf2efdf5",
+      "bytes": 22527,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -3,
+      "y": -2,
+      "sha256": "af4887c5840ae18519744f7492f4f2bdbab7234560d44810b9e864dac844d066",
+      "bytes": 23819,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -4,
+      "y": -1,
+      "sha256": "fbc6815eb44fe13625892f8f26fe4348c27a10fe06281cc55f7c215b54b0f3fa",
+      "bytes": 23113,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -3,
+      "y": -1,
+      "sha256": "7c4c67b762e08f0aa6cceb6c6cd0ff580bc55a55f74deb69d339bb2727eb9be2",
+      "bytes": 24403,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": -2,
+      "sha256": "40539d276e049e80d4f243c735868bb30774ae40a129deea7b87cf64628202dd",
+      "bytes": 26022,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": -2,
+      "sha256": "935a31eff568142d6d21a439366681c7427b7678443d15a76e317be67d2696bc",
+      "bytes": 23916,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": -1,
+      "sha256": "937573d7a0b1a2289a64d58152f59064fe07aa586cc7703bf32fc646d4cd2981",
+      "bytes": 24876,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": -1,
+      "sha256": "7c4fbd70c80109c42fe3c9214227138740b90092a6c8391749941bb41b298ce8",
+      "bytes": 16205,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": -2,
+      "sha256": "2e7c315cc37a11d79940d3919bd90f69382e107e375e8832a87037ad7ecd66cc",
+      "bytes": 23863,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": -2,
+      "sha256": "060383a62745160c45bfdbacbe1dd8294434816c598cbd5095b9a26382a857bb",
+      "bytes": 25092,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": -1,
+      "sha256": "1e978a181269141fde7c8c975e180f950a3c830a23e58ca5a9c73a235a23460e",
+      "bytes": 21115,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": -1,
+      "sha256": "befc8a7c0e2cf397ff6049b38ee6e76b19ccaff217ad0858fe4588855335c73c",
+      "bytes": 26228,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 2,
+      "y": -2,
+      "sha256": "104f6a9def91481c4f5e0693a134f586e722c9e6de7e3ced239fb7fadb8b9984",
+      "bytes": 26775,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 3,
+      "y": -2,
+      "sha256": "cb7ccf1bfc94ca39ce4b03266a671242a01c0ab13c45f74af89cbd556979eea2",
+      "bytes": 25991,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 2,
+      "y": -1,
+      "sha256": "5a478815ae5e67c3231aae879fe536eac042be1131245acafb4084bc6fca066a",
+      "bytes": 25568,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 3,
+      "y": -1,
+      "sha256": "e3d70c816ed0fa9e39908923aca8986a6f3df907402c73ddc245702150cb3120",
+      "bytes": 24518,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -4,
+      "y": 0,
+      "sha256": "0af747d5966d60a6ed9dbb05b98866c0745b2916b4816b186e2f6bc4f55839f1",
+      "bytes": 25352,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -3,
+      "y": 0,
+      "sha256": "16c509dd0ad646678f2540dad5e4ed15427d31dd6a93aa70fd5218dfcccc7fcf",
+      "bytes": 25363,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -4,
+      "y": 1,
+      "sha256": "b9517d687188170d84b811f3d3ef8401222415d93793174da6517252e02b36c3",
+      "bytes": 25467,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -3,
+      "y": 1,
+      "sha256": "eb71f9fb8234e7ad08580b44b5b9f69dca13c3f6a6628ff31bc700876c4f55ee",
+      "bytes": 20772,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": 0,
+      "sha256": "a326c71a4236be28ce6741255b2eb8db114594bc7d5189de540ba9e0da71369a",
+      "bytes": 24712,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": 0,
+      "sha256": "807e756b99c41c6ab74d92cf25265e1267500077e47ed4cebf4ed9f784898936",
+      "bytes": 23792,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -2,
+      "y": 1,
+      "sha256": "3059b580df3e1a63a098864b318a4355a8f298484a4fe6676f460a363fe0f812",
+      "bytes": 26238,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": -1,
+      "y": 1,
+      "sha256": "6a7ceeda4b2ccb9a677d5e5dae62d894591aa79f75d748baa8dfe26ab02e198c",
+      "bytes": 24751,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": 0,
+      "sha256": "53fad336a0a72292f425e5c024a9a597157eb1af8908b0c92a49f18296c89d93",
+      "bytes": 24339,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": 0,
+      "sha256": "ad36a0ae8dd894434385218e2740a8995c0be42dbd880acae7bac352c6038e10",
+      "bytes": 25526,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 0,
+      "y": 1,
+      "sha256": "17965d22a5d0686071ad491d3f5fa907149d7264089508d372bd55bd441e51b8",
+      "bytes": 25398,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 1,
+      "y": 1,
+      "sha256": "0adc4f922431e1a8dfe10c0fe368c44f930b9d391c7a7cf8da979dc683e1ef8c",
+      "bytes": 23236,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 2,
+      "y": 0,
+      "sha256": "06186cde8db5e31c5d3cf274230675312580ecbd5d7a35f87646e5fd50a29fd9",
+      "bytes": 25037,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 3,
+      "y": 0,
+      "sha256": "bc1489b11d56a683523b77db6463a0cff3a73667d4619e101fb6748134b36480",
+      "bytes": 23951,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 2,
+      "y": 1,
+      "sha256": "a7e42d4b13db2a146ca997f4e2096d8790de8d7fa0e24e0779f23453dd10194e",
+      "bytes": 25580,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 8,
+      "x": 3,
+      "y": 1,
+      "sha256": "59f518c333dd23bff57de0c3ddb12f6a0ebc86341189712381bda2b1b818ad91",
+      "bytes": 26315,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": -1,
+      "y": -2,
+      "sha256": "db46fd3f720cf8a93a5d1fd9abfb453c57dfd3928aa33d611934629d239b01e6",
+      "bytes": 35915,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": 0,
+      "y": -2,
+      "sha256": "d634d363e86b92f1f44e2b3de79bf7a6f10caaf1cb507f03434eb634b01a9ca1",
+      "bytes": 36023,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": -2,
+      "y": -1,
+      "sha256": "32bd153ac91c3c612a3068098ca4643c7743cd2261a03f59b7847321d677dc7c",
+      "bytes": 32410,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": -1,
+      "y": -1,
+      "sha256": "b0366d0002afb1aa0d4b4d54e8044833f0f68241c9917cbbc8710a619fc65bf0",
+      "bytes": 31181,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": 0,
+      "y": -1,
+      "sha256": "d1a26e80c2f1ade59ada43dd06a32e7feea64f2896a6725103ffc03b151e87e7",
+      "bytes": 32141,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": 1,
+      "y": -1,
+      "sha256": "de192ecddb400753e5b1a8eb459de5ec5250d3fb33a8295fd499380a20fc201c",
+      "bytes": 35003,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": -2,
+      "y": 0,
+      "sha256": "1f4dbe726b11afcd585f760b4257c1a0e61b73dc6a952aae9e48332d5b8ef479",
+      "bytes": 33031,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": -1,
+      "y": 0,
+      "sha256": "e176b16a7d11e274ac6d39a7a07975dab72c95c695df249518810a04e74993ae",
+      "bytes": 34254,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": 0,
+      "y": 0,
+      "sha256": "a9f215d99f9c8856ab15bc04a936f496640edb03a0b7160226e86ff620688222",
+      "bytes": 32981,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 7,
+      "x": 1,
+      "y": 0,
+      "sha256": "bb94ff4518e6fbd9819afe37269f45fcdce023054c0a93b1854b74a9b38fde7a",
+      "bytes": 33843,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 6,
+      "x": -1,
+      "y": -1,
+      "sha256": "ea88d98288baa5136b15031212324e918c48861dd1ef987476a907b269d34446",
+      "bytes": 29991,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 6,
+      "x": 0,
+      "y": -1,
+      "sha256": "2b9482f8d79fe180da3614f6ed83c9682eb9d03c54ceac4c3b44975fee4c5ead",
+      "bytes": 30503,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 6,
+      "x": -1,
+      "y": 0,
+      "sha256": "921a7268b59d00a6424a66593c73e8220ad6818c94fd1d32d0937f0364d99a80",
+      "bytes": 19493,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 6,
+      "x": 0,
+      "y": 0,
+      "sha256": "31790589d4185b214e2c63131021ed995a9d922d39aeb3571a2c318befb12a3b",
+      "bytes": 19430,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 5,
+      "x": -1,
+      "y": -1,
+      "sha256": "ea49bf97c4d5e795095f6c6b0ef72d0eb99be3594943350f34997212fcb4d434",
+      "bytes": 7403,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 5,
+      "x": 0,
+      "y": -1,
+      "sha256": "bc11ff75d04b2b36664799f67fcb15b6aafdf6cea70a14a91a9ea5f380ef7bdd",
+      "bytes": 7391,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 5,
+      "x": -1,
+      "y": 0,
+      "sha256": "341db1218129191223d1e0100c6bdc6c59dc5f2e3b0d4b9187a732cf4a412d73",
+      "bytes": 5131,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 5,
+      "x": 0,
+      "y": 0,
+      "sha256": "68f84f727b23a095a8b3e7e713e975b6f229894eb9cf8d2671dfcf7a474f97d1",
+      "bytes": 5056,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 4,
+      "x": -1,
+      "y": -1,
+      "sha256": "741f14c790f4884d071e70df913a0d12486277794272d8a1953bf36738f2ab1e",
+      "bytes": 2208,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 4,
+      "x": 0,
+      "y": -1,
+      "sha256": "abc5453c67db7d3f02e3033164c114c8261d7b4ca98aed0bfac353a4251e9a65",
+      "bytes": 2185,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 4,
+      "x": -1,
+      "y": 0,
+      "sha256": "42caa93cda3842cd9fb5e3d494ac4b3f50d8c02b844da487d0da751e2941db26",
+      "bytes": 1626,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 4,
+      "x": 0,
+      "y": 0,
+      "sha256": "10322fe35305861bdc51c2cbe52c039cc67267aab37876e65bc817f80105b716",
+      "bytes": 1518,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 3,
+      "x": -1,
+      "y": -1,
+      "sha256": "4d143e7ac930234ff5da7c24dafc24f9712ae3d727549eaefa402e21ab588e61",
+      "bytes": 862,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 3,
+      "x": 0,
+      "y": -1,
+      "sha256": "5d44e56b22d03300adc24880531ff681450dc6e59d03fb579a5351933ecd13c3",
+      "bytes": 820,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 3,
+      "x": -1,
+      "y": 0,
+      "sha256": "ac630aafc8523e7ea246c4359433158addf1eccceccb5293cf111f9694c6047f",
+      "bytes": 721,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 3,
+      "x": 0,
+      "y": 0,
+      "sha256": "56bfd03543dc0ef9d6d65e2b4540cc0d527dc97e808cd04ba5aed04a29d7108b",
+      "bytes": 664,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 2,
+      "x": -1,
+      "y": -1,
+      "sha256": "c0c1b4723a97fb07b0fcf49f3c26172eba5a215981ca44ceb0fd0f647e76357a",
+      "bytes": 529,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 2,
+      "x": 0,
+      "y": -1,
+      "sha256": "fb3513734f87c1bba6dab4558174e83e34e41d42d02d643f119426bd3104ed62",
+      "bytes": 503,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 2,
+      "x": -1,
+      "y": 0,
+      "sha256": "745a3564a298d68124550d5fb2f50fff0498ee4e2d8c688c85580186fac02846",
+      "bytes": 454,
+      "minAlpha": 255
+    },
+    {
+      "layer": "map",
+      "z": 2,
+      "x": 0,
+      "y": 0,
+      "sha256": "ae0f53297b0d66479d1bfd5060caef949a3786d37f882a8032baef9518360c0c",
+      "bytes": 440,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": -4,
+      "sha256": "c068d013be1026c6c8fea8bac1ef8d688acef338294a6fc20acf4c4916503477",
+      "bytes": 27330,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": -4,
+      "sha256": "683b3f71eaedbd33977503bcee0ea1a9f1c2f3707e7575260f40e27bdc625cf3",
+      "bytes": 29402,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": -3,
+      "sha256": "3fbbb8a85500a6c28e44bf27f63852139f6c452763ea6024d89344954234e6c5",
+      "bytes": 26213,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": -3,
+      "sha256": "1168b4fc26f826aafca1d2587d8bc4fb06475cd22ddf541da92e83b204d59ea9",
+      "bytes": 26763,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": -4,
+      "sha256": "84c26167d31ec82844d290273aa569354243d343bd9fa14b0ed355aff7a843f8",
+      "bytes": 27952,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": -4,
+      "sha256": "8f6b3dfc410c1d1282450150812fdf8d4cc481a568259c7f1eaf0659f49628cc",
+      "bytes": 27279,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": -3,
+      "sha256": "e828f603fac9cbf4810ee7711b1d5424610b63faef24a33f35ec42aca418fa29",
+      "bytes": 26404,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": -3,
+      "sha256": "6376fb2d5943b7eadaf4fbb2ff8bee1c2bf24530ba5786f6991545ce1da44f24",
+      "bytes": 25527,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -4,
+      "y": -2,
+      "sha256": "66219eb0c1e96ae05bdfb2137982a7cf07a3974fd317659ff88c8276bf2efdf5",
+      "bytes": 22527,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -3,
+      "y": -2,
+      "sha256": "af4887c5840ae18519744f7492f4f2bdbab7234560d44810b9e864dac844d066",
+      "bytes": 23819,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -4,
+      "y": -1,
+      "sha256": "fbc6815eb44fe13625892f8f26fe4348c27a10fe06281cc55f7c215b54b0f3fa",
+      "bytes": 23113,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -3,
+      "y": -1,
+      "sha256": "7c4c67b762e08f0aa6cceb6c6cd0ff580bc55a55f74deb69d339bb2727eb9be2",
+      "bytes": 24403,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": -2,
+      "sha256": "40539d276e049e80d4f243c735868bb30774ae40a129deea7b87cf64628202dd",
+      "bytes": 26022,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": -2,
+      "sha256": "935a31eff568142d6d21a439366681c7427b7678443d15a76e317be67d2696bc",
+      "bytes": 23916,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": -1,
+      "sha256": "937573d7a0b1a2289a64d58152f59064fe07aa586cc7703bf32fc646d4cd2981",
+      "bytes": 24876,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": -1,
+      "sha256": "7c4fbd70c80109c42fe3c9214227138740b90092a6c8391749941bb41b298ce8",
+      "bytes": 16205,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": -2,
+      "sha256": "2e7c315cc37a11d79940d3919bd90f69382e107e375e8832a87037ad7ecd66cc",
+      "bytes": 23863,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": -2,
+      "sha256": "060383a62745160c45bfdbacbe1dd8294434816c598cbd5095b9a26382a857bb",
+      "bytes": 25092,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": -1,
+      "sha256": "1e978a181269141fde7c8c975e180f950a3c830a23e58ca5a9c73a235a23460e",
+      "bytes": 21115,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": -1,
+      "sha256": "befc8a7c0e2cf397ff6049b38ee6e76b19ccaff217ad0858fe4588855335c73c",
+      "bytes": 26228,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 2,
+      "y": -2,
+      "sha256": "104f6a9def91481c4f5e0693a134f586e722c9e6de7e3ced239fb7fadb8b9984",
+      "bytes": 26775,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 3,
+      "y": -2,
+      "sha256": "cb7ccf1bfc94ca39ce4b03266a671242a01c0ab13c45f74af89cbd556979eea2",
+      "bytes": 25991,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 2,
+      "y": -1,
+      "sha256": "5a478815ae5e67c3231aae879fe536eac042be1131245acafb4084bc6fca066a",
+      "bytes": 25568,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 3,
+      "y": -1,
+      "sha256": "e3d70c816ed0fa9e39908923aca8986a6f3df907402c73ddc245702150cb3120",
+      "bytes": 24518,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -4,
+      "y": 0,
+      "sha256": "0af747d5966d60a6ed9dbb05b98866c0745b2916b4816b186e2f6bc4f55839f1",
+      "bytes": 25352,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -3,
+      "y": 0,
+      "sha256": "16c509dd0ad646678f2540dad5e4ed15427d31dd6a93aa70fd5218dfcccc7fcf",
+      "bytes": 25363,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -4,
+      "y": 1,
+      "sha256": "b9517d687188170d84b811f3d3ef8401222415d93793174da6517252e02b36c3",
+      "bytes": 25467,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -3,
+      "y": 1,
+      "sha256": "eb71f9fb8234e7ad08580b44b5b9f69dca13c3f6a6628ff31bc700876c4f55ee",
+      "bytes": 20772,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": 0,
+      "sha256": "a326c71a4236be28ce6741255b2eb8db114594bc7d5189de540ba9e0da71369a",
+      "bytes": 24712,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": 0,
+      "sha256": "807e756b99c41c6ab74d92cf25265e1267500077e47ed4cebf4ed9f784898936",
+      "bytes": 23792,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -2,
+      "y": 1,
+      "sha256": "3059b580df3e1a63a098864b318a4355a8f298484a4fe6676f460a363fe0f812",
+      "bytes": 26238,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": -1,
+      "y": 1,
+      "sha256": "6a7ceeda4b2ccb9a677d5e5dae62d894591aa79f75d748baa8dfe26ab02e198c",
+      "bytes": 24751,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": 0,
+      "sha256": "53fad336a0a72292f425e5c024a9a597157eb1af8908b0c92a49f18296c89d93",
+      "bytes": 24339,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": 0,
+      "sha256": "ad36a0ae8dd894434385218e2740a8995c0be42dbd880acae7bac352c6038e10",
+      "bytes": 25526,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 0,
+      "y": 1,
+      "sha256": "17965d22a5d0686071ad491d3f5fa907149d7264089508d372bd55bd441e51b8",
+      "bytes": 25398,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 1,
+      "y": 1,
+      "sha256": "0adc4f922431e1a8dfe10c0fe368c44f930b9d391c7a7cf8da979dc683e1ef8c",
+      "bytes": 23236,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 2,
+      "y": 0,
+      "sha256": "06186cde8db5e31c5d3cf274230675312580ecbd5d7a35f87646e5fd50a29fd9",
+      "bytes": 25037,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 3,
+      "y": 0,
+      "sha256": "bc1489b11d56a683523b77db6463a0cff3a73667d4619e101fb6748134b36480",
+      "bytes": 23951,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 2,
+      "y": 1,
+      "sha256": "a7e42d4b13db2a146ca997f4e2096d8790de8d7fa0e24e0779f23453dd10194e",
+      "bytes": 25580,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 8,
+      "x": 3,
+      "y": 1,
+      "sha256": "59f518c333dd23bff57de0c3ddb12f6a0ebc86341189712381bda2b1b818ad91",
+      "bytes": 26315,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": -1,
+      "y": -2,
+      "sha256": "db46fd3f720cf8a93a5d1fd9abfb453c57dfd3928aa33d611934629d239b01e6",
+      "bytes": 35915,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": 0,
+      "y": -2,
+      "sha256": "d634d363e86b92f1f44e2b3de79bf7a6f10caaf1cb507f03434eb634b01a9ca1",
+      "bytes": 36023,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": -2,
+      "y": -1,
+      "sha256": "32bd153ac91c3c612a3068098ca4643c7743cd2261a03f59b7847321d677dc7c",
+      "bytes": 32410,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": -1,
+      "y": -1,
+      "sha256": "b0366d0002afb1aa0d4b4d54e8044833f0f68241c9917cbbc8710a619fc65bf0",
+      "bytes": 31181,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": 0,
+      "y": -1,
+      "sha256": "d1a26e80c2f1ade59ada43dd06a32e7feea64f2896a6725103ffc03b151e87e7",
+      "bytes": 32141,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": 1,
+      "y": -1,
+      "sha256": "de192ecddb400753e5b1a8eb459de5ec5250d3fb33a8295fd499380a20fc201c",
+      "bytes": 35003,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": -2,
+      "y": 0,
+      "sha256": "1f4dbe726b11afcd585f760b4257c1a0e61b73dc6a952aae9e48332d5b8ef479",
+      "bytes": 33031,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": -1,
+      "y": 0,
+      "sha256": "e176b16a7d11e274ac6d39a7a07975dab72c95c695df249518810a04e74993ae",
+      "bytes": 34254,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": 0,
+      "y": 0,
+      "sha256": "a9f215d99f9c8856ab15bc04a936f496640edb03a0b7160226e86ff620688222",
+      "bytes": 32981,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 7,
+      "x": 1,
+      "y": 0,
+      "sha256": "bb94ff4518e6fbd9819afe37269f45fcdce023054c0a93b1854b74a9b38fde7a",
+      "bytes": 33843,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 6,
+      "x": -1,
+      "y": -1,
+      "sha256": "ea88d98288baa5136b15031212324e918c48861dd1ef987476a907b269d34446",
+      "bytes": 29991,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 6,
+      "x": 0,
+      "y": -1,
+      "sha256": "2b9482f8d79fe180da3614f6ed83c9682eb9d03c54ceac4c3b44975fee4c5ead",
+      "bytes": 30503,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 6,
+      "x": -1,
+      "y": 0,
+      "sha256": "921a7268b59d00a6424a66593c73e8220ad6818c94fd1d32d0937f0364d99a80",
+      "bytes": 19493,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 6,
+      "x": 0,
+      "y": 0,
+      "sha256": "31790589d4185b214e2c63131021ed995a9d922d39aeb3571a2c318befb12a3b",
+      "bytes": 19430,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 5,
+      "x": -1,
+      "y": -1,
+      "sha256": "ea49bf97c4d5e795095f6c6b0ef72d0eb99be3594943350f34997212fcb4d434",
+      "bytes": 7403,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 5,
+      "x": 0,
+      "y": -1,
+      "sha256": "bc11ff75d04b2b36664799f67fcb15b6aafdf6cea70a14a91a9ea5f380ef7bdd",
+      "bytes": 7391,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 5,
+      "x": -1,
+      "y": 0,
+      "sha256": "341db1218129191223d1e0100c6bdc6c59dc5f2e3b0d4b9187a732cf4a412d73",
+      "bytes": 5131,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 5,
+      "x": 0,
+      "y": 0,
+      "sha256": "68f84f727b23a095a8b3e7e713e975b6f229894eb9cf8d2671dfcf7a474f97d1",
+      "bytes": 5056,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 4,
+      "x": -1,
+      "y": -1,
+      "sha256": "741f14c790f4884d071e70df913a0d12486277794272d8a1953bf36738f2ab1e",
+      "bytes": 2208,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 4,
+      "x": 0,
+      "y": -1,
+      "sha256": "abc5453c67db7d3f02e3033164c114c8261d7b4ca98aed0bfac353a4251e9a65",
+      "bytes": 2185,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 4,
+      "x": -1,
+      "y": 0,
+      "sha256": "42caa93cda3842cd9fb5e3d494ac4b3f50d8c02b844da487d0da751e2941db26",
+      "bytes": 1626,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 4,
+      "x": 0,
+      "y": 0,
+      "sha256": "10322fe35305861bdc51c2cbe52c039cc67267aab37876e65bc817f80105b716",
+      "bytes": 1518,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 3,
+      "x": -1,
+      "y": -1,
+      "sha256": "4d143e7ac930234ff5da7c24dafc24f9712ae3d727549eaefa402e21ab588e61",
+      "bytes": 862,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 3,
+      "x": 0,
+      "y": -1,
+      "sha256": "5d44e56b22d03300adc24880531ff681450dc6e59d03fb579a5351933ecd13c3",
+      "bytes": 820,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 3,
+      "x": -1,
+      "y": 0,
+      "sha256": "ac630aafc8523e7ea246c4359433158addf1eccceccb5293cf111f9694c6047f",
+      "bytes": 721,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 3,
+      "x": 0,
+      "y": 0,
+      "sha256": "56bfd03543dc0ef9d6d65e2b4540cc0d527dc97e808cd04ba5aed04a29d7108b",
+      "bytes": 664,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 2,
+      "x": -1,
+      "y": -1,
+      "sha256": "c0c1b4723a97fb07b0fcf49f3c26172eba5a215981ca44ceb0fd0f647e76357a",
+      "bytes": 529,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 2,
+      "x": 0,
+      "y": -1,
+      "sha256": "fb3513734f87c1bba6dab4558174e83e34e41d42d02d643f119426bd3104ed62",
+      "bytes": 503,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 2,
+      "x": -1,
+      "y": 0,
+      "sha256": "745a3564a298d68124550d5fb2f50fff0498ee4e2d8c688c85580186fac02846",
+      "bytes": 454,
+      "minAlpha": 255
+    },
+    {
+      "layer": "photo",
+      "z": 2,
+      "x": 0,
+      "y": 0,
+      "sha256": "ae0f53297b0d66479d1bfd5060caef949a3786d37f882a8032baef9518360c0c",
+      "bytes": 440,
+      "minAlpha": 255
+    }
+  ],
+  "nativeDiffs": [
+    {
+      "x": -2,
+      "y": -4,
+      "meanAbsoluteRgbError": 4.188922882080078
+    },
+    {
+      "x": -1,
+      "y": -4,
+      "meanAbsoluteRgbError": 4.570128122965495
+    },
+    {
+      "x": -2,
+      "y": -3,
+      "meanAbsoluteRgbError": 3.8834304809570312
+    },
+    {
+      "x": -1,
+      "y": -3,
+      "meanAbsoluteRgbError": 4.283621470133464
+    },
+    {
+      "x": 0,
+      "y": -4,
+      "meanAbsoluteRgbError": 4.348776499430339
+    },
+    {
+      "x": 1,
+      "y": -4,
+      "meanAbsoluteRgbError": 4.310077667236328
+    },
+    {
+      "x": 0,
+      "y": -3,
+      "meanAbsoluteRgbError": 3.9758822123209634
+    },
+    {
+      "x": 1,
+      "y": -3,
+      "meanAbsoluteRgbError": 3.7395617167154946
+    },
+    {
+      "x": -4,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.2012901306152344
+    },
+    {
+      "x": -3,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.575592041015625
+    },
+    {
+      "x": -4,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.2181167602539062
+    },
+    {
+      "x": -3,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.7016525268554688
+    },
+    {
+      "x": -2,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.860212961832682
+    },
+    {
+      "x": -1,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.909468332926432
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.730144500732422
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "meanAbsoluteRgbError": 2.447434743245443
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.759028116861979
+    },
+    {
+      "x": 1,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.6325225830078125
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.162531534830729
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "meanAbsoluteRgbError": 4.0190277099609375
+    },
+    {
+      "x": 2,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.9717432657877603
+    },
+    {
+      "x": 3,
+      "y": -2,
+      "meanAbsoluteRgbError": 3.9406420389811196
+    },
+    {
+      "x": 2,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.697820027669271
+    },
+    {
+      "x": 3,
+      "y": -1,
+      "meanAbsoluteRgbError": 3.675877888997396
+    },
+    {
+      "x": -4,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.7188199361165366
+    },
+    {
+      "x": -3,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.6880594889322915
+    },
+    {
+      "x": -4,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.6760470072428384
+    },
+    {
+      "x": -3,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.061065673828125
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.8612937927246094
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.561537424723307
+    },
+    {
+      "x": -2,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.8105061848958335
+    },
+    {
+      "x": -1,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.7205530802408853
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.6331405639648438
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.911820729573568
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.942389170328776
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.1568870544433594
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.665996551513672
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "meanAbsoluteRgbError": 3.3276519775390625
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.7833353678385415
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "meanAbsoluteRgbError": 3.9562950134277344
+    }
+  ],
+  "seams": [
+    {
+      "from": [
+        -2,
+        -4
+      ],
+      "to": [
+        -1,
+        -4
+      ],
+      "edgeMae": 13.306640625000012,
+      "interiorMae": 11.813476562499996,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -4
+      ],
+      "to": [
+        -2,
+        -3
+      ],
+      "edgeMae": 17.6015625,
+      "interiorMae": 14.511393229166682,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -4
+      ],
+      "to": [
+        0,
+        -4
+      ],
+      "edgeMae": 10.61197916666667,
+      "interiorMae": 8.662434895833337,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -4
+      ],
+      "to": [
+        -1,
+        -3
+      ],
+      "edgeMae": 12.06575520833332,
+      "interiorMae": 9.48697916666666,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -3
+      ],
+      "to": [
+        -1,
+        -3
+      ],
+      "edgeMae": 14.552734375000018,
+      "interiorMae": 12.735026041666666,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -3
+      ],
+      "to": [
+        -2,
+        -2
+      ],
+      "edgeMae": 12.710286458333343,
+      "interiorMae": 8.896809895833329,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -3
+      ],
+      "to": [
+        0,
+        -3
+      ],
+      "edgeMae": 10.242187500000005,
+      "interiorMae": 8.738281250000004,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -3
+      ],
+      "to": [
+        -1,
+        -2
+      ],
+      "edgeMae": 14.26106770833334,
+      "interiorMae": 9.356770833333332,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -4
+      ],
+      "to": [
+        1,
+        -4
+      ],
+      "edgeMae": 12.214843750000009,
+      "interiorMae": 7.509440104166664,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -4
+      ],
+      "to": [
+        0,
+        -3
+      ],
+      "edgeMae": 14.072916666666668,
+      "interiorMae": 10.536132812500005,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -4
+      ],
+      "to": [
+        1,
+        -3
+      ],
+      "edgeMae": 9.16731770833332,
+      "interiorMae": 6.16438802083333,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -3
+      ],
+      "to": [
+        1,
+        -3
+      ],
+      "edgeMae": 15.371744791666652,
+      "interiorMae": 11.583984374999996,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -3
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 9.845052083333337,
+      "interiorMae": 7.086588541666669,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -3
+      ],
+      "to": [
+        1,
+        -2
+      ],
+      "edgeMae": 11.21549479166666,
+      "interiorMae": 7.5022786458333375,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        -2
+      ],
+      "to": [
+        -3,
+        -2
+      ],
+      "edgeMae": 10.671875000000004,
+      "interiorMae": 7.150716145833331,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        -2
+      ],
+      "to": [
+        -4,
+        -1
+      ],
+      "edgeMae": 8.279296874999995,
+      "interiorMae": 6.393229166666668,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        -2
+      ],
+      "to": [
+        -2,
+        -2
+      ],
+      "edgeMae": 11.214192708333336,
+      "interiorMae": 7.188476562499998,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        -2
+      ],
+      "to": [
+        -3,
+        -1
+      ],
+      "edgeMae": 13.541666666666675,
+      "interiorMae": 10.033854166666663,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        -1
+      ],
+      "to": [
+        -3,
+        -1
+      ],
+      "edgeMae": 9.38216145833331,
+      "interiorMae": 7.303710937500002,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        -1
+      ],
+      "to": [
+        -4,
+        0
+      ],
+      "edgeMae": 9.488932291666663,
+      "interiorMae": 7.889648437500003,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        -1
+      ],
+      "to": [
+        -2,
+        -1
+      ],
+      "edgeMae": 11.581380208333327,
+      "interiorMae": 7.538085937499996,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        -1
+      ],
+      "to": [
+        -3,
+        0
+      ],
+      "edgeMae": 9.731770833333327,
+      "interiorMae": 7.190104166666669,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -2
+      ],
+      "to": [
+        -1,
+        -2
+      ],
+      "edgeMae": 9.406250000000016,
+      "interiorMae": 6.649414062500003,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -2
+      ],
+      "to": [
+        -2,
+        -1
+      ],
+      "edgeMae": 13.147786458333343,
+      "interiorMae": 10.190104166666666,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 10.541015625000014,
+      "interiorMae": 7.99609375,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 10.404296874999998,
+      "interiorMae": 7.759440104166666,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 7.464192708333319,
+      "interiorMae": 5.12467447916667,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 11.914713541666666,
+      "interiorMae": 9.128255208333327,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 3.3125000000000004,
+      "interiorMae": 2.5914713541666665,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 8.118489583333334,
+      "interiorMae": 6.8616536458333295,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        1,
+        -2
+      ],
+      "edgeMae": 6.851562499999998,
+      "interiorMae": 7.045572916666667,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 8.906901041666673,
+      "interiorMae": 6.014648437500006,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -2
+      ],
+      "to": [
+        2,
+        -2
+      ],
+      "edgeMae": 15.314453125000004,
+      "interiorMae": 10.70442708333334,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -2
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 9.611328125000014,
+      "interiorMae": 6.210937499999998,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 13.884765625000012,
+      "interiorMae": 11.630859375,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 7.8476562500000036,
+      "interiorMae": 5.2636718750000036,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        2,
+        -1
+      ],
+      "edgeMae": 8.190755208333337,
+      "interiorMae": 6.653320312500002,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 12.37499999999999,
+      "interiorMae": 8.895182291666663,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        -2
+      ],
+      "to": [
+        3,
+        -2
+      ],
+      "edgeMae": 9.902343750000004,
+      "interiorMae": 7.262044270833334,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        -2
+      ],
+      "to": [
+        2,
+        -1
+      ],
+      "edgeMae": 11.217447916666666,
+      "interiorMae": 9.24967447916667,
+      "review": false
+    },
+    {
+      "from": [
+        3,
+        -2
+      ],
+      "to": [
+        3,
+        -1
+      ],
+      "edgeMae": 12.263671875000004,
+      "interiorMae": 9.52083333333333,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        -1
+      ],
+      "to": [
+        3,
+        -1
+      ],
+      "edgeMae": 18.48111979166667,
+      "interiorMae": 11.353190104166682,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        -1
+      ],
+      "to": [
+        2,
+        0
+      ],
+      "edgeMae": 10.597005208333323,
+      "interiorMae": 9.140624999999993,
+      "review": false
+    },
+    {
+      "from": [
+        3,
+        -1
+      ],
+      "to": [
+        3,
+        0
+      ],
+      "edgeMae": 6.7486979166666625,
+      "interiorMae": 4.823893229166666,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        0
+      ],
+      "to": [
+        -3,
+        0
+      ],
+      "edgeMae": 9.471354166666679,
+      "interiorMae": 5.457356770833333,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        0
+      ],
+      "to": [
+        -4,
+        1
+      ],
+      "edgeMae": 16.116536458333336,
+      "interiorMae": 11.021809895833321,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        0
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 10.28125000000001,
+      "interiorMae": 6.303385416666665,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        0
+      ],
+      "to": [
+        -3,
+        1
+      ],
+      "edgeMae": 9.73372395833333,
+      "interiorMae": 7.896158854166668,
+      "review": false
+    },
+    {
+      "from": [
+        -4,
+        1
+      ],
+      "to": [
+        -3,
+        1
+      ],
+      "edgeMae": 16.891276041666636,
+      "interiorMae": 9.983723958333332,
+      "review": false
+    },
+    {
+      "from": [
+        -3,
+        1
+      ],
+      "to": [
+        -2,
+        1
+      ],
+      "edgeMae": 9.710286458333323,
+      "interiorMae": 7.680338541666668,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 13.320963541666641,
+      "interiorMae": 6.967122395833333,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -2,
+        1
+      ],
+      "edgeMae": 11.27083333333332,
+      "interiorMae": 8.650390625000004,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 9.080078124999984,
+      "interiorMae": 6.982747395833335,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        -1,
+        1
+      ],
+      "edgeMae": 7.002604166666666,
+      "interiorMae": 4.619140625,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        1
+      ],
+      "to": [
+        -1,
+        1
+      ],
+      "edgeMae": 11.792317708333352,
+      "interiorMae": 10.288085937500005,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        1
+      ],
+      "to": [
+        0,
+        1
+      ],
+      "edgeMae": 10.034505208333321,
+      "interiorMae": 8.951822916666664,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 11.813802083333327,
+      "interiorMae": 8.750325520833337,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        0,
+        1
+      ],
+      "edgeMae": 14.544270833333345,
+      "interiorMae": 11.048828125,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        0
+      ],
+      "to": [
+        2,
+        0
+      ],
+      "edgeMae": 16.637369791666668,
+      "interiorMae": 9.877604166666663,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        0
+      ],
+      "to": [
+        1,
+        1
+      ],
+      "edgeMae": 17.086588541666647,
+      "interiorMae": 14.665039062499993,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        1
+      ],
+      "to": [
+        1,
+        1
+      ],
+      "edgeMae": 9.268880208333346,
+      "interiorMae": 6.679361979166668,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        1
+      ],
+      "to": [
+        2,
+        1
+      ],
+      "edgeMae": 11.975260416666663,
+      "interiorMae": 7.78548177083333,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        0
+      ],
+      "to": [
+        3,
+        0
+      ],
+      "edgeMae": 11.83333333333332,
+      "interiorMae": 7.977539062499998,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        0
+      ],
+      "to": [
+        2,
+        1
+      ],
+      "edgeMae": 11.151692708333341,
+      "interiorMae": 7.672851562500004,
+      "review": false
+    },
+    {
+      "from": [
+        3,
+        0
+      ],
+      "to": [
+        3,
+        1
+      ],
+      "edgeMae": 12.33919270833332,
+      "interiorMae": 9.555989583333343,
+      "review": false
+    },
+    {
+      "from": [
+        2,
+        1
+      ],
+      "to": [
+        3,
+        1
+      ],
+      "edgeMae": 11.10481770833332,
+      "interiorMae": 8.212565104166673,
+      "review": false
+    }
+  ],
+  "views": [
+    {
+      "name": "overview",
+      "widthM": 1200,
+      "pose": {
+        "x": 0,
+        "y": -512,
+        "zoom": 13.653333333333334,
+        "hash": "#@0,-512,13.65"
+      }
+    },
+    {
+      "name": "medium",
+      "widthM": 520,
+      "pose": {
+        "x": -160,
+        "y": -280,
+        "zoom": 31.50769230769231,
+        "hash": "#@-160,-280,31.51"
+      }
+    },
+    {
+      "name": "close",
+      "widthM": 200,
+      "pose": {
+        "x": -340,
+        "y": -150,
+        "zoom": 81.92,
+        "hash": "#@-340,-150,81.92"
+      }
+    }
+  ],
+  "timings": {
+    "firstTileDrawMs": 1006.1000000014901,
+    "paint": [
+      {
+        "name": "first-paint",
+        "startTimeMs": 1004
+      },
+      {
+        "name": "first-contentful-paint",
+        "startTimeMs": 1004
+      }
+    ],
+    "navigation": [
+      {
+        "duration": 140.5
+      }
+    ],
+    "resources": [
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+        "transferBytes": 3548,
+        "encodedBytes": 3248,
+        "decodedBytes": 3248,
+        "durationMs": 13.700000002980232
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+        "transferBytes": 1748,
+        "encodedBytes": 1448,
+        "decodedBytes": 1448,
+        "durationMs": 36.600000001490116
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+        "transferBytes": 302,
+        "encodedBytes": 2,
+        "decodedBytes": 2,
+        "durationMs": 44.600000001490116
+      },
+      {
+        "url": "http://127.0.0.1:4375/@vite/client",
+        "transferBytes": 338000,
+        "encodedBytes": 337700,
+        "decodedBytes": 337700,
+        "durationMs": 46.70000000298023
+      },
+      {
+        "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+        "transferBytes": 4358,
+        "encodedBytes": 4058,
+        "decodedBytes": 4058,
+        "durationMs": 45
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-land.290f24b161.avif",
+        "transferBytes": 22301,
+        "encodedBytes": 22001,
+        "decodedBytes": 22001,
+        "durationMs": 46.099999994039536
+      },
+      {
+        "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+        "transferBytes": 806,
+        "encodedBytes": 506,
+        "decodedBytes": 506,
+        "durationMs": 43.70000000298023
+      },
+      {
+        "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+        "transferBytes": 4302,
+        "encodedBytes": 4002,
+        "decodedBytes": 4002,
+        "durationMs": 11.700000002980232
+      },
+      {
+        "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+        "transferBytes": 58485,
+        "encodedBytes": 58185,
+        "decodedBytes": 58185,
+        "durationMs": 25.600000001490116
+      },
+      {
+        "url": "http://127.0.0.1:4375/favicon.svg",
+        "transferBytes": 1129,
+        "encodedBytes": 829,
+        "decodedBytes": 829,
+        "durationMs": 119.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+        "transferBytes": 3322205,
+        "encodedBytes": 3321905,
+        "decodedBytes": 3321905,
+        "durationMs": 139.89999999850988
+      },
+      {
+        "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+        "transferBytes": 19039,
+        "encodedBytes": 18739,
+        "decodedBytes": 18739,
+        "durationMs": 94.19999999552965
+      },
+      {
+        "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+        "transferBytes": 19198,
+        "encodedBytes": 18898,
+        "decodedBytes": 18898,
+        "durationMs": 102.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+        "transferBytes": 1564,
+        "encodedBytes": 1264,
+        "decodedBytes": 1264,
+        "durationMs": 7.200000002980232
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+        "transferBytes": 829,
+        "encodedBytes": 529,
+        "decodedBytes": 529,
+        "durationMs": 197.39999999850988
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/-1.avif?v=4905cca03d",
+        "transferBytes": 803,
+        "encodedBytes": 503,
+        "decodedBytes": 503,
+        "durationMs": 198.09999999403954
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+        "transferBytes": 754,
+        "encodedBytes": 454,
+        "decodedBytes": 454,
+        "durationMs": 198.60000000149012
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/0.avif?v=94cc36035f",
+        "transferBytes": 740,
+        "encodedBytes": 440,
+        "decodedBytes": 440,
+        "durationMs": 203
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+        "transferBytes": 1162,
+        "encodedBytes": 862,
+        "decodedBytes": 862,
+        "durationMs": 203.20000000298023
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/-1.avif?v=75e33e7d37",
+        "transferBytes": 1120,
+        "encodedBytes": 820,
+        "decodedBytes": 820,
+        "durationMs": 200.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+        "transferBytes": 1021,
+        "encodedBytes": 721,
+        "decodedBytes": 721,
+        "durationMs": 18.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/favicon.svg",
+        "transferBytes": 1129,
+        "encodedBytes": 829,
+        "decodedBytes": 829,
+        "durationMs": 9.099999994039536
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/0.avif?v=4894a032dd",
+        "transferBytes": 964,
+        "encodedBytes": 664,
+        "decodedBytes": 664,
+        "durationMs": 11.599999994039536
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+        "transferBytes": 2508,
+        "encodedBytes": 2208,
+        "decodedBytes": 2208,
+        "durationMs": 22.299999997019768
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/-1.avif?v=744b71acdc",
+        "transferBytes": 2485,
+        "encodedBytes": 2185,
+        "decodedBytes": 2185,
+        "durationMs": 13.800000004470348
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+        "transferBytes": 1926,
+        "encodedBytes": 1626,
+        "decodedBytes": 1626,
+        "durationMs": 9.299999997019768
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/0.avif?v=2b3790f9d1",
+        "transferBytes": 1818,
+        "encodedBytes": 1518,
+        "decodedBytes": 1518,
+        "durationMs": 13
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+        "transferBytes": 7703,
+        "encodedBytes": 7403,
+        "decodedBytes": 7403,
+        "durationMs": 6.299999997019768
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/-1.avif?v=f17d9bcb3b",
+        "transferBytes": 7691,
+        "encodedBytes": 7391,
+        "decodedBytes": 7391,
+        "durationMs": 6
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+        "transferBytes": 5431,
+        "encodedBytes": 5131,
+        "decodedBytes": 5131,
+        "durationMs": 8.400000005960464
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/0.avif?v=7663ab3397",
+        "transferBytes": 5356,
+        "encodedBytes": 5056,
+        "decodedBytes": 5056,
+        "durationMs": 11.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+        "transferBytes": 30291,
+        "encodedBytes": 29991,
+        "decodedBytes": 29991,
+        "durationMs": 12.5
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/-1.avif?v=15c9d40339",
+        "transferBytes": 30803,
+        "encodedBytes": 30503,
+        "decodedBytes": 30503,
+        "durationMs": 7.4000000059604645
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+        "transferBytes": 19793,
+        "encodedBytes": 19493,
+        "decodedBytes": 19493,
+        "durationMs": 14.200000002980232
+      },
+      {
+        "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/0.avif?v=42310b26d6",
+        "transferBytes": 19730,
+        "encodedBytes": 19430,
+        "decodedBytes": 19430,
+        "durationMs": 9.200000002980232
+      },
+      {
+        "url": "http://127.0.0.1:4375/favicon.svg",
+        "transferBytes": 1129,
+        "encodedBytes": 829,
+        "decodedBytes": 829,
+        "durationMs": 11.5
+      }
+    ]
+  },
+  "deepLink": "http://127.0.0.1:4375/bologna#@-343,-162,110.59",
+  "photoResult": "PASS: existing raw-render toggle loads local photo layer",
+  "touchResult": {
+    "start": {
+      "x": -3.965396899729967e-10,
+      "y": -282.8427124753034,
+      "zoom": 32.768,
+      "hash": "#@0,-283,32.77"
+    },
+    "pinched": {
+      "x": -13.530900401998224,
+      "y": -393.16135835777095,
+      "zoom": 64.22528000000004,
+      "hash": "#@-14,-393,64.23"
+    },
+    "dragged": {
+      "x": -160.05104692213717,
+      "y": -435.02425736353325,
+      "zoom": 64.22528000000004,
+      "hash": "#@-160,-435,64.23"
+    },
+    "horizontalPageOverflow": false
+  },
+  "links": {
+    "text": "© OpenStreetMap contributors · Comune di Bologna – SIT, CC BY 4.0 (projected, filtered and extruded) · Comune di Bologna – Settore Ambiente e Verde, CC BY 4.0 (class-based estimates) · Appearance references: Zairon (roof), Congolandia.g (facade), Raffacossa (clock), CC BY-SA 4.0 (appearance only; estimated geometry) · Copernicus DEM · Terrain: © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved · Source · Made by Dmytro Krasun",
+    "anchors": [
+      {
+        "text": "OpenStreetMap contributors",
+        "href": "https://www.openstreetmap.org/copyright",
+        "width": 148.9375,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Comune di Bologna – SIT",
+        "href": "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/",
+        "width": 128.5,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "CC BY 4.0",
+        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "width": 48.3125,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Comune di Bologna – Settore Ambiente e Verde",
+        "href": "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/",
+        "width": 245.390625,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "CC BY 4.0",
+        "href": "https://creativecommons.org/licenses/by/4.0/",
+        "width": 48.3125,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Zairon (roof)",
+        "href": "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg",
+        "width": 64.40625,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Congolandia.g (facade)",
+        "href": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg",
+        "width": 118.96875,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Raffacossa (clock)",
+        "href": "https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg",
+        "width": 90.796875,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "CC BY-SA 4.0",
+        "href": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "width": 64.921875,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Copernicus DEM",
+        "href": "https://dataspace.copernicus.eu/explore-data/data-collections/copernicus-contributing-missions/collections-description/COP-DEM",
+        "width": 85.09375,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Source",
+        "href": "https://github.com/krasun/isometricworld",
+        "width": 35.3125,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      },
+      {
+        "text": "Dmytro Krasun",
+        "href": "https://dmytrokrasun.com/",
+        "width": 77.90625,
+        "height": 15,
+        "pointerEvents": "auto",
+        "unobscured": true
+      }
+    ]
+  },
+  "otherRoutes": {
+    "routes": [
+      {
+        "slug": "tel-aviv-yafo",
+        "status": "PASS_LOCAL_UNAVAILABLE",
+        "requestsToProduction": false
+      },
+      {
+        "slug": "stuttgart",
+        "status": "PASS_LOCAL_UNAVAILABLE",
+        "requestsToProduction": false
+      }
+    ],
+    "zagreb": "NOT_TESTED: no Zagreb city or route exists in the current source configuration"
+  },
+  "screenshots": [
+    {
+      "name": "overview",
+      "path": "docs/bologna-viewer-overview.png",
+      "sha256": "7dfea05ae499af3f9ebcb8b7a8a393a6aec519c69b7709c7c3f58d590e13915b",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "medium",
+      "path": "docs/bologna-viewer-medium.png",
+      "sha256": "ca291584d3827b4fb5d2e7b7e1b267894e9d983e5bfb01347bd1c8bef12f0c2a",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "close",
+      "path": "docs/bologna-viewer-close.png",
+      "sha256": "adbca817fee3f1137e65222765e4206c620bafa2d123a6d2730b6604e80a4d83",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      }
+    },
+    {
+      "name": "touch",
+      "path": "docs/bologna-viewer-touch.png",
+      "sha256": "d32cfe9c36096ca7e96c4b8f433c7e1304f4502a5af754b221fdf47844e4af10",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "shutdownCancellations": [],
+  "externalRequests": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:4375/bologna",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6950
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 3248
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 2
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-land.290f24b161.avif",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 22001
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 58185
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18739
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18898
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 3321905
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 1264
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/-1.avif?v=4905cca03d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/0.avif?v=94cc36035f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 440
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/-1.avif?v=75e33e7d37",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 820
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/0.avif?v=4894a032dd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 664
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/-1.avif?v=744b71acdc",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2185
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/0.avif?v=2b3790f9d1",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1518
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/-1.avif?v=f17d9bcb3b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7391
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/0.avif?v=7663ab3397",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5056
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/-1.avif?v=15c9d40339",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 30503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/0.avif?v=42310b26d6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19430
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/-1.avif?v=b0c1c649b2",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 31181
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/0/-1.avif?v=66eef278cf",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32141
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/-2.avif?v=cd86502c44",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 35915
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/0/-2.avif?v=7063a14df8",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 36023
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/0.avif?v=20b107eac9",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 34254
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/0/0.avif?v=d870ac612e",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32981
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-2/-1.avif?v=bc2f342c89",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32410
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/1/-1.avif?v=5c2aac3b7f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 35003
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-2/0.avif?v=274c14d96e",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 33031
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/1/0.avif?v=1228082f0b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 33843
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-1/-1.avif?v=227a6a972d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 16205
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-1/0.avif?v=6baf397ad5",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 23792
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-2/-1.avif?v=feb427f37a",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 24876
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-2/0.avif?v=74bc100c2c",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 24712
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/0/-1.avif?v=73e4eff0a2",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 21115
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/0/0.avif?v=9570a932fa",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 24339
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/bologna",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6950
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 3248
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 2
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-land.290f24b161.avif",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 22001
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 58185
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18739
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18898
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 3321905
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 1264
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/-1.avif?v=b0c1c649b2",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 31181
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/0.avif?v=20b107eac9",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 34254
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-1/-1.avif?v=227a6a972d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 16205
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-1/0.avif?v=6baf397ad5",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 23792
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-2/-1.avif?v=feb427f37a",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 24876
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/8/-2/0.avif?v=74bc100c2c",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 24712
+    },
+    {
+      "url": "http://127.0.0.1:4375/bologna?at=44.4938,11.343,0.5",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6950
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 3248
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-land.290f24b161.avif",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 22001
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 2
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 58185
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18739
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18898
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 3321905
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 1264
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/-1.avif?v=4905cca03d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/0.avif?v=94cc36035f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 440
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/-1.avif?v=75e33e7d37",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 820
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/0.avif?v=4894a032dd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 664
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/-1.avif?v=744b71acdc",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2185
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/0.avif?v=2b3790f9d1",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1518
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/-1.avif?v=f17d9bcb3b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7391
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/0.avif?v=7663ab3397",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5056
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/-1.avif?v=15c9d40339",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 30503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/0.avif?v=42310b26d6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19430
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/-1.avif?v=b0c1c649b2",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 31181
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/0/-1.avif?v=66eef278cf",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32141
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/-1/0.avif?v=20b107eac9",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 34254
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/7/0/0.avif?v=d870ac612e",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32981
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-photo.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/2/0/-1.avif?v=4905cca03d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/2/0/0.avif?v=94cc36035f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 440
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/3/0/-1.avif?v=75e33e7d37",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 820
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/3/0/0.avif?v=4894a032dd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 664
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/4/0/-1.avif?v=744b71acdc",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2185
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/4/0/0.avif?v=2b3790f9d1",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1518
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/5/0/-1.avif?v=f17d9bcb3b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7391
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/5/0/0.avif?v=7663ab3397",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5056
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/6/0/-1.avif?v=15c9d40339",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 30503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/6/0/0.avif?v=42310b26d6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19430
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/7/-1/-1.avif?v=b0c1c649b2",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 31181
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/7/0/-1.avif?v=66eef278cf",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32141
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/7/-1/0.avif?v=20b107eac9",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 34254
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/photo/7/0/0.avif?v=d870ac612e",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 32981
+    },
+    {
+      "url": "http://127.0.0.1:4375/bologna?at=44.4938,11.343,0.5",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6950
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 3248
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-port.66864b2890.avif",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 8736
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 2
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 58185
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18739
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18898
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 3321905
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 1264
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/-1.avif?v=4905cca03d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/0.avif?v=94cc36035f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 440
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/-1.avif?v=75e33e7d37",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 820
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/0.avif?v=4894a032dd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 664
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/-1.avif?v=744b71acdc",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2185
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/0.avif?v=2b3790f9d1",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1518
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/-1.avif?v=f17d9bcb3b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7391
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/0.avif?v=7663ab3397",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5056
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/-1.avif?v=15c9d40339",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 30503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/0.avif?v=42310b26d6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19430
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/tel-aviv-yafo",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6128
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/stuttgart",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6138
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/bologna",
+      "status": 200,
+      "source": null,
+      "contentType": "text/html",
+      "bodyBytes": 6950
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/world.json",
+      "status": 200,
+      "source": "qa-fixture",
+      "contentType": "application/json",
+      "bodyBytes": 2199
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/tiles-map.753cff2682.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 1448
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/data/borders.97d170e155.json",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "application/json",
+      "bodyBytes": 2
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/preview/bologna-land.290f24b161.avif",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 22001
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=style&index=0&lang.css",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4058
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/components/MapPage.astro?astro&type=script&index=0&lang.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 506
+    },
+    {
+      "url": "http://127.0.0.1:4375/@vite/client",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 337700
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/node_modules/vite/dist/client/env.mjs",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 4002
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/src/scripts/map.ts?t=1795127538605",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 58185
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/camera.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18739
+    },
+    {
+      "url": "http://127.0.0.1:4375/@fs/home/jacopo/projects/isometricworld/pipeline/src/places.ts",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 18898
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/openseadragon.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 3321905
+    },
+    {
+      "url": "http://127.0.0.1:4375/node_modules/.vite/deps/rolldown-runtime-B8NLbhFH.js?v=1ed02bd2",
+      "status": 200,
+      "source": null,
+      "contentType": "text/javascript",
+      "bodyBytes": 1264
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/-1.avif?v=5f017cb4c7",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 529
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/-1.avif?v=4905cca03d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/-1/0.avif?v=e96434291b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 454
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/2/0/0.avif?v=94cc36035f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 440
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/-1.avif?v=7603c2cb40",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 862
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/-1.avif?v=75e33e7d37",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 820
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/-1/0.avif?v=1070b3140f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 721
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/3/0/0.avif?v=4894a032dd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 664
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/-1.avif?v=a267b20b6d",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2208
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/-1.avif?v=744b71acdc",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 2185
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/-1/0.avif?v=ce2df6824f",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1626
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/4/0/0.avif?v=2b3790f9d1",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 1518
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/-1.avif?v=5413cbe3f6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7403
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/-1.avif?v=f17d9bcb3b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 7391
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/-1/0.avif?v=1830c41e70",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5131
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/5/0/0.avif?v=7663ab3397",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 5056
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/-1.avif?v=d3f7d0a5cd",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 29991
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/-1.avif?v=15c9d40339",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 30503
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/-1/0.avif?v=fd491c306b",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19493
+    },
+    {
+      "url": "http://127.0.0.1:4375/regions/bologna/tiles/map/6/0/0.avif?v=42310b26d6",
+      "status": 200,
+      "source": "local-cache",
+      "contentType": "image/avif",
+      "bodyBytes": 19430
+    },
+    {
+      "url": "http://127.0.0.1:4375/favicon.svg",
+      "status": 200,
+      "source": null,
+      "contentType": "image/svg+xml",
+      "bodyBytes": 829
+    }
+  ],
+  "attributions": [
+    "© OpenStreetMap contributors (ODbL)",
+    "Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA",
+    "Comune di Bologna – SIT · CTC Edifici volumetrici · CC BY 4.0 (projected, filtered and extruded)",
+    "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/ · https://creativecommons.org/licenses/by/4.0/",
+    "Comune di Bologna – Settore Ambiente e Verde · Alberi in manutenzione · CC BY 4.0 (projected, filtered; class-based estimates)",
+    "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/ · https://creativecommons.org/licenses/by/4.0/",
+    "BO-003 procedural pilot: estimated roofs and portico clearance; no measured ridge/column claim",
+    "BO-003F appearance references: Zairon (roof, 2022), Congolandia.g (facade, 2019), Raffacossa (clock, 2017) · CC BY-SA 4.0 · appearance only; estimated geometry, no photo pixels",
+    "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg · https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg · https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg · https://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "manualAcceptance": {
+    "independentHuman": {
+      "status": "NOT_TESTED",
+      "independent": true
+    },
+    "agentScreenshotReview": {
+      "status": "PASS",
+      "independentHuman": false,
+      "scope": "Navigation screenshots, readable source credits, continuity and sparse patch boundary; not architectural fidelity"
+    }
+  },
+  "limitations": [
+    "Only the ten-tile Piazza Maggiore procedural patch; background outside its footprint is intentional",
+    "No traffic, birds, trains, municipal border overlay or paid service",
+    "Other-city data not loaded in local-only mode; their routes show a local-unavailable message",
+    "External credit destinations checked for href/clickability only, not fetched",
+    "No Zagreb configuration exists; no route invented",
+    "Architectural recognizability and measured fidelity remain outside this viewer acceptance"
+  ],
+  "engineering": {
+    "status": "PASS",
+    "node": "v24.22.3",
+    "versions": {
+      "astro": "7.4.7",
+      "vite": "8.3.7",
+      "openseadragon": "6.1.1",
+      "sharp": "0.35.5",
+      "typescript": "7.0.2"
+    },
+    "results": [
+      {
+        "name": "pipeline-typescript",
+        "status": "PASS",
+        "command": [
+          "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+          "--noEmit",
+          "-p",
+          "pipeline"
+        ],
+        "environment": {},
+        "exitCode": 0,
+        "expectedExit": 0,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/pipeline-typescript.log",
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "web-typescript",
+        "status": "PASS",
+        "command": [
+          "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+          "--noEmit",
+          "-p",
+          "web"
+        ],
+        "environment": {},
+        "exitCode": 0,
+        "expectedExit": 0,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-typescript.log",
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "qa-typescript",
+        "status": "PASS",
+        "command": [
+          "/home/jacopo/projects/isometricworld/node_modules/.bin/tsc",
+          "--noEmit",
+          "--target",
+          "es2022",
+          "--module",
+          "esnext",
+          "--moduleResolution",
+          "bundler",
+          "--allowImportingTsExtensions",
+          "--strict",
+          "--skipLibCheck",
+          "--types",
+          "node",
+          "docs/bologna-viewer-browser.ts",
+          "docs/bologna-viewer-prepare.ts",
+          "docs/bologna-viewer.test.ts",
+          "docs/bologna-viewer-check.ts",
+          "docs/bologna-viewer-checksums.ts"
+        ],
+        "environment": {},
+        "exitCode": 0,
+        "expectedExit": 0,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/qa-typescript.log",
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "relevant-tests",
+        "status": "PASS",
+        "command": [
+          "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+          "--import",
+          "tsx",
+          "--test",
+          "--test-reporter=spec",
+          "pipeline/src/bologna.test.ts",
+          "pipeline/src/bologna-architecture.test.ts",
+          "pipeline/src/bologna-fidelity.test.ts",
+          "docs/bologna-coverage-qa.test.ts",
+          "docs/bologna-architecture-qa.test.ts",
+          "docs/bologna-viewer.test.ts"
+        ],
+        "environment": {},
+        "exitCode": 0,
+        "expectedExit": 0,
+        "tests": 38,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/relevant-tests.log",
+        "logSha256": "9e94ba5cecd6841479f78f7bd585eb33a6744979aa66f776c4dac92853a887c8"
+      },
+      {
+        "name": "web-build-loopback-only",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "-w",
+          "web",
+          "run",
+          "build"
+        ],
+        "environment": {
+          "LOCAL_MAP_ROOT": "",
+          "TILES_ORIGIN": "http://127.0.0.1:4375"
+        },
+        "exitCode": 0,
+        "expectedExit": 0,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/web-build-loopback-only.log",
+        "logSha256": "453f83a91003a3a0d906799c4c04b2e18b5f58ebb448d6b5319e99413348bad9"
+      },
+      {
+        "name": "reject-local-override-production-build",
+        "status": "PASS",
+        "command": [
+          "npm",
+          "-w",
+          "web",
+          "run",
+          "build"
+        ],
+        "environment": {
+          "LOCAL_MAP_ROOT": "/home/jacopo/projects/isometricworld/data/bo-005p-viewer/web"
+        },
+        "exitCode": 1,
+        "expectedExit": 1,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/reject-local-override-production-build.log",
+        "logSha256": "c4e09d783a9cc8a21147dbe7e8b60af5622e0c273431ca9935b91b4c721d6f90"
+      },
+      {
+        "name": "diff-check",
+        "status": "PASS",
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "environment": {},
+        "exitCode": 0,
+        "expectedExit": 0,
+        "log": "data/bo-005p-viewer/checks/2026-11-19T22-40-33-515Z/diff-check.log",
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "preservedFiles": 990,
+    "allBaselineHashesUnchanged": true,
+    "exportRegionFiles": 146,
+    "screenshotsVerified": 4,
+    "pyramidFilesVerified": 140,
+    "productionBuildRoutes": [
+      "/",
+      "/404",
+      "/bologna",
+      "/tel-aviv-yafo",
+      "/stuttgart"
+    ],
+    "server": {
+      "url": "http://127.0.0.1:4375/bologna",
+      "taskOwnedPidAtStartup": 829536,
+      "source": "PID reported by the successful BO-005P Astro dev start command",
+      "port": 4375,
+      "host": "127.0.0.1",
+      "httpRechecked": true,
+      "keptRunning": true,
+      "stop": "kill -TERM <the PID printed by this task's start command>; verify ownership first; never astro dev stop"
+    }
+  },
+  "previousAttempts": [
+    {
+      "result": "FAIL_HARNESS",
+      "reason": "Three net::ERR_ABORTED speculative preloads when closing auxiliary pages early",
+      "resolution": "Keep auxiliary pages alive until teardown; active failures still fail; expected shutdown cancellations recorded separately"
+    }
+  ]
+}

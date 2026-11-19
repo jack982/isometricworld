@@ -35,6 +35,9 @@ import { DERIVED, RAW, WEB_CACHE, WEB_STATE, readJson } from "./paths.ts";
 import { CITIES, REGIONS } from "./places.ts";
 import { readHeights } from "./heights.ts";
 import { deckHeight, isBridge } from "./bridges.ts";
+import { exportMode } from "./export-mode.ts";
+
+const MODE = exportMode(process.argv.slice(2), process.env.PIPELINE_DATA_ROOT, WEB_CACHE, WEB_STATE);
 
 const TS = 512;                  // web tile size
 const SPLIT = CAMERA.tile / TS;  // web tiles per art tile edge
@@ -88,6 +91,7 @@ const edgeDistance = (x: number, y: number) => {
 /** Native web tile at global art px (x0, y0): edge distance on an 8 px lattice, clamped to the fade band
  *  (so its hash is the tile's whole fade), or null when the tile is fully inside. */
 function edgeGrid(x0: number, y0: number): Float32Array | null {
+  if (!MODE.fadeEdges) return null; // bounded local patch: preserve original brightness/coverage
   const corners = [[x0, y0], [x0 + TS, y0], [x0, y0 + TS], [x0 + TS, y0 + TS]];
   if (Math.min(...corners.map(([x, y]) => edgeDistance(x, y))) >= EDGE1) return null;
   const n = TS / GRID + 1, grid = new Float32Array(n * n);
@@ -149,6 +153,7 @@ const fetched = new Map<string, Buffer>();
 async function readTile(layer: string, z: number, x: number, y: number): Promise<Buffer> {
   const rel = `tiles/${layer}/${z}/${x}/${y}.${FORMAT}`, local = join(OUT, rel);
   if (existsSync(local)) return readFileSync(local);
+  if (!MODE.remoteFallback) throw new Error(`Local preview asset missing: ${rel}; remote fallback is disabled`);
   if (fetched.has(rel)) return fetched.get(rel)!;
   const v = state.layers[layer]?.hashes[`${z}/${x}_${y}`];
   const r = await fetch(`${HOSTING.origin}/regions/${activeRegion()}/${rel}${v ? `?v=${v}` : ""}`);
@@ -866,7 +871,7 @@ async function exportPreviews() {
   const out: Record<string, Record<string, { file: string; lqip: string }>> = {};
   for (const [slug, city] of Object.entries(CITIES)) {
     if (city.region !== activeRegion()) continue;
-    const [cx, cy] = llhToPixel(city.center[0], city.center[1], 25); // as the viewer's show()
+    const [cx, cy] = llhToPixel(city.center[0], city.center[1], MODE.localPreview ? REGIONS[activeRegion()].groundH : 25); // local preview matches viewer show(); legacy exports unchanged
     const W = city.widthM / CAMERA.mpp;
     out[slug] = {};
     for (const [kind, { aspect, width }] of Object.entries(PREVIEWS)) {
@@ -924,7 +929,7 @@ async function main() {
   for (const a of areas) {
     const dir = join(DERIVED, a);
     const m = readJson(join(dir, "manifest.json"));
-    (m.attributions as string[]).flatMap((s) => s.split(";")).map((s) => s.trim()).filter(Boolean).forEach((s) => attributions.add(s));
+    (m.attributions as string[]).flatMap((s) => MODE.localPreview ? [s] : s.split(";")).map((s) => s.trim()).filter(Boolean).forEach((s) => attributions.add(s));
     for (const [layer, map] of [["render", photo], ["paint", art]] as const) {
       if (!existsSync(join(dir, layer))) continue;
       for (const f of readdirSync(join(dir, layer)).filter((f) => f.endsWith(".png"))) {
@@ -939,14 +944,17 @@ async function main() {
     }
   }
   const heights = new Heights(areas.map((a) => join(DERIVED, a, "height")));
-  await exportRoads(areas, heights); // first: the bridge decks are drawn into the painted tiles
-  await exportTrains(areas, heights);
+  if (MODE.animations) {
+    await exportRoads(areas, heights); // first: the bridge decks are drawn into the painted tiles
+    await exportTrains(areas, heights);
+  }
   if (!process.argv.includes("--data-only")) {
     await exportLayer("map", new Map([...photo, ...art])); // painted wins
     await exportLayer("photo", photo);
     for (const layer of Object.keys(index)) writeData(`tiles-${layer}`, JSON.stringify(index[layer]));
   }
-  await exportBorders(heights);
+  if (MODE.localPreview) writeData("borders", "[]"); // explicitly omitted municipal overlays in a bounded static preview
+  else await exportBorders(heights);
   const previews = await exportPreviews();
   // OpenSeadragon wants non-negative tile indices at every level: origin aligned to a min-zoom tile
   const block = TS * 2 ** (NATIVE_Z - MIN_Z);
@@ -962,6 +970,7 @@ async function main() {
     airport: REGIONS[activeRegion()].airport ?? null, areas: areas.map((a) => ({ id: a, title: AREAS[a]?.title })),
     layers: { photo: photo.size, art: art.size }, attributions: [...attributions],
     format: FORMAT,
+    ...(MODE.localPreview ? { localPreview: { procedural: art.size === 0, areaTitles: areas.map((a) => AREAS[a].title), edgeFade: false, municipalBorders: false }, features: { animations: false } } : {}),
     files: { "tiles-map": dataFile("tiles-map"), "tiles-photo": dataFile("tiles-photo"), borders: dataFile("borders"), roads: dataFile("roads"), trains: dataFile("trains") },
     previews,
   }, null, 2);
@@ -973,7 +982,7 @@ async function main() {
   console.log(`  world.json: ${photo.size} rendered, ${art.size} painted tiles`);
   checkpoint(true);
   const files = existsSync(OUT) ? readdirSync(OUT, { recursive: true }).filter((f) => String(f).match(/\.(avif|webp|json)$/)).length : 0;
-  console.log(files ? `  ${files} files ready in ${OUT}\n  preview: npm run dev · publish: npm run publish -- ${activeRegion()}` : "  nothing changed");
+  console.log(files ? `  ${files} files ready in ${OUT}\n  ${MODE.localPreview ? `local preview: LOCAL_MAP_ROOT=${WEB_CACHE} npm -w web run dev (no remote fallback)` : `preview: npm run dev · publish: npm run publish -- ${activeRegion()}`}` : "  nothing changed");
 }
 
 main();
