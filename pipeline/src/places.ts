@@ -28,6 +28,8 @@ export interface Region {
   airport?: { lat: number; lon: number; runwayHeadingDeg: number; h?: number; from?: number; to?: number };
   /** Credit lines (video mode and footer). */
   credits: string[];
+  /** Optional source-specific credit lines. Applied only when an artifact declares that source. */
+  creditsBySource?: Record<string, string[]>;
   /** Geoid undulation at the origin (EGM2008, m): sea level as ellipsoid height. */
   geoidM: number;
   /** Typical ground ellipsoid height (m): area outlines and the first guess before the terrain is known. */
@@ -74,6 +76,10 @@ export const REGIONS: Record<string, Region> = {
       "Map data © OpenStreetMap contributors",
       "Terrain: Copernicus DEM © DLR, Airbus DS",
     ],
+    creditsBySource: {
+      ctc: ["Comune di Bologna – SIT · CTC Edifici volumetrici · CC BY 4.0 (projected, filtered and extruded)", "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/ · https://creativecommons.org/licenses/by/4.0/"],
+      trees: ["Comune di Bologna – Settore Ambiente e Verde · Alberi in manutenzione · CC BY 4.0 (projected, filtered; class-based estimates)", "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/ · https://creativecommons.org/licenses/by/4.0/"],
+    },
     geoidM: 39.647, // GeographicLib EGM2008 at origin; orthometric + N = ellipsoid
     groundH: 100, // initial projection estimate (~60 m MSL + geoid); terrain replaces it
     // sources intentionally unset: OSM buildings/trees + Copernicus, no municipal adapters yet.

@@ -314,7 +314,7 @@ heightTarget.texture.generateMipmaps = false;
 
 type P2 = [number, number];
 export interface TileObjects {
-  b: Array<[P2[], number, number, number | null]>; // ring, height, style, ground hint (ellipsoid)
+  b: Array<[P2[], number, number, number | null, P2[][]?]>; // outer ring, relative height, style, ground hint, optional courtyard rings
   t: Array<[number, number, number, number]>;      // x, y, radius, crown height
   /** LoD2 meshes: style, roof kind, roof xyz[], wall (xyz, along, above base)[], footprint, height, seed */
   m?: Array<[number, number, number[], number[], P2[], number, number, (number[] | null)?, (number[] | null)?, number?]>; // … osm roof, osm wall, bare (no roof furniture)
@@ -812,15 +812,15 @@ function buildObjects(data: TileObjects) {
     }
   };
   const rnd = (seed: number) => () => ((seed = Math.imul(seed ^ (seed >>> 15), 0x2c1b3c6d) + 0x9e3779b9 | 0) >>> 0) / 2 ** 32;
-  data.b.forEach(([ring, h, style]) => {
+  data.b.forEach(([ring, h, style, , holes = []]) => {
     // sit on the highest ground under the footprint; walls reach 1 m below the lowest so slopes never show a gap
-    const gs = ring.map(([x, y]) => ground(x, y));
+    const gs = [...ring, ...holes.flat()].map(([x, y]) => ground(x, y));
     const top = Math.max(...gs) + h, g = Math.min(...gs) - 1;
     const [wall, roof] = PALETTE[style] ?? PALETTE[0];
     const isTower = style;
     let along = 0;
-    for (let k = 0; k < ring.length; k++) {
-      const [ax, ay] = ring[k], [bx, by] = ring[(k + 1) % ring.length];
+    for (const wallRing of [ring, ...holes]) for (let k = 0; k < wallRing.length; k++) {
+      const [ax, ay] = wallRing[k], [bx, by] = wallRing[(k + 1) % wallRing.length];
       const L = Math.hypot(bx - ax, by - ay);
       if (L < 0.05) continue;
       const nx = (by - ay) / L, ny = -(bx - ax) / L; // outward for CCW
@@ -831,9 +831,10 @@ function buildObjects(data: TileObjects) {
       }
       along += L;
     }
-    const tris = THREE.ShapeUtils.triangulateShape(ring.map(([x, y]) => new THREE.Vector2(x, y)), []);
+    const tris = THREE.ShapeUtils.triangulateShape(ring.map(([x, y]) => new THREE.Vector2(x, y)), holes.map(r => r.map(([x,y]) => new THREE.Vector2(x,y))));
+    const roofPoints = [...ring, ...holes.flat()];
     for (const t of tris) for (const v of t) {
-      pos.push(ring[v][0], ring[v][1], top); nor.push(0, 0, 1); col.push(...roof); fac.push(0, -1000); tow.push(0);
+      pos.push(roofPoints[v][0], roofPoints[v][1], top); nor.push(0, 0, 1); col.push(...roof); fac.push(0, -1000); tow.push(0);
     }
     // rooftop clutter on flat residential roofs: solar water heaters (panel + tank), AC units
     if (style !== 3 && style !== 4 && h > 6) {
@@ -844,7 +845,7 @@ function buildObjects(data: TileObjects) {
       const n = Math.min(10, Math.floor(area / 70));
       for (let k = 0, tries = 0; k < n && tries < n * 6; tries++) {
         const px = x0 + 1.5 + r() * (x1 - x0 - 3), py = y0 + 1.5 + r() * (y1 - y0 - 3);
-        if (!pointInRing(px, py, ring)) continue;
+        if (!pointInRing(px, py, ring) || holes.some(r => pointInRing(px, py, r))) continue;
         k++;
         const kind = r();
         if (kind < 0.55) {        // solar water heater: dark panel + white tank

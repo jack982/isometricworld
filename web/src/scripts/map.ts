@@ -45,6 +45,14 @@ const avifReady = new Promise<boolean>((done) => {
   img.src = "data:image/avif;base64,AAAAHGZ0eXBhdmlmAAAAAG1pZjFhdmlmbWlhZgAAANZtZXRhAAAAAAAAACFoZGxyAAAAAAAAAABwaWN0AAAAAAAAAAAAAAAAAAAAACJpbG9jAAAAAERAAAEAAQAAAAAA+gABAAAAAAAAAB0AAAAjaWluZgAAAAAAAQAAABVpbmZlAgAAAAABAABhdjAxAAAAAA5waXRtAAAAAAABAAAAVmlwcnAAAAA4aXBjbwAAAAxhdjFDgSACAAAAABRpc3BlAAAAAAAAAAEAAAABAAAAEHBpeGkAAAAAAwgICAAAABZpcG1hAAAAAAAAAAEAAQOBAgMAAAAlbWRhdBIACgc4AAaQENBpMhAdgmLE4AAWAACQNY48fpPA";
 });
 const [world, avif] = await Promise.all([worldReady, avifReady]);
+if (REGION === "bologna") {
+  const activeMunicipal = world.attributions.filter(s => s.includes("Comune di Bologna") || s.includes("opendata.comune.bologna.it"));
+  const videoCredit = document.getElementById("video-credit");
+  if (videoCredit && activeMunicipal.length) {
+    videoCredit.textContent = [...REGIONS.bologna.credits, ...activeMunicipal].join("\n");
+    videoCredit.style.whiteSpace = "pre-line";
+  }
+}
 const files = world.files ?? {}, modern = Boolean(avif && files["tiles-map"]);
 const EXT = modern ? world.format ?? "avif" : "webp";
 const legacy = modern ? null : json<Record<string, Index>>("tiles.json");
@@ -312,7 +320,10 @@ document.getElementById("credits")!.innerHTML = [
   // the region's own data sources
   ...(REGION === "stuttgart"
     ? [`Datenquelle: <a href="https://www.lgl-bw.de">LGL</a>, <a href="https://www.govdata.de/dl-de/by-2-0">dl-de/by-2-0</a> (verändert)`]
-    : [`<a href="https://opendatasource.tel-aviv.gov.il/">Tel Aviv-Yafo Municipality</a>`]),
+    : REGION === "bologna" ? [
+      ...(world.attributions.some(s => s.includes("Comune di Bologna – SIT")) ? [`<a href="https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/">Comune di Bologna – SIT</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (projected, filtered and extruded)`] : []),
+      ...(world.attributions.some(s => s.includes("Settore Ambiente e Verde")) ? [`<a href="https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/">Comune di Bologna – Settore Ambiente e Verde</a>, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (class-based estimates)`] : []),
+    ] : [`<a href="https://opendatasource.tel-aviv.gov.il/">Tel Aviv-Yafo Municipality</a>`]),
   `<span title="© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA">Copernicus DEM</span>`,
   // the method to recreate the derived database (ODbL) and the code
   `<a href="https://github.com/krasun/isometricworld">Source</a>`,

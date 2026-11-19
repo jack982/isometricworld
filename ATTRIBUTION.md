@@ -62,12 +62,13 @@ and Copernicus DEM GLO-30 terrain, under the terms and exact Copernicus credit a
 
 > Map data © OpenStreetMap contributors · Terrain: Copernicus DEM © DLR, Airbus DS
 
-Municipal datasets downloaded **for the data audit only**, not yet incorporated in map tiles:
+Municipal datasets first downloaded for the BO-001 audit; BO-002 activates them in the isolated
+procedural experiments described below (the published map and OSM-only baselines are unchanged):
 
 | Source | Use | Licence and obligations |
 |---|---|---|
-| Comune di Bologna – Sistema Informativo Territoriale (SIT), [CTC – Edifici volumetrici](https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/) | Building footprint/eave-height schema and quality audit | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): credit publisher, link source and licence, indicate modifications; retain supplied notices. Statistics and bbox selections are derived here; original exports are retained locally. |
-| Comune di Bologna – Settore Ambiente e Verde, [Alberi in manutenzione](https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/) | Tree inventory schema and quality audit | CC BY 4.0, same obligations. Audit counts and selections only. |
+| Comune di Bologna – Sistema Informativo Territoriale (SIT), [CTC – Edifici volumetrici](https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/) | Audit and BO-002 building footprints/relative eave heights | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): credit publisher, link source and licence, indicate modifications; retain supplied notices. Projection, filtering, overlap reconciliation and extrusion are adaptations; original exports are retained locally. |
+| Comune di Bologna – Settore Ambiente e Verde, [Alberi in manutenzione](https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/) | Audit and BO-002 generic class-estimated tree crowns | CC BY 4.0, same obligations; projection, filtering, class estimates and spatial deduplication are adaptations. |
 | NGA EGM2008 via [GeographicLib GeoidEval](https://geographiclib.sourceforge.io/cgi-bin/GeoidEval) | Bologna origin geoid undulation, 39.647 m | EGM2008 is public-domain US government data; GeographicLib is MIT/X11. No imagery or remote geometry used. |
 
 Before municipal geometry is used on a map, add its publisher/licence to Bologna's region credits,
@@ -81,7 +82,20 @@ rendering are adaptations. [Coverage provenance and validation](docs/bologna-cov
 record the URL, download date, checksums, tool commands and source categories. No Geofabrik
 imagery is used; no municipal geometry is added.
 
+BO-002 activates the audited CTC dataset in a separate procedural experiment (`data/bo-002-buildings/`).
+Credit: **Comune di Bologna – SIT, CTC Edifici volumetrici, CC BY 4.0; projected, filtered,
+overlap-reconciled and extruded**. Dataset and licence links are given above, in conditional Bologna
+source credits, generated manifests/proofs and viewer/footer/video notices. Relative eave heights
+are used; absolute CTC elevations are not used. The separate accepted municipal trees experiment (`data/bo-002-trees/`)
+uses **Comune di Bologna – Settore Ambiente e Verde, Alberi in manutenzione, CC BY 4.0;
+projected, filtered, class-based height/radius estimates and spatial deduplication**.
+The original OSM-only baseline remains selectable and unchanged. See
+[the implementation and validation](docs/bologna-municipal-implementation.md).
+
 ## Software
+
+Polygon-clipping (MIT, [source](https://github.com/mfogel/polygon-clipping)) performs planar
+polygon intersection/difference for this adapter; installed via npm, not a geographical source.
 
 [three.js](https://threejs.org) (MIT), [OpenSeadragon](https://openseadragon.github.io) (BSD-3-Clause),
 [Astro](https://astro.build) (MIT), [sharp](https://sharp.pixelplumbing.com) (Apache-2.0),

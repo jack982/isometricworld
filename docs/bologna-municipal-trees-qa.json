@@ -1,0 +1,763 @@
+{
+  "stage": "ctc-trees",
+  "stageAPassed": true,
+  "stageBPassed": true,
+  "automatedPassed": true,
+  "visualReviewed": true,
+  "expectedTiles": 10,
+  "validTiles": 10,
+  "missingExpectedTiles": [],
+  "intentionalBlankCells": [
+    {
+      "x": -2,
+      "y": -2
+    },
+    {
+      "x": 1,
+      "y": -2
+    }
+  ],
+  "sharedBoundaries": [
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        0,
+        -2
+      ],
+      "edgeMae": 7.588867187500002,
+      "adjacentInteriorMae": 9.111816406249991,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -2
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 10.337239583333345,
+      "adjacentInteriorMae": 9.3818359375,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -2
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 7.657226562499997,
+      "adjacentInteriorMae": 7.207682291666662,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -1,
+        -1
+      ],
+      "edgeMae": 9.181640625000005,
+      "adjacentInteriorMae": 8.198567708333329,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        -1
+      ],
+      "to": [
+        -2,
+        0
+      ],
+      "edgeMae": 7.475585937499996,
+      "adjacentInteriorMae": 7.748535156249995,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        0,
+        -1
+      ],
+      "edgeMae": 5.087890624999999,
+      "adjacentInteriorMae": 5.758789062500003,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        -1
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 8.51139322916666,
+      "adjacentInteriorMae": 8.51090494791666,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        1,
+        -1
+      ],
+      "edgeMae": 9.654296875,
+      "adjacentInteriorMae": 9.285319010416668,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        -1
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 7.342447916666671,
+      "adjacentInteriorMae": 7.253906249999996,
+      "review": false
+    },
+    {
+      "from": [
+        1,
+        -1
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 6.171874999999998,
+      "adjacentInteriorMae": 6.916015625000003,
+      "review": false
+    },
+    {
+      "from": [
+        -2,
+        0
+      ],
+      "to": [
+        -1,
+        0
+      ],
+      "edgeMae": 7.207031250000006,
+      "adjacentInteriorMae": 7.509602864583336,
+      "review": false
+    },
+    {
+      "from": [
+        -1,
+        0
+      ],
+      "to": [
+        0,
+        0
+      ],
+      "edgeMae": 7.513346354166667,
+      "adjacentInteriorMae": 8.34798177083333,
+      "review": false
+    },
+    {
+      "from": [
+        0,
+        0
+      ],
+      "to": [
+        1,
+        0
+      ],
+      "edgeMae": 11.989583333333329,
+      "adjacentInteriorMae": 9.478841145833329,
+      "review": false
+    }
+  ],
+  "tiles": [
+    {
+      "x": -1,
+      "y": -2,
+      "colorSha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "heightSha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.0038525263468424478,
+      "changedPixelFraction": 0.0000934600830078125
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "colorSha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "heightSha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.38896719614664715,
+      "changedPixelFraction": 0.0050640106201171875
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "colorSha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "heightSha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0,
+      "changedPixelFraction": 0
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "colorSha256": "7fb15ae3ef2cc41bf0a31b11f2fbf36baefdd54d22ceefb6a44b4b2792deaf15",
+      "heightSha256": "e999fc9b917a5cda4c3035bdd868c65f073c083f91162a9b51af706a16017b20",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.4680166244506836,
+      "changedPixelFraction": 0.006552696228027344
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "colorSha256": "165a6ba4893f7e96455b3c9686ceeb846afba329846e477b09b51e7ab3e1462e",
+      "heightSha256": "8572e53276e1a9b4511a19d59b1ac202b9dd3deceb8c26d9f251a5f81791a8ad",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.004947662353515625,
+      "changedPixelFraction": 0.00010013580322265625
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "colorSha256": "8ec95a0b446f9dea4565f3838c95f43ffe1cb2c69992a76c94fd4a77eb502b49",
+      "heightSha256": "cf96ec7f1da2e2ccd81216aabc449e9ef94ff45b9bc6198ec6ea3402b17ddac6",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.012236277262369791,
+      "changedPixelFraction": 0.0002918243408203125
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "colorSha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "heightSha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 1.6384681065877278,
+      "changedPixelFraction": 0.0221710205078125
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "colorSha256": "92b5916ad3bb3faac3bc95c6d861a2d146e8aa662267ba6b73c5a24ebe43b622",
+      "heightSha256": "e0d1581ddc22bd72b3fad61ae5fc401757e83bd0119981b41bffbaf821928c9f",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 2.2892656326293945,
+      "changedPixelFraction": 0.026665687561035156
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "colorSha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "heightSha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.45270411173502606,
+      "changedPixelFraction": 0.00524139404296875
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "colorSha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "heightSha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "minAlpha": 255,
+      "heightMinAlpha": 255,
+      "meanRgbDifference": 0.16947523752848306,
+      "changedPixelFraction": 0.0030994415283203125
+    }
+  ],
+  "counts": {
+    "sourceRecords": 65735,
+    "outside": 59467,
+    "selectedRecords": 6268,
+    "inputHoles": 712,
+    "solidParts": 6167,
+    "ctcRenderedParts": 6167,
+    "osmBaseline": 3028,
+    "osmReplaced": 3006,
+    "osmUnmatched": 22,
+    "osmResidualParts": 3234,
+    "totalVolumes": 9401,
+    "invalid": 0,
+    "generatedQuarantined": 0,
+    "deferred": 101,
+    "ambiguous": 2929,
+    "oneToMany": 2929,
+    "manyToOne": 2716,
+    "duplicatePairs": 0,
+    "maxOverlapM2": 0.02167442038989975,
+    "slopeWarnings": 12
+  },
+  "heightCounts": {
+    "documented-estimate": 61,
+    "ctc-relative-eave": 6106
+  },
+  "topology": {
+    "invalidGenerated": [],
+    "holes": 712,
+    "duplicatePairs": 0,
+    "maxOverlapM2": 0.02167442038989975,
+    "ctcOverlapCorrections": 3,
+    "osmOverlapCorrections": 277,
+    "droppedResidualSlivers": 239
+  },
+  "terrain": {
+    "sameBaselineGround": true,
+    "seriousFloating": [],
+    "slopeWarnings": [
+      {
+        "id": "ctc/48123/0/piece0",
+        "source": "ctc",
+        "groundMin": 94.7826516995945,
+        "groundMax": 98.09634586340333,
+        "spreadM": 3.313694163808833,
+        "bottom": 93.7826516995945,
+        "roof": 128.99634586340332,
+        "relativeHeight": 30.9,
+        "maxEmbeddingM": 4.313694163808833,
+        "midpointRange": [
+          94.84221495311976,
+          98.0516562704372
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/27146/0/piece0",
+        "source": "ctc",
+        "groundMin": 90.61230315412597,
+        "groundMax": 94.23301110263732,
+        "spreadM": 3.6207079485113525,
+        "bottom": 89.61230315412597,
+        "roof": 120.73301110263732,
+        "relativeHeight": 26.5,
+        "maxEmbeddingM": 4.6207079485113525,
+        "midpointRange": [
+          91.05237228743621,
+          94.19105413646972
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/59867/0/piece0",
+        "source": "ctc",
+        "groundMin": 110.88651387053591,
+        "groundMax": 113.91372110695313,
+        "spreadM": 3.027207236417226,
+        "bottom": 109.88651387053591,
+        "roof": 135.31372110695312,
+        "relativeHeight": 21.4,
+        "maxEmbeddingM": 4.027207236417226,
+        "midpointRange": [
+          110.88907329705364,
+          113.85364274625206
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/30079/0/piece0",
+        "source": "ctc",
+        "groundMin": 100.92756189106781,
+        "groundMax": 103.93655437300353,
+        "spreadM": 3.0089924819357208,
+        "bottom": 99.92756189106781,
+        "roof": 119.33655437300354,
+        "relativeHeight": 15.4,
+        "maxEmbeddingM": 4.008992481935721,
+        "midpointRange": [
+          101.14094348062001,
+          103.85845345499268
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/59868/0/piece0",
+        "source": "ctc",
+        "groundMin": 109.59386826610574,
+        "groundMax": 112.82647215519334,
+        "spreadM": 3.232603889087599,
+        "bottom": 108.59386826610574,
+        "roof": 128.02647215519335,
+        "relativeHeight": 15.2,
+        "maxEmbeddingM": 4.232603889087599,
+        "midpointRange": [
+          109.62173938154224,
+          112.80337822944756
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/38793/0/piece0",
+        "source": "ctc",
+        "groundMin": 110.3538639924463,
+        "groundMax": 114.53271030407227,
+        "spreadM": 4.178846311625961,
+        "bottom": 109.3538639924463,
+        "roof": 128.53271030407228,
+        "relativeHeight": 14,
+        "maxEmbeddingM": 5.178846311625961,
+        "midpointRange": [
+          110.41328020207735,
+          114.41677024499897
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/61610/0/piece0",
+        "source": "ctc",
+        "groundMin": 104.73751693377534,
+        "groundMax": 108.02376538794329,
+        "spreadM": 3.2862484541679464,
+        "bottom": 103.73751693377534,
+        "roof": 121.52376538794329,
+        "relativeHeight": 13.5,
+        "maxEmbeddingM": 4.286248454167946,
+        "midpointRange": [
+          104.75670237001516,
+          107.9350021569252
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/26214/0/piece0",
+        "source": "ctc",
+        "groundMin": 113.99814551802491,
+        "groundMax": 118.09904061287048,
+        "spreadM": 4.100895094845569,
+        "bottom": 112.99814551802491,
+        "roof": 129.59904061287048,
+        "relativeHeight": 11.5,
+        "maxEmbeddingM": 5.100895094845569,
+        "midpointRange": [
+          114.39506393447951,
+          117.74572719010632
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/52794/0/piece0",
+        "source": "ctc",
+        "groundMin": 110.88329549098512,
+        "groundMax": 114.29631190714699,
+        "spreadM": 3.4130164161618666,
+        "bottom": 109.88329549098512,
+        "roof": 123.79631190714699,
+        "relativeHeight": 9.5,
+        "maxEmbeddingM": 4.413016416161867,
+        "midpointRange": [
+          110.91583727329407,
+          113.94618623142006
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/27339/0/piece0",
+        "source": "ctc",
+        "groundMin": 100.40772943467368,
+        "groundMax": 103.4367336667444,
+        "spreadM": 3.0290042320707187,
+        "bottom": 99.40772943467368,
+        "roof": 112.0367336667444,
+        "relativeHeight": 8.6,
+        "maxEmbeddingM": 4.029004232070719,
+        "midpointRange": [
+          100.42206497895431,
+          103.42990926810668
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "ctc/12716/0/piece0",
+        "source": "ctc",
+        "groundMin": 102.33419039859834,
+        "groundMax": 105.76413035485595,
+        "spreadM": 3.4299399562576127,
+        "bottom": 101.33419039859834,
+        "roof": 109.96413035485595,
+        "relativeHeight": 4.2,
+        "maxEmbeddingM": 4.429939956257613,
+        "midpointRange": [
+          102.39052569066276,
+          105.70211933000795
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      },
+      {
+        "id": "relation/2015042/piece2",
+        "source": "osm-fallback",
+        "groundMin": 110.94841727592775,
+        "groundMax": 114.02677005093933,
+        "spreadM": 3.078352775011581,
+        "bottom": 109.94841727592775,
+        "roof": 128.02677005093932,
+        "relativeHeight": 14,
+        "maxEmbeddingM": 4.078352775011581,
+        "midpointRange": [
+          110.98030068118076,
+          113.94618623142006
+        ],
+        "floating": false,
+        "floatingGapM": 0,
+        "slopeWarning": true,
+        "absoluteCtcDatumUsed": false
+      }
+    ],
+    "policy": "bilinear ground at outer/hole vertices; roof=max ground+relative height, wall bottom=min ground-1; edge-midpoint diagnostic",
+    "absoluteCtcDatumUsed": false
+  },
+  "sourceSnapshots": {
+    "buildings": "38ed98285663d6c3080c1b2f9929e99455d422590af92bd8c3c071bbbb3e465e",
+    "trees": "fa1a94f527b97a7afcef7ac2db4b5ef3695ee2d42966c1dd4c3d4a5184975a8d"
+  },
+  "preservation": {
+    "baselineArtifacts": 56,
+    "originalInventoryUnchanged": 81,
+    "originalInventoryCodeExceptions": [
+      {
+        "path": "pipeline/src/places.ts",
+        "reason": "conditional municipal credits only; frozen camera verified"
+      }
+    ]
+  },
+  "osmRegression": [
+    {
+      "x": -1,
+      "y": -2,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "colorUnchanged": true,
+      "heightUnchanged": true
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Piazza Maggiore",
+      "lat": 44.4938,
+      "lon": 11.343,
+      "ground": 107.9146728515625,
+      "pixel": [
+        -3.423419548322368e-9,
+        -305.2287878529928
+      ],
+      "crop": {
+        "left": 1728,
+        "top": 1503,
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "Piazza Nettuno",
+      "lat": 44.49428,
+      "lon": 11.34265,
+      "ground": 106.38042850281896,
+      "pixel": [
+        72.12751362666863,
+        -463.24446612045824
+      ],
+      "crop": {
+        "left": 1800,
+        "top": 1345,
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "Palazzo d'Accursio",
+      "lat": 44.4939658117647,
+      "lon": 11.34218190588235,
+      "ground": 107.80573116973243,
+      "pixel": [
+        -131.93062866510144,
+        -471.9124993625252
+      ],
+      "crop": {
+        "left": 1596,
+        "top": 1336,
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "Basilica di San Petronio",
+      "lat": 44.492711830232565,
+      "lon": 11.343011848837213,
+      "ground": 109.404475756713,
+      "pixel": [
+        -339.35207611344543,
+        -65.7113191285969
+      ],
+      "crop": {
+        "left": 1389,
+        "top": 1742,
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "name": "Courtyard ctc/43924/0/piece0",
+      "lat": 44.49772469550804,
+      "lon": 11.338402863139901,
+      "ground": 101.56015171707674,
+      "pixel": [
+        199.428562188481,
+        -1890.7141771769204
+      ],
+      "crop": {
+        "left": 1927,
+        "top": 0,
+        "width": 640,
+        "height": 480
+      }
+    }
+  ],
+  "trees": {
+    "selected": 622,
+    "osmMatched": 56,
+    "osmRetained": 162,
+    "total": 784,
+    "heightEstimatesM": {
+      "<6": 4,
+      "6–12": 9,
+      "12–16": 14,
+      "16–23": 19.5,
+      ">23": 26
+    },
+    "radiusPolicy": "clamp(0.22 * class-estimated height, 1.5, 5) m; generic estimate, not a canopy measurement",
+    "dedupeToleranceM": 3,
+    "sourceFreshness": {
+      "missingSpecies": 6,
+      "missingPlantingDate": 536,
+      "missingUpdateDate": 77,
+      "updatedBefore2010": 392
+    }
+  },
+  "proofs": {
+    "proof": "docs/bologna-municipal-trees-proof.jpg",
+    "proofSha256": "78bff0cc6147512a8d2da6ef7e46ba8b5b8ef945b7bf2547da5e4839576514fd",
+    "comparison": "docs/bologna-trees-comparison.jpg",
+    "comparisonSha256": "c19f65f79cb2040ff8086eeff57b8081ebfac7afe14ea9fdf5dc39964c31689e",
+    "landmarks": "docs/bologna-municipal-trees-landmarks.jpg"
+  },
+  "fullDiagnostics": "data/bo-002-trees/adapter-report.json",
+  "limitations": [
+    "Generic facade patterns and flat eave roofs; no portico clearance or monumental sculpture",
+    "Relative eave heights only; absolute CTC vertical datum unresolved",
+    "Shadow texture uses outer footprint; courtyard roof holes remain geometrically open",
+    "1 mm boolean precision; sub-0.5m² residuals explicitly dropped",
+    "Slope diagnostics flag embedding risks; this is not a survey certification"
+  ],
+  "buildingsSameAsStageA": true,
+  "fullDiagnosticsSha256": "d40c94caddd1a04bdcc08208ca05d158d1a34a8165892e26e1af74fdbd47e3fb",
+  "courtyardExclusions": 374,
+  "sliverAreaM2": 39.93334502599134,
+  "generatedQuarantined": []
+}
