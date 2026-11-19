@@ -55,6 +55,24 @@ a stretch of the painted Tel Aviv map: Gordon beach and the city behind it), `tr
 sheet), `trees-stuttgart.png` (Stuttgart tree species sheet, derived from `trees.png` with Codex/ChatGPT)
 and `sea.png` (sea texture).
 
+## Bologna geographic foundation (BO-001)
+
+The `bologna` baseline is procedural: OpenStreetMap buildings, trees and ground features (ODbL),
+and Copernicus DEM GLO-30 terrain, under the terms and exact Copernicus credit above. Its credit is:
+
+> Map data © OpenStreetMap contributors · Terrain: Copernicus DEM © DLR, Airbus DS
+
+Municipal datasets downloaded **for the data audit only**, not yet incorporated in map tiles:
+
+| Source | Use | Licence and obligations |
+|---|---|---|
+| Comune di Bologna – Sistema Informativo Territoriale (SIT), [CTC – Edifici volumetrici](https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/) | Building footprint/eave-height schema and quality audit | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): credit publisher, link source and licence, indicate modifications; retain supplied notices. Statistics and bbox selections are derived here; original exports are retained locally. |
+| Comune di Bologna – Settore Ambiente e Verde, [Alberi in manutenzione](https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/) | Tree inventory schema and quality audit | CC BY 4.0, same obligations. Audit counts and selections only. |
+| NGA EGM2008 via [GeographicLib GeoidEval](https://geographiclib.sourceforge.io/cgi-bin/GeoidEval) | Bologna origin geoid undulation, 39.647 m | EGM2008 is public-domain US government data; GeographicLib is MIT/X11. No imagery or remote geometry used. |
+
+Before municipal geometry is used on a map, add its publisher/licence to Bologna's region credits,
+render manifest and linked footer. See [the reproducible audit](docs/bologna-data-audit.md).
+
 ## Software
 
 [three.js](https://threejs.org) (MIT), [OpenSeadragon](https://openseadragon.github.io) (BSD-3-Clause),

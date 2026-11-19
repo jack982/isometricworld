@@ -11,6 +11,12 @@ export interface Area {
 }
 
 export const AREAS: Record<string, Area> = {
+  /** BO-001: ~0.95 × 1 km OSM-only procedural test, centred on Piazza Maggiore. */
+  "piazza-maggiore": {
+    title: "Bologna · Piazza Maggiore",
+    region: "bologna",
+    bbox: [44.4893, 11.337, 44.4983, 11.349],
+  },
   /** Jaffa → Yarkon Park → Ramat Gan, including the sea off the coast. */
   "tlv-core": {
     title: "Tel Aviv-Yafo · Ramat Gan",

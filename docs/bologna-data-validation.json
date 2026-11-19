@@ -1,0 +1,559 @@
+{
+  "bbox": [
+    44.4893,
+    11.337,
+    44.4983,
+    11.349
+  ],
+  "geometryChecks": "finite lon/lat, expected type, ring closure and size; not self-intersection/OGC validity",
+  "buildings": {
+    "id": "c_a944ctc_edifici_pl",
+    "sha256": "38ed98285663d6c3080c1b2f9929e99455d422590af92bd8c3c071bbbb3e465e",
+    "bytes": 47821655,
+    "records": 65735,
+    "metadataRecords": 65735,
+    "license": "CC BY 4.0",
+    "modified": "2026-10-22T04:04:00.941000+00:00",
+    "schema": [
+      {
+        "name": "geo_point_2d",
+        "type": "geo_point_2d",
+        "label": "Geo Point"
+      },
+      {
+        "name": "geo_shape",
+        "type": "geo_shape",
+        "label": "Geo Shape"
+      },
+      {
+        "name": "codice_ogg",
+        "type": "int",
+        "label": "CODICE_OGGETTO"
+      },
+      {
+        "name": "data_istit",
+        "type": "date",
+        "label": "DATA_ISTITITUZIONE"
+      },
+      {
+        "name": "data_varia",
+        "type": "date",
+        "label": "DATA_VARIAZIONE"
+      },
+      {
+        "name": "noteogg",
+        "type": "text",
+        "label": "NOTEOGG"
+      },
+      {
+        "name": "perimetro",
+        "type": "int",
+        "label": "PERIMETRO"
+      },
+      {
+        "name": "descrizion",
+        "type": "text",
+        "label": "DESCRIZIONE"
+      },
+      {
+        "name": "quota_gron",
+        "type": "double",
+        "label": "QUOTA_GRONDA"
+      },
+      {
+        "name": "quota_pied",
+        "type": "double",
+        "label": "QUOTA_PIEDE"
+      },
+      {
+        "name": "altezza_gr",
+        "type": "double",
+        "label": "ALTEZZA_GRONDA"
+      },
+      {
+        "name": "volume",
+        "type": "double",
+        "label": "VOLUME"
+      },
+      {
+        "name": "origine",
+        "type": "text",
+        "label": "ORIGINE"
+      },
+      {
+        "name": "area_ogg",
+        "type": "double",
+        "label": "AREA_OGG"
+      }
+    ],
+    "extentLonLat": [
+      11.2301531467634,
+      44.42150495861321,
+      11.431957844579287,
+      44.55534251574046
+    ],
+    "badGeometry": 0,
+    "unclosedRings": 0,
+    "shortRings": 0,
+    "holes": 2752,
+    "duplicateIds": 0,
+    "missingIds": 0,
+    "all": {
+      "height": {
+        "n": 65735,
+        "min": 0,
+        "median": 7.8,
+        "p95": 24.1,
+        "max": 103.7
+      },
+      "zeroHeight": 11010,
+      "missingHeight": 0,
+      "negativeHeight": 0,
+      "over100m": 1,
+      "missingOrZeroElevations": 11102,
+      "inconsistentHeightOver10cm": 0,
+      "descriptions": {
+        "Tettoia/pensilina": 5704,
+        "Baracca": 3824,
+        "Collegamento in quota": 5,
+        "Edificio generico": 47308,
+        "Ospedale": 530,
+        "Stabilimento industriale": 3717,
+        "Mura storiche": 32,
+        "Edificio sportivo": 182,
+        "Chiosco fiori": 20,
+        "Edificio scolastico": 983,
+        "Chiesa": 776,
+        "Campanile": 56,
+        "Stazione di rifornimento": 96,
+        "In costruzione": 149,
+        "Edificio diroccato": 65,
+        "Edificio ad uso agricolo": 391,
+        "Cabina ENEL": 843,
+        "Servizi": 79,
+        "Chiosco gelati": 46,
+        "Cimitero": 194,
+        "Carcere": 44,
+        "Silos": 177,
+        "Chiosco giornali": 68,
+        "Serra": 31,
+        "Chiosco alimentari": 26,
+        "Portico": 359,
+        "Parcheggio multipiano": 2,
+        "null": 25,
+        "Studentato": 1,
+        "Edificio per centrale termica": 2
+      },
+      "origins": {
+        "Impianto": 61485,
+        "Ortofoto": 1050,
+        "Progetto": 2489,
+        "Catasto": 355,
+        "null": 337,
+        "Rilievo topografico": 17,
+        "Eira": 2
+      }
+    },
+    "patch": {
+      "records": 3385,
+      "height": {
+        "n": 3385,
+        "min": 0,
+        "median": 14.6,
+        "p95": 26.9,
+        "max": 94.5
+      },
+      "zeroHeight": 55,
+      "missingHeight": 0,
+      "negativeHeight": 0,
+      "over100m": 0,
+      "missingOrZeroElevations": 58,
+      "inconsistentHeightOver10cm": 0,
+      "descriptions": {
+        "Tettoia/pensilina": 27,
+        "Baracca": 11,
+        "Edificio generico": 3117,
+        "Chiesa": 194,
+        "Edificio scolastico": 8,
+        "Portico": 9,
+        "Campanile": 14,
+        "Mura storiche": 1,
+        "Chiosco giornali": 4
+      },
+      "origins": {
+        "Impianto": 3359,
+        "Catasto": 2,
+        "null": 15,
+        "Progetto": 5,
+        "Eira": 1,
+        "Rilievo topografico": 1,
+        "Ortofoto": 2
+      }
+    }
+  },
+  "trees": {
+    "id": "alberi-manutenzioni",
+    "sha256": "fa1a94f527b97a7afcef7ac2db4b5ef3695ee2d42966c1dd4c3d4a5184975a8d",
+    "bytes": 54630770,
+    "records": 87285,
+    "metadataRecords": 87285,
+    "license": "CC BY 4.0",
+    "modified": "2026-10-10T08:11:42.712000+00:00",
+    "schema": [
+      {
+        "name": "num_pt",
+        "type": "text",
+        "label": "Progressivo pianta"
+      },
+      {
+        "name": "cod_alb",
+        "type": "text",
+        "label": "Codice albero"
+      },
+      {
+        "name": "isolato",
+        "type": "text",
+        "label": "Pianta isolata"
+      },
+      {
+        "name": "classe",
+        "type": "text",
+        "label": "Specie arborea"
+      },
+      {
+        "name": "cl_h",
+        "type": "text",
+        "label": "Classe di altezza"
+      },
+      {
+        "name": "dimora",
+        "type": "text",
+        "label": "Dimora"
+      },
+      {
+        "name": "irriga",
+        "type": "text",
+        "label": "Irrigazione"
+      },
+      {
+        "name": "pregio",
+        "type": "text",
+        "label": "Albero di pregio"
+      },
+      {
+        "name": "classe_circonferenza_diametro",
+        "type": "text",
+        "label": "Classe circonferenza (diametro)"
+      },
+      {
+        "name": "data_inv",
+        "type": "date",
+        "label": "Data inserimento inventario"
+      },
+      {
+        "name": "data_agg",
+        "type": "date",
+        "label": "Data ultimo aggiornamento"
+      },
+      {
+        "name": "d_edif",
+        "type": "text",
+        "label": "Distanza dai fabbricati"
+      },
+      {
+        "name": "data_impnt",
+        "type": "date",
+        "label": "Data Impianto"
+      },
+      {
+        "name": "geo_point_2d",
+        "type": "geo_point_2d",
+        "label": "Geo Point"
+      },
+      {
+        "name": "geo_shape",
+        "type": "geo_shape",
+        "label": "Geo Shape"
+      },
+      {
+        "name": "campagna",
+        "type": "text",
+        "label": "Campagna"
+      },
+      {
+        "name": "in_patrim",
+        "type": "text",
+        "label": "IN_PATRIM"
+      },
+      {
+        "name": "anni_impnt",
+        "type": "text",
+        "label": "ANNI_IMPNT"
+      },
+      {
+        "name": "zona_di_prossimita",
+        "type": "text",
+        "label": "Zona di prossimità"
+      },
+      {
+        "name": "area_statistica",
+        "type": "text",
+        "label": "Area statistica"
+      },
+      {
+        "name": "quartiere",
+        "type": "text",
+        "label": "quartiere"
+      }
+    ],
+    "extentLonLat": [
+      11.23221948430666,
+      44.42135184385179,
+      11.433450874697783,
+      44.55199378198289
+    ],
+    "badGeometry": 0,
+    "unclosedRings": 0,
+    "shortRings": 0,
+    "holes": 0,
+    "duplicateIds": 0,
+    "missingIds": 0,
+    "all": {
+      "heightClasses": {
+        "Cl1: <6mt": 34198,
+        "Cl2: 6mt - 12mt": 24837,
+        "Cl3: 12mt - 16mt": 12942,
+        "Cl4: 16mt - 23mt": 11803,
+        "Cl5: >23mt": 3481,
+        "NULL": 3,
+        "null": 20,
+        "ClCl1: <6mt: <6mt": 1
+      },
+      "speciesTop20": [
+        [
+          "Celtis australis",
+          8604
+        ],
+        [
+          "Acer campestre",
+          5902
+        ],
+        [
+          "Platanus acerifolia",
+          5786
+        ],
+        [
+          "Fraxinus excelsior",
+          4397
+        ],
+        [
+          "Tilia intermedia",
+          4328
+        ],
+        [
+          "Cercis siliquastrum",
+          2621
+        ],
+        [
+          "Quercus robur",
+          2604
+        ],
+        [
+          "Aesculus hippocastanum",
+          2577
+        ],
+        [
+          "Populus alba",
+          1978
+        ],
+        [
+          "Fraxinus angustifolia",
+          1928
+        ],
+        [
+          "Tilia platyphyllos",
+          1867
+        ],
+        [
+          "Carpinus betulus",
+          1853
+        ],
+        [
+          "Sophora japonica",
+          1736
+        ],
+        [
+          "Tilia cordata",
+          1601
+        ],
+        [
+          "Fraxinus ornus",
+          1583
+        ],
+        [
+          "null",
+          1565
+        ],
+        [
+          "Prunus cerasifera (var. Pissardi)",
+          1427
+        ],
+        [
+          "Cedrus deodara",
+          1418
+        ],
+        [
+          "Robinia pseudoacacia",
+          1409
+        ],
+        [
+          "Quercus ilex",
+          1379
+        ]
+      ],
+      "missingSpecies": 1565,
+      "missingPlantingDate": 72850,
+      "updateYears": {
+        "2003": 1,
+        "2004": 320,
+        "2005": 13105,
+        "2006": 16187,
+        "2007": 17369,
+        "2008": 83,
+        "2009": 2717,
+        "2010": 1186,
+        "2011": 2028,
+        "2012": 1536,
+        "2013": 943,
+        "2014": 1325,
+        "2015": 238,
+        "2016": 695,
+        "2017": 68,
+        "2018": 1019,
+        "2019": 2879,
+        "2020": 621,
+        "2021": 1820,
+        "2022": 3217,
+        "2023": 2559,
+        "2024": 2924,
+        "2025": 2828,
+        "2026": 4723,
+        "null": 6894
+      }
+    },
+    "patch": {
+      "records": 166,
+      "heightClasses": {
+        "Cl1: <6mt": 71,
+        "Cl2: 6mt - 12mt": 61,
+        "Cl4: 16mt - 23mt": 19,
+        "Cl3: 12mt - 16mt": 12,
+        "Cl5: >23mt": 3
+      },
+      "speciesTop20": [
+        [
+          "Gingko biloba",
+          39
+        ],
+        [
+          "Magnolia grandiflora",
+          31
+        ],
+        [
+          "Cupressus sempervirens",
+          17
+        ],
+        [
+          "Quercus ilex",
+          16
+        ],
+        [
+          "Prunus subhirtella",
+          9
+        ],
+        [
+          "Acer rubrum",
+          6
+        ],
+        [
+          "Magnolia kobus",
+          5
+        ],
+        [
+          "Koelreuteria paniculata",
+          4
+        ],
+        [
+          "Olea europea",
+          4
+        ],
+        [
+          "Lagestroemia indica",
+          3
+        ],
+        [
+          "null",
+          2
+        ],
+        [
+          "Cladratis lutea",
+          2
+        ],
+        [
+          "Tilia intermedia",
+          2
+        ],
+        [
+          "Aesculus hippocastanum",
+          2
+        ],
+        [
+          "Carpinus betulus",
+          2
+        ],
+        [
+          "Platanus acerifolia",
+          2
+        ],
+        [
+          "Carpinus betulus 'Fastigiata'",
+          2
+        ],
+        [
+          "Pyrus calleriana “chanticlaire”",
+          1
+        ],
+        [
+          "Prunus sargentii",
+          1
+        ],
+        [
+          "Zelkova serrata",
+          1
+        ]
+      ],
+      "missingSpecies": 2,
+      "missingPlantingDate": 140,
+      "updateYears": {
+        "2005": 42,
+        "2006": 4,
+        "2007": 55,
+        "2009": 1,
+        "2010": 3,
+        "2011": 9,
+        "2012": 6,
+        "2013": 1,
+        "2014": 14,
+        "2015": 4,
+        "2016": 1,
+        "2021": 1,
+        "2022": 2,
+        "2023": 9,
+        "2024": 1,
+        "2025": 10,
+        "2026": 2,
+        "null": 1
+      }
+    }
+  }
+}

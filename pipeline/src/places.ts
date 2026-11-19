@@ -63,6 +63,21 @@ export interface City {
 }
 
 export const REGIONS: Record<string, Region> = {
+  bologna: {
+    title: "Bologna",
+    // BO-001: fixed before the first render; see docs/bologna-data-audit.md.
+    origin: { lat: 44.4938, lon: 11.343, h: 0 }, // Piazza Maggiore, WGS84 ellipsoid
+    headingDeg: 315, // NW: diagonal to the central north/south and east/west streets
+    country: "Italy",
+    municipalities: ["Bologna"],
+    credits: [
+      "Map data © OpenStreetMap contributors",
+      "Terrain: Copernicus DEM © DLR, Airbus DS",
+    ],
+    geoidM: 39.647, // GeographicLib EGM2008 at origin; orthometric + N = ellipsoid
+    groundH: 100, // initial projection estimate (~60 m MSL + geoid); terrain replaces it
+    // sources intentionally unset: OSM buildings/trees + Copernicus, no municipal adapters yet.
+  },
   "israel-center": {
     title: "Israel · Center",
     origin: { lat: 32.0778, lon: 34.774, h: 0 }, // Dizengoff Square
@@ -127,6 +142,7 @@ export const REGIONS: Record<string, Region> = {
 };
 
 export const CITIES: Record<string, City> = {
+  bologna: { title: "Bologna", region: "bologna", center: [44.4938, 11.343], widthM: 1500 },
   "tel-aviv-yafo": { title: "Tel Aviv-Yafo", region: "israel-center", center: [32.0745, 34.7810], widthM: 5200 },
   stuttgart: { title: "Stuttgart", region: "stuttgart", center: [48.7784, 9.18], widthM: 3000 },
 };

@@ -1,0 +1,95 @@
+diff --git a/ATTRIBUTION.md b/ATTRIBUTION.md
+index d0b618a..2c91cc5 100644
+--- a/ATTRIBUTION.md
++++ b/ATTRIBUTION.md
+@@ -55,6 +55,24 @@ a stretch of the painted Tel Aviv map: Gordon beach and the city behind it), `tr
+ sheet), `trees-stuttgart.png` (Stuttgart tree species sheet, derived from `trees.png` with Codex/ChatGPT)
+ and `sea.png` (sea texture).
+ 
++## Bologna geographic foundation (BO-001)
++
++The `bologna` baseline is procedural: OpenStreetMap buildings, trees and ground features (ODbL),
++and Copernicus DEM GLO-30 terrain, under the terms and exact Copernicus credit above. Its credit is:
++
++> Map data © OpenStreetMap contributors · Terrain: Copernicus DEM © DLR, Airbus DS
++
++Municipal datasets downloaded **for the data audit only**, not yet incorporated in map tiles:
++
++| Source | Use | Licence and obligations |
++|---|---|---|
++| Comune di Bologna – Sistema Informativo Territoriale (SIT), [CTC – Edifici volumetrici](https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/) | Building footprint/eave-height schema and quality audit | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): credit publisher, link source and licence, indicate modifications; retain supplied notices. Statistics and bbox selections are derived here; original exports are retained locally. |
++| Comune di Bologna – Settore Ambiente e Verde, [Alberi in manutenzione](https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/) | Tree inventory schema and quality audit | CC BY 4.0, same obligations. Audit counts and selections only. |
++| NGA EGM2008 via [GeographicLib GeoidEval](https://geographiclib.sourceforge.io/cgi-bin/GeoidEval) | Bologna origin geoid undulation, 39.647 m | EGM2008 is public-domain US government data; GeographicLib is MIT/X11. No imagery or remote geometry used. |
++
++Before municipal geometry is used on a map, add its publisher/licence to Bologna's region credits,
++render manifest and linked footer. See [the reproducible audit](docs/bologna-data-audit.md).
++
+ ## Software
+ 
+ [three.js](https://threejs.org) (MIT), [OpenSeadragon](https://openseadragon.github.io) (BSD-3-Clause),
+diff --git a/pipeline/src/areas.ts b/pipeline/src/areas.ts
+index d0c1533..7c9e958 100644
+--- a/pipeline/src/areas.ts
++++ b/pipeline/src/areas.ts
+@@ -11,6 +11,12 @@ export interface Area {
+ }
+ 
+ export const AREAS: Record<string, Area> = {
++  /** BO-001: ~0.95 × 1 km OSM-only procedural test, centred on Piazza Maggiore. */
++  "piazza-maggiore": {
++    title: "Bologna · Piazza Maggiore",
++    region: "bologna",
++    bbox: [44.4893, 11.337, 44.4983, 11.349],
++  },
+   /** Jaffa → Yarkon Park → Ramat Gan, including the sea off the coast. */
+   "tlv-core": {
+     title: "Tel Aviv-Yafo · Ramat Gan",
+diff --git a/pipeline/src/places.ts b/pipeline/src/places.ts
+index 71ada9f..74017dc 100644
+--- a/pipeline/src/places.ts
++++ b/pipeline/src/places.ts
+@@ -63,6 +63,21 @@ export interface City {
+ }
+ 
+ export const REGIONS: Record<string, Region> = {
++  bologna: {
++    title: "Bologna",
++    // BO-001: fixed before the first render; see docs/bologna-data-audit.md.
++    origin: { lat: 44.4938, lon: 11.343, h: 0 }, // Piazza Maggiore, WGS84 ellipsoid
++    headingDeg: 315, // NW: diagonal to the central north/south and east/west streets
++    country: "Italy",
++    municipalities: ["Bologna"],
++    credits: [
++      "Map data © OpenStreetMap contributors",
++      "Terrain: Copernicus DEM © DLR, Airbus DS",
++    ],
++    geoidM: 39.647, // GeographicLib EGM2008 at origin; orthometric + N = ellipsoid
++    groundH: 100, // initial projection estimate (~60 m MSL + geoid); terrain replaces it
++    // sources intentionally unset: OSM buildings/trees + Copernicus, no municipal adapters yet.
++  },
+   "israel-center": {
+     title: "Israel · Center",
+     origin: { lat: 32.0778, lon: 34.774, h: 0 }, // Dizengoff Square
+@@ -127,6 +142,7 @@ export const REGIONS: Record<string, Region> = {
+ };
+ 
+ export const CITIES: Record<string, City> = {
++  bologna: { title: "Bologna", region: "bologna", center: [44.4938, 11.343], widthM: 1500 },
+   "tel-aviv-yafo": { title: "Tel Aviv-Yafo", region: "israel-center", center: [32.0745, 34.7810], widthM: 5200 },
+   stuttgart: { title: "Stuttgart", region: "stuttgart", center: [48.7784, 9.18], widthM: 3000 },
+ };
+diff --git a/pipeline/src/render.ts b/pipeline/src/render.ts
+index cce909f..b7d46b7 100644
+--- a/pipeline/src/render.ts
++++ b/pipeline/src/render.ts
+@@ -38,7 +38,9 @@ const COPERNICUS = "Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus De
+ /** Sources of the render manifest, per region data source (places.ts `sources`). */
+ export const ATTRIBUTIONS = REGIONS[area.region].sources === "lgl"
+   ? ["© OpenStreetMap contributors (ODbL)", "Datenquelle: LGL, www.lgl-bw.de, dl-de/by-2-0 (LoD2, DGM1, nDOM1; verändert)", COPERNICUS]
+-  : ["© OpenStreetMap contributors (ODbL)", "Tel Aviv-Yafo Municipality open data", COPERNICUS];
++  : REGIONS[area.region].sources === "tlv"
++    ? ["© OpenStreetMap contributors (ODbL)", "Tel Aviv-Yafo Municipality open data", COPERNICUS]
++    : ["© OpenStreetMap contributors (ODbL)", COPERNICUS];
+ 
+ const T = CAMERA.tile;
+ 

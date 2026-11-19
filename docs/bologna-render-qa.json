@@ -1,0 +1,80 @@
+{
+  "camera": {
+    "region": "bologna",
+    "origin": {
+      "lat": 44.4938,
+      "lon": 11.343,
+      "h": 0
+    },
+    "headingDeg": 315,
+    "pitchDeg": 45,
+    "mpp": 0.25,
+    "tile": 1024
+  },
+  "tiles": [
+    {
+      "x": -1,
+      "y": -2,
+      "minChannelStdev": 32.17578277143811
+    },
+    {
+      "x": 0,
+      "y": -2,
+      "minChannelStdev": 31.92117710413009
+    },
+    {
+      "x": -2,
+      "y": -1,
+      "minChannelStdev": 31.5684455869593
+    },
+    {
+      "x": -1,
+      "y": -1,
+      "minChannelStdev": 32.962689813759866
+    },
+    {
+      "x": 0,
+      "y": -1,
+      "minChannelStdev": 30.88571790373039
+    },
+    {
+      "x": 1,
+      "y": -1,
+      "minChannelStdev": 31.844459545458356
+    },
+    {
+      "x": -2,
+      "y": 0,
+      "minChannelStdev": 33.23045682581876
+    },
+    {
+      "x": -1,
+      "y": 0,
+      "minChannelStdev": 36.67215821929465
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "minChannelStdev": 31.79949598100143
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "minChannelStdev": 27.87277302644916
+    }
+  ],
+  "sceneBins": 21,
+  "terrain": {
+    "samples": 227005,
+    "nonfinite": 0,
+    "min": 74.0249252319336,
+    "max": 293.98834228515625
+  },
+  "roundtripMaxHeightErrorM": 0.000007184222340583801,
+  "limitations": [
+    "Partial OSM ground: only roads/surface rail and landuse",
+    "No municipal geometry",
+    "Not a building survey or roof/portico reconstruction",
+    "No website/export/traffic QA"
+  ]
+}
