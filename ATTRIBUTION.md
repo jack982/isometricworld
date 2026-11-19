@@ -92,6 +92,17 @@ projected, filtered, class-based height/radius estimates and spatial deduplicati
 The original OSM-only baseline remains selectable and unchanged. See
 [the implementation and validation](docs/bologna-municipal-implementation.md).
 
+BO-003 reuses those same pinned OSM, CTC, tree and terrain snapshots in an isolated
+architectural pilot (`data/bo-003-architecture/`). Roof topology, terracotta/brick/plaster
+palette, bounded ridge uplift and portico column spacing/clearance are **procedural estimates**,
+not surveyed municipal attributes. Existing source credits and modification notices remain
+on every proof and in the manifest. Plain BO-001R/BO-002 modes remain unchanged.
+The [architecture audit](docs/bologna-architecture-audit.md) also consults the Ministry of
+Culture / ICCD [Palazzo d'Accursio metadata](https://catalogo.beniculturali.it/detail/ArchitecturalOrLandscapeHeritage/0800262039)
+(CC BY 4.0 metadata) for identity only; no photographs, attached images or models are used.
+Official basilica text and historical repository descriptions are factual audit references,
+not imported imagery or geometry. No additional geographic dataset or image source is activated.
+
 ## Software
 
 Polygon-clipping (MIT, [source](https://github.com/mfogel/polygon-clipping)) performs planar

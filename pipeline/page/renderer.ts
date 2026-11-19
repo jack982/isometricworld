@@ -8,6 +8,8 @@ import { CAMERA, axes, ecefToEnu, llhToEcef, tileCamera, useRegion } from "../sr
 import { REGIONS } from "../src/places.ts";
 import { drawGround, type Feature } from "./ground.ts";
 import { deckHeight } from "../src/bridges.ts";
+import type { BuildingMetadata, PorticoPlan } from "../src/bologna-metadata.ts";
+import { appendArchitecturalBuilding, appendPortico, architectureBuffers, architectureMesh } from "./architecture.ts";
 
 const params = new URLSearchParams(location.search);
 const REGION = params.get("region") ?? "israel-center";
@@ -314,8 +316,9 @@ heightTarget.texture.generateMipmaps = false;
 
 type P2 = [number, number];
 export interface TileObjects {
-  b: Array<[P2[], number, number, number | null, P2[][]?]>; // outer ring, relative height, style, ground hint, optional courtyard rings
+  b: Array<[P2[], number, number, number | null, P2[][]?, BuildingMetadata?]>; // optional verified source identity; legacy tuples unchanged
   t: Array<[number, number, number, number]>;      // x, y, radius, crown height
+  p?: PorticoPlan[]; // opt-in verified open structures, independent of solid building tuples
   /** LoD2 meshes: style, roof kind, roof xyz[], wall (xyz, along, above base)[], footprint, height, seed */
   m?: Array<[number, number, number[], number[], P2[], number, number, (number[] | null)?, (number[] | null)?, number?]>; // … osm roof, osm wall, bare (no roof furniture)
 }
@@ -797,6 +800,7 @@ function buildObjects(data: TileObjects) {
   objects.children.forEach((o: any) => o.geometry?.dispose());
   objects.clear();
   const pos: number[] = [], nor: number[] = [], col: number[] = [], fac: number[] = [], tow: number[] = [];
+  const architectural = architectureBuffers();
   /** axis-aligned box on a roof (rooftop clutter), no facade pattern */
   const box = (x: number, y: number, z: number, sx: number, sy: number, sz: number, c: number[]) => {
     const X = [x - sx / 2, x + sx / 2], Y = [y - sy / 2, y + sy / 2], Z = [z, z + sz];
@@ -812,7 +816,8 @@ function buildObjects(data: TileObjects) {
     }
   };
   const rnd = (seed: number) => () => ((seed = Math.imul(seed ^ (seed >>> 15), 0x2c1b3c6d) + 0x9e3779b9 | 0) >>> 0) / 2 ** 32;
-  data.b.forEach(([ring, h, style, , holes = []]) => {
+  data.b.forEach(([ring, h, style, , holes = [], metadata]) => {
+    if (metadata && appendArchitecturalBuilding(architectural, ring, holes, h, metadata, ground)) return;
     // sit on the highest ground under the footprint; walls reach 1 m below the lowest so slopes never show a gap
     const gs = [...ring, ...holes.flat()].map(([x, y]) => ground(x, y));
     const top = Math.max(...gs) + h, g = Math.min(...gs) - 1;
@@ -869,6 +874,9 @@ function buildObjects(data: TileObjects) {
     geo.setAttribute("kind", new THREE.Float32BufferAttribute(tow, 1));
     objects.add(new THREE.Mesh(geo, buildingMaterial));
   }
+  for (const portico of data.p ?? []) appendPortico(architectural, portico, ground);
+  const architecturalMesh = architectureMesh(architectural, SUN);
+  if (architecturalMesh) objects.add(architecturalMesh);
   if (data.t.length) {
     const crowns = new THREE.InstancedMesh(STYLED ? CROWN : new THREE.IcosahedronGeometry(1, 2), treeMaterial, data.t.length);
     const trunks = new THREE.InstancedMesh(new THREE.CylinderGeometry(1, 1, 1, 6).rotateX(Math.PI / 2).translate(0, 0, 0.5), treeMaterial, data.t.length);

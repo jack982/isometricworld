@@ -1,7 +1,9 @@
 /** Explicit municipal adapter. Does not fetch, alter global source tables, or use absolute CTC elevations. */
 import { area, boxPolygon, difference, Index, inPolygon, intersect, normalizeGeometry, overlap, topology, type Point, type Polygon } from "./bologna-geometry.ts";
 import { ecefToEnu, llhToEcef } from "./camera.ts";
-export type BuildingTuple=[Point[],number,number,number|null,Point[][]?];
+import { createHash } from "node:crypto";
+import { verifiedMetadata, type BuildingMetadata } from "./bologna-metadata.ts";
+export type BuildingTuple=[Point[],number,number,number|null,Point[][]?,BuildingMetadata?];
 export interface Volume {id:string;poly:Polygon;h:number;style:number;properties:any;source:string;heightSource:string}
 export const DEFERRED=new Set(["Portico","Tettoia/pensilina","Collegamento in quota","Edificio diroccato","Mura storiche","In costruzione"]);
 const SOLID=new Set(["Edificio generico","Baracca","Ospedale","Stabilimento industriale","Edificio sportivo","Chiosco fiori","Edificio scolastico","Chiesa","Campanile","Stazione di rifornimento","Edificio ad uso agricolo","Cabina ENEL","Servizi","Chiosco gelati","Cimitero","Carcere","Silos","Chiosco giornali","Serra","Chiosco alimentari","Parcheggio multipiano","Studentato","Edificio per centrale termica"]);
@@ -26,15 +28,26 @@ export function baselineVolumes(tuples:BuildingTuple[],osm:any[]):Volume[]{
   const rawIndex=new Index<Volume>();
   for(const el of osm){
     if(!el.tags?.building)continue;
-    const ring=el.type==="way"?el.geometry:el.members?.find((m:any)=>m.role==="outer"&&m.geometry)?.geometry;
-    if(!ring?.length)continue;
-    const g=normalizeGeometry({type:"Polygon",coordinates:[ring.map((q:any)=>[q.lon,q.lat])]});
-    for(const poly of g.polygons)rawIndex.add({id:`${el.type}/${el.id}`,poly,h:13,style:1,properties:el,source:"osm",heightSource:"baseline"});
+    // Complete closed outer members only. Fragmented relation chains remain unresolved, never guessed.
+    const rings=el.type==="way"?[el.geometry]:(el.members??[]).filter((m:any)=>m.role==="outer"&&m.geometry).map((m:any)=>m.geometry);
+    for(const ring of rings){
+      if(!ring?.length)continue;
+      const g=normalizeGeometry({type:"Polygon",coordinates:[ring.map((q:any)=>[q.lon,q.lat])]});
+      for(const poly of g.polygons)rawIndex.add({id:`${el.type}/${el.id}`,poly,h:13,style:1,properties:el,source:"osm",heightSource:"baseline"});
+    }
   }
-  return tuples.map((t,i)=>{
+  const unmatchedOccurrences=new Map<string,number>();
+  return tuples.map(t=>{
     const ring=[...t[0],t[0][0]],poly=[ring,...(t[4]??[]).map(r=>[...r,r[0]])];
-    const matches=rawIndex.query(poly).map(v=>({v,area:overlap(poly,v.poly)})).sort((a,b)=>b.area-a.area);
-    return {id:matches[0]?.v.id??`baseline/${i}`,poly,h:t[1],style:t[2],properties:matches[0]?.v.properties??{},source:"osm-fallback",heightSource:"baseline"};
+    const matches=rawIndex.query(poly).map(v=>({v,area:overlap(poly,v.poly)}))
+      .filter(m=>m.area>.05&&m.area/Math.min(area([poly]),area([m.v.poly]))>=.01).sort((a,b)=>b.area-a.area||a.v.id.localeCompare(b.v.id));
+    const best=matches[0],ambiguous=!!best&&matches.some(m=>m.v.id!==best.v.id&&Math.abs(m.area-best.area)<=.05);
+    // This fallback key identifies an unmatched baseline record; architecture never selects by this hash.
+    const key=createHash("sha256").update(JSON.stringify(t)).digest("hex").slice(0,24),occurrence=unmatchedOccurrences.get(key)??0;
+    unmatchedOccurrences.set(key,occurrence+1);
+    const match=best&&!ambiguous?best.v:undefined;
+    return {id:match?.id??`baseline/unmatched/${key}/${occurrence}`,poly,h:t[1],style:t[2],properties:match?.properties??{},source:"osm-fallback",heightSource:"baseline",
+      osmMatch:{status:match?"positive-geometric-overlap":ambiguous?"ambiguous-no-inheritance":"no-geometric-match",candidateIds:[...new Set(matches.map(m=>m.v.id))],intersectionM2:best?.area??0}};
   });
 }
 export function municipalBuildings(features:any[],osm:Volume[],bbox:number[],ground:(x:number,y:number)=>number){
@@ -108,9 +121,11 @@ export function municipalBuildings(features:any[],osm:Volume[],bbox:number[],gro
   const osmDegree=new Map<string,number>();for(const m of matches)for(const o of m.osm)osmDegree.set(o.id,(osmDegree.get(o.id)??0)+1);
   return {volumes,report:{policy:{sceneMarginDeg:margin,booleanPrecisionM:.001,minimumOverlapM2:.25,reliableSmallerCoverage:.5,overlapResidualMinimumM2:.5,ctcPriority:"descending relative eave height, then stable source ID; subtract accepted solid footprints and surveyed courtyard masks from overlapping OSM; resolve pre-existing OSM fallback overlaps similarly",anchor:"bilinear ground at outer/hole vertices; roof=max ground+relative height, wall bottom=min ground-1; edge-midpoint diagnostic",absoluteCtcDatumUsed:false},counts:{sourceRecords:features.length,outside,selectedRecords,inputHoles,solidParts:candidates.length,ctcRenderedParts:accepted.length,osmBaseline:osm.length,osmReplaced:replaced.length,osmUnmatched:retained.length,osmResidualParts:fallback.length,totalVolumes:volumes.length,invalid:quarantine.length,generatedQuarantined:generatedQuarantine.length,deferred:deferred.length,ambiguous:matches.filter(m=>m.osm.length>1).length,oneToMany:matches.filter(m=>m.osm.length>1).length,manyToOne:[...osmDegree.values()].filter(n=>n>1).length,duplicatePairs,maxOverlapM2,slopeWarnings:terrain.filter(t=>t.slopeWarning).length},heightCounts,quarantine,deferred,matches,overlaps,slivers,replaced,retained,terrain,osmOverlapCorrections,courtyardExclusions,generatedQuarantine}};
 }
-export function tuple(v:Volume):BuildingTuple{
+export function tuple(v:Volume,includeMetadata=false):BuildingTuple{
   // Keep full projected precision; rounding can close small courtyard gaps or reintroduce overlaps.
-  return [v.poly[0].slice(0,-1),v.h,v.style,null,v.poly.slice(1).map(r=>r.slice(0,-1))];
+  const result:BuildingTuple=[v.poly[0].slice(0,-1),v.h,v.style,null,v.poly.slice(1).map(r=>r.slice(0,-1))];
+  if(includeMetadata)result.push(verifiedMetadata(v));
+  return result;
 }
 export function treeClass(s:any){
   if(typeof s!=="string")return {h:9,source:"missing-class-default"};
