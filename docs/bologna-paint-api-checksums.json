@@ -1,0 +1,141 @@
+{
+  "algorithm": "sha256",
+  "approval": "docs/bologna-paint-api-approval.json",
+  "approvalPin": {
+    "sha256": "83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437",
+    "bytes": 20845
+  },
+  "protectedFilesUnchanged": 1410,
+  "oldSpikeFilesUnchanged": 77,
+  "requestsMade": 0,
+  "files": {
+    "data/bo-004s-api-runner/approval.final.json": {
+      "sha256": "b5db37d779540624eb2bd1c4a009363d687842e47ddc423531de0b8f27cb162c",
+      "bytes": 20845
+    },
+    "data/bo-004s-api-runner/approval.initial.json": {
+      "sha256": "30ee7d7c6bf43a50434237d1a2205e1d0ede40713ffc9f35f02449948235ef98",
+      "bytes": 20845
+    },
+    "data/bo-004s-api-runner/approval.json": {
+      "sha256": "30ee7d7c6bf43a50434237d1a2205e1d0ede40713ffc9f35f02449948235ef98",
+      "bytes": 20845
+    },
+    "data/bo-004s-api-runner/approval.operator-target.json": {
+      "sha256": "83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437",
+      "bytes": 20845
+    },
+    "data/bo-004s-api-runner/approval.pre-permission-fix.json": {
+      "sha256": "b5db37d779540624eb2bd1c4a009363d687842e47ddc423531de0b8f27cb162c",
+      "bytes": 20845
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/read-only-preflight.log": {
+      "sha256": "6dc09b7800a587a00701dfc12738a796e42cbc884a9b716ade38ed8874828fa3",
+      "bytes": 1063
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/regressions-and-mocked-http.log": {
+      "sha256": "f4f8710990302f17132577c8cf4398a4b7611ec1f7a5b7153ef5799cab8a1c15",
+      "bytes": 9883
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/spike-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-05-55.766Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/read-only-preflight.log": {
+      "sha256": "5dbea8f32e9d2609c18052493b37bcdffc5717190dd7b8715d47dde23bce934a",
+      "bytes": 2908
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/regressions-and-mocked-http.log": {
+      "sha256": "2556a77d7e21a31d5be2845a977684f56d53cf39102db236bfb21e3b6820ce27",
+      "bytes": 8170
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/spike-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-api-runner/prompt.txt": {
+      "sha256": "49226438e9fd1d713ffc4f0349eba8ca2fb011154a1e8ceaeed9dbbbca71fdad",
+      "bytes": 3504
+    },
+    "docs/bologna-paint-api-approval.json": {
+      "sha256": "83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437",
+      "bytes": 20845
+    },
+    "docs/bologna-paint-api-attempt.ts": {
+      "sha256": "73f3aa8ac5ff02d67bf887db902ec659cbb760615578ddc05d5b60e4f37c11a6",
+      "bytes": 6307
+    },
+    "docs/bologna-paint-api-check.ts": {
+      "sha256": "78990d8d4c864130750e7f97414c601c63a6efb33ee2d460e0a32678ebadb315",
+      "bytes": 4625
+    },
+    "docs/bologna-paint-api-checksums.ts": {
+      "sha256": "ca1b7d69ca09167c0045230d863fe8fe9b6539be7981112fc55d66301010103d",
+      "bytes": 942
+    },
+    "docs/bologna-paint-api-core.ts": {
+      "sha256": "ffb16c1b84ef592c38bdfb5d009b7083f06eb54bd6d76577df9f2bce1388764b",
+      "bytes": 9724
+    },
+    "docs/bologna-paint-api-https.ts": {
+      "sha256": "2c6a570f336343eda76e7318a483289b0df0bf162a2da2acb0336353ed11ee5a",
+      "bytes": 2120
+    },
+    "docs/bologna-paint-api-live.ts": {
+      "sha256": "9b633dc3c4a03a5e8ee5e134b8763036f878d99ad4185baf87e861b3643a3d49",
+      "bytes": 1449
+    },
+    "docs/bologna-paint-api-plan.ts": {
+      "sha256": "72fa8ee4c2eb80a275456ca0d4e29a68d54f4923bf655ae2d0a1b1eeedf986f0",
+      "bytes": 1208
+    },
+    "docs/bologna-paint-api-postqa.ts": {
+      "sha256": "cd82752f2f4656d1ea8d5211e1d1db3f229cf78c0d107719e3f473677a95007c",
+      "bytes": 7357
+    },
+    "docs/bologna-paint-api-preflight.md": {
+      "sha256": "5a010feb8a62d1e58364a98aaff4359a21257f7b59d0b569b1ee4ad8eb5c7dd5",
+      "bytes": 18476
+    },
+    "docs/bologna-paint-api-prepare.ts": {
+      "sha256": "45273caa7f05818aff33fb19602602cb94e562cb5a27e3749d4c7cbab0a2c5f0",
+      "bytes": 3049
+    },
+    "docs/bologna-paint-api-qa.json": {
+      "sha256": "fd63e95f6801878a917ea4dee2e5030ce33058295c8e5c3f9dbf08e588cffc5d",
+      "bytes": 14889
+    },
+    "docs/bologna-paint-api-research.json": {
+      "sha256": "7ff5aa224dbda6d8e6d6c1d7cbdfd7f300953f80ee11cb06985c4ffa145a4e66",
+      "bytes": 3164
+    },
+    "docs/bologna-paint-api.test.ts": {
+      "sha256": "39a0ddca2938c8aa0bf5cf53c089c49b3a4f161d0d58f1f44ce8a38067626b12",
+      "bytes": 14386
+    }
+  }
+}

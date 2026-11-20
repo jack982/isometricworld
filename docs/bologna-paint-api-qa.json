@@ -1,0 +1,415 @@
+{
+  "status": "PENDING_OPERATOR_APPROVAL",
+  "engineeringPassed": true,
+  "baseCommit": "159f432",
+  "branch": "feature/bo-004S-BE1-api-runner-task",
+  "node": "v24.22.3",
+  "approvalManifest": "docs/bologna-paint-api-approval.json",
+  "approvalManifestPin": {
+    "sha256": "83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437",
+    "bytes": 20845
+  },
+  "preflight": {
+    "status": "PENDING_OPERATOR_APPROVAL",
+    "manifestSha256": "83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437",
+    "parameters": {
+      "model": "gpt-image-2.6-sunburst",
+      "n": 1,
+      "size": "1024x1024",
+      "quality": "high",
+      "complexity": "medium",
+      "output_format": "png",
+      "background": "opaque",
+      "stream": false
+    },
+    "client": {
+      "name": "Node built-in https; no OpenAI SDK",
+      "node": "v24.22.3",
+      "maxRetries": 0,
+      "maxRequests": 1,
+      "redirects": 0,
+      "proxies": false,
+      "timeoutMs": 600000,
+      "responseByteLimit": 33554432
+    },
+    "proposedApprovalAt": "2026-11-20T12:04:22.801Z",
+    "expiresAt": "2026-11-21T11:04:22.801Z",
+    "approvalWindowExpired": false,
+    "images": [
+      {
+        "path": "data/bo-004s-paint/input/input.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 1103640,
+        "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+        "format": "png"
+      },
+      {
+        "path": "data/bo-004s-paint/input/height.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 388406,
+        "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+        "format": "png"
+      },
+      {
+        "path": "data/bo-004s-paint/input/style.png",
+        "width": 2048,
+        "height": 1024,
+        "bytes": 5161730,
+        "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+        "format": "png"
+      },
+      {
+        "path": "data/bo-004s-paint/input/trees.png",
+        "width": 1024,
+        "height": 1024,
+        "bytes": 2084513,
+        "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+        "format": "png"
+      }
+    ],
+    "prompt": {
+      "sha256": "49226438e9fd1d713ffc4f0349eba8ca2fb011154a1e8ceaeed9dbbbca71fdad",
+      "bytes": 3504
+    },
+    "protectedFiles": 1410,
+    "originalSpikeFiles": 77,
+    "applicationRequestsMade": 0,
+    "uploadsMade": 0,
+    "writes": 0,
+    "requestBodyBytes": 11654913,
+    "credentialStatus": {
+      "apiKeyPresent": false,
+      "proxyPresent": false,
+      "customEndpointPresent": false
+    },
+    "proposedCommand": "node --import tsx docs/bologna-paint-api-live.ts --window=-1,-1 --model=gpt-image-2.6-sunburst --requests=1 --attempts=1 --workers=1 --approve=83446ca2785d8c51d1065b551ace11f094e4d649a6744ab21718f360a95be437 --approved-at=2026-11-20T12:04:22.801Z --expires=2026-11-21T11:04:22.801Z",
+    "run": "data/bo-004s-api-runner/run-minus1-minus1",
+    "ledger": "data/bo-004s-api-runner/attempt-ledger.jsonl",
+    "guarantee": "At most one application-initiated HTTP request per pinned attempt; not a provider-internal operation count or dollar ceiling",
+    "sdkVersion": "none; Node https v24.22.3"
+  },
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "spike-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-paint-api-attempt.ts",
+        "docs/bologna-paint-api-check.ts",
+        "docs/bologna-paint-api-core.ts",
+        "docs/bologna-paint-api-https.ts",
+        "docs/bologna-paint-api-live.ts",
+        "docs/bologna-paint-api-plan.ts",
+        "docs/bologna-paint-api-postqa.ts",
+        "docs/bologna-paint-api-prepare.ts",
+        "docs/bologna-paint-api.test.ts"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/spike-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "regressions-and-mocked-http",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts",
+        "docs/bologna-paint-api.test.ts"
+      ],
+      "exitCode": 0,
+      "tests": 94,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/regressions-and-mocked-http.log",
+      "logSha256": "2556a77d7e21a31d5be2845a977684f56d53cf39102db236bfb21e3b6820ce27"
+    },
+    {
+      "name": "read-only-preflight",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-addons",
+        "docs/bologna-paint-api-plan.ts",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/read-only-preflight.log",
+      "logSha256": "5dbea8f32e9d2609c18052493b37bcdffc5717190dd7b8715d47dde23bce934a"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-api-runner/checks/2026-11-20T12-11-19.723Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/bo-004s-paint/input/input.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1103640,
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "format": "png"
+    },
+    {
+      "path": "data/bo-004s-paint/input/height.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 388406,
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "format": "png"
+    },
+    {
+      "path": "data/bo-004s-paint/input/style.png",
+      "width": 2048,
+      "height": 1024,
+      "bytes": 5161730,
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "format": "png"
+    },
+    {
+      "path": "data/bo-004s-paint/input/trees.png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 2084513,
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "format": "png"
+    }
+  ],
+  "prompt": {
+    "sha256": "49226438e9fd1d713ffc4f0349eba8ca2fb011154a1e8ceaeed9dbbbca71fdad",
+    "bytes": 3504
+  },
+  "runnerSources": {
+    "docs/bologna-paint-api-core.ts": {
+      "sha256": "ffb16c1b84ef592c38bdfb5d009b7083f06eb54bd6d76577df9f2bce1388764b",
+      "bytes": 9724
+    },
+    "docs/bologna-paint-api-attempt.ts": {
+      "sha256": "73f3aa8ac5ff02d67bf887db902ec659cbb760615578ddc05d5b60e4f37c11a6",
+      "bytes": 6307
+    },
+    "docs/bologna-paint-api-https.ts": {
+      "sha256": "2c6a570f336343eda76e7318a483289b0df0bf162a2da2acb0336353ed11ee5a",
+      "bytes": 2120
+    },
+    "docs/bologna-paint-api-live.ts": {
+      "sha256": "9b633dc3c4a03a5e8ee5e134b8763036f878d99ad4185baf87e861b3643a3d49",
+      "bytes": 1449
+    },
+    "docs/bologna-paint-api-plan.ts": {
+      "sha256": "72fa8ee4c2eb80a275456ca0d4e29a68d54f4923bf655ae2d0a1b1eeedf986f0",
+      "bytes": 1208
+    },
+    "docs/bologna-paint-api-postqa.ts": {
+      "sha256": "cd82752f2f4656d1ea8d5211e1d1db3f229cf78c0d107719e3f473677a95007c",
+      "bytes": 7357
+    },
+    "docs/bologna-paint-support.ts": {
+      "sha256": "25922e51bc84fd48ea7840fc8cc0b46df21206438afb92bf35c3ad873bfe883d",
+      "bytes": 16938
+    },
+    "pipeline/src/camera.ts": {
+      "sha256": "e2fdac0e20bf9b0909bf75997d715191de1f589dfe1519a589e99876056444c2",
+      "bytes": 5698
+    },
+    "pipeline/src/places.ts": {
+      "sha256": "3d3f0ed0de0e0f2d209f3874a0831ae574aec21b62f38a55010b2c8e415f2e98",
+      "bytes": 8876
+    },
+    "pipeline/src/heights.ts": {
+      "sha256": "b6749a250e7c689cf2749285d6cd9c268f9813ee4525fd858687e2e2244ea9f5",
+      "bytes": 941
+    },
+    "pipeline/src/register.ts": {
+      "sha256": "095a9d801710a30b0066da6085e3530e543dda7d2275e6b5683a79334b41cde8",
+      "bytes": 4006
+    },
+    "pipeline/src/paths.ts": {
+      "sha256": "60f1feae416be7396ea9c82d087fb1361c2248415dee30e6c198c287ef1ae25d",
+      "bytes": 2267
+    }
+  },
+  "research": {
+    "research": "docs/bologna-paint-api-research.json",
+    "researchPin": {
+      "sha256": "7ff5aa224dbda6d8e6d6c1d7cbdfd7f300953f80ee11cb06985c4ffa145a4e66",
+      "bytes": 3164
+    },
+    "licences": [
+      {
+        "asset": "input/input.png + original height/source tiles",
+        "source": "data/bo-003f-landmarks/derived/piazza-maggiore",
+        "provenance": "data/bo-003f-landmarks/derived/piazza-maggiore/manifest.json",
+        "attributions": [
+          "© OpenStreetMap contributors (ODbL)",
+          "Copernicus DEM GLO-30 © DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018, provided under COPERNICUS by the European Union and ESA",
+          "Comune di Bologna – SIT · CTC Edifici volumetrici · CC BY 4.0 (projected, filtered and extruded)",
+          "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/ · https://creativecommons.org/licenses/by/4.0/",
+          "Comune di Bologna – Settore Ambiente e Verde · Alberi in manutenzione · CC BY 4.0 (projected, filtered; class-based estimates)",
+          "https://opendata.comune.bologna.it/explore/dataset/alberi-manutenzioni/ · https://creativecommons.org/licenses/by/4.0/",
+          "BO-003 procedural pilot: estimated roofs and portico clearance; no measured ridge/column claim",
+          "BO-003F appearance references: Zairon (roof, 2022), Congolandia.g (facade, 2019), Raffacossa (clock, 2017) · CC BY-SA 4.0 · appearance only; estimated geometry, no photo pixels",
+          "https://commons.wikimedia.org/wiki/File:Bologna_Torre_degli_Asinelli_Vista_su_Basilica_di_San_Petronio_2.jpg · https://commons.wikimedia.org/wiki/File:Basilica_di_San_Petronio,_facciata.jpg · https://commons.wikimedia.org/wiki/File:Torre_dell%27Orologio_(Bologna).jpg · https://creativecommons.org/licenses/by-sa/4.0/"
+        ],
+        "licence": "Produced render: CC BY 4.0 plus ODbL/municipal/Copernicus source notices; inherited BO-003F appearance-only notices"
+      },
+      {
+        "asset": "input/style.png",
+        "source": "pipeline/style/reference.png",
+        "licence": "CC BY 4.0 by Dmytro Krasun plus source data credits",
+        "provenance": "ATTRIBUTION.md: This repository / AI painting; house-style painted Tel Aviv excerpt",
+        "original": {
+          "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+          "bytes": 5161730
+        },
+        "restriction": "Style only, no source layout/material/roof-copying; existing AI asset, no generation in this task"
+      },
+      {
+        "asset": "input/trees.png",
+        "source": "pipeline/style/trees-stuttgart.png",
+        "licence": "CC BY 4.0 by Dmytro Krasun plus source data credits",
+        "provenance": "ATTRIBUTION.md: AI painting; project sheet derived from trees.png with Codex/ChatGPT",
+        "original": {
+          "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+          "bytes": 2084513
+        },
+        "restriction": "Generic existing deciduous crown illustration only; no palms, new trees or surveyed species claim"
+      }
+    ],
+    "originalPrompt": {
+      "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+      "bytes": 3713
+    },
+    "immutableGeometry": {
+      "camera": {
+        "region": "bologna",
+        "origin": {
+          "lat": 44.4938,
+          "lon": 11.343,
+          "h": 0
+        },
+        "headingDeg": 315,
+        "pitchDeg": 45,
+        "mpp": 0.25,
+        "tile": 1024
+      },
+      "bbox": [
+        44.4893,
+        11.337,
+        44.4983,
+        11.349
+      ],
+      "geoidM": 39.647
+    }
+  },
+  "protectedFiles": 1410,
+  "originalSpikeFiles": 77,
+  "allPriorHashesUnchanged": true,
+  "credentialStatus": {
+    "apiKeyPresent": false,
+    "proxyPresent": false,
+    "customEndpointPresent": false
+  },
+  "providerRequests": 0,
+  "providerUploads": 0,
+  "modelOutputsGenerated": 0,
+  "mockOutputNote": "Success mocks reuse the original input bytes; malformed/alpha/size test fixtures remain only under /tmp. No image model or real HTTP transport ran.",
+  "sdk": {
+    "name": "none",
+    "transport": "Node built-in https",
+    "version": "v24.22.3",
+    "maxRetries": 0
+  },
+  "postGenerationQA": {
+    "implemented": true,
+    "executedOnProviderOutput": false,
+    "anchorCount": 9,
+    "automatedFidelityPass": false,
+    "semantics": "review triggers only; human validation required",
+    "rawAndRegisteredPreserved": "planned isolated QA files",
+    "independentHumanAcceptance": "NOT_TESTED",
+    "actualProviderUsage": "NOT_TESTED",
+    "actualBilledCost": "UNKNOWN_NO_REQUEST"
+  },
+  "changes": [
+    "docs/bologna-paint-api-attempt.ts",
+    "docs/bologna-paint-api-check.ts",
+    "docs/bologna-paint-api-core.ts",
+    "docs/bologna-paint-api-https.ts",
+    "docs/bologna-paint-api-live.ts",
+    "docs/bologna-paint-api-plan.ts",
+    "docs/bologna-paint-api-postqa.ts",
+    "docs/bologna-paint-api-prepare.ts",
+    "docs/bologna-paint-api.test.ts"
+  ],
+  "unmodifiedNormalPainter": true,
+  "unmodifiedNativeLiveGate": true,
+  "commandsNotRun": [
+    "Images API live request",
+    "Codex image generation",
+    "fal",
+    "publish",
+    "deploy",
+    "export",
+    "archive",
+    "commit"
+  ]
+}

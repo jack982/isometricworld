@@ -1,0 +1,25 @@
+{
+  "checkedDate": "2026-11-20",
+  "model": "gpt-image-2.6-sunburst",
+  "datedSnapshotPublished": false,
+  "sources": [
+    {"url":"https://developers.openai.com/api/docs/models/gpt-image-2.6-sunburst", "findings":"Lists image edit endpoint support and only the same undated model identifier under snapshots. Published standard rates per million tokens: text input 5 USD, image input 8 USD, image output 30 USD."},
+    {"url":"https://developers.openai.com/api/reference/resources/images/methods/edit", "findings":"POST /v1/images/edits accepts JSON with up to 16 ordered image references, including base64 data URLs. Per image_url limit 20971520 characters; prompt limit 32000. Standard square 1024x1024, n=1, PNG, opaque, high quality and medium complexity are supported. GPT image responses return base64 image data. No mask, markup, streaming or partial images are used. input_fidelity is documented for older models, not as a configurable Sunburst fidelity setting; omitted."},
+    {"url":"https://developers.openai.com/api/docs/guides/image-generation", "findings":"Recommends the 2.6 models for new work; complexity is separate from rendering quality and can affect unwanted changes. Total cost includes text input, image inputs and output. The cost calculator is an estimate; actual token counts vary. No legacy fixed per-image price is substituted."},
+    {"url":"https://developers.openai.com/api/docs/pricing", "findings":"Standard non-batch Sunburst image input 8 USD/million, output 30 USD/million; text input 5 USD/million. No cached-input discount assumed in this estimate."},
+    {"url":"https://help.openai.com/en/articles/6950777-what-is-chatgpt-plus", "findings":"API usage is billed independently of a ChatGPT Plus subscription."},
+    {"url":"https://developers.openai.com/api/docs/guides/chatgpt-api-credits", "findings":"Some eligible Pro/Business subscribers can separately link an API organization and claim API credits. This does not increase signed-in Codex limits or prove that this operator has credits. No account or balance request was made."}
+  ],
+  "costEstimate": {
+    "currency":"USD",
+    "formula":"text_input_tokens*5/1000000 + total_four_image_input_tokens*8/1000000 + output_tokens*30/1000000",
+    "scenarios":[
+      {"textInputTokens":4000,"totalFourImageInputTokens":20000,"imageOutputTokens":5000,"estimatedUsd":0.33},
+      {"textInputTokens":4000,"totalFourImageInputTokens":100000,"imageOutputTokens":20000,"estimatedUsd":1.42}
+    ],
+    "planningAllowanceUsd":1.5,
+    "enforcedDollarCeiling":false,
+    "uncertainty":"These are deliberately generous planning assumptions for all four original images and one high-quality 1024-square output, not observed token counts, provider quotes or bounds. Actual charge can fall outside this interval. n=1 and one client request do not cap internal operations or final billing. Account-specific access, credits, tax, balances and quota were not queried. Treat timeout/disconnect and every network attempt as potentially billable."
+  },
+  "sdk":{"name":"none; no OpenAI SDK installed or used", "transport":"Node built-in https", "version":"Node v24.22.3", "maxRetries":0}
+}
