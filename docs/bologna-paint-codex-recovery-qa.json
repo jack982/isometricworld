@@ -1,0 +1,216 @@
+{
+  "status": "PENDING_NEW_OPERATOR_APPROVAL",
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "recovery-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-paint-codex-recovery-check.ts",
+        "docs/bologna-paint-codex-recovery-checksums.ts",
+        "docs/bologna-paint-codex-recovery-core.ts",
+        "docs/bologna-paint-codex-recovery-live.ts",
+        "docs/bologna-paint-codex-recovery-plan.ts",
+        "docs/bologna-paint-codex-recovery-prepare.ts",
+        "docs/bologna-paint-codex-recovery.test.ts"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/recovery-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "regressions-and-recovery",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "--test-skip-pattern=^new manifest and staged references validate; dry-run cannot start Codex$",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts",
+        "docs/bologna-paint-api.test.ts",
+        "docs/bologna-paint-codex.test.ts",
+        "docs/bologna-paint-codex-recovery.test.ts"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 125,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/regressions-and-recovery.log",
+      "logSha256": "f405fd61b56e07f582f9c565c76440f1de14bf2a9c2de0822cedcc4af25a6d2c"
+    },
+    {
+      "name": "read-only-recovery-plan",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-fs-read=/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+        "--allow-addons",
+        "docs/bologna-paint-codex-recovery-plan.ts",
+        "--dry-run"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/read-only-recovery-plan.log",
+      "logSha256": "f95b33d5779edfeaf523067a67815f195c8493a80efb5fadd4e77224948d9c0e"
+    },
+    {
+      "name": "recovery-live-dry-run",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-fs-read=/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+        "--allow-addons",
+        "docs/bologna-paint-codex-recovery-live.ts",
+        "--dry-run"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/recovery-live-dry-run.log",
+      "logSha256": "1a5bfa9e147c05109ebfb95085d90780d03b255c4a90294637aea3f55332a63d"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "status": "PASS",
+      "exitCode": 0,
+      "log": "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preflight": {
+    "status": "PENDING_NEW_OPERATOR_APPROVAL",
+    "previousAttempt": "INTERRUPTED_UNKNOWN_USAGE",
+    "previousImageUsage": "UNKNOWN_NOT_ZERO",
+    "newApprovalHash": "78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac",
+    "executionDirectory": "data/bo-004s-codex-recovery-r1/execution",
+    "window": [
+      -1,
+      -1
+    ],
+    "copiedArchiveFiles": 41,
+    "protectedBaselineFiles": 1410,
+    "policy": {
+      "maximumOuterExecProcesses": 1,
+      "applicationRetries": 0,
+      "concurrency": 1,
+      "fallback": false,
+      "timeoutMs": 900000,
+      "logByteLimit": 16777216,
+      "internalImageCallCap": null
+    },
+    "observedPreviousImageToolRequests": 0,
+    "modelCallsByRecoveryPreparation": 0,
+    "writes": 0,
+    "command": "node --import tsx docs/bologna-paint-codex-recovery-live.ts --execute --window=-1,-1 --approve=78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac --acknowledge-internal-call-risk --acknowledge-unknown-previous-usage"
+  },
+  "excludedPriorFreshRootTest": {
+    "name": "new manifest and staged references validate; dry-run cannot start Codex",
+    "reason": "Original attempt was consumed; its positive unused-root assertion is no longer applicable. New regressions prove the original guard remains closed and the separate recovery root passes."
+  },
+  "previousStatus": "INTERRUPTED_UNKNOWN_USAGE",
+  "previousUsage": "UNKNOWN_NOT_ZERO",
+  "evidence": {
+    "inspectedAt": "2026-11-20T15:30:04.678520+00:00",
+    "oldWork": "/home/jacopo/projects/isometricworld/data/bo-004s-codex-native/work",
+    "journalSha256": "9f5dd50dd6297e17f79f185171ba5fda95697cc3280c7cb8c6e1214ddbbdfb84",
+    "journalEvents": [
+      {
+        "event": "OUTER_EXEC_ATTEMPT_STARTED",
+        "startedAt": "2026-11-20T14:24:50.025Z",
+        "approvalHash": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f"
+      }
+    ],
+    "status": "INTERRUPTED_UNKNOWN_USAGE",
+    "operatorReportedCause": "manually interrupted",
+    "scope": "local metadata only; no inference, provider query, token store or private transcript copied",
+    "matchingThreads": [],
+    "matchingRollouts": [],
+    "logIndex": {
+      "path": "/home/jacopo/.codex/logs_2.sqlite",
+      "from": "2026-11-20T14:24:50.025000+00:00",
+      "to": "2026-11-20T15:30:04.678520+00:00",
+      "rowsInTimeRange": 1090,
+      "rowsMentioningExactOldCwd": 0,
+      "imageDispatchPatternRowsUnattributed": 2,
+      "limitation": "Aggregate text-pattern counts are not attributed tool events; log coverage is not complete"
+    },
+    "relevantProcesses": [],
+    "limitations": [
+      "Original exec used --ephemeral; absent retained records do not prove no image calls",
+      "Original wrapper buffered stdout/stderr until close; an interrupt can discard those buffers",
+      "A started journal precedes spawn and alone cannot establish whether spawn occurred"
+    ],
+    "scanErrors": [],
+    "imageToolRequestsObserved": 0,
+    "previousUsage": "UNKNOWN; no zero-usage or charge conclusion"
+  },
+  "originalJournal": {
+    "sha256": "9f5dd50dd6297e17f79f185171ba5fda95697cc3280c7cb8c6e1214ddbbdfb84",
+    "bytes": 160
+  },
+  "originalApproval": {
+    "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+    "bytes": 24393
+  },
+  "newApproval": {
+    "sha256": "78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac",
+    "bytes": 24235
+  },
+  "protectedBaselineFiles": 1410,
+  "oldEvidenceFilesPreserved": 41,
+  "originalPaintersApiAndUnusedOutputsUnchanged": true,
+  "modelCallsMadeDuringRecovery": 0,
+  "realPaintingProcessesStarted": 0,
+  "liveCommandExecuted": false,
+  "priorJournalModified": false
+}

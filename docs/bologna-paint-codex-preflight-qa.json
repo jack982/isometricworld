@@ -1,0 +1,286 @@
+{
+  "status": "PENDING_MANUAL_OPERATOR_EXECUTION",
+  "engineeringPassed": true,
+  "gates": {
+    "gate0": "PASS_OFFLINE_AUTH_FEATURES_AND_INPUTS",
+    "gateA": "PASS_MOCKED_ONE_OUTER_INVOCATION",
+    "gateB": "STOP_BEFORE_MANUAL_LIVE",
+    "gateC": "NOT_RUN",
+    "gateD": "NOT_RUN"
+  },
+  "baseCommit": "826e0d1",
+  "branch": "feature/bo-004S-C-codex-original-painter",
+  "node": "v24.22.3",
+  "manifest": {
+    "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+    "bytes": 24393
+  },
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "pilot-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-paint-codex-check.ts",
+        "docs/bologna-paint-codex-core.ts",
+        "docs/bologna-paint-codex-live.ts",
+        "docs/bologna-paint-codex-plan.ts",
+        "docs/bologna-paint-codex-prepare.ts",
+        "docs/bologna-paint-codex-process.ts",
+        "docs/bologna-paint-codex.test.ts"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pilot-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "regressions-and-mock-cli",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts",
+        "docs/bologna-paint-api.test.ts",
+        "docs/bologna-paint-codex.test.ts"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": 113,
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/regressions-and-mock-cli.log",
+      "logSha256": "8e1a48828eb322889ca6fed809c2c558cbba2d1eb6917970db24b92a557a85ab"
+    },
+    {
+      "name": "read-only-native-plan",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-fs-read=/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+        "--allow-addons",
+        "docs/bologna-paint-codex-plan.ts",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/read-only-native-plan.log",
+      "logSha256": "78c59c5a109d13e8ae1e52bc19eebb92ea27e41570f1d09c7ef691d5624cf219"
+    },
+    {
+      "name": "live-entry-dry-run",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-fs-read=/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+        "--allow-addons",
+        "docs/bologna-paint-codex-live.ts",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/live-entry-dry-run.log",
+      "logSha256": "738dafffde82bc98dd79e780d6cf71d634f7a34b4af97d15368de3fe9fd234ea"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "log": "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "preflight": {
+    "status": "PENDING_MANUAL_OPERATOR_EXECUTION",
+    "gate": "B_STOP",
+    "manifestSha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+    "inputs": [
+      {
+        "original": "data/bo-004s-paint/input/input.png",
+        "staged": "data/bo-004s-codex-native/work/input.png",
+        "pin": {
+          "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+          "bytes": 1103640
+        },
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "original": "data/bo-004s-paint/input/height.png",
+        "staged": "data/bo-004s-codex-native/work/height.png",
+        "pin": {
+          "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+          "bytes": 388406
+        },
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "original": "data/bo-004s-paint/input/style.png",
+        "staged": "data/bo-004s-codex-native/work/style.png",
+        "pin": {
+          "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+          "bytes": 5161730
+        },
+        "width": 2048,
+        "height": 1024
+      },
+      {
+        "original": "data/bo-004s-paint/input/trees.png",
+        "staged": "data/bo-004s-codex-native/work/trees.png",
+        "pin": {
+          "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+          "bytes": 2084513
+        },
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "prompt": {
+      "original": {
+        "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+        "bytes": 3713
+      },
+      "staged": {
+        "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+        "bytes": 3713
+      },
+      "invocation": {
+        "sha256": "4e6d294af147cb41c4a36cf9c3845e35575c0cd6812695f8b66a2547b1e422ae",
+        "bytes": 3703
+      },
+      "adaptation": "Only output destination run/-1_-1/raw.png -> out.png; original prompt.txt retained byte-for-byte"
+    },
+    "cli": {
+      "executable": "/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+      "pin": {
+        "sha256": "880819aab735adcf16f36cd628940b9f1e652a36c01d10a5d32f83cc84902971",
+        "bytes": 298309560
+      },
+      "version": "codex-cli 0.170.0",
+      "authentication": "ChatGPT",
+      "imageGenerationAdvertised": true,
+      "inspectedAt": "2026-11-20T13:16:16.732Z"
+    },
+    "proposedCommand": "node --import tsx docs/bologna-paint-codex-live.ts --execute --window=-1,-1 --approve=9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f --acknowledge-internal-call-risk",
+    "codexArgv": [
+      "/home/jacopo/.codex/packages/standalone/releases/0.170.0-x86_64-unknown-linux-musl/bin/codex",
+      "exec",
+      "--skip-git-repo-check",
+      "--ignore-user-config",
+      "--strict-config",
+      "--ephemeral",
+      "--enable",
+      "image_generation",
+      "-c",
+      "forced_login_method=\"chatgpt\"",
+      "-c",
+      "model_provider=\"openai\"",
+      "-s",
+      "workspace-write",
+      "-C",
+      "/home/jacopo/projects/isometricworld/data/bo-004s-codex-native/work",
+      "--json",
+      "--color",
+      "never",
+      "-i",
+      "input.png",
+      "-i",
+      "height.png",
+      "-i",
+      "style.png",
+      "-i",
+      "trees.png",
+      "-"
+    ],
+    "policy": {
+      "maximumOuterExecProcesses": 1,
+      "applicationRetries": 0,
+      "concurrency": 1,
+      "fallback": false,
+      "timeoutMs": 900000,
+      "logByteLimit": 16777216,
+      "internalImageCallCap": null
+    },
+    "protectedFiles": 1410,
+    "additionalPreservedFiles": 110,
+    "realOuterExecProcesses": 0,
+    "imageGenerationCalls": 0,
+    "writes": 0,
+    "risk": "The operator accepts UNKNOWN internal image-tool calls and possible ChatGPT credit consumption; one outer process is not a spending ceiling",
+    "allowance": "Operator must inspect /status and account usage before running; not observed in preflight"
+  },
+  "protectedFiles": 1410,
+  "additionalPreservedFiles": 110,
+  "allPriorHashesUnchanged": true,
+  "actualPaintingExecProcesses": 0,
+  "realImageCallsMade": 0,
+  "internalImageCallsOnFutureRun": "UNKNOWN_NOT_HARD_CAPPED",
+  "riskFlagPassedByPreparationOrTests": false,
+  "diagnosticCodexCommands": [
+    "--version",
+    "exec --help (no inference)",
+    "login status",
+    "features list"
+  ],
+  "mockExecutablesOnly": true,
+  "mockSuccessImages": "Byte copies of existing input only, under /tmp; no model generation",
+  "authenticatingWith": "ChatGPT",
+  "apiRunnerUsed": false,
+  "originalPaintersAndBlockersUnchanged": true,
+  "inputDimensionsDiscrepancy": "style.png is the original 2048x1024 reference; other three inputs and requested output are 1024x1024; no resize",
+  "observedAllowance": "NOT_OBSERVED_OPERATOR_STATUS_REQUIRED",
+  "usdCost": "UNKNOWN_NOT_INFERRED",
+  "paintedQualityAndHumanAcceptance": "NOT_TESTED",
+  "newResultOrComparisonProduced": false
+}

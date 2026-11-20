@@ -1,0 +1,165 @@
+{
+  "algorithm": "sha256",
+  "approvalManifest": "docs/bologna-paint-codex-approval.json",
+  "approval": {
+    "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+    "bytes": 24393
+  },
+  "baselineFilesUnchanged": 1410,
+  "priorSpikeFilesUnchanged": 110,
+  "realPaintingExecProcesses": 0,
+  "files": {
+    "data/bo-004s-codex-native/approval.initial.json": {
+      "sha256": "9502ad6e2f8a19a47499c9896858e9bae2e096fe7ad8bbd98b16c5b14a9174c4",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-native/approval.json": {
+      "sha256": "9502ad6e2f8a19a47499c9896858e9bae2e096fe7ad8bbd98b16c5b14a9174c4",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-native/approval.operator-target.json": {
+      "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/pilot-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/read-only-native-plan.log": {
+      "sha256": "d5acb06a4622e097c03f5933548e9a70521403e717aeb2fb1bfeeeb75c97594b",
+      "bytes": 4018
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/regressions-and-mock-cli.log": {
+      "sha256": "06a5f026b915df938f2f14f37a221a970e43874ef4b4ad58ffd7e31a0aba7872",
+      "bytes": 9722
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/live-entry-dry-run.log": {
+      "sha256": "738dafffde82bc98dd79e780d6cf71d634f7a34b4af97d15368de3fe9fd234ea",
+      "bytes": 625
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pilot-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/read-only-native-plan.log": {
+      "sha256": "78c59c5a109d13e8ae1e52bc19eebb92ea27e41570f1d09c7ef691d5624cf219",
+      "bytes": 4018
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/regressions-and-mock-cli.log": {
+      "sha256": "8e1a48828eb322889ca6fed809c2c558cbba2d1eb6917970db24b92a557a85ab",
+      "bytes": 9809
+    },
+    "data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-native/inspection/auth.txt": {
+      "sha256": "82b8452d0bc2643bb84a5bd597eb151af83ff7ea4ae5c8e9d9bd73dfa790ff16",
+      "bytes": 60
+    },
+    "data/bo-004s-codex-native/inspection/features.txt": {
+      "sha256": "e41c9e4dcb58bf0755badc0734c722556dcc33fbe7ee299ccd4fca29f1a3b030",
+      "bytes": 14286
+    },
+    "data/bo-004s-codex-native/inspection/help.txt": {
+      "sha256": "e8ea6d3e48d2b56955265a8869141d033eb6603f3d28e71a41d8d73869cad59a",
+      "bytes": 4641
+    },
+    "data/bo-004s-codex-native/inspection/version.txt": {
+      "sha256": "e3ad5e044beb90154e1b67071d6e538604236b728af72ebcd10410c0b7d591f9",
+      "bytes": 121
+    },
+    "data/bo-004s-codex-native/work/AGENTS.md": {
+      "sha256": "c05c0ef6ac8ed59f4007763401021b81981ec07dc2d9cbea05b48a12b72349fc",
+      "bytes": 575
+    },
+    "data/bo-004s-codex-native/work/height.png": {
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "bytes": 388406
+    },
+    "data/bo-004s-codex-native/work/input.png": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "data/bo-004s-codex-native/work/invocation-prompt.txt": {
+      "sha256": "4e6d294af147cb41c4a36cf9c3845e35575c0cd6812695f8b66a2547b1e422ae",
+      "bytes": 3703
+    },
+    "data/bo-004s-codex-native/work/prompt.txt": {
+      "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+      "bytes": 3713
+    },
+    "data/bo-004s-codex-native/work/style.png": {
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "bytes": 5161730
+    },
+    "data/bo-004s-codex-native/work/trees.png": {
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "bytes": 2084513
+    },
+    "docs/bologna-paint-codex-approval.json": {
+      "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+      "bytes": 24393
+    },
+    "docs/bologna-paint-codex-check.ts": {
+      "sha256": "c3ad589c718a3ca3baf6a5233504063e7dd6c57f6d4c2f934d381db689796879",
+      "bytes": 4626
+    },
+    "docs/bologna-paint-codex-checksums.ts": {
+      "sha256": "b79ffcdd484222f2b3f46e6d830a296bf56824b7f3910698f3dc416559c3e81e",
+      "bytes": 990
+    },
+    "docs/bologna-paint-codex-core.ts": {
+      "sha256": "27193e7842aa0b739bc01e931b17e59ababbc4edfe814f6734979272cf5e0556",
+      "bytes": 7347
+    },
+    "docs/bologna-paint-codex-live.ts": {
+      "sha256": "f6bc8f718cc996a68811367eff9bcbe3e77bd6ada21b6c1a25359b48556274a1",
+      "bytes": 1878
+    },
+    "docs/bologna-paint-codex-plan.ts": {
+      "sha256": "af7f9b5ca39117873ed49305d8ce52098e71bf7ee888ec8d68bbe85b9a6b63ef",
+      "bytes": 1098
+    },
+    "docs/bologna-paint-codex-preflight-qa.json": {
+      "sha256": "51ade4f8d5293abfef97a66df4f1be6d8589227eb5f7a115e428b61332de0e63",
+      "bytes": 9799
+    },
+    "docs/bologna-paint-codex-preflight.md": {
+      "sha256": "348b7eba22ca7a0798ed8de8ab82fa1dcc9da33584cf53551a514cfd38361831",
+      "bytes": 18718
+    },
+    "docs/bologna-paint-codex-prepare.ts": {
+      "sha256": "75e664728d70a4f474f6a86718c491f51106674cbfdb72716987a40c05b39102",
+      "bytes": 5893
+    },
+    "docs/bologna-paint-codex-process.ts": {
+      "sha256": "ab5d95fc76a86dc734d5c75a1f5e71038498538e994848e365e8e427fa999f90",
+      "bytes": 9817
+    },
+    "docs/bologna-paint-codex.test.ts": {
+      "sha256": "3d029c9f23ba215f3c29ce5fcb9031cddb3679c9feccc37ce53ff48d2c0aedb0",
+      "bytes": 9982
+    }
+  }
+}

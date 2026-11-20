@@ -1,0 +1,391 @@
+{
+  "algorithm": "sha256",
+  "approval": {
+    "sha256": "78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac",
+    "bytes": 24235
+  },
+  "protectedBaselineFiles": 1410,
+  "previousAttempt": "INTERRUPTED_UNKNOWN_USAGE",
+  "previousUsage": "UNKNOWN_NOT_ZERO",
+  "oldEvidenceFilesPreserved": 41,
+  "liveCommandExecuted": false,
+  "imageGenerationInvocationsDuringRecovery": 0,
+  "files": {
+    "data/bo-004s-codex-recovery-r1/approval.json": {
+      "sha256": "78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac",
+      "bytes": 24235
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/approval.initial.json": {
+      "sha256": "9502ad6e2f8a19a47499c9896858e9bae2e096fe7ad8bbd98b16c5b14a9174c4",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/approval.json": {
+      "sha256": "9502ad6e2f8a19a47499c9896858e9bae2e096fe7ad8bbd98b16c5b14a9174c4",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/approval.operator-target.json": {
+      "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/attempt.jsonl": {
+      "sha256": "9f5dd50dd6297e17f79f185171ba5fda95697cc3280c7cb8c6e1214ddbbdfb84",
+      "bytes": 160
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/pilot-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/read-only-native-plan.log": {
+      "sha256": "d5acb06a4622e097c03f5933548e9a70521403e717aeb2fb1bfeeeb75c97594b",
+      "bytes": 4018
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/regressions-and-mock-cli.log": {
+      "sha256": "06a5f026b915df938f2f14f37a221a970e43874ef4b4ad58ffd7e31a0aba7872",
+      "bytes": 9722
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-20-09.537Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/live-entry-dry-run.log": {
+      "sha256": "738dafffde82bc98dd79e780d6cf71d634f7a34b4af97d15368de3fe9fd234ea",
+      "bytes": 625
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pilot-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/read-only-native-plan.log": {
+      "sha256": "78c59c5a109d13e8ae1e52bc19eebb92ea27e41570f1d09c7ef691d5624cf219",
+      "bytes": 4018
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/regressions-and-mock-cli.log": {
+      "sha256": "8e1a48828eb322889ca6fed809c2c558cbba2d1eb6917970db24b92a557a85ab",
+      "bytes": 9809
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/checks/2026-11-20T13-59-13.377Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/inspection/auth.txt": {
+      "sha256": "82b8452d0bc2643bb84a5bd597eb151af83ff7ea4ae5c8e9d9bd73dfa790ff16",
+      "bytes": 60
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/inspection/features.txt": {
+      "sha256": "e41c9e4dcb58bf0755badc0734c722556dcc33fbe7ee299ccd4fca29f1a3b030",
+      "bytes": 14286
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/inspection/help.txt": {
+      "sha256": "e8ea6d3e48d2b56955265a8869141d033eb6603f3d28e71a41d8d73869cad59a",
+      "bytes": 4641
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/inspection/version.txt": {
+      "sha256": "e3ad5e044beb90154e1b67071d6e538604236b728af72ebcd10410c0b7d591f9",
+      "bytes": 121
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/AGENTS.md": {
+      "sha256": "c05c0ef6ac8ed59f4007763401021b81981ec07dc2d9cbea05b48a12b72349fc",
+      "bytes": 575
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/height.png": {
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "bytes": 388406
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/input.png": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/invocation-prompt.txt": {
+      "sha256": "4e6d294af147cb41c4a36cf9c3845e35575c0cd6812695f8b66a2547b1e422ae",
+      "bytes": 3703
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/prompt.txt": {
+      "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+      "bytes": 3713
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/style.png": {
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "bytes": 5161730
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/data/bo-004s-codex-native/work/trees.png": {
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "bytes": 2084513
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-approval.json": {
+      "sha256": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f",
+      "bytes": 24393
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-check.ts": {
+      "sha256": "c3ad589c718a3ca3baf6a5233504063e7dd6c57f6d4c2f934d381db689796879",
+      "bytes": 4626
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-checksums.json": {
+      "sha256": "f3c8ac22f66c3299aa8b8ecda9fa2b126bedf9c1c0af2a4bf6800c0b425f1bfe",
+      "bytes": 6958
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-checksums.ts": {
+      "sha256": "b79ffcdd484222f2b3f46e6d830a296bf56824b7f3910698f3dc416559c3e81e",
+      "bytes": 990
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-core.ts": {
+      "sha256": "27193e7842aa0b739bc01e931b17e59ababbc4edfe814f6734979272cf5e0556",
+      "bytes": 7347
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-live.ts": {
+      "sha256": "f6bc8f718cc996a68811367eff9bcbe3e77bd6ada21b6c1a25359b48556274a1",
+      "bytes": 1878
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-plan.ts": {
+      "sha256": "af7f9b5ca39117873ed49305d8ce52098e71bf7ee888ec8d68bbe85b9a6b63ef",
+      "bytes": 1098
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-preflight-qa.json": {
+      "sha256": "51ade4f8d5293abfef97a66df4f1be6d8589227eb5f7a115e428b61332de0e63",
+      "bytes": 9799
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-preflight.md": {
+      "sha256": "348b7eba22ca7a0798ed8de8ab82fa1dcc9da33584cf53551a514cfd38361831",
+      "bytes": 18718
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-prepare.ts": {
+      "sha256": "75e664728d70a4f474f6a86718c491f51106674cbfdb72716987a40c05b39102",
+      "bytes": 5893
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex-process.ts": {
+      "sha256": "ab5d95fc76a86dc734d5c75a1f5e71038498538e994848e365e8e427fa999f90",
+      "bytes": 9817
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/docs/bologna-paint-codex.test.ts": {
+      "sha256": "3d029c9f23ba215f3c29ce5fcb9031cddb3679c9feccc37ce53ff48d2c0aedb0",
+      "bytes": 9982
+    },
+    "data/bo-004s-codex-recovery-r1/archive/evidence/plans/BO-004S-C-codex-original-painter.md": {
+      "sha256": "437cbfed602a0b5d5e4983755498b8717b8487f9c85b54e1d01cf2dd2a1dd00f",
+      "bytes": 12494
+    },
+    "data/bo-004s-codex-recovery-r1/archive/session-evidence.json": {
+      "sha256": "cfdd80ee6d607f991a1771965893f8ec3ebb28be7599d1e2868634f700057b36",
+      "bytes": 1532
+    },
+    "data/bo-004s-codex-recovery-r1/archive/status.json": {
+      "sha256": "d760b8a0b4d9fd94e6a4c2e47e4449187e5cf9ca1661823d0f540e44907e174e",
+      "bytes": 925
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/read-only-recovery-plan.log": {
+      "sha256": "fcf528e015d279e33be8489098e976e7c661d8ff7ac0b075392e5cb6ee790c1e",
+      "bytes": 1170
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/recovery-live-dry-run.log": {
+      "sha256": "4e7aa0e28f75e988be32f849c08d9e6b2b3077b9beb85f428814451aad679174",
+      "bytes": 517
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/recovery-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/regressions-and-recovery.log": {
+      "sha256": "37279c0eb29d7cc5faa856f312b0464eb25e4959f317d3ac3bbeb77a7a33d3bc",
+      "bytes": 11707
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-36-09.238Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/read-only-recovery-plan.log": {
+      "sha256": "da5fa4c9da0e2640ed8cf599bf01f5a107c4ec93dedcc544056cfca663043129",
+      "bytes": 1170
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/recovery-live-dry-run.log": {
+      "sha256": "ccd738c152c696706ff7fd5cbf1bc196b89404fb5b1fd6d80763c5170e0569ef",
+      "bytes": 517
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/recovery-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/regressions-and-recovery.log": {
+      "sha256": "7b94f7b8ce2f68ee0c78dea91ace782fe7dfb6148ef62b707fcddf9729e29e5e",
+      "bytes": 10775
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-37-16.204Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/read-only-recovery-plan.log": {
+      "sha256": "b759086677a4255f319c70eae5d6eae68c13badaf0c307da6a0155963daea42a",
+      "bytes": 1170
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/recovery-live-dry-run.log": {
+      "sha256": "26e06e2a32b9fbb439554376f4be5792cd951c894044f98e4bbf8d01d23a2be3",
+      "bytes": 517
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/recovery-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/regressions-and-recovery.log": {
+      "sha256": "fa332593513129c973072e409e4d8388aa344cf1be12ad0e9325c0ccc92117ae",
+      "bytes": 14782
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-39-46.642Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/previous-qa.json": {
+      "sha256": "c6c41bd54d4f72675454eaaf3306638b78906cb60c63cd9439b4515f91950dc1",
+      "bytes": 8275
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/read-only-recovery-plan.log": {
+      "sha256": "f95b33d5779edfeaf523067a67815f195c8493a80efb5fadd4e77224948d9c0e",
+      "bytes": 1170
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/recovery-live-dry-run.log": {
+      "sha256": "1a5bfa9e147c05109ebfb95085d90780d03b255c4a90294637aea3f55332a63d",
+      "bytes": 517
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/recovery-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/regressions-and-recovery.log": {
+      "sha256": "f405fd61b56e07f582f9c565c76440f1de14bf2a9c2de0822cedcc4af25a6d2c",
+      "bytes": 11023
+    },
+    "data/bo-004s-codex-recovery-r1/checks/2026-11-20T15-50-23.851Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-codex-recovery-r1/checks/initial-failed-qa.json": {
+      "sha256": "842bf21df22fc1aa0635386f5731216563ef8cfa0405e9e5274471449f4adcc2",
+      "bytes": 8221
+    },
+    "data/bo-004s-codex-recovery-r1/checks/intermediate-passed-qa.json": {
+      "sha256": "15834600f5cb9cf9cba29b6ec838f42733ca3e713413332ebcc125ba2e8f344a",
+      "bytes": 8235
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/AGENTS.md": {
+      "sha256": "c05c0ef6ac8ed59f4007763401021b81981ec07dc2d9cbea05b48a12b72349fc",
+      "bytes": 575
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/height.png": {
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "bytes": 388406
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/input.png": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/invocation-prompt.txt": {
+      "sha256": "4e6d294af147cb41c4a36cf9c3845e35575c0cd6812695f8b66a2547b1e422ae",
+      "bytes": 3703
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/prompt.txt": {
+      "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+      "bytes": 3713
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/style.png": {
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "bytes": 5161730
+    },
+    "data/bo-004s-codex-recovery-r1/execution/work/trees.png": {
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "bytes": 2084513
+    },
+    "docs/bologna-paint-codex-recovery-approval.json": {
+      "sha256": "78093fd8031876d2d039c7e5caace97e5dba29e8ee3acd870976ec204d3735ac",
+      "bytes": 24235
+    },
+    "docs/bologna-paint-codex-recovery-check.ts": {
+      "sha256": "7bb802dce4ddb0b641860e5c83f2f00f06918389fbd6958f075794ce64d16b62",
+      "bytes": 4416
+    },
+    "docs/bologna-paint-codex-recovery-checksums.ts": {
+      "sha256": "50b402e00b6fa2c72308409ef6b3db6c4341aec10adf1978c879edf63bacd0cf",
+      "bytes": 1700
+    },
+    "docs/bologna-paint-codex-recovery-core.ts": {
+      "sha256": "bb7585db7002368cd38d27cf637995c5192fa08bda195d96cf42f0a2c934cc37",
+      "bytes": 7263
+    },
+    "docs/bologna-paint-codex-recovery-evidence.json": {
+      "sha256": "cfdd80ee6d607f991a1771965893f8ec3ebb28be7599d1e2868634f700057b36",
+      "bytes": 1532
+    },
+    "docs/bologna-paint-codex-recovery-evidence.py": {
+      "sha256": "8c24c62936a7df0c3e492c9435e64cd3f1a66c1958e512d0ec90c413d35eba4c",
+      "bytes": 5184
+    },
+    "docs/bologna-paint-codex-recovery-live.ts": {
+      "sha256": "b22980693d85ea1de0924702f4c6b28499facfa160b9412682e6b5d6a38f0210",
+      "bytes": 2130
+    },
+    "docs/bologna-paint-codex-recovery-plan.ts": {
+      "sha256": "71775455d57a0058c643ee5f427a1c8323ac9fb2a247c604b8251e646c011f91",
+      "bytes": 845
+    },
+    "docs/bologna-paint-codex-recovery-prepare.ts": {
+      "sha256": "b36077a69544f8b7bb640f7073ce0b94d57f5cb7b6157473617be4192e4f40bc",
+      "bytes": 5954
+    },
+    "docs/bologna-paint-codex-recovery-qa.json": {
+      "sha256": "4adbf49e604faabb9e66dbf832c41757e9e379afe4254c79a212b3fdafa89dae",
+      "bytes": 8293
+    },
+    "docs/bologna-paint-codex-recovery.md": {
+      "sha256": "9a20b8bd8a73860e4efb5d0dff6603c0f7d9c4dd97a0348ce3a5f2d19e94237f",
+      "bytes": 12356
+    },
+    "docs/bologna-paint-codex-recovery.test.ts": {
+      "sha256": "9c9d75a1ac3047384d9099b4d023140acddd8a99a9f00caad68587fd3c7eab2e",
+      "bytes": 9108
+    }
+  }
+}

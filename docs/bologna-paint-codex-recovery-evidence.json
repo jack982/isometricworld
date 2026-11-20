@@ -1,0 +1,35 @@
+{
+  "inspectedAt": "2026-11-20T15:30:04.678520+00:00",
+  "oldWork": "/home/jacopo/projects/isometricworld/data/bo-004s-codex-native/work",
+  "journalSha256": "9f5dd50dd6297e17f79f185171ba5fda95697cc3280c7cb8c6e1214ddbbdfb84",
+  "journalEvents": [
+    {
+      "event": "OUTER_EXEC_ATTEMPT_STARTED",
+      "startedAt": "2026-11-20T14:24:50.025Z",
+      "approvalHash": "9f96057db1c58a9acf889058e3723e1506945229db097ea4c27ee9d5ff9e5e9f"
+    }
+  ],
+  "status": "INTERRUPTED_UNKNOWN_USAGE",
+  "operatorReportedCause": "manually interrupted",
+  "scope": "local metadata only; no inference, provider query, token store or private transcript copied",
+  "matchingThreads": [],
+  "matchingRollouts": [],
+  "logIndex": {
+    "path": "/home/jacopo/.codex/logs_2.sqlite",
+    "from": "2026-11-20T14:24:50.025000+00:00",
+    "to": "2026-11-20T15:30:04.678520+00:00",
+    "rowsInTimeRange": 1090,
+    "rowsMentioningExactOldCwd": 0,
+    "imageDispatchPatternRowsUnattributed": 2,
+    "limitation": "Aggregate text-pattern counts are not attributed tool events; log coverage is not complete"
+  },
+  "relevantProcesses": [],
+  "limitations": [
+    "Original exec used --ephemeral; absent retained records do not prove no image calls",
+    "Original wrapper buffered stdout/stderr until close; an interrupt can discard those buffers",
+    "A started journal precedes spawn and alone cannot establish whether spawn occurred"
+  ],
+  "scanErrors": [],
+  "imageToolRequestsObserved": 0,
+  "previousUsage": "UNKNOWN; no zero-usage or charge conclusion"
+}
