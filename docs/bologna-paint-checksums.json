@@ -1,0 +1,315 @@
+{
+  "algorithm": "sha256",
+  "approvalManifest": "docs/bologna-paint-input-manifest.json",
+  "approvalManifestSha256": "449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d",
+  "protectedPriorFiles": 1410,
+  "protectedRootMembershipUnchanged": true,
+  "generationCalls": 0,
+  "liveReady": false,
+  "files": {
+    "data/bo-004s-paint/candidate/qa-overlay.png": {
+      "sha256": "b08cf6cdb9278e9fa6d531e659b683daecdf5ea704b88477ccb9af2ceb49e7d5",
+      "bytes": 1613293
+    },
+    "data/bo-004s-paint/candidate/selection.json": {
+      "sha256": "c06848730fb009035d63fb37f9a0bff3ba3c0be13b2888bbc585f006eb655ba0",
+      "bytes": 105520
+    },
+    "data/bo-004s-paint/candidate/source-validation.json": {
+      "sha256": "ba9f4538f7798bedb83bc3429d820ec628e7b1af3eb5617d2085518f1bd199b7",
+      "bytes": 7136
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/preflight-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/read-only-preflight.log": {
+      "sha256": "a4557382392f2a91a339ab3742458e23b551561f5be258b4d720f78aa1ca572d",
+      "bytes": 2623
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/regressions-and-safety-tests.log": {
+      "sha256": "d2c527054c05e59ce31246d6eccaebe2aaaee85e0297956bab0c69799259d07d",
+      "bytes": 6070
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-13-16.195Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/preflight-typescript.log": {
+      "sha256": "913f5ebfdaec6be98da343d1af22fc666ab3845fcdd5fd7e91c87acf7a25cbd0",
+      "bytes": 1907
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/read-only-preflight.log": {
+      "sha256": "41e348aedfdd53bb44731a1abbcb7eb2123e274bed6a748a2656e7647c3d8f1b",
+      "bytes": 2623
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/regressions-and-safety-tests.log": {
+      "sha256": "f301c8518d254ba3e7472e879f477cfe782ef0aacc7c4fb22db0c5693f271513",
+      "bytes": 6033
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-14-49.193Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/preflight-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/read-only-preflight.log": {
+      "sha256": "2469d2b66d924afc54ef768c95fb5ccdc3d808564d2f23eeeb428ceced82037c",
+      "bytes": 2623
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/regressions-and-safety-tests.log": {
+      "sha256": "78681857d92fe2836ebfb45a48d08f97841f73863bdc7c3a43f3b607bd6d63c6",
+      "bytes": 5217
+    },
+    "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-paint/compatibility/codex-exec-help.txt": {
+      "sha256": "b7bbe3ad07a91a11393c9a83d97873e0bca1d1766e4d7cd9013da2c374d34f51",
+      "bytes": 4538
+    },
+    "data/bo-004s-paint/compatibility/codex-features.txt": {
+      "sha256": "b572e060ae7d124efa79c791fcbd6be3bf0560c891a07454214cfe57101ca16c",
+      "bytes": 14183
+    },
+    "data/bo-004s-paint/compatibility/codex-login-status.txt": {
+      "sha256": "72118305a60fa509ac4bfac8a406509a6022f2584a36f7adf9f7bed08891a71d",
+      "bytes": 127
+    },
+    "data/bo-004s-paint/compatibility/codex-version.txt": {
+      "sha256": "49bcf97ef847bee772d62cb10e2f37b103a8e532171c7d12b9015f8dc0392df9",
+      "bytes": 18
+    },
+    "data/bo-004s-paint/compatibility/upstream-paint.ts.txt": {
+      "sha256": "f86c7123c89e9a6ee0104eab3bf17e6c6423d91c8e919ac3848eb4499715f941",
+      "bytes": 70568
+    },
+    "data/bo-004s-paint/compatibility/upstream.json": {
+      "sha256": "6c7de4893ea3aed6ff19d2810f06c0e56b816f2e28acd7416b208deaaa8f5042",
+      "bytes": 416
+    },
+    "data/bo-004s-paint/input/height.png": {
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "bytes": 388406
+    },
+    "data/bo-004s-paint/input/input.png": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "data/bo-004s-paint/input/source/height/-1_-1.png": {
+      "sha256": "60501dd249e657ecafa98b5c361193eafba509a07cefd7f5f4c34b81e551ea36",
+      "bytes": 75502
+    },
+    "data/bo-004s-paint/input/source/height/-1_-2.png": {
+      "sha256": "cd383e262cb5e5d3a02d2a49e5eb97b6462670853f0541021d8c6965a9f73e6b",
+      "bytes": 76568
+    },
+    "data/bo-004s-paint/input/source/height/-1_0.png": {
+      "sha256": "825c620ae83a69cf81d69611a2980ae58d77b5d74c1555629be706dac73ba757",
+      "bytes": 67370
+    },
+    "data/bo-004s-paint/input/source/height/-2_-1.png": {
+      "sha256": "a94f6f89d7b38d77d610009731aaa42ea03aaabacec46cc4fdcffb4ed217ea8b",
+      "bytes": 63261
+    },
+    "data/bo-004s-paint/input/source/height/-2_0.png": {
+      "sha256": "351208014175caa3a73910d75ff5e9a323663084d5ab4588ff8090fed56f18c3",
+      "bytes": 64811
+    },
+    "data/bo-004s-paint/input/source/height/0_-1.png": {
+      "sha256": "e439a7b596ddb7134f8d7508ddaf3f4790e8abaf1c2b2d582e743527cc648fd2",
+      "bytes": 71640
+    },
+    "data/bo-004s-paint/input/source/height/0_-2.png": {
+      "sha256": "9bddc0911a5cf0325d6e98bcf3c51dd9ea864d4297cba62d4a7827e38f3cad22",
+      "bytes": 71663
+    },
+    "data/bo-004s-paint/input/source/height/0_0.png": {
+      "sha256": "30a18e71ae2004ec5ddb629350e30eeb2ec678cd2a6da84e0220c926ed3b234a",
+      "bytes": 67615
+    },
+    "data/bo-004s-paint/input/source/height/1_-1.png": {
+      "sha256": "deeffaaa207560561d9241dfd6bf1e444f33abd465b2d62cbe88084844cc30fe",
+      "bytes": 68147
+    },
+    "data/bo-004s-paint/input/source/height/1_0.png": {
+      "sha256": "3f803457ed6cfa8540d55b57a064e8dd9d9218476ebffa81a6e78007ee796380",
+      "bytes": 67874
+    },
+    "data/bo-004s-paint/input/source/manifest.json": {
+      "sha256": "db35c6235740548041eea730c6d4ae2c965e3d5517785ead3287da2f00421b09",
+      "bytes": 3349
+    },
+    "data/bo-004s-paint/input/source/render/-1_-1.png": {
+      "sha256": "2fd3a01c0ad901ae21cd0b6af759355a524b6058b893a6df3d2e0b895098ba1a",
+      "bytes": 1173612
+    },
+    "data/bo-004s-paint/input/source/render/-1_-2.png": {
+      "sha256": "acfcde6913fc709c6250bba9e04c31b79d3056a73f20624a144612722b93845b",
+      "bytes": 1374102
+    },
+    "data/bo-004s-paint/input/source/render/-1_0.png": {
+      "sha256": "c4f8989463b2739dec608a114b011f84c52d87dbdd90bd04483a91c5aaddb3d6",
+      "bytes": 1264871
+    },
+    "data/bo-004s-paint/input/source/render/-2_-1.png": {
+      "sha256": "c97a9e1cba286695b515310134e55cf2fd316fbd5a6e1cea9a175fe2ff7b987c",
+      "bytes": 1214013
+    },
+    "data/bo-004s-paint/input/source/render/-2_0.png": {
+      "sha256": "d598841e4cd073f97ef138f697a56bd34aa89d208b0281b6a7943031ac895db5",
+      "bytes": 1218677
+    },
+    "data/bo-004s-paint/input/source/render/0_-1.png": {
+      "sha256": "525a0ebb2bb5604864fb3170d5412ac3b07b8a50826bd97af447d251ad38adfc",
+      "bytes": 1232494
+    },
+    "data/bo-004s-paint/input/source/render/0_-2.png": {
+      "sha256": "ef33af4bdf286660496d358da6ae1b5200c62df3d66dd95712bac78b820bf8b1",
+      "bytes": 1324201
+    },
+    "data/bo-004s-paint/input/source/render/0_0.png": {
+      "sha256": "03c7307c01becabc24711b101aeb240234346002ecb7e93ae7f0674660cd5e1f",
+      "bytes": 1269475
+    },
+    "data/bo-004s-paint/input/source/render/1_-1.png": {
+      "sha256": "80c3d8cb792c9677db62fc1c513071b7537da31eccd6758f3b09c7234b21034b",
+      "bytes": 1295782
+    },
+    "data/bo-004s-paint/input/source/render/1_0.png": {
+      "sha256": "777fad7b95c059ab49d9a2a81ec24e6eba6491f18bcf0db0b3395028d68db5fa",
+      "bytes": 1268287
+    },
+    "data/bo-004s-paint/input/style.png": {
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "bytes": 5161730
+    },
+    "data/bo-004s-paint/input/trees.png": {
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "bytes": 2084513
+    },
+    "data/bo-004s-paint/manifests/input-manifest.approval-target.json": {
+      "sha256": "449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d",
+      "bytes": 400179
+    },
+    "data/bo-004s-paint/manifests/input-manifest.final.json": {
+      "sha256": "7509310ceb063873296136383fdedd3fec03a3f9df226456bcddaeb0b3e72b58",
+      "bytes": 399980
+    },
+    "data/bo-004s-paint/manifests/input-manifest.initial.json": {
+      "sha256": "ca2c89ae39bbb48496bdcc0edfd20c6d3bbd290ef684328bc22eb4cff7dbaef4",
+      "bytes": 399704
+    },
+    "data/bo-004s-paint/manifests/input-manifest.json": {
+      "sha256": "ca2c89ae39bbb48496bdcc0edfd20c6d3bbd290ef684328bc22eb4cff7dbaef4",
+      "bytes": 399704
+    },
+    "data/bo-004s-paint/manifests/input-manifest.pre-bundle-test.json": {
+      "sha256": "b77adef2900cd89c31a407ff2d991c7af1941b126f3f3f0746c33a54e118e573",
+      "bytes": 400150
+    },
+    "data/bo-004s-paint/manifests/input-manifest.pre-test-fix.json": {
+      "sha256": "7509310ceb063873296136383fdedd3fec03a3f9df226456bcddaeb0b3e72b58",
+      "bytes": 399980
+    },
+    "data/bo-004s-paint/manifests/input-manifest.sealed.json": {
+      "sha256": "b77adef2900cd89c31a407ff2d991c7af1941b126f3f3f0746c33a54e118e573",
+      "bytes": 400150
+    },
+    "data/bo-004s-paint/manifests/licences.json": {
+      "sha256": "7bc9c73fbeaca3fb073a40826a41df580a560e1f7ab371082e2ea0d3a2205f6d",
+      "bytes": 2749
+    },
+    "data/bo-004s-paint/manifests/preservation.json": {
+      "sha256": "a98a98369a8bcb379bb7a206ea57deea70625f97efef7d3ee65b0381f5952683",
+      "bytes": 267648
+    },
+    "data/bo-004s-paint/prompts/prompt.txt": {
+      "sha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+      "bytes": 3713
+    },
+    "docs/bologna-paint-check.ts": {
+      "sha256": "bc2112d94035065d0b03fa7596f5b88b0bdd2dd604478e6bc6503b0dc3f8050e",
+      "bytes": 3752
+    },
+    "docs/bologna-paint-checksums.ts": {
+      "sha256": "47e576438074f329aff5902df014fe26322e54b0e436e72f49ee733f0da2d585",
+      "bytes": 1307
+    },
+    "docs/bologna-paint-compatibility.md": {
+      "sha256": "338d5d5211693760a65df7cb734a04e588c709bbba3268321f189981406ff39f",
+      "bytes": 7133
+    },
+    "docs/bologna-paint-feasibility-report.md": {
+      "sha256": "eec48e29b776ea891fef667f66e4b8b9640b565c19621a1cc190666cf458c1b2",
+      "bytes": 10857
+    },
+    "docs/bologna-paint-input-manifest.json": {
+      "sha256": "449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d",
+      "bytes": 400179
+    },
+    "docs/bologna-paint-live.ts": {
+      "sha256": "d0c21cc4ab36d4dfe1ec70fa29ff7e8d87488464b5e1d0b60f6d9262bdae7922",
+      "bytes": 776
+    },
+    "docs/bologna-paint-plan.ts": {
+      "sha256": "931553458809c3c94432e2b85c56872da46e800f1f4821c8c564701e9875ac21",
+      "bytes": 1537
+    },
+    "docs/bologna-paint-preflight-qa.json": {
+      "sha256": "1cc7e4d1647a3b41ea5e742e7f272a062928f2f94cc8ed07eeac9ba28be2970b",
+      "bytes": 7952
+    },
+    "docs/bologna-paint-preflight.md": {
+      "sha256": "6c10a4d309a609465fd850cc8a49cd2485639036267e8bbf84642c4452ac21e5",
+      "bytes": 9331
+    },
+    "docs/bologna-paint-prepare.ts": {
+      "sha256": "05548fafd2c7d64987326b3e367726be95ec559ac6705b7167d0104d74c3337c",
+      "bytes": 17095
+    },
+    "docs/bologna-paint-support.ts": {
+      "sha256": "25922e51bc84fd48ea7840fc8cc0b46df21206438afb92bf35c3ad873bfe883d",
+      "bytes": 16938
+    },
+    "docs/bologna-paint-window-input.png": {
+      "sha256": "95a32d23d7d4342d7589875eeb666819945a19e0cc8600f36d7b21208c190413",
+      "bytes": 1153266
+    },
+    "docs/bologna-paint-window-qa.png": {
+      "sha256": "c454da627666089a9f8e0e2cdd3d9784f352269d9aec8f3f3757a60908d73f20",
+      "bytes": 1662690
+    },
+    "docs/bologna-paint.test.ts": {
+      "sha256": "e09951a6ffb234882388844fb3cacbc32c181fa9dffcc6978e6c14a17f15b3ca",
+      "bytes": 9560
+    }
+  }
+}

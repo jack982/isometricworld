@@ -1,0 +1,236 @@
+{
+  "status": "PASS_PREPARATION",
+  "node": "v24.22.3",
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS"
+    },
+    {
+      "name": "web-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS"
+    },
+    {
+      "name": "preflight-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-paint-support.ts",
+        "docs/bologna-paint-prepare.ts",
+        "docs/bologna-paint-plan.ts",
+        "docs/bologna-paint-live.ts",
+        "docs/bologna-paint-check.ts",
+        "docs/bologna-paint.test.ts"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/preflight-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS"
+    },
+    {
+      "name": "regressions-and-safety-tests",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/regressions-and-safety-tests.log",
+      "logSha256": "78681857d92fe2836ebfb45a48d08f97841f73863bdc7c3a43f3b607bd6d63c6",
+      "status": "PASS"
+    },
+    {
+      "name": "read-only-preflight",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-addons",
+        "docs/bologna-paint-plan.ts",
+        "--dry-run"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/read-only-preflight.log",
+      "logSha256": "2469d2b66d924afc54ef768c95fb5ccdc3d808564d2f23eeeb428ceced82037c",
+      "status": "PASS"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "log": "data/bo-004s-paint/checks/2026-11-20T10-50-19.246Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "PASS"
+    }
+  ],
+  "preflight": {
+    "status": "STOP_BEFORE_LIVE",
+    "validation": "PASS_PREPARATION",
+    "liveReadiness": "BLOCKED_NATIVE_IMAGE_CALL_CAP",
+    "manifestSha256": "449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d",
+    "protectedFiles": 1410,
+    "inputImages": 4,
+    "sourcePairs": 10,
+    "window": {
+      "i": -1,
+      "j": -1,
+      "x": -896,
+      "y": -896,
+      "width": 1024,
+      "height": 1024,
+      "tiles": [
+        {
+          "x": -1,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "coverage": 1,
+      "approximateCenter": [
+        44.49336210550784,
+        11.341904894834135,
+        108.58078546822071
+      ]
+    },
+    "promptSha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+    "intendedImageCalls": 1,
+    "observedImageCalls": 0,
+    "retries": 0,
+    "workers": 1,
+    "overwrite": false,
+    "writes": 0,
+    "liveReady": false,
+    "blocker": "BLOCKED_NATIVE_IMAGE_CALL_CAP: codex exec has no verified enforceable native image-tool call budget; a process cap or prompt is insufficient",
+    "commandForSeparateApproval": "node --import tsx docs/bologna-paint-live.ts --window=-1,-1 --max-calls=1 --attempts=1 --workers=1 --approve=449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d --expires=2026-11-21T09:50:34.094Z",
+    "commandWarning": "This exact wrapper currently refuses live execution even with matching approval, until a native tool-call cap is verifiable. Do not substitute the ordinary multi-attempt painter.",
+    "destinations": [
+      "data/bo-004s-paint/run/-1_-1/raw.png",
+      "data/bo-004s-paint/run/-1_-1/registered.png",
+      "data/bo-004s-paint/run/-1_-1/events.jsonl",
+      "data/bo-004s-paint/run/-1_-1/qa.json"
+    ],
+    "backend": {
+      "name": "Codex CLI + native image generation (planned only)",
+      "cliVersion": "codex-cli 0.170.0",
+      "imageFeature": true,
+      "authentication": "Existing ChatGPT login; status only, no credentials copied",
+      "model": "CLI default; no model override configured/validated, image submodel not disclosed by offline help",
+      "nativeCallCapVerified": false,
+      "blocker": "BLOCKED_NATIVE_IMAGE_CALL_CAP: codex exec has no verified enforceable native image-tool call budget; a process cap or prompt is insufficient"
+    },
+    "usdSpend": "not applicable / unknown; no generation or billable request made"
+  },
+  "preservation": {
+    "protectedFiles": 1410,
+    "allHashesUnchanged": true
+  },
+  "manifestSha256": "449ae54fa10c297e2fdeabcbaa197d9f4ae562fb02c59149a0a84dfc2cef849d",
+  "inputs": {
+    "data/bo-004s-paint/input/input.png": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "data/bo-004s-paint/input/height.png": {
+      "sha256": "4f82a0825746efd275e623c8e066c1e0c85236e726a902ec27118ec7800ce6a2",
+      "bytes": 388406
+    },
+    "data/bo-004s-paint/input/style.png": {
+      "sha256": "1baa9abbe2add8284933c6b29976036e9af4c4926ab4bf00859fb24a4a2ed97f",
+      "bytes": 5161730
+    },
+    "data/bo-004s-paint/input/trees.png": {
+      "sha256": "eb78909ec5679f4a26def56e3179a731b59caaef9a5127007affc99b168c3fee",
+      "bytes": 2084513
+    }
+  },
+  "promptSha256": "0674b6b7424c30e80d229b783251dea2121bc69c3014cd49de495fbfcc62266e",
+  "imageGenerationCalls": 0,
+  "providerRequests": 0,
+  "liveReady": false,
+  "nativeCallCapVerified": false,
+  "gates": {
+    "gate0": "SOURCE_AND_ISOLATION_PASS_NATIVE_CAP_BLOCKED",
+    "gateA": "PASS_PREPARATION",
+    "gateB": "PREFLIGHT_COMPLETE_STOP_LIVE_BLOCKED",
+    "gateC": "NOT_RUN_NOT_AUTHORIZED",
+    "gateD": "NOT_RUN",
+    "gateE": "NOT_RUN",
+    "gateF": "INCONCLUSIVE_NO_IMAGE_NO_HUMAN_REVIEW"
+  },
+  "manualAcceptance": {
+    "independentHuman": "NOT_TESTED",
+    "agentInputReview": "PASS_CANDIDATE_ONLY_NOT_PAINTED_QUALITY"
+  },
+  "beforeAfter": "NOT_TESTED: no generated output exists",
+  "usdSpend": "not applicable / unknown; no billable request made",
+  "intendedPolicy": {
+    "imageCalls": 1,
+    "retries": 0,
+    "workers": 1,
+    "outputs": 1,
+    "maxApprovalAgeHours": 24
+  },
+  "blocker": "BLOCKED_NATIVE_IMAGE_CALL_CAP: codex exec has no verified enforceable native image-tool call budget; a process cap or prompt is insufficient",
+  "versions": {
+    "sharp": "0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "checkRunner": {
+    "sha256": "bc2112d94035065d0b03fa7596f5b88b0bdd2dd604478e6bc6503b0dc3f8050e",
+    "bytes": 3752
+  }
+}
