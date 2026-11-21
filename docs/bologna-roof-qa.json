@@ -1,0 +1,1110 @@
+{
+  "schema": "BO-006P0/v1",
+  "gates": {
+    "0": {
+      "status": "PASS",
+      "scope": "Primary regional ortho licence/capabilities/coverage and prior source integrity; optional DSM/LAS and tile-image licence unresolved"
+    },
+    "A": {
+      "status": "PARTIAL",
+      "groups": 20,
+      "reason": "20 unique source-linked roof review groups delivered; physical coherence is provisional, one deliberately narrow control unresolved, and only 4/6 selected conflict candidates add a pitch"
+    },
+    "B": {
+      "status": "PARTIAL",
+      "inferred": 15,
+      "unknown": 5,
+      "verified": 0
+    },
+    "C": {
+      "status": "PASS",
+      "specimens": 20,
+      "review_status": "HUMAN_REVIEW_PENDING"
+    },
+    "D": {
+      "status": "PASS",
+      "evidenceSufficiency": "PARTIAL",
+      "roofTruth": "INFERRED_ONLY",
+      "humanAcceptance": "PENDING"
+    },
+    "E": {
+      "status": "PASS",
+      "checks": {
+        "results": [
+          {
+            "name": "pipeline-typescript",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": null,
+            "command": [
+              "node_modules/.bin/tsc",
+              "--noEmit",
+              "-p",
+              "pipeline"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/pipeline-typescript.log",
+            "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "web-typescript",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": null,
+            "command": [
+              "node_modules/.bin/tsc",
+              "--noEmit",
+              "-p",
+              "web"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/web-typescript.log",
+            "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "benchmark-typescript",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": null,
+            "command": [
+              "node_modules/.bin/tsc",
+              "--noEmit",
+              "--target",
+              "es2022",
+              "--module",
+              "esnext",
+              "--moduleResolution",
+              "bundler",
+              "--allowImportingTsExtensions",
+              "--strict",
+              "--skipLibCheck",
+              "--types",
+              "node",
+              "docs/bologna-roof-acquire.ts",
+              "docs/bologna-roof-benchmark.ts",
+              "docs/bologna-roof-check.ts",
+              "docs/bologna-roof-common.ts",
+              "docs/bologna-roof-projection.ts",
+              "docs/bologna-roof-qa.test.ts",
+              "docs/bologna-roof-registry.ts",
+              "docs/bologna-roof-sampling.ts",
+              "docs/bologna-roof-select.ts",
+              "docs/bologna-roof-terrain-audit.ts",
+              "docs/bologna-roof-verify.ts",
+              "docs/bologna-roof-wms.ts"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/benchmark-typescript.log",
+            "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "name": "regressions-and-roof-fixtures",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": 162,
+            "command": [
+              "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+              "--import",
+              "tsx",
+              "--test",
+              "--test-reporter=spec",
+              "--test-skip-pattern=^(new manifest and staged references validate; dry-run cannot start Codex|new execution validates without changing or reopening prior evidence)$",
+              "pipeline/src/bologna.test.ts",
+              "pipeline/src/bologna-architecture.test.ts",
+              "pipeline/src/bologna-fidelity.test.ts",
+              "docs/bologna-coverage-qa.test.ts",
+              "docs/bologna-architecture-qa.test.ts",
+              "docs/bologna-viewer.test.ts",
+              "docs/bologna-paint.test.ts",
+              "docs/bologna-paint-api.test.ts",
+              "docs/bologna-paint-codex.test.ts",
+              "docs/bologna-paint-codex-recovery.test.ts",
+              "docs/bologna-paint-offline-qa.test.ts",
+              "docs/bologna-roof-qa.test.ts"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/regressions-and-roof-fixtures.log",
+            "logSha256": "1bd789f8086ff5173882dadbab781cd48e4f8e4cdc30dbfa82cba7606228ca64"
+          },
+          {
+            "name": "read-only-evidence-verification",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": null,
+            "command": [
+              "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+              "--experimental-transform-types",
+              "--permission",
+              "--allow-fs-read=/home/jacopo/projects/isometricworld",
+              "--allow-addons",
+              "docs/bologna-roof-verify.ts"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/read-only-evidence-verification.log",
+            "logSha256": "e67a9e8bbe8ea3ae510e75c9972fc2e9b944ef9918a277ca93ec5974584c47be"
+          },
+          {
+            "name": "diff-check",
+            "status": "PASS",
+            "exitCode": 0,
+            "tests": null,
+            "command": [
+              "git",
+              "diff",
+              "--check"
+            ],
+            "log": "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/diff-check.log",
+            "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "excludedConsumedRootTests": [
+          "new manifest and staged references validate; dry-run cannot start Codex",
+          "new execution validates without changing or reopening prior evidence"
+        ],
+        "exclusionReason": "Original and recovery attempts have both been consumed; immutable old positive unused-root tests do not apply, while negative reuse tests remain selected.",
+        "protectedPreviousFiles": 1764,
+        "providerRequests": 0
+      }
+    }
+  },
+  "independentGates": {
+    "evidenceSufficiency": "PARTIAL",
+    "roofTruth": "INFERRED_ONLY",
+    "humanAcceptance": "PENDING"
+  },
+  "quantitative": {
+    "groups": 20,
+    "distinctCtcIds": 33,
+    "sourceRoofTypeCounts": {
+      "complex": 2,
+      "flat_or_terrace": 17,
+      "gable": 1
+    },
+    "observedRoofTypeCounts": {
+      "complex": 5,
+      "hip": 2,
+      "multi_pitch": 6,
+      "unknown": 5,
+      "flat_or_terrace": 1,
+      "other": 1
+    },
+    "confidence": {
+      "verified": 0,
+      "inferred": 15,
+      "unknown": 5
+    },
+    "coarseIllustratedForm": {
+      "supported": 9,
+      "unresolved": 9,
+      "contradicted": 2
+    },
+    "newPitchSubset": {
+      "count": 11,
+      "supported": 7,
+      "contradicted": 1,
+      "unresolved": 3
+    },
+    "conflictStratum": {
+      "candidates": 6,
+      "actualNewPitches": 4,
+      "shortfall": 2,
+      "retainedAsNonconflictControls": [
+        "BO006P0-05",
+        "BO006P0-06"
+      ]
+    },
+    "fullyInsideOrthoFootprints": 20,
+    "linkedToBoundedOrtho": 20,
+    "acceptedSourcePlanAreaM2": 25875.161353999996,
+    "accuracyPercent": null,
+    "measuredRidges": 0,
+    "strata": {
+      "landmark-sensitive": 4,
+      "source-flat-AI-conflict-candidate": 6,
+      "courtyard": 2,
+      "negative-control-portico-adjacent": 1,
+      "negative-control-flat-looking": 1,
+      "ordinary": 6
+    }
+  },
+  "sourceRegistry": {
+    "sha256": "c4401925c554212ac619736824992d23c2f2e086bbd7a5fa5c84af63b0cb2865",
+    "bytes": 25197
+  },
+  "sample": {
+    "sha256": "1f1c80532f1791f0102b37919bafe7adc0d0ad5dab6226abd0b43c41aa8de51e",
+    "bytes": 621685
+  },
+  "groupingAudit": {
+    "sha256": "d9815bc845914b96ba9c420f8e0da1759d18ca9d79a26eb07291840b2f25bcf3",
+    "bytes": 32730
+  },
+  "projection": {
+    "numericPlaneRoundTrip": {
+      "camera": {
+        "region": "bologna",
+        "origin": {
+          "lat": 44.4938,
+          "lon": 11.343,
+          "h": 0
+        },
+        "headingDeg": 315,
+        "pitchDeg": 45,
+        "mpp": 0.25,
+        "tile": 1024
+      },
+      "globalWindow": [
+        -896,
+        -896,
+        128,
+        128
+      ],
+      "groundPlaneU": 108.58000183105469,
+      "corners": [
+        {
+          "input": [
+            0,
+            0
+          ],
+          "enu": [
+            -305.61426338980016,
+            -11.16957458177324,
+            108.58000183105469
+          ],
+          "llh": [
+            44.49369942066219,
+            11.339157703434982,
+            108.5873252497986
+          ]
+        },
+        {
+          "input": [
+            1024,
+            0
+          ],
+          "enu": [
+            -124.59492740604401,
+            169.84976140198296,
+            108.58000183105469
+          ],
+          "llh": [
+            44.49532846260758,
+            11.341433502468053,
+            108.58348620217294
+          ]
+        },
+        {
+          "input": [
+            1024,
+            1024
+          ],
+          "enu": [
+            131.40507259395605,
+            -86.15023859801698,
+            108.5800018310547
+          ],
+          "llh": [
+            44.49302472425791,
+            11.344652054561486,
+            108.58193995710462
+          ]
+        },
+        {
+          "input": [
+            0,
+            1024
+          ],
+          "enu": [
+            -49.61426338980007,
+            -267.1695745817732,
+            108.5800018310547
+          ],
+          "llh": [
+            44.491395745783684,
+            11.342376255521131,
+            108.5858038784936
+          ]
+        }
+      ],
+      "maxPixelRoundTripError": 1.7077110117270014e-05,
+      "maxEnuRoundTripErrorM": 6.052509677710189e-06,
+      "orientation": {
+        "eastScreen": [
+          2.828427124746213,
+          2
+        ],
+        "northScreen": [
+          2.828427124746213,
+          -2
+        ]
+      },
+      "limitations": [
+        "Plane footprint at specified ENU U, not a unique pixel-to-ground mapping in occluded 3D areas",
+        "Per-roof coordinates use actual saved scene eaves and estimated roof uplift",
+        "WGS84/ETRS89 epoch offsets, CTC accuracy, orthorectification and roof lean are not solved by numerical round-trip precision"
+      ]
+    },
+    "modeledTerrainFootprint": {
+      "camera": {
+        "region": "bologna",
+        "origin": {
+          "lat": 44.4938,
+          "lon": 11.343,
+          "h": 0
+        },
+        "headingDeg": 315,
+        "pitchDeg": 45,
+        "mpp": 0.25,
+        "tile": 1024
+      },
+      "method": "Existing camera ray -> frozen bilinear terrain fixed-point intersection, 1e-7m height residual tolerance; no camera reimplementation",
+      "perimeter": [
+        {
+          "pixel": [
+            0,
+            0
+          ],
+          "enu": [
+            -304.368888782737,
+            -12.414949188836424,
+            110.34122749059851
+          ],
+          "iterations": 4,
+          "heightResidualM": 6.917943551343342e-08,
+          "llh": [
+            44.4936882141251,
+            11.33917336253701,
+            110.34849382471293
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            128,
+            0
+          ],
+          "enu": [
+            -281.98869470664,
+            10.459690731005693,
+            109.9916014815568
+          ],
+          "iterations": 4,
+          "heightResidualM": 4.702206979345647e-08,
+          "llh": [
+            44.49389407143919,
+            11.339454721890972,
+            109.99783726781607
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            256,
+            0
+          ],
+          "enu": [
+            -259.9757412840098,
+            33.701571304314534,
+            109.12261875972764
+          ],
+          "iterations": 4,
+          "heightResidualM": 9.85806991593563e-11,
+          "llh": [
+            44.494103232756395,
+            11.339731465687745,
+            109.12800142914057
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            384,
+            0
+          ],
+          "enu": [
+            -238.191368506157,
+            57.17203252240077,
+            107.93037418995836
+          ],
+          "iterations": 5,
+          "heightResidualM": 1.112155700866424e-09,
+          "llh": [
+            44.49431445039447,
+            11.340005337450048,
+            107.93507498782128
+          ],
+          "roundTripPixelError": 5.684341886080802e-14
+        },
+        {
+          "pixel": [
+            512,
+            0
+          ],
+          "enu": [
+            -216.25928977072272,
+            80.49478778290552,
+            106.94701738864411
+          ],
+          "iterations": 5,
+          "heightResidualM": 1.00226600352471e-08,
+          "llh": [
+            44.49452433826535,
+            11.340281068483572,
+            106.95119024906307
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            640,
+            0
+          ],
+          "enu": [
+            -193.97387915149386,
+            103.4642111596157,
+            106.46334732941096
+          ],
+          "iterations": 5,
+          "heightResidualM": 2.077244687370694e-08,
+          "llh": [
+            44.494731045924425,
+            11.340561244203972,
+            106.46713650692254
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            768,
+            0
+          ],
+          "enu": [
+            -171.36431139517188,
+            126.10947739923277,
+            106.43810468979493
+          ],
+          "iterations": 5,
+          "heightResidualM": 7.488068831662531e-09,
+          "llh": [
+            44.49493483583319,
+            11.340845497720686,
+            106.441655671224
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            896,
+            0
+          ],
+          "enu": [
+            -148.72711379294512,
+            148.72711379294503,
+            106.45193655298374
+          ],
+          "iterations": 4,
+          "heightResidualM": 9.535483513900544e-11,
+          "llh": [
+            44.49513837638602,
+            11.34113010062038,
+            106.45540860760957
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            0
+          ],
+          "enu": [
+            -126.09937350621813,
+            171.35420750215707,
+            106.45239375232913
+          ],
+          "iterations": 3,
+          "heightResidualM": 7.389644451905042e-13,
+          "llh": [
+            44.49534200132926,
+            11.341414586588904,
+            106.45594787504524
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            1024,
+            128
+          ],
+          "enu": [
+            -94.10903387153988,
+            139.36386786747886,
+            106.43873193267363
+          ],
+          "iterations": 4,
+          "heightResidualM": 1.5336752312578028e-08,
+          "llh": [
+            44.495054125952684,
+            11.341816798318922,
+            106.44095413666219
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            256
+          ],
+          "enu": [
+            -62.22902162341988,
+            107.48385561935889,
+            106.26904362664624
+          ],
+          "iterations": 5,
+          "heightResidualM": 6.885159109515371e-10,
+          "llh": [
+            44.494767241991475,
+            11.342217618958077,
+            106.27025776077062
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            384
+          ],
+          "enu": [
+            -30.23724810232911,
+            75.49208209826813,
+            106.25740962860223
+          ],
+          "iterations": 5,
+          "heightResidualM": 2.4038797619141405e-09,
+          "llh": [
+            44.49447935084465,
+            11.342619840828073,
+            106.25793255120516
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            512
+          ],
+          "enu": [
+            2.1751291116008566,
+            43.07970488433816,
+            106.84059907735562
+          ],
+          "iterations": 6,
+          "heightResidualM": 4.9963233550442965e-09,
+          "llh": [
+            44.4941876732256,
+            11.343027346770507,
+            106.8407490272075
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            640
+          ],
+          "enu": [
+            34.97586303117194,
+            10.278970964767097,
+            107.9730078462652
+          ],
+          "iterations": 6,
+          "heightResidualM": 9.942397127815639e-09,
+          "llh": [
+            44.49389249935208,
+            11.343439731094776,
+            107.97311575803906
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            768
+          ],
+          "enu": [
+            67.74274721842775,
+            -22.487913222488693,
+            109.05754586465181
+          ],
+          "iterations": 5,
+          "heightResidualM": 6.207336866737023e-08,
+          "llh": [
+            44.493597628693806,
+            11.343851685552638,
+            109.05794864706695
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            896
+          ],
+          "enu": [
+            100.23948077617416,
+            -54.98464678023509,
+            109.76003319890262
+          ],
+          "iterations": 5,
+          "heightResidualM": 1.0464191291248426e-08,
+          "llh": [
+            44.49330518772085,
+            11.34426023943595,
+            109.76106094196439
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            1024,
+            1024
+          ],
+          "enu": [
+            132.39261149258982,
+            -87.13777749665073,
+            109.97659273487353
+          ],
+          "iterations": 3,
+          "heightResidualM": 2.5178152895932726e-08,
+          "llh": [
+            44.49301583741176,
+            11.344664469509263,
+            109.97856473643333
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            896,
+            1024
+          ],
+          "enu": [
+            109.71405782254051,
+            -109.71405782254048,
+            109.90427455968369
+          ],
+          "iterations": 5,
+          "heightResidualM": 1.4650112234448898e-09,
+          "llh": [
+            44.49281267785717,
+            11.344379344889438,
+            109.90616585500538
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            768,
+            1024
+          ],
+          "enu": [
+            86.92187735435257,
+            -132.17671135029158,
+            109.67126382551713
+          ],
+          "iterations": 5,
+          "heightResidualM": 7.631584253431356e-09,
+          "llh": [
+            44.492610540087185,
+            11.34409279375783,
+            109.67323105689138
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            640,
+            1024
+          ],
+          "enu": [
+            64.05630621931748,
+            -154.5659742111955,
+            109.33446301494372
+          ],
+          "iterations": 5,
+          "heightResidualM": 3.298055162304081e-09,
+          "llh": [
+            44.49240906200093,
+            11.343805321932736,
+            109.33666421938688
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            512,
+            1024
+          ],
+          "enu": [
+            41.261434855895146,
+            -177.02593684371223,
+            109.09764678024176
+          ],
+          "iterations": 4,
+          "heightResidualM": 5.130922886564804e-08,
+          "llh": [
+            44.49220694695816,
+            11.343518740884258,
+            109.1002449542284
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            384,
+            1024
+          ],
+          "enu": [
+            18.826759876408858,
+            -199.846095860165,
+            109.37022515681993
+          ],
+          "iterations": 5,
+          "heightResidualM": 1.655399728406337e-08,
+          "llh": [
+            44.49200158991007,
+            11.343236690154173,
+            109.37339322455227
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            256,
+            1024
+          ],
+          "enu": [
+            -3.152379873391183,
+            -223.121790106304,
+            110.2870276333591
+          ],
+          "iterations": 6,
+          "heightResidualM": 4.922398488815816e-09,
+          "llh": [
+            44.491792133030614,
+            11.34296036840617,
+            110.29094189684838
+          ],
+          "roundTripPixelError": 1.6077746776921858e-13
+        },
+        {
+          "pixel": [
+            128,
+            1024
+          ],
+          "enu": [
+            -24.847856611481447,
+            -246.68114736415276,
+            111.60499018820182
+          ],
+          "iterations": 6,
+          "heightResidualM": 2.3350537503574742e-08,
+          "llh": [
+            44.49158012300906,
+            11.342687614935548,
+            111.60982124134898
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            0,
+            1024
+          ],
+          "enu": [
+            -46.59535728832516,
+            -270.1884806832481,
+            112.84937978329141
+          ],
+          "iterations": 6,
+          "heightResidualM": 1.4529007330565946e-08,
+          "llh": [
+            44.49136858054657,
+            11.34241420950448,
+            112.85528664384037
+          ],
+          "roundTripPixelError": 2.2737367544323206e-13
+        },
+        {
+          "pixel": [
+            0,
+            896
+          ],
+          "enu": [
+            -78.14845075673772,
+            -238.63538721483553,
+            113.4814010613755
+          ],
+          "iterations": 5,
+          "heightResidualM": 5.7497629768477054e-08,
+          "llh": [
+            44.49165252342182,
+            11.342017523634311,
+            113.48635517992079
+          ],
+          "roundTripPixelError": 1.6077746776921858e-13
+        },
+        {
+          "pixel": [
+            0,
+            768
+          ],
+          "enu": [
+            -110.04658498514111,
+            -206.73725298643217,
+            113.625461017109
+          ],
+          "iterations": 5,
+          "heightResidualM": 9.674906209511391e-09,
+          "llh": [
+            44.49193956966488,
+            11.341616495967315,
+            113.6297693029046
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            0,
+            640
+          ],
+          "enu": [
+            -142.37039426197418,
+            -174.4134437095991,
+            113.16752554618947
+          ],
+          "iterations": 6,
+          "heightResidualM": 1.701678797871864e-09,
+          "llh": [
+            44.49223044487684,
+            11.341210112491908,
+            113.17150484770536
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            0,
+            512
+          ],
+          "enu": [
+            -174.8806652306154,
+            -141.9031727409579,
+            112.44589342185182
+          ],
+          "iterations": 6,
+          "heightResidualM": 7.320451800296723e-09,
+          "llh": [
+            44.49252299653508,
+            11.340801380547317,
+            112.44987231492996
+          ],
+          "roundTripPixelError": 5.684341886080802e-14
+        },
+        {
+          "pixel": [
+            0,
+            384
+          ],
+          "enu": [
+            -207.50616170771636,
+            -109.27767626385695,
+            111.56130782071904
+          ],
+          "iterations": 6,
+          "heightResidualM": 3.775710410991451e-09,
+          "llh": [
+            44.49281658363464,
+            11.340391195675481,
+            111.56561949755996
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            0,
+            256
+          ],
+          "enu": [
+            -239.96406333327602,
+            -76.81977463829729,
+            110.91373713161988
+          ],
+          "iterations": 5,
+          "heightResidualM": 2.6972102773470397e-08,
+          "llh": [
+            44.49310866122751,
+            11.339983113807142,
+            110.91871111188084
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            0,
+            128
+          ],
+          "enu": [
+            -272.2169683100186,
+            -44.56686966155472,
+            110.5560754835189
+          ],
+          "iterations": 5,
+          "heightResidualM": 2.4178916646633297e-09,
+          "llh": [
+            44.493398892743144,
+            11.339577605326264,
+            110.56203484162688
+          ],
+          "roundTripPixelError": 0
+        }
+      ],
+      "corners": [
+        {
+          "pixel": [
+            0,
+            0
+          ],
+          "enu": [
+            -304.368888782737,
+            -12.414949188836424,
+            110.34122749059851
+          ],
+          "iterations": 4,
+          "heightResidualM": 6.917943551343342e-08,
+          "llh": [
+            44.4936882141251,
+            11.33917336253701,
+            110.34849382471293
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            1024,
+            0
+          ],
+          "enu": [
+            -126.09937350621813,
+            171.35420750215707,
+            106.45239375232913
+          ],
+          "iterations": 3,
+          "heightResidualM": 7.389644451905042e-13,
+          "llh": [
+            44.49534200132926,
+            11.341414586588904,
+            106.45594787504524
+          ],
+          "roundTripPixelError": 1.1368683772161603e-13
+        },
+        {
+          "pixel": [
+            1024,
+            1024
+          ],
+          "enu": [
+            132.39261149258982,
+            -87.13777749665073,
+            109.97659273487353
+          ],
+          "iterations": 3,
+          "heightResidualM": 2.5178152895932726e-08,
+          "llh": [
+            44.49301583741176,
+            11.344664469509263,
+            109.97856473643333
+          ],
+          "roundTripPixelError": 0
+        },
+        {
+          "pixel": [
+            0,
+            1024
+          ],
+          "enu": [
+            -46.59535728832516,
+            -270.1884806832481,
+            112.84937978329141
+          ],
+          "iterations": 6,
+          "heightResidualM": 1.4529007330565946e-08,
+          "llh": [
+            44.49136858054657,
+            11.34241420950448,
+            112.85528664384037
+          ],
+          "roundTripPixelError": 2.2737367544323206e-13
+        }
+      ],
+      "groundPins": {
+        "meta": {
+          "sha256": "0917346d3186b526d4c5bee60c8d90598628687ff6bb36e3670638ec698a3276",
+          "bytes": 51
+        },
+        "height": {
+          "sha256": "e0c2f81f77d66881a45701a6b6def1a87a003946afeb1282eb05e5ff82d795aa",
+          "bytes": 908020
+        }
+      },
+      "maxPixelRoundTripError": 2.2737367544323206e-13,
+      "maxHeightResidualM": 6.917943551343342e-08,
+      "limitations": [
+        "Underlying terrain is the existing smoothed Copernicus model, not surveyed local ground",
+        "This is the exact modeled-terrain window footprint; buildings can occlude rays before they reach terrain",
+        "Sample pixel locators are forward projections on area-weighted eave planes, not surveyed roof control points; existing estimated uplift can shift outlines up to about 10px",
+        "Real geographic accuracy includes CTC/ortho/epoch/vertical-reference/roof-lean uncertainties"
+      ]
+    },
+    "horizontalAccuracy": "NOT_MEASURED",
+    "municipal54cmScope": "Historical source foot/eave-height tolerance, not an independent horizontal roof registration claim"
+  },
+  "provenance": {
+    "raw": {
+      "sha256": "4edf05309116fea5e631be83bc444f3795483f53028e3fef3e3353b6975c9458",
+      "bytes": 4393198
+    },
+    "input": {
+      "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+      "bytes": 1103640
+    },
+    "diagnostic": {
+      "sha256": "161b0f558d15a0a313b39c44ccd41b4c00cc993f4fa357b1ed001f435402ae8e",
+      "bytes": 3000284
+    },
+    "ortho": {
+      "sha256": "3f025fc4c310f3019385d38b466901586201e162e53e3e272e8cf6b283fb0ac8",
+      "bytes": 9237589
+    }
+  },
+  "preservation": {
+    "previousFiles": 1764,
+    "historicalResult": "FAILED_NO_RETRY",
+    "historicalOfflineAssessment": "REFINE_REQUIRED",
+    "registrationApplied": false
+  },
+  "acquisition": {
+    "limitRequests": 40,
+    "limitBytes": 52428800,
+    "applicationAttempts": 25,
+    "successfulRequests": 11,
+    "failedAttempts": 14,
+    "downloadedBytes": 11325194,
+    "maximumConcurrency": 1,
+    "browserResearch": "Four official URL opens in one initial web-tool call, including a failed capabilities view; tracked separately from application download attempts",
+    "failureNotes": "Initial sandbox fetch failures consumed 14 attempted slots; elevated requests succeeded. Updated transport retries only transient HTTP responses, at most once; cached files are not replaced."
+  },
+  "sourceRightsGaps": [
+    "DSM/LAS pixels inaccessible from inspected catalogue resources; no measured ridge",
+    "Municipal tile-image rights not established; no tiles used",
+    "Exact ortho tile flight day unknown; interval 2023-06-19..26 distinct from LiDAR tile date"
+  ],
+  "humanReview": "HUMAN_REVIEW_PENDING for all 20",
+  "newImageGenerationRequests": 0,
+  "commits": 0,
+  "productionChanges": 0
+}

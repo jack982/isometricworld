@@ -1,0 +1,129 @@
+{
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": null,
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/pipeline-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": null,
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/web-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "benchmark-typescript",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": null,
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-roof-acquire.ts",
+        "docs/bologna-roof-benchmark.ts",
+        "docs/bologna-roof-check.ts",
+        "docs/bologna-roof-common.ts",
+        "docs/bologna-roof-projection.ts",
+        "docs/bologna-roof-qa.test.ts",
+        "docs/bologna-roof-registry.ts",
+        "docs/bologna-roof-sampling.ts",
+        "docs/bologna-roof-select.ts",
+        "docs/bologna-roof-verify.ts",
+        "docs/bologna-roof-wms.ts"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/benchmark-typescript.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "regressions-and-roof-fixtures",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": 161,
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "--test-skip-pattern=^(new manifest and staged references validate; dry-run cannot start Codex|new execution validates without changing or reopening prior evidence)$",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts",
+        "docs/bologna-paint-api.test.ts",
+        "docs/bologna-paint-codex.test.ts",
+        "docs/bologna-paint-codex-recovery.test.ts",
+        "docs/bologna-paint-offline-qa.test.ts",
+        "docs/bologna-roof-qa.test.ts"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/regressions-and-roof-fixtures.log",
+      "logSha256": "c48cef3248e41dc2f09cdeda35381657cf8657c01f106328992a7f3b50e3c79d"
+    },
+    {
+      "name": "read-only-evidence-verification",
+      "status": "FAIL",
+      "exitCode": 1,
+      "tests": null,
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-addons",
+        "docs/bologna-roof-verify.ts"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/read-only-evidence-verification.log",
+      "logSha256": "4e447fe8658acc29815248d36c2369c36bf154fc0c5134ebcd0023a873eaadf1"
+    },
+    {
+      "name": "diff-check",
+      "status": "PASS",
+      "exitCode": 0,
+      "tests": null,
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "log": "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/diff-check.log",
+      "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "excludedConsumedRootTests": [
+    "new manifest and staged references validate; dry-run cannot start Codex",
+    "new execution validates without changing or reopening prior evidence"
+  ],
+  "exclusionReason": "Original and recovery attempts have both been consumed; immutable old positive unused-root tests do not apply, while negative reuse tests remain selected.",
+  "protectedPreviousFiles": 1764,
+  "providerRequests": 0
+}

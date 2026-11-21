@@ -1,0 +1,11 @@
+/** Precise ray intersection with the existing frozen bilinear terrain; no new terrain source. */
+import assert from "node:assert/strict";
+import { groundSampler } from "../pipeline/src/bologna.ts";
+import { camera } from "../pipeline/src/camera.ts";
+import { bytes, pin, read, ROOT, save } from "./bologna-roof-common.ts";
+import { inputToTerrain, llh, setup, toInput } from "./bologna-roof-projection.ts";
+import { SOURCE } from "./bologna-roof-sampling.ts";
+setup();const meta=read(SOURCE+"/ground/meta.json"),b=bytes(SOURCE+"/ground/height.bin"),ground=groundSampler(meta,new Float32Array(b.buffer,b.byteOffset,b.length/4));
+const pixels:[number,number][]=[];for(let i=0;i<4;i++)for(let k=0;k<8;k++){const t=k/8;pixels.push(i===0?[1024*t,0]:i===1?[1024,1024*t]:i===2?[1024*(1-t),1024]:[0,1024*(1-t)]);}
+const perimeter=pixels.map(pixel=>{const p=inputToTerrain(pixel,ground);assert(p.enu[0]>=meta.x0&&p.enu[0]<=meta.x0+(meta.nx-1)*meta.step&&p.enu[1]>=meta.y0&&p.enu[1]<=meta.y0+(meta.ny-1)*meta.step,"TERRAIN_COVERAGE_NO_CLAMP_ALLOWED");const screen=toInput(p.enu);return{pixel,...p,llh:llh(p.enu),roundTripPixelError:Math.hypot(screen[0]-pixel[0],screen[1]-pixel[1])};});
+const result={camera:camera(),method:"Existing camera ray -> frozen bilinear terrain fixed-point intersection, 1e-7m height residual tolerance; no camera reimplementation",perimeter,corners:perimeter.filter((_,i)=>i%8===0),groundPins:{meta:pin(SOURCE+"/ground/meta.json"),height:pin(SOURCE+"/ground/height.bin")},maxPixelRoundTripError:Math.max(...perimeter.map(p=>p.roundTripPixelError)),maxHeightResidualM:Math.max(...perimeter.map(p=>p.heightResidualM)),limitations:["Underlying terrain is the existing smoothed Copernicus model, not surveyed local ground","This is the exact modeled-terrain window footprint; buildings can occlude rays before they reach terrain","Sample pixel locators are forward projections on area-weighted eave planes, not surveyed roof control points; existing estimated uplift can shift outlines up to about 10px","Real geographic accuracy includes CTC/ortho/epoch/vertical-reference/roof-lean uncertainties"]};save(ROOT+"/terrain-projection.json",result);save("docs/bologna-roof-projection.json",result);console.log(JSON.stringify({corners:result.corners,maxPixelError:result.maxPixelRoundTripError,maxHeightResidualM:result.maxHeightResidualM}));

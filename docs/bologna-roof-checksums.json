@@ -1,0 +1,1684 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "data/bo-006p0/candidates.json": {
+      "sha256": "bbb4520ee80cb8598ee285d971282919a88c1503213451a353fc502f1d28dc2a",
+      "bytes": 1418669
+    },
+    "data/bo-006p0/capabilities-summary.json": {
+      "sha256": "a1df4892ab0c98417ff9769cac23e73fa4514ffa5088235175db19b7ddd1261b",
+      "bytes": 4485
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/benchmark-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/read-only-evidence-verification.log": {
+      "sha256": "4e447fe8658acc29815248d36c2369c36bf154fc0c5134ebcd0023a873eaadf1",
+      "bytes": 1585
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/regressions-and-roof-fixtures.log": {
+      "sha256": "c48cef3248e41dc2f09cdeda35381657cf8657c01f106328992a7f3b50e3c79d",
+      "bytes": 14257
+    },
+    "data/bo-006p0/checks/2026-11-21T11-10-31.879Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/benchmark-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/read-only-evidence-verification.log": {
+      "sha256": "e67a9e8bbe8ea3ae510e75c9972fc2e9b944ef9918a277ca93ec5974584c47be",
+      "bytes": 550
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/regressions-and-roof-fixtures.log": {
+      "sha256": "1bd789f8086ff5173882dadbab781cd48e4f8e4cdc30dbfa82cba7606228ca64",
+      "bytes": 14346
+    },
+    "data/bo-006p0/checks/2026-11-21T11-13-21.631Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/draft-contact-v3.jpg": {
+      "sha256": "3022e6b99ab856dfb3573d4bd61033fd3c6ecb0c8cb00e7915f74e795cbde90a",
+      "bytes": 1569610
+    },
+    "data/bo-006p0/draft-contact-v4.jpg": {
+      "sha256": "09861481164ef57fe12653f2ea4deda5ec42c51a706a3065738153189de17d25",
+      "bytes": 1636133
+    },
+    "data/bo-006p0/draft-contact.jpg": {
+      "sha256": "66d40c9c800bd995c5740cb5de1a65f8f613feaa629823389a9fe6ba232b4cc6",
+      "bytes": 1560010
+    },
+    "data/bo-006p0/final-typecheck.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-006p0/grouping-audit.json": {
+      "sha256": "d9815bc845914b96ba9c420f8e0da1759d18ca9d79a26eb07291840b2f25bcf3",
+      "bytes": 32730
+    },
+    "data/bo-006p0/manifest.json": {
+      "sha256": "210d10257e4da192f3e395a48d6f0d2311fbcd21a0603d0e495ab10ac224dc4b",
+      "bytes": 1650
+    },
+    "data/bo-006p0/preservation.json": {
+      "sha256": "1e1e6807254ef6d08b5f7d39dc3b82fc1c857a1abe7e5b65d55095a7445dd7d7",
+      "bytes": 329425
+    },
+    "data/bo-006p0/references/dtm-capabilities.xml": {
+      "sha256": "599455a0b34ea02dd7e6f42552cfc60abcb3f86932aeaceab22cd65b8d33df72",
+      "bytes": 6291
+    },
+    "data/bo-006p0/references/dtm-catalog.html": {
+      "sha256": "992d90e3f05046e0ee7c1ed2a4222343cc6cff16175a474757ccd6e0f9a60dcd",
+      "bytes": 409067
+    },
+    "data/bo-006p0/references/lidar-capabilities.xml": {
+      "sha256": "c61d20facab243add06ce144721897fe39b70efa10e83375f8b52770204ed5f1",
+      "bytes": 193130
+    },
+    "data/bo-006p0/references/lidar-catalog.html": {
+      "sha256": "d28c322558a85b7ec59f79d32c2f02cc09199d21588a01b8a256bbcbc1cd0d75",
+      "bytes": 409776
+    },
+    "data/bo-006p0/references/lidar-tile-info.txt": {
+      "sha256": "678b1cffa591d046e695b63fd4dfbf05c9f027da1868ab1196f977659c185d0a",
+      "bytes": 187
+    },
+    "data/bo-006p0/references/ortho-capabilities.xml": {
+      "sha256": "57f16240d97f7d51c352aa8a28d5b0bacd4347a2a85154a57157cbc48342af15",
+      "bytes": 6414
+    },
+    "data/bo-006p0/references/ortho-catalog.html": {
+      "sha256": "e42870d4a9d85aa7595e869a668cc16f9b346969f9eea7faa180505f5a6491f0",
+      "bytes": 409835
+    },
+    "data/bo-006p0/references/ortho-cluster.png": {
+      "sha256": "3f025fc4c310f3019385d38b466901586201e162e53e3e272e8cf6b283fb0ac8",
+      "bytes": 9237589
+    },
+    "data/bo-006p0/references/ortho-preview.png": {
+      "sha256": "54cb1e9d7d077749966e720e6aacca86b01060efbc8b249dc56ebcc4c3745faf",
+      "bytes": 161214
+    },
+    "data/bo-006p0/references/provenance.json": {
+      "sha256": "040563e00933fbf7d2c84a64a0e4fb669fa6cbf52af07fe9daefc41764162da8",
+      "bytes": 16398
+    },
+    "data/bo-006p0/references/regional-context.html": {
+      "sha256": "2731381190642d5c37c71b795000eaee03a4792844a9567b2b15706bf4332232",
+      "bytes": 482071
+    },
+    "data/bo-006p0/references/tile-catalog.json": {
+      "sha256": "5a643b1b4c41c58dbb8a8c1f8940bad51ba4fd918136c9af477a3772c7d4589d",
+      "bytes": 9620
+    },
+    "data/bo-006p0/requests-0-14.json": {
+      "sha256": "e0d9aa425437c34beb0cdc188a0466c8a90b78eccc9fccf3d6bd1ba227f69d82",
+      "bytes": 3413
+    },
+    "data/bo-006p0/requests-14-21.json": {
+      "sha256": "3526de0284eaeae22108a8f02f4527d0ecf2172c3ff9b6925159406414ab4091",
+      "bytes": 6210
+    },
+    "data/bo-006p0/requests-21-22.json": {
+      "sha256": "93f1dcb0b117d2cc9f7a1c16929fe54160804a8a615d566fb32a6ff89c220fb4",
+      "bytes": 6757
+    },
+    "data/bo-006p0/requests-22-23.json": {
+      "sha256": "c33168fbb315059f57d03c7b8fec18a98b838bd941e67ec2bebe88d9222477a2",
+      "bytes": 7307
+    },
+    "data/bo-006p0/requests-23-25.json": {
+      "sha256": "a7d2c383a2eb7cae4bfcf78e8224c54c90a958fb845939516d9016a8500eb4fb",
+      "bytes": 8285
+    },
+    "data/bo-006p0/sample-selection-v2.json": {
+      "sha256": "1597aae86580b0372fa3c6cf753e14c972375b39f55ca6078b3583ff8cc0a6a5",
+      "bytes": 494334
+    },
+    "data/bo-006p0/sample-selection-v3.json": {
+      "sha256": "79bdecf4a8b1666bf482b7d9ceb12e904ee04131869956c413645155f9792a1b",
+      "bytes": 499260
+    },
+    "data/bo-006p0/sample-selection-v4.json": {
+      "sha256": "e4337e24b748611330b30cd96131f372ddded7eb62b515fb3a55452a69f32300",
+      "bytes": 578220
+    },
+    "data/bo-006p0/sample-selection.json": {
+      "sha256": "a6d5c849f261c56b7ea608bfbe7f0444597dca156a93bee7e11f9d7df53d8553",
+      "bytes": 495407
+    },
+    "data/bo-006p0/specimen-manifest-v3.json": {
+      "sha256": "0a5230325a0c7c00928612ac41e413a11079579aa20612d1c9c200ef172f3eb8",
+      "bytes": 15652
+    },
+    "data/bo-006p0/specimen-manifest-v4.json": {
+      "sha256": "b47823ace7f8eeb94c07ebe27d8fbe6b1a8fdc757bacf096733f9eea8233afdb",
+      "bytes": 15660
+    },
+    "data/bo-006p0/specimen-manifest.json": {
+      "sha256": "75bdd3b57395246e71cdf44d24a68919ebe2454a1292f1da98a779e1bba2409e",
+      "bytes": 15417
+    },
+    "data/bo-006p0/specimens/BO006P0-01/draft-board.jpg": {
+      "sha256": "042017cd91b9c780c1e08a6fdd775e5be56928489ff8bf13ec147b00d5d14a1a",
+      "bytes": 177414
+    },
+    "data/bo-006p0/specimens/BO006P0-01/input.png": {
+      "sha256": "5ac07c21500b0af6634824b64699889b766dff5cb280b8fdfcde5ec89c52aebb",
+      "bytes": 176089
+    },
+    "data/bo-006p0/specimens/BO006P0-01/ortho-ctc-overlay.png": {
+      "sha256": "6b594a158f5136ecd8b769eb288b143554b0ed059f371a904deebacd3775ba65",
+      "bytes": 646274
+    },
+    "data/bo-006p0/specimens/BO006P0-01/ortho.png": {
+      "sha256": "b270ce514d7ce0fd9dfbbfba7eff6a0d7c1bdb2d420e6b70df67045168de5cdc",
+      "bytes": 636989
+    },
+    "data/bo-006p0/specimens/BO006P0-01/paint-diagnostic.png": {
+      "sha256": "acb17c9e16d511967cb9008d115b80ecb119b978353c63f9357f851824075f1c",
+      "bytes": 690792
+    },
+    "data/bo-006p0/specimens/BO006P0-02/draft-board.jpg": {
+      "sha256": "543a992c9a6ab9f83d838055369876f596e94169d7581d0b78dc51598d7539ab",
+      "bytes": 142206
+    },
+    "data/bo-006p0/specimens/BO006P0-02/input.png": {
+      "sha256": "1523b304d9a027c07ec64cf9d69c919dbda4ff81df45e12e50b83c4e030647be",
+      "bytes": 76223
+    },
+    "data/bo-006p0/specimens/BO006P0-02/ortho-ctc-overlay.png": {
+      "sha256": "489678aabed473667c2d1ec8abf89e2220f62b43bb5db3cae0c41c263971f6d0",
+      "bytes": 231538
+    },
+    "data/bo-006p0/specimens/BO006P0-02/ortho.png": {
+      "sha256": "e11b7df66ebb581bfbb267b30702f725cb1ed7e77745fe2e1022134fa7c77b5f",
+      "bytes": 228359
+    },
+    "data/bo-006p0/specimens/BO006P0-02/paint-diagnostic.png": {
+      "sha256": "ab34d9858045792a9136ef4c321f42d2f4be4bd25794e0b258b9508fe358d4a9",
+      "bytes": 173576
+    },
+    "data/bo-006p0/specimens/BO006P0-03/draft-board.jpg": {
+      "sha256": "96be7f345649795c6c10e5ff6f538d51514ece2c0c7fce11220380816638ef3d",
+      "bytes": 127520
+    },
+    "data/bo-006p0/specimens/BO006P0-03/input.png": {
+      "sha256": "4bdc118b59408d775d4d5fd6d36e5d1c97bb0b7ca427fd2e3194b5b62bbdb5fc",
+      "bytes": 17141
+    },
+    "data/bo-006p0/specimens/BO006P0-03/ortho-ctc-overlay.png": {
+      "sha256": "688fbd8d0f208e80f133f97a6fa90dca0393f944f84670e4d72b29bc7c93b560",
+      "bytes": 71671
+    },
+    "data/bo-006p0/specimens/BO006P0-03/ortho.png": {
+      "sha256": "b4ad833b4b2741c457608bbb95bcaefd5526399c5b7b3ed184a2fc4187a77491",
+      "bytes": 70931
+    },
+    "data/bo-006p0/specimens/BO006P0-03/paint-diagnostic.png": {
+      "sha256": "dd29c5a05653390a93eb0769bedd361694ef07b132c1685a5ec7be8f120a7c91",
+      "bytes": 47375
+    },
+    "data/bo-006p0/specimens/BO006P0-04/draft-board.jpg": {
+      "sha256": "21b1ad97da58f8defaa01abb7453a08ecd6b3fc2131bd6d420cd09d7c526092b",
+      "bytes": 111348
+    },
+    "data/bo-006p0/specimens/BO006P0-04/input.png": {
+      "sha256": "08a4f6b2dd9e9730dcc902ca4df08b05fd850fbc7f8baac3b0e17eb510ed071f",
+      "bytes": 6880
+    },
+    "data/bo-006p0/specimens/BO006P0-04/ortho-ctc-overlay.png": {
+      "sha256": "8d14916df179ba029367b09b8b4772399e8d15852e1c83b1db3ba0e2d57b4a15",
+      "bytes": 27969
+    },
+    "data/bo-006p0/specimens/BO006P0-04/ortho.png": {
+      "sha256": "998ffaee78e10f19d1c08eabc82f0716e64f51626c9eebc8b094087545cfc0b9",
+      "bytes": 27609
+    },
+    "data/bo-006p0/specimens/BO006P0-04/paint-diagnostic.png": {
+      "sha256": "304261f5d11a1e9165acd6d36878cbffb488965de16ba176a61975b8d37b414d",
+      "bytes": 15592
+    },
+    "data/bo-006p0/specimens/BO006P0-05/draft-board.jpg": {
+      "sha256": "13015a6d696211b097747883b2e19dcaffc7fab804bb27c64636e6fcb74b51f4",
+      "bytes": 125807
+    },
+    "data/bo-006p0/specimens/BO006P0-05/input.png": {
+      "sha256": "b9fa28026ec316a3efaf5729413cf82f359b7e2dea5a395a6c49a058ea5c9f03",
+      "bytes": 19376
+    },
+    "data/bo-006p0/specimens/BO006P0-05/ortho-ctc-overlay.png": {
+      "sha256": "bec05a70b18914b94e6bdb38616a2cdab9fed902df0354d20a031c6ab5cb06b2",
+      "bytes": 76627
+    },
+    "data/bo-006p0/specimens/BO006P0-05/ortho.png": {
+      "sha256": "0f85f50d999f831fff2731c778c6d76f0d8cac3dd72ee489d68b05166518693d",
+      "bytes": 75467
+    },
+    "data/bo-006p0/specimens/BO006P0-05/paint-diagnostic.png": {
+      "sha256": "57b33f33a8f3484752cac001f41afd5b4eca5ebb10c69adad960ace8a1acda39",
+      "bytes": 55619
+    },
+    "data/bo-006p0/specimens/BO006P0-06/draft-board.jpg": {
+      "sha256": "1bc547b6d1a4f4766c5376869f67d7fbdd956e64008619bab030e26faebfa583",
+      "bytes": 124348
+    },
+    "data/bo-006p0/specimens/BO006P0-06/input.png": {
+      "sha256": "447888d87670408b6a1a1eb4a5253d4580ff5b6dd86ee644fcc891441ce801bc",
+      "bytes": 21915
+    },
+    "data/bo-006p0/specimens/BO006P0-06/ortho-ctc-overlay.png": {
+      "sha256": "b356c1299d8fe8de3744c08e44a3d1a2877e5125364cd45923f753c074d78848",
+      "bytes": 56676
+    },
+    "data/bo-006p0/specimens/BO006P0-06/ortho.png": {
+      "sha256": "c6018858799391381a42e62f40eb5203033f71e465870f5a6ab92be4ddc343cd",
+      "bytes": 55912
+    },
+    "data/bo-006p0/specimens/BO006P0-06/paint-diagnostic.png": {
+      "sha256": "bb95b546b6c531693d5705f9430ac3183c159243a27cc14c20bef4b0253a1640",
+      "bytes": 43250
+    },
+    "data/bo-006p0/specimens/BO006P0-07/draft-board.jpg": {
+      "sha256": "d93a4bcd1b8966d009e1eb3d2c249297bc2a6ae311b80a9f2bf578e793fe0393",
+      "bytes": 143791
+    },
+    "data/bo-006p0/specimens/BO006P0-07/input.png": {
+      "sha256": "fbf0ab9bb255dc641fee7ec1933091a0742d71def416c8db060c93da3e63eb8f",
+      "bytes": 27969
+    },
+    "data/bo-006p0/specimens/BO006P0-07/ortho-ctc-overlay.png": {
+      "sha256": "ad506c9b2c54978cd395369c4bc3e5d591aabf7db6defa66b8fb395c1f0518f7",
+      "bytes": 87880
+    },
+    "data/bo-006p0/specimens/BO006P0-07/ortho.png": {
+      "sha256": "aac5b0ca29cf7d11dad6f73d93b3269b740da5a2e0cd90947232fb895c9cc70d",
+      "bytes": 86502
+    },
+    "data/bo-006p0/specimens/BO006P0-07/paint-diagnostic.png": {
+      "sha256": "98dc10abfc5f22f0731c142ccfa970ecc8071792352f4e516b908baf0103656f",
+      "bytes": 64671
+    },
+    "data/bo-006p0/specimens/BO006P0-08/draft-board.jpg": {
+      "sha256": "2df9789126b367ee00b30cf9e40e07baa8e88da06745e253c7ed3fa78dba1f39",
+      "bytes": 123128
+    },
+    "data/bo-006p0/specimens/BO006P0-08/input.png": {
+      "sha256": "ed0b3135da3695a5b9f405a9ffbb835b9c696640059a462f89304f4bf1033075",
+      "bytes": 15406
+    },
+    "data/bo-006p0/specimens/BO006P0-08/ortho-ctc-overlay.png": {
+      "sha256": "0d9d84d9da8cb16c92bc26447fe1e7230cc0d10bf2898e1d37c85203faa3effa",
+      "bytes": 57759
+    },
+    "data/bo-006p0/specimens/BO006P0-08/ortho.png": {
+      "sha256": "97b88a22f752c2255c6f187e30450715283abc21260e56df43a499408bfc4d01",
+      "bytes": 57136
+    },
+    "data/bo-006p0/specimens/BO006P0-08/paint-diagnostic.png": {
+      "sha256": "fc633a420d5f3ad5d2e06c880734903d951afe902ccc7ec535bb022cf03e5172",
+      "bytes": 31877
+    },
+    "data/bo-006p0/specimens/BO006P0-09/draft-board.jpg": {
+      "sha256": "3f8b8e7b2f1bd1d9942e655b370dbb689e4b786c30f0817ab2ee7bae72d57b5e",
+      "bytes": 128688
+    },
+    "data/bo-006p0/specimens/BO006P0-09/input.png": {
+      "sha256": "e8751605f4017f6f5dc4d160d716a38a13fa122bcd12266aeb10c64db43cb05c",
+      "bytes": 18759
+    },
+    "data/bo-006p0/specimens/BO006P0-09/ortho-ctc-overlay.png": {
+      "sha256": "40271b654fcda7c86b3f7fcfe8232d2a9650f7e31352d10a9211424578b34cf2",
+      "bytes": 80610
+    },
+    "data/bo-006p0/specimens/BO006P0-09/ortho.png": {
+      "sha256": "3844339ec0d0bed039eb5042bdbc6c1cbd21a2df199e29183925726ce7334833",
+      "bytes": 79553
+    },
+    "data/bo-006p0/specimens/BO006P0-09/paint-diagnostic.png": {
+      "sha256": "e0d6c8515bc6722b684137c60b8af06b32a08ba1c91e33c0d10d0f81565915ff",
+      "bytes": 47443
+    },
+    "data/bo-006p0/specimens/BO006P0-10/draft-board.jpg": {
+      "sha256": "faaae58b358f8f90bd04cbf262d4d7f7796ce673b292a5eaa2d93a1b484fb96b",
+      "bytes": 120170
+    },
+    "data/bo-006p0/specimens/BO006P0-10/input.png": {
+      "sha256": "cdb51251d32b5c36970e52f84ba1c39c27ec366ec613830195bc428ed985641c",
+      "bytes": 12721
+    },
+    "data/bo-006p0/specimens/BO006P0-10/ortho-ctc-overlay.png": {
+      "sha256": "4873e76f6b2a6b1fd3650e03618069a90abbe3971c6bc6061a2082779b231d93",
+      "bytes": 45798
+    },
+    "data/bo-006p0/specimens/BO006P0-10/ortho.png": {
+      "sha256": "a7d73290ede5fea70f26df44aab707a08b483c877b26398c66f837babd7083e6",
+      "bytes": 45224
+    },
+    "data/bo-006p0/specimens/BO006P0-10/paint-diagnostic.png": {
+      "sha256": "6c0efc439c12571782a3b638683e3a25dbac800f5b030c12a86cf1a7a63d1917",
+      "bytes": 23551
+    },
+    "data/bo-006p0/specimens/BO006P0-11/draft-board.jpg": {
+      "sha256": "e724953a16f9e96b1e19017ced9317f1c4b582ed34762fbe4d04071a2987ffcb",
+      "bytes": 153327
+    },
+    "data/bo-006p0/specimens/BO006P0-11/input.png": {
+      "sha256": "4db7f58f322ea0e7113a9c99bcd8aee336bbae1b5b9669da239bf63ec471b319",
+      "bytes": 44884
+    },
+    "data/bo-006p0/specimens/BO006P0-11/ortho-ctc-overlay.png": {
+      "sha256": "cfd4ce888d2a0c82e315887191d54a296a392cf804c0d21e1996be6589f90c33",
+      "bytes": 184234
+    },
+    "data/bo-006p0/specimens/BO006P0-11/ortho.png": {
+      "sha256": "23d4f0a0f81838aee7a5d25ba112051747a79c3dcdc1c82e2b129e0e4ee562f7",
+      "bytes": 181942
+    },
+    "data/bo-006p0/specimens/BO006P0-11/paint-diagnostic.png": {
+      "sha256": "a44a26fbd02d7d2d9fa4848b89d96e9f30254c860b5b23295c44e726919aa57a",
+      "bytes": 139999
+    },
+    "data/bo-006p0/specimens/BO006P0-12/draft-board.jpg": {
+      "sha256": "18ff10e23abd3ceba31b4c1283d0247a9e92fb59ba931865845df30d27a5684f",
+      "bytes": 147234
+    },
+    "data/bo-006p0/specimens/BO006P0-12/input.png": {
+      "sha256": "6d21a1440efa3221a9e6d34ce00b9baaac7566480909b0580a95413229a1061f",
+      "bytes": 37962
+    },
+    "data/bo-006p0/specimens/BO006P0-12/ortho-ctc-overlay.png": {
+      "sha256": "1fbb96ddb23d053be03f95c2a5bea358769d83b47f60aa88819e3adfe6c4c348",
+      "bytes": 129522
+    },
+    "data/bo-006p0/specimens/BO006P0-12/ortho.png": {
+      "sha256": "83947c1d0a054ffa9581fe28f7c9126cd0ae82de4005ed4c658aeb9b6e757c77",
+      "bytes": 127522
+    },
+    "data/bo-006p0/specimens/BO006P0-12/paint-diagnostic.png": {
+      "sha256": "a6382a4c2dad30a82106395e212478aaa57eb35ae9e532b20170c7247d9a0292",
+      "bytes": 97734
+    },
+    "data/bo-006p0/specimens/BO006P0-13/draft-board.jpg": {
+      "sha256": "7b96a0fc464d30a145acc6f045fa9fd65886f98705c74f50d5e0352489ac2ff0",
+      "bytes": 103919
+    },
+    "data/bo-006p0/specimens/BO006P0-13/input.png": {
+      "sha256": "79a614e2193aa473b37ee2210727edde4d12aa332d8eeceb98eabf349682c71c",
+      "bytes": 5185
+    },
+    "data/bo-006p0/specimens/BO006P0-13/ortho-ctc-overlay.png": {
+      "sha256": "52279340ab9b6e622ceb21c4d8bfda5b294e3709b6d912d968287f75fda2140f",
+      "bytes": 25693
+    },
+    "data/bo-006p0/specimens/BO006P0-13/ortho.png": {
+      "sha256": "1b24ec4d37be81af15351d99705dfdc875699715b9457b3e0f672eb64a73e266",
+      "bytes": 25246
+    },
+    "data/bo-006p0/specimens/BO006P0-13/paint-diagnostic.png": {
+      "sha256": "12fc4ae6d90d8bcfa942fd5f2491f49b3b3536721cd01c11a1b12d22b6a76dc2",
+      "bytes": 16416
+    },
+    "data/bo-006p0/specimens/BO006P0-14/draft-board.jpg": {
+      "sha256": "628c267d59a478f7e58652f35f4e901dfd23c12eb7606296b26e047ad067c7f6",
+      "bytes": 108302
+    },
+    "data/bo-006p0/specimens/BO006P0-14/input.png": {
+      "sha256": "91c5ecc72645066b4016631cd04436c433208ec75eda23ab0bc8317b0132e317",
+      "bytes": 6551
+    },
+    "data/bo-006p0/specimens/BO006P0-14/ortho-ctc-overlay.png": {
+      "sha256": "9f26237665cc50ba67db50877ebf6123dc614c8789a10a7058fe3f8ca6117a7c",
+      "bytes": 24164
+    },
+    "data/bo-006p0/specimens/BO006P0-14/ortho.png": {
+      "sha256": "0da394e4a7641901908478786c3e9f31efcc492494cf9d385d165cb4d4e0ffe0",
+      "bytes": 23716
+    },
+    "data/bo-006p0/specimens/BO006P0-14/paint-diagnostic.png": {
+      "sha256": "cd205d48a585d9010045f84f2dc3a91c45ff0d38db2a6124bf8186367a160f04",
+      "bytes": 15054
+    },
+    "data/bo-006p0/specimens/BO006P0-15/draft-board.jpg": {
+      "sha256": "65b4345dae30fbd1bdffaa728d3cc73fbce4a18417c45dbb0d39098eed202f96",
+      "bytes": 113577
+    },
+    "data/bo-006p0/specimens/BO006P0-15/input.png": {
+      "sha256": "f1c068c7b4a961a5671e893cd06211ed2314ab95d767e540f3d115898cf0c2e4",
+      "bytes": 8185
+    },
+    "data/bo-006p0/specimens/BO006P0-15/ortho-ctc-overlay.png": {
+      "sha256": "342e97bfff7c02c453fa839f8ce6776479547809f3319dcaab3e38e939a8f466",
+      "bytes": 28109
+    },
+    "data/bo-006p0/specimens/BO006P0-15/ortho.png": {
+      "sha256": "52b954e8bf329b6009cc1d3b8ce52a7e3c01e2171868370011f688a1e3d5e70e",
+      "bytes": 27659
+    },
+    "data/bo-006p0/specimens/BO006P0-15/paint-diagnostic.png": {
+      "sha256": "c89d6141366e50234a370e077970bd50f71a809453b634903eb0bf725e95892b",
+      "bytes": 18135
+    },
+    "data/bo-006p0/specimens/BO006P0-16/draft-board.jpg": {
+      "sha256": "616f7ade5385bd4fc39f9e8ef055b8984d1cb1d6337745903457641f0bbd061b",
+      "bytes": 111049
+    },
+    "data/bo-006p0/specimens/BO006P0-16/input.png": {
+      "sha256": "d76dfa45a55faf7379e91875e81a4d927da497944d5aa2027f7cecfe7972559e",
+      "bytes": 14557
+    },
+    "data/bo-006p0/specimens/BO006P0-16/ortho-ctc-overlay.png": {
+      "sha256": "e34830c14cbc25a7e41f0e5d27c6e025a18d5881801faadbec2305c454d5ad7c",
+      "bytes": 71397
+    },
+    "data/bo-006p0/specimens/BO006P0-16/ortho.png": {
+      "sha256": "43a601bfe887523a5ea73d33ef5ff6dde0edf288c736741e8e97ac2c794aebb4",
+      "bytes": 70061
+    },
+    "data/bo-006p0/specimens/BO006P0-16/paint-diagnostic.png": {
+      "sha256": "ef0197abf5986523b679c08014472fc5c010d7e8e43887eac3c7986b6dfd60f3",
+      "bytes": 52028
+    },
+    "data/bo-006p0/specimens/BO006P0-17/draft-board.jpg": {
+      "sha256": "8dd9b07b913155bc4680862da9027e09642fe245f98a06ab67c34238f9ae9001",
+      "bytes": 115885
+    },
+    "data/bo-006p0/specimens/BO006P0-17/input.png": {
+      "sha256": "d064f980739b68f8f7e8a8083b02fb4e9eebec5bf8e66077fa41c65518b96efc",
+      "bytes": 11079
+    },
+    "data/bo-006p0/specimens/BO006P0-17/ortho-ctc-overlay.png": {
+      "sha256": "017c103e68aea2c2056638c74a2f2dcc04982f6a22f67025718efcf3effd009e",
+      "bytes": 30660
+    },
+    "data/bo-006p0/specimens/BO006P0-17/ortho.png": {
+      "sha256": "869b09b60016cf2e1a1e320bc91ee460399c96c75849e19e4d2a2fb6417719c0",
+      "bytes": 30191
+    },
+    "data/bo-006p0/specimens/BO006P0-17/paint-diagnostic.png": {
+      "sha256": "b1550cf73a18e04bb9f6933fbcb5c7a99228d89013d5910d5a422c49e50c54c5",
+      "bytes": 23634
+    },
+    "data/bo-006p0/specimens/BO006P0-18/draft-board.jpg": {
+      "sha256": "fa13eb35cc2fcf3d95955ac2782447ff62f5b6f6473663617416cce0a406dc99",
+      "bytes": 114310
+    },
+    "data/bo-006p0/specimens/BO006P0-18/input.png": {
+      "sha256": "f03d523e9b92d86f6ae856183a831dc87bea46c1e6176201dc68644a2f1a6dd9",
+      "bytes": 10777
+    },
+    "data/bo-006p0/specimens/BO006P0-18/ortho-ctc-overlay.png": {
+      "sha256": "53b9341357940f6a0cea99e48979b8a51c82fbe094c591ead672dbe441b5a7f7",
+      "bytes": 35223
+    },
+    "data/bo-006p0/specimens/BO006P0-18/ortho.png": {
+      "sha256": "4ba1d346f18bc1fa6a2741b7d7f645870cfa200eb4cffde8f0e681b918df7f75",
+      "bytes": 34686
+    },
+    "data/bo-006p0/specimens/BO006P0-18/paint-diagnostic.png": {
+      "sha256": "aa68b77ad312e4a90ce62675c40e67280675df37d8763818c35dadb6686d4f1c",
+      "bytes": 21001
+    },
+    "data/bo-006p0/specimens/BO006P0-19/draft-board.jpg": {
+      "sha256": "eeee68eb723d6093d5609fd4ad2ae18395ce2a5dc45df40c644a96ea8b8e2525",
+      "bytes": 140835
+    },
+    "data/bo-006p0/specimens/BO006P0-19/input.png": {
+      "sha256": "ad36c7ff9f334202010896d961c53ebbbf13e40bbf8a3ad6dc7d9413fad28e40",
+      "bytes": 59975
+    },
+    "data/bo-006p0/specimens/BO006P0-19/ortho-ctc-overlay.png": {
+      "sha256": "651e07cf9af777011b972b655b34caad8bd3570146431e00cdbccd4c133c0c7a",
+      "bytes": 112812
+    },
+    "data/bo-006p0/specimens/BO006P0-19/ortho.png": {
+      "sha256": "d70365d490f90b3c4fede429502e727438871802f19fcffabd1fcb378fee7c04",
+      "bytes": 110906
+    },
+    "data/bo-006p0/specimens/BO006P0-19/paint-diagnostic.png": {
+      "sha256": "0fd317091db105548f689a11ad210add8a9e0334514c9619334d00c500974d39",
+      "bytes": 158424
+    },
+    "data/bo-006p0/specimens/BO006P0-20/draft-board.jpg": {
+      "sha256": "937ffd087fb4791950c064802bc056b6687e8f949ad187696ec47d3a277b861f",
+      "bytes": 110054
+    },
+    "data/bo-006p0/specimens/BO006P0-20/input.png": {
+      "sha256": "e4b313773a3f8485a7405b129b0b232070237f23572e1d26b9683dffa20fc7ee",
+      "bytes": 8426
+    },
+    "data/bo-006p0/specimens/BO006P0-20/ortho-ctc-overlay.png": {
+      "sha256": "6b4af30b890844868d65fdff537b0b1337a6af77f4eba276f3d2595d13e30f90",
+      "bytes": 32165
+    },
+    "data/bo-006p0/specimens/BO006P0-20/ortho.png": {
+      "sha256": "1e770a7314d45cbac99a5e88277dd9fb5ee37d05452a6b3d7b5fdf68fe7d6255",
+      "bytes": 31715
+    },
+    "data/bo-006p0/specimens/BO006P0-20/paint-diagnostic.png": {
+      "sha256": "451a2fd1ce04754601d56b3bc5c4847fc940bd4af6d63ae151229316418702bb",
+      "bytes": 21168
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-01/draft-board.jpg": {
+      "sha256": "4bc8a40103d23be2928198a73755598360efd2b1450504f12ccfce3d5d37992d",
+      "bytes": 177473
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-01/input.png": {
+      "sha256": "5ac07c21500b0af6634824b64699889b766dff5cb280b8fdfcde5ec89c52aebb",
+      "bytes": 176089
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-01/ortho-ctc-overlay.png": {
+      "sha256": "6b594a158f5136ecd8b769eb288b143554b0ed059f371a904deebacd3775ba65",
+      "bytes": 646274
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-01/ortho.png": {
+      "sha256": "b270ce514d7ce0fd9dfbbfba7eff6a0d7c1bdb2d420e6b70df67045168de5cdc",
+      "bytes": 636989
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-01/paint-diagnostic.png": {
+      "sha256": "acb17c9e16d511967cb9008d115b80ecb119b978353c63f9357f851824075f1c",
+      "bytes": 690792
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-02/draft-board.jpg": {
+      "sha256": "2229dee1957d5893598bd9ffcbd1992af87be140630fd83c1473465961fe245d",
+      "bytes": 142180
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-02/input.png": {
+      "sha256": "1523b304d9a027c07ec64cf9d69c919dbda4ff81df45e12e50b83c4e030647be",
+      "bytes": 76223
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-02/ortho-ctc-overlay.png": {
+      "sha256": "489678aabed473667c2d1ec8abf89e2220f62b43bb5db3cae0c41c263971f6d0",
+      "bytes": 231538
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-02/ortho.png": {
+      "sha256": "e11b7df66ebb581bfbb267b30702f725cb1ed7e77745fe2e1022134fa7c77b5f",
+      "bytes": 228359
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-02/paint-diagnostic.png": {
+      "sha256": "ab34d9858045792a9136ef4c321f42d2f4be4bd25794e0b258b9508fe358d4a9",
+      "bytes": 173576
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-03/draft-board.jpg": {
+      "sha256": "c438b9069f497d0810012de90ed8227f71179b627b424faecfc4f7db87589f55",
+      "bytes": 127645
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-03/input.png": {
+      "sha256": "4bdc118b59408d775d4d5fd6d36e5d1c97bb0b7ca427fd2e3194b5b62bbdb5fc",
+      "bytes": 17141
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-03/ortho-ctc-overlay.png": {
+      "sha256": "688fbd8d0f208e80f133f97a6fa90dca0393f944f84670e4d72b29bc7c93b560",
+      "bytes": 71671
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-03/ortho.png": {
+      "sha256": "b4ad833b4b2741c457608bbb95bcaefd5526399c5b7b3ed184a2fc4187a77491",
+      "bytes": 70931
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-03/paint-diagnostic.png": {
+      "sha256": "dd29c5a05653390a93eb0769bedd361694ef07b132c1685a5ec7be8f120a7c91",
+      "bytes": 47375
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-04/draft-board.jpg": {
+      "sha256": "80ccb5a925068537d796f57b2d6ef05e0eb950957e4e4b65f5e9ff9045410cb8",
+      "bytes": 149188
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-04/input.png": {
+      "sha256": "b5b0830d76341768d91f41b5b92d6177ba95ddaf9cb2374fe7a163ac224bb22c",
+      "bytes": 34837
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-04/ortho-ctc-overlay.png": {
+      "sha256": "d18fbfa67bd6b3193cd4245cdebc9d66d531ac259d60a59b6141a0a95ab90907",
+      "bytes": 166383
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-04/ortho.png": {
+      "sha256": "ae393f404025e9eb10023bc67ef597a68382b0bad347cdfbd669fab51d855e0d",
+      "bytes": 164574
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-04/paint-diagnostic.png": {
+      "sha256": "2aac9be9b9d20e3e3a68b0094ccab9f7e1d05ee1efe1986215c685f09ca2391a",
+      "bytes": 108458
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-05/draft-board.jpg": {
+      "sha256": "56d7e996dd2de6cdeed12f4b448918bf7983f8ba26bab31518b1905c580e74c9",
+      "bytes": 124303
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-05/input.png": {
+      "sha256": "447888d87670408b6a1a1eb4a5253d4580ff5b6dd86ee644fcc891441ce801bc",
+      "bytes": 21915
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-05/ortho-ctc-overlay.png": {
+      "sha256": "b356c1299d8fe8de3744c08e44a3d1a2877e5125364cd45923f753c074d78848",
+      "bytes": 56676
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-05/ortho.png": {
+      "sha256": "c6018858799391381a42e62f40eb5203033f71e465870f5a6ab92be4ddc343cd",
+      "bytes": 55912
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-05/paint-diagnostic.png": {
+      "sha256": "bb95b546b6c531693d5705f9430ac3183c159243a27cc14c20bef4b0253a1640",
+      "bytes": 43250
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-06/draft-board.jpg": {
+      "sha256": "1ab75000d43c385c6f7986811566bef0f404b2ff3e5adb87aaece9c5ac9f5d8e",
+      "bytes": 117878
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-06/input.png": {
+      "sha256": "193203d7c7408b9cb0338158b48b9ea91f78634cfdf42d12aafc4836b4f93bcf",
+      "bytes": 11118
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-06/ortho-ctc-overlay.png": {
+      "sha256": "2691d588088165462b0ea0af60c98a70a71acbcc38e8306a0c4a8223d6cb7a34",
+      "bytes": 36774
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-06/ortho.png": {
+      "sha256": "658037e2708871ad912bd32615934f140436b69279ce7d90024dbb25eae88565",
+      "bytes": 36270
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-06/paint-diagnostic.png": {
+      "sha256": "3a5554808e48e9f95cee35a1ae4cfbe9e5a857d6587925029fe5860b59f19948",
+      "bytes": 22101
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-07/draft-board.jpg": {
+      "sha256": "ac10dec493f389cbd95afb657d05781bd26f9382ff9da33c59b8fceada93e064",
+      "bytes": 123083
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-07/input.png": {
+      "sha256": "ed0b3135da3695a5b9f405a9ffbb835b9c696640059a462f89304f4bf1033075",
+      "bytes": 15406
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-07/ortho-ctc-overlay.png": {
+      "sha256": "0d9d84d9da8cb16c92bc26447fe1e7230cc0d10bf2898e1d37c85203faa3effa",
+      "bytes": 57759
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-07/ortho.png": {
+      "sha256": "97b88a22f752c2255c6f187e30450715283abc21260e56df43a499408bfc4d01",
+      "bytes": 57136
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-07/paint-diagnostic.png": {
+      "sha256": "fc633a420d5f3ad5d2e06c880734903d951afe902ccc7ec535bb022cf03e5172",
+      "bytes": 31877
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-08/draft-board.jpg": {
+      "sha256": "e848de6ef99fa6f10761ce674bdedf3628837cbdf10446dd45fc7051aa84826f",
+      "bytes": 137085
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-08/input.png": {
+      "sha256": "dd112d08bd56e326f93344d10d7670b058cefd9c91516e576d507ef5bc470126",
+      "bytes": 17551
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-08/ortho-ctc-overlay.png": {
+      "sha256": "2188ad0bf059c2f3284fdc76b800041a1d519d9b4174d43743691929805845bf",
+      "bytes": 55747
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-08/ortho.png": {
+      "sha256": "b675ac2f64f4a73970afd4ec3f71e281edc1988f44de2767da17bb0cf4d2ce29",
+      "bytes": 55052
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-08/paint-diagnostic.png": {
+      "sha256": "6066ee332c7526b81487ab3fd45c148a3ffabf3da7762f0adbc0e88e0d39f42b",
+      "bytes": 39659
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-09/draft-board.jpg": {
+      "sha256": "6d52cf4a94562602b78b93fc7c37db58d87212dbb0be197339164dbc3ceb5378",
+      "bytes": 128743
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-09/input.png": {
+      "sha256": "e8751605f4017f6f5dc4d160d716a38a13fa122bcd12266aeb10c64db43cb05c",
+      "bytes": 18759
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-09/ortho-ctc-overlay.png": {
+      "sha256": "40271b654fcda7c86b3f7fcfe8232d2a9650f7e31352d10a9211424578b34cf2",
+      "bytes": 80610
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-09/ortho.png": {
+      "sha256": "3844339ec0d0bed039eb5042bdbc6c1cbd21a2df199e29183925726ce7334833",
+      "bytes": 79553
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-09/paint-diagnostic.png": {
+      "sha256": "e0d6c8515bc6722b684137c60b8af06b32a08ba1c91e33c0d10d0f81565915ff",
+      "bytes": 47443
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-10/draft-board.jpg": {
+      "sha256": "e321342c03162e419b9fda7f40c39e8ab154ebff3671d755e606fe9d14c051a4",
+      "bytes": 135426
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-10/input.png": {
+      "sha256": "e216c599794d9d3c91b9e046985c476ce6ca273d9feb41813cd1a80cd2a85df3",
+      "bytes": 28967
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-10/ortho-ctc-overlay.png": {
+      "sha256": "7fbf48a0586ef6a1cf32742b753c547e2d2be8235b4f3961250662fb9278b0a6",
+      "bytes": 106671
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-10/ortho.png": {
+      "sha256": "b5eef31627fb076be0766b6d1cf63f4b67a51ac4bb88ebb36b3703db7924755d",
+      "bytes": 105575
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-10/paint-diagnostic.png": {
+      "sha256": "ed521df33f65473237b3d3b398f42e2c4c19b706ee0fa96f98b1ce5038bdcb21",
+      "bytes": 67356
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-11/draft-board.jpg": {
+      "sha256": "3d0912206ec7ce10893c01541cd30ef2d6ef43a59463853e000b5ea96c134b15",
+      "bytes": 153488
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-11/input.png": {
+      "sha256": "4db7f58f322ea0e7113a9c99bcd8aee336bbae1b5b9669da239bf63ec471b319",
+      "bytes": 44884
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-11/ortho-ctc-overlay.png": {
+      "sha256": "cfd4ce888d2a0c82e315887191d54a296a392cf804c0d21e1996be6589f90c33",
+      "bytes": 184234
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-11/ortho.png": {
+      "sha256": "23d4f0a0f81838aee7a5d25ba112051747a79c3dcdc1c82e2b129e0e4ee562f7",
+      "bytes": 181942
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-11/paint-diagnostic.png": {
+      "sha256": "a44a26fbd02d7d2d9fa4848b89d96e9f30254c860b5b23295c44e726919aa57a",
+      "bytes": 139999
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-12/draft-board.jpg": {
+      "sha256": "e3f79d3fe97e867cc663bf5d33d98170cced9b2874d20ded309d656b6f3f8f62",
+      "bytes": 147249
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-12/input.png": {
+      "sha256": "6d21a1440efa3221a9e6d34ce00b9baaac7566480909b0580a95413229a1061f",
+      "bytes": 37962
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-12/ortho-ctc-overlay.png": {
+      "sha256": "1fbb96ddb23d053be03f95c2a5bea358769d83b47f60aa88819e3adfe6c4c348",
+      "bytes": 129522
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-12/ortho.png": {
+      "sha256": "83947c1d0a054ffa9581fe28f7c9126cd0ae82de4005ed4c658aeb9b6e757c77",
+      "bytes": 127522
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-12/paint-diagnostic.png": {
+      "sha256": "a6382a4c2dad30a82106395e212478aaa57eb35ae9e532b20170c7247d9a0292",
+      "bytes": 97734
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-13/draft-board.jpg": {
+      "sha256": "6e81f1c3d7f108e631e508a3f9d2a68a79d8845c927595cc3bc740786c1343ac",
+      "bytes": 103838
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-13/input.png": {
+      "sha256": "79a614e2193aa473b37ee2210727edde4d12aa332d8eeceb98eabf349682c71c",
+      "bytes": 5185
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-13/ortho-ctc-overlay.png": {
+      "sha256": "52279340ab9b6e622ceb21c4d8bfda5b294e3709b6d912d968287f75fda2140f",
+      "bytes": 25693
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-13/ortho.png": {
+      "sha256": "1b24ec4d37be81af15351d99705dfdc875699715b9457b3e0f672eb64a73e266",
+      "bytes": 25246
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-13/paint-diagnostic.png": {
+      "sha256": "12fc4ae6d90d8bcfa942fd5f2491f49b3b3536721cd01c11a1b12d22b6a76dc2",
+      "bytes": 16416
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-14/draft-board.jpg": {
+      "sha256": "a715bfd04000a5a93b2f68af6c8c5724f8d2a98a5883b6c0fc9ce10419b5916b",
+      "bytes": 108285
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-14/input.png": {
+      "sha256": "91c5ecc72645066b4016631cd04436c433208ec75eda23ab0bc8317b0132e317",
+      "bytes": 6551
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-14/ortho-ctc-overlay.png": {
+      "sha256": "9f26237665cc50ba67db50877ebf6123dc614c8789a10a7058fe3f8ca6117a7c",
+      "bytes": 24164
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-14/ortho.png": {
+      "sha256": "0da394e4a7641901908478786c3e9f31efcc492494cf9d385d165cb4d4e0ffe0",
+      "bytes": 23716
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-14/paint-diagnostic.png": {
+      "sha256": "cd205d48a585d9010045f84f2dc3a91c45ff0d38db2a6124bf8186367a160f04",
+      "bytes": 15054
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-15/draft-board.jpg": {
+      "sha256": "6a42b7c78f11c6240ca52dd6b8d11fec9d6046cfe376f14c906efc84aebc08ef",
+      "bytes": 113530
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-15/input.png": {
+      "sha256": "f1c068c7b4a961a5671e893cd06211ed2314ab95d767e540f3d115898cf0c2e4",
+      "bytes": 8185
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-15/ortho-ctc-overlay.png": {
+      "sha256": "342e97bfff7c02c453fa839f8ce6776479547809f3319dcaab3e38e939a8f466",
+      "bytes": 28109
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-15/ortho.png": {
+      "sha256": "52b954e8bf329b6009cc1d3b8ce52a7e3c01e2171868370011f688a1e3d5e70e",
+      "bytes": 27659
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-15/paint-diagnostic.png": {
+      "sha256": "c89d6141366e50234a370e077970bd50f71a809453b634903eb0bf725e95892b",
+      "bytes": 18135
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-16/draft-board.jpg": {
+      "sha256": "170a957ad4138aa8ea74ee9189938e4d54c628d1505b5eec912691a4e679adf3",
+      "bytes": 108216
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-16/input.png": {
+      "sha256": "fa7d8ff4ae7212d9588e21ad68a4528139e01d056d49e03cb7a50f102f1767b3",
+      "bytes": 6807
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-16/ortho-ctc-overlay.png": {
+      "sha256": "27d52993d1eeb1e0f9f3a14d99b1d289d32fcb69123a28df26a4a1612a1c3c99",
+      "bytes": 25625
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-16/ortho.png": {
+      "sha256": "6fd1fb245a044f11ae9b532e045c4a7979c9e05b4becf5b3a88b44c142d656eb",
+      "bytes": 25130
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-16/paint-diagnostic.png": {
+      "sha256": "62074e880f12cde343c2f4c5b369e6b374f7e08817d39caf561b361d13f947b5",
+      "bytes": 15638
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-17/draft-board.jpg": {
+      "sha256": "efbaa95e98a3d5ce771552b50da9a43b4a9f7bb36176838ec6d94f02fd171c4b",
+      "bytes": 111024
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-17/input.png": {
+      "sha256": "d76dfa45a55faf7379e91875e81a4d927da497944d5aa2027f7cecfe7972559e",
+      "bytes": 14557
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-17/ortho-ctc-overlay.png": {
+      "sha256": "e34830c14cbc25a7e41f0e5d27c6e025a18d5881801faadbec2305c454d5ad7c",
+      "bytes": 71397
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-17/ortho.png": {
+      "sha256": "43a601bfe887523a5ea73d33ef5ff6dde0edf288c736741e8e97ac2c794aebb4",
+      "bytes": 70061
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-17/paint-diagnostic.png": {
+      "sha256": "ef0197abf5986523b679c08014472fc5c010d7e8e43887eac3c7986b6dfd60f3",
+      "bytes": 52028
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-18/draft-board.jpg": {
+      "sha256": "a3ee8f35ab63bdad170faa8caa2406543d2416f1f700a586062878116dda0933",
+      "bytes": 115919
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-18/input.png": {
+      "sha256": "d064f980739b68f8f7e8a8083b02fb4e9eebec5bf8e66077fa41c65518b96efc",
+      "bytes": 11079
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-18/ortho-ctc-overlay.png": {
+      "sha256": "017c103e68aea2c2056638c74a2f2dcc04982f6a22f67025718efcf3effd009e",
+      "bytes": 30660
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-18/ortho.png": {
+      "sha256": "869b09b60016cf2e1a1e320bc91ee460399c96c75849e19e4d2a2fb6417719c0",
+      "bytes": 30191
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-18/paint-diagnostic.png": {
+      "sha256": "b1550cf73a18e04bb9f6933fbcb5c7a99228d89013d5910d5a422c49e50c54c5",
+      "bytes": 23634
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-19/draft-board.jpg": {
+      "sha256": "7986d698df919f906af8517bf71624845930084a8dd3a826936a4d672c1bda24",
+      "bytes": 119138
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-19/input.png": {
+      "sha256": "13ea32223c1441764b5b681e4e11a37a3bd0b4fa39f8e71463c94b45d145a097",
+      "bytes": 11798
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-19/ortho-ctc-overlay.png": {
+      "sha256": "ce72f7d21afc6d4a0fa3200fa4ddb3721dec9ca7d67a2e2ae58763bdef27cbf2",
+      "bytes": 44344
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-19/ortho.png": {
+      "sha256": "0400200547c6bff0bfe7d62153a03b7c43e4165f34f531ac7bb2eb3151e63754",
+      "bytes": 43761
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-19/paint-diagnostic.png": {
+      "sha256": "26f18340b147666bd6b26e21f4a892fc2f0592aed959c3c52f1c99a297cc2408",
+      "bytes": 26450
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-20/draft-board.jpg": {
+      "sha256": "95f0e179c0c5a7c48ea598bcb125728fb79dca24ccb107c5977f2c0602ec0aa4",
+      "bytes": 114310
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-20/input.png": {
+      "sha256": "f03d523e9b92d86f6ae856183a831dc87bea46c1e6176201dc68644a2f1a6dd9",
+      "bytes": 10777
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-20/ortho-ctc-overlay.png": {
+      "sha256": "53b9341357940f6a0cea99e48979b8a51c82fbe094c591ead672dbe441b5a7f7",
+      "bytes": 35223
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-20/ortho.png": {
+      "sha256": "4ba1d346f18bc1fa6a2741b7d7f645870cfa200eb4cffde8f0e681b918df7f75",
+      "bytes": 34686
+    },
+    "data/bo-006p0/specimens-v3/BO006P0-20/paint-diagnostic.png": {
+      "sha256": "aa68b77ad312e4a90ce62675c40e67280675df37d8763818c35dadb6686d4f1c",
+      "bytes": 21001
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/draft-board.jpg": {
+      "sha256": "4bc8a40103d23be2928198a73755598360efd2b1450504f12ccfce3d5d37992d",
+      "bytes": 177473
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/input.png": {
+      "sha256": "5ac07c21500b0af6634824b64699889b766dff5cb280b8fdfcde5ec89c52aebb",
+      "bytes": 176089
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/ortho-ctc-overlay.png": {
+      "sha256": "6b594a158f5136ecd8b769eb288b143554b0ed059f371a904deebacd3775ba65",
+      "bytes": 646274
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/ortho.png": {
+      "sha256": "b270ce514d7ce0fd9dfbbfba7eff6a0d7c1bdb2d420e6b70df67045168de5cdc",
+      "bytes": 636989
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/paint-diagnostic.png": {
+      "sha256": "acb17c9e16d511967cb9008d115b80ecb119b978353c63f9357f851824075f1c",
+      "bytes": 690792
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/provenance.json": {
+      "sha256": "254b2c0a3499a61003513693c790a092186d37ea9a912db0892f0a5d2294cfb0",
+      "bytes": 2626
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-01/review-board.jpg": {
+      "sha256": "ed41323978a5bd736aa185983b785de67877fb09bfb23afc7f4ec79839fb3613",
+      "bytes": 177350
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/draft-board.jpg": {
+      "sha256": "2229dee1957d5893598bd9ffcbd1992af87be140630fd83c1473465961fe245d",
+      "bytes": 142180
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/input.png": {
+      "sha256": "1523b304d9a027c07ec64cf9d69c919dbda4ff81df45e12e50b83c4e030647be",
+      "bytes": 76223
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/ortho-ctc-overlay.png": {
+      "sha256": "489678aabed473667c2d1ec8abf89e2220f62b43bb5db3cae0c41c263971f6d0",
+      "bytes": 231538
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/ortho.png": {
+      "sha256": "e11b7df66ebb581bfbb267b30702f725cb1ed7e77745fe2e1022134fa7c77b5f",
+      "bytes": 228359
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/paint-diagnostic.png": {
+      "sha256": "ab34d9858045792a9136ef4c321f42d2f4be4bd25794e0b258b9508fe358d4a9",
+      "bytes": 173576
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/provenance.json": {
+      "sha256": "86175f33e423d10d5bf43376340fdbff2f27b94857f2c142b71c7ca86037ebed",
+      "bytes": 2585
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-02/review-board.jpg": {
+      "sha256": "f93f350f95d727a5e951d0422d4b31f8070f70d93a33eab9e8e5836aa37963f4",
+      "bytes": 141979
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/draft-board.jpg": {
+      "sha256": "c438b9069f497d0810012de90ed8227f71179b627b424faecfc4f7db87589f55",
+      "bytes": 127645
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/input.png": {
+      "sha256": "4bdc118b59408d775d4d5fd6d36e5d1c97bb0b7ca427fd2e3194b5b62bbdb5fc",
+      "bytes": 17141
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/ortho-ctc-overlay.png": {
+      "sha256": "688fbd8d0f208e80f133f97a6fa90dca0393f944f84670e4d72b29bc7c93b560",
+      "bytes": 71671
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/ortho.png": {
+      "sha256": "b4ad833b4b2741c457608bbb95bcaefd5526399c5b7b3ed184a2fc4187a77491",
+      "bytes": 70931
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/paint-diagnostic.png": {
+      "sha256": "dd29c5a05653390a93eb0769bedd361694ef07b132c1685a5ec7be8f120a7c91",
+      "bytes": 47375
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/provenance.json": {
+      "sha256": "5b5a111fc34e4aba6e01dfa5b878658ac1f7d688635b11aa811644a14f035466",
+      "bytes": 2567
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-03/review-board.jpg": {
+      "sha256": "a76cc1d55449e4193359f2ac3736a18fd38537066ed387629756add165d1743a",
+      "bytes": 127099
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/draft-board.jpg": {
+      "sha256": "80ccb5a925068537d796f57b2d6ef05e0eb950957e4e4b65f5e9ff9045410cb8",
+      "bytes": 149188
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/input.png": {
+      "sha256": "b5b0830d76341768d91f41b5b92d6177ba95ddaf9cb2374fe7a163ac224bb22c",
+      "bytes": 34837
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/ortho-ctc-overlay.png": {
+      "sha256": "d18fbfa67bd6b3193cd4245cdebc9d66d531ac259d60a59b6141a0a95ab90907",
+      "bytes": 166383
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/ortho.png": {
+      "sha256": "ae393f404025e9eb10023bc67ef597a68382b0bad347cdfbd669fab51d855e0d",
+      "bytes": 164574
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/paint-diagnostic.png": {
+      "sha256": "2aac9be9b9d20e3e3a68b0094ccab9f7e1d05ee1efe1986215c685f09ca2391a",
+      "bytes": 108458
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/provenance.json": {
+      "sha256": "5a85f00a39c1b8e953272473cef85500add6dbdd8e3b30ac4715976eee38b00e",
+      "bytes": 2561
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-04/review-board.jpg": {
+      "sha256": "4ebb9af86cc9c1a156f124b8f0591dd55fd6e0b9fc16bf6258b2fd3908620e96",
+      "bytes": 149272
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/draft-board.jpg": {
+      "sha256": "56d7e996dd2de6cdeed12f4b448918bf7983f8ba26bab31518b1905c580e74c9",
+      "bytes": 124303
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/input.png": {
+      "sha256": "447888d87670408b6a1a1eb4a5253d4580ff5b6dd86ee644fcc891441ce801bc",
+      "bytes": 21915
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/ortho-ctc-overlay.png": {
+      "sha256": "b356c1299d8fe8de3744c08e44a3d1a2877e5125364cd45923f753c074d78848",
+      "bytes": 56676
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/ortho.png": {
+      "sha256": "c6018858799391381a42e62f40eb5203033f71e465870f5a6ab92be4ddc343cd",
+      "bytes": 55912
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/paint-diagnostic.png": {
+      "sha256": "bb95b546b6c531693d5705f9430ac3183c159243a27cc14c20bef4b0253a1640",
+      "bytes": 43250
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/provenance.json": {
+      "sha256": "18810b44de85e324cdc1f3a43aba4a2c144852273738d991a0e1a444c672e456",
+      "bytes": 2556
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-05/review-board.jpg": {
+      "sha256": "56d7e996dd2de6cdeed12f4b448918bf7983f8ba26bab31518b1905c580e74c9",
+      "bytes": 124303
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/draft-board.jpg": {
+      "sha256": "1ab75000d43c385c6f7986811566bef0f404b2ff3e5adb87aaece9c5ac9f5d8e",
+      "bytes": 117878
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/input.png": {
+      "sha256": "193203d7c7408b9cb0338158b48b9ea91f78634cfdf42d12aafc4836b4f93bcf",
+      "bytes": 11118
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/ortho-ctc-overlay.png": {
+      "sha256": "2691d588088165462b0ea0af60c98a70a71acbcc38e8306a0c4a8223d6cb7a34",
+      "bytes": 36774
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/ortho.png": {
+      "sha256": "658037e2708871ad912bd32615934f140436b69279ce7d90024dbb25eae88565",
+      "bytes": 36270
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/paint-diagnostic.png": {
+      "sha256": "3a5554808e48e9f95cee35a1ae4cfbe9e5a857d6587925029fe5860b59f19948",
+      "bytes": 22101
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/provenance.json": {
+      "sha256": "26f9c221276f0661bfe360acc23d128db6c5bd3180cac370c12e8e162817f6f6",
+      "bytes": 2560
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-06/review-board.jpg": {
+      "sha256": "1ab75000d43c385c6f7986811566bef0f404b2ff3e5adb87aaece9c5ac9f5d8e",
+      "bytes": 117878
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/draft-board.jpg": {
+      "sha256": "ac10dec493f389cbd95afb657d05781bd26f9382ff9da33c59b8fceada93e064",
+      "bytes": 123083
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/input.png": {
+      "sha256": "ed0b3135da3695a5b9f405a9ffbb835b9c696640059a462f89304f4bf1033075",
+      "bytes": 15406
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/ortho-ctc-overlay.png": {
+      "sha256": "0d9d84d9da8cb16c92bc26447fe1e7230cc0d10bf2898e1d37c85203faa3effa",
+      "bytes": 57759
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/ortho.png": {
+      "sha256": "97b88a22f752c2255c6f187e30450715283abc21260e56df43a499408bfc4d01",
+      "bytes": 57136
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/paint-diagnostic.png": {
+      "sha256": "fc633a420d5f3ad5d2e06c880734903d951afe902ccc7ec535bb022cf03e5172",
+      "bytes": 31877
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/provenance.json": {
+      "sha256": "7598d64cc153e34d970402031e084ff8a475bfbd6c11f9d8bd5066ba7578ff2a",
+      "bytes": 2611
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-07/review-board.jpg": {
+      "sha256": "8022f48427ac914e71a87901dc613e0c28cf058c00e46e5af9885c87fda5e527",
+      "bytes": 123446
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/draft-board.jpg": {
+      "sha256": "e848de6ef99fa6f10761ce674bdedf3628837cbdf10446dd45fc7051aa84826f",
+      "bytes": 137085
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/input.png": {
+      "sha256": "dd112d08bd56e326f93344d10d7670b058cefd9c91516e576d507ef5bc470126",
+      "bytes": 17551
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/ortho-ctc-overlay.png": {
+      "sha256": "2188ad0bf059c2f3284fdc76b800041a1d519d9b4174d43743691929805845bf",
+      "bytes": 55747
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/ortho.png": {
+      "sha256": "b675ac2f64f4a73970afd4ec3f71e281edc1988f44de2767da17bb0cf4d2ce29",
+      "bytes": 55052
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/paint-diagnostic.png": {
+      "sha256": "6066ee332c7526b81487ab3fd45c148a3ffabf3da7762f0adbc0e88e0d39f42b",
+      "bytes": 39659
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/provenance.json": {
+      "sha256": "712a5e48767e640eb02fc43a540b95b3fdf3b794ed90b282d0f5ac366359b490",
+      "bytes": 2576
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-08/review-board.jpg": {
+      "sha256": "b950cc74024b0aaa4bf010a2f83577afbe48fa7db0d48e407d74f711cd9040c5",
+      "bytes": 137139
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/draft-board.jpg": {
+      "sha256": "6d52cf4a94562602b78b93fc7c37db58d87212dbb0be197339164dbc3ceb5378",
+      "bytes": 128743
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/input.png": {
+      "sha256": "e8751605f4017f6f5dc4d160d716a38a13fa122bcd12266aeb10c64db43cb05c",
+      "bytes": 18759
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/ortho-ctc-overlay.png": {
+      "sha256": "40271b654fcda7c86b3f7fcfe8232d2a9650f7e31352d10a9211424578b34cf2",
+      "bytes": 80610
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/ortho.png": {
+      "sha256": "3844339ec0d0bed039eb5042bdbc6c1cbd21a2df199e29183925726ce7334833",
+      "bytes": 79553
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/paint-diagnostic.png": {
+      "sha256": "e0d6c8515bc6722b684137c60b8af06b32a08ba1c91e33c0d10d0f81565915ff",
+      "bytes": 47443
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/provenance.json": {
+      "sha256": "cbb58196c9aee8bb43425cf129ddf94e819f974c5d9f0e0827a74623cb30e66c",
+      "bytes": 2574
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-09/review-board.jpg": {
+      "sha256": "5845ac71ab213fd73a0fac4826073b317849315cf5efc75226f1dc5f04c03bfb",
+      "bytes": 128735
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/draft-board.jpg": {
+      "sha256": "e321342c03162e419b9fda7f40c39e8ab154ebff3671d755e606fe9d14c051a4",
+      "bytes": 135426
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/input.png": {
+      "sha256": "e216c599794d9d3c91b9e046985c476ce6ca273d9feb41813cd1a80cd2a85df3",
+      "bytes": 28967
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/ortho-ctc-overlay.png": {
+      "sha256": "7fbf48a0586ef6a1cf32742b753c547e2d2be8235b4f3961250662fb9278b0a6",
+      "bytes": 106671
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/ortho.png": {
+      "sha256": "b5eef31627fb076be0766b6d1cf63f4b67a51ac4bb88ebb36b3703db7924755d",
+      "bytes": 105575
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/paint-diagnostic.png": {
+      "sha256": "ed521df33f65473237b3d3b398f42e2c4c19b706ee0fa96f98b1ce5038bdcb21",
+      "bytes": 67356
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/provenance.json": {
+      "sha256": "10f577b60f0b36d2994f976ddad87f383f0c76f5cded18504e25831878463992",
+      "bytes": 2572
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-10/review-board.jpg": {
+      "sha256": "2d81e77a01273c724245af5be92219996699a14e86c5768b25c00025ae59a12a",
+      "bytes": 135520
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/draft-board.jpg": {
+      "sha256": "3d0912206ec7ce10893c01541cd30ef2d6ef43a59463853e000b5ea96c134b15",
+      "bytes": 153488
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/input.png": {
+      "sha256": "4db7f58f322ea0e7113a9c99bcd8aee336bbae1b5b9669da239bf63ec471b319",
+      "bytes": 44884
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/ortho-ctc-overlay.png": {
+      "sha256": "cfd4ce888d2a0c82e315887191d54a296a392cf804c0d21e1996be6589f90c33",
+      "bytes": 184234
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/ortho.png": {
+      "sha256": "23d4f0a0f81838aee7a5d25ba112051747a79c3dcdc1c82e2b129e0e4ee562f7",
+      "bytes": 181942
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/paint-diagnostic.png": {
+      "sha256": "a44a26fbd02d7d2d9fa4848b89d96e9f30254c860b5b23295c44e726919aa57a",
+      "bytes": 139999
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/provenance.json": {
+      "sha256": "5fdb469a4d365cfbdbfd70cbddbd14139ea14b195edf4652b34dc709aa083d17",
+      "bytes": 2602
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-11/review-board.jpg": {
+      "sha256": "0067bbd4b37ec1536b6267875dacb78cb15e304a09dbc844cd057c1c04b200dc",
+      "bytes": 153123
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/draft-board.jpg": {
+      "sha256": "e3f79d3fe97e867cc663bf5d33d98170cced9b2874d20ded309d656b6f3f8f62",
+      "bytes": 147249
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/input.png": {
+      "sha256": "6d21a1440efa3221a9e6d34ce00b9baaac7566480909b0580a95413229a1061f",
+      "bytes": 37962
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/ortho-ctc-overlay.png": {
+      "sha256": "1fbb96ddb23d053be03f95c2a5bea358769d83b47f60aa88819e3adfe6c4c348",
+      "bytes": 129522
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/ortho.png": {
+      "sha256": "83947c1d0a054ffa9581fe28f7c9126cd0ae82de4005ed4c658aeb9b6e757c77",
+      "bytes": 127522
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/paint-diagnostic.png": {
+      "sha256": "a6382a4c2dad30a82106395e212478aaa57eb35ae9e532b20170c7247d9a0292",
+      "bytes": 97734
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/provenance.json": {
+      "sha256": "700335800d6dc64afa503e4fdfc15ef83b2296249f0dd3bbd91e10e4f2ce57de",
+      "bytes": 2565
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-12/review-board.jpg": {
+      "sha256": "7a819ed6713dc731836ab2b57461133028faf261de601bdfaad43b96c81c0c48",
+      "bytes": 147324
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/draft-board.jpg": {
+      "sha256": "6e81f1c3d7f108e631e508a3f9d2a68a79d8845c927595cc3bc740786c1343ac",
+      "bytes": 103838
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/input.png": {
+      "sha256": "79a614e2193aa473b37ee2210727edde4d12aa332d8eeceb98eabf349682c71c",
+      "bytes": 5185
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/ortho-ctc-overlay.png": {
+      "sha256": "52279340ab9b6e622ceb21c4d8bfda5b294e3709b6d912d968287f75fda2140f",
+      "bytes": 25693
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/ortho.png": {
+      "sha256": "1b24ec4d37be81af15351d99705dfdc875699715b9457b3e0f672eb64a73e266",
+      "bytes": 25246
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/paint-diagnostic.png": {
+      "sha256": "12fc4ae6d90d8bcfa942fd5f2491f49b3b3536721cd01c11a1b12d22b6a76dc2",
+      "bytes": 16416
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/provenance.json": {
+      "sha256": "2bf49ea115aaedb080393107420c3b8056848663f4cc0a59fe85859b39289172",
+      "bytes": 2571
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-13/review-board.jpg": {
+      "sha256": "6e81f1c3d7f108e631e508a3f9d2a68a79d8845c927595cc3bc740786c1343ac",
+      "bytes": 103838
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/draft-board.jpg": {
+      "sha256": "a715bfd04000a5a93b2f68af6c8c5724f8d2a98a5883b6c0fc9ce10419b5916b",
+      "bytes": 108285
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/input.png": {
+      "sha256": "91c5ecc72645066b4016631cd04436c433208ec75eda23ab0bc8317b0132e317",
+      "bytes": 6551
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/ortho-ctc-overlay.png": {
+      "sha256": "9f26237665cc50ba67db50877ebf6123dc614c8789a10a7058fe3f8ca6117a7c",
+      "bytes": 24164
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/ortho.png": {
+      "sha256": "0da394e4a7641901908478786c3e9f31efcc492494cf9d385d165cb4d4e0ffe0",
+      "bytes": 23716
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/paint-diagnostic.png": {
+      "sha256": "cd205d48a585d9010045f84f2dc3a91c45ff0d38db2a6124bf8186367a160f04",
+      "bytes": 15054
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/provenance.json": {
+      "sha256": "ec5a882d6ad43bf4f73b8ea4a21a0d7c387c08c1a219943b3695c8c52c86999f",
+      "bytes": 2593
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-14/review-board.jpg": {
+      "sha256": "c08b005fcc3e8261eff615bc406fa375783f5bb1ec4fda885fb876340a294278",
+      "bytes": 107879
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/draft-board.jpg": {
+      "sha256": "6a42b7c78f11c6240ca52dd6b8d11fec9d6046cfe376f14c906efc84aebc08ef",
+      "bytes": 113530
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/input.png": {
+      "sha256": "f1c068c7b4a961a5671e893cd06211ed2314ab95d767e540f3d115898cf0c2e4",
+      "bytes": 8185
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/ortho-ctc-overlay.png": {
+      "sha256": "342e97bfff7c02c453fa839f8ce6776479547809f3319dcaab3e38e939a8f466",
+      "bytes": 28109
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/ortho.png": {
+      "sha256": "52b954e8bf329b6009cc1d3b8ce52a7e3c01e2171868370011f688a1e3d5e70e",
+      "bytes": 27659
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/paint-diagnostic.png": {
+      "sha256": "c89d6141366e50234a370e077970bd50f71a809453b634903eb0bf725e95892b",
+      "bytes": 18135
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/provenance.json": {
+      "sha256": "f1648fc325896707fae87162dfc65b77c25893dc3cef863817458a42d7f7bcb5",
+      "bytes": 2571
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-15/review-board.jpg": {
+      "sha256": "6a42b7c78f11c6240ca52dd6b8d11fec9d6046cfe376f14c906efc84aebc08ef",
+      "bytes": 113530
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/draft-board.jpg": {
+      "sha256": "940a026036fd3869d2f9519a59db2c2c9e7a43d3d9a81d67d0b45d4f514d0e38",
+      "bytes": 127999
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/input.png": {
+      "sha256": "41d4386e6aaecc876b49375ddaac31913a58c0682cec4b3e7a25c7bb1d88b5c2",
+      "bytes": 188348
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/ortho-ctc-overlay.png": {
+      "sha256": "1ae6e164b64639bdcb73e37bbfb0be91985c6ba5547fe677e28baa202f9285d3",
+      "bytes": 1376119
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/ortho.png": {
+      "sha256": "e8b489b3909dc0efcb476ba6d92a62ced1f390ff5fe69c2eded6ff3d8af07831",
+      "bytes": 1365955
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/paint-diagnostic.png": {
+      "sha256": "bbf9708710093e292638574bab46b4754f57d0972e4e0dd76feca3836884d34d",
+      "bytes": 644255
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/provenance.json": {
+      "sha256": "64905c2acdc7604b2208c5e7697490ca684aee627367b56d2445d7cdfa84e0ad",
+      "bytes": 2602
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-16/review-board.jpg": {
+      "sha256": "9f2dc535df9474a5c057027ca09791f647850eb8fafb32a56bfd7ca58f9d7d1e",
+      "bytes": 127976
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/draft-board.jpg": {
+      "sha256": "e40532d8ac4573dc7ba5cd447f1f9e720bd982c71f62b93d9bf126616d5b2192",
+      "bytes": 136792
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/input.png": {
+      "sha256": "9a3bc2cbae9e48ef0349e714a8cb4d477ee57b61273b0a544e774a1399ef6d36",
+      "bytes": 25078
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/ortho-ctc-overlay.png": {
+      "sha256": "8ebda25697ce5639603ee2cb6ceadf68d883db99aa20862ad8f83bd138740a6a",
+      "bytes": 79679
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/ortho.png": {
+      "sha256": "3905255364207c40fb5dbba1dd8aa5cccfb307ad27eeb38a2d8c1cdb93e34ff6",
+      "bytes": 78410
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/paint-diagnostic.png": {
+      "sha256": "cdb1263ab3935b5a3e167061827430777b963243662508e33a6fe2ae44c63f05",
+      "bytes": 60401
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/provenance.json": {
+      "sha256": "f68140d6abc3c4804467b8b13ff1aa43b47b9b9a8016e448ebd58eb6f9cbc2a7",
+      "bytes": 2559
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-17/review-board.jpg": {
+      "sha256": "e40532d8ac4573dc7ba5cd447f1f9e720bd982c71f62b93d9bf126616d5b2192",
+      "bytes": 136792
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/draft-board.jpg": {
+      "sha256": "75d64e0caef11f40ef0e52d4a8ecd4a6c84954f4ef20c88fe07b78812d12b2d3",
+      "bytes": 157884
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/input.png": {
+      "sha256": "a25caf99d58ad74a47273a34831c99dedd775457c029ee6ccde8bf0be55e2d87",
+      "bytes": 69848
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/ortho-ctc-overlay.png": {
+      "sha256": "1ad4733a8d756d7169cc0a3d8f6ee0bfee1a0334cae4bcef4ed3b8ad516e3552",
+      "bytes": 279114
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/ortho.png": {
+      "sha256": "ecd7bb1dad02134fd68b470993657303765d9ecb3239d91e26e45828e4f3e240",
+      "bytes": 275921
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/paint-diagnostic.png": {
+      "sha256": "550b2f573b94c827b1de035edabc1eaeeead0432884436feece79b1969813738",
+      "bytes": 191462
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/provenance.json": {
+      "sha256": "991045a2499bfd0e9504bd8b25e738bfd994b520a13e1a6940a6226692809477",
+      "bytes": 2575
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-18/review-board.jpg": {
+      "sha256": "ce2b0701ca79e2c977106e9914b06bd74b61080aede792b213ea908528774c81",
+      "bytes": 157942
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/draft-board.jpg": {
+      "sha256": "ac761731e0e4c1361cae356d13c4405c7dd8822eb308f99cef769f2b39552e31",
+      "bytes": 136726
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/input.png": {
+      "sha256": "d74bb2cc3bdd37138eeba21c2d8ea8b860bf8780810c2274cb865f1a83053ff1",
+      "bytes": 34711
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/ortho-ctc-overlay.png": {
+      "sha256": "f45c545b365b41bd0386965465e558713beb7f392716b4148ec43c6b00526962",
+      "bytes": 94807
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/ortho.png": {
+      "sha256": "b495d599b30f419c81fd032be7a19e224fd08f1257075e304308e67926843370",
+      "bytes": 93108
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/paint-diagnostic.png": {
+      "sha256": "287ea119c959370963bab4b759a636229e7dd88f94051d68abf742df98b3fb02",
+      "bytes": 76958
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/provenance.json": {
+      "sha256": "54a9f6127377a7dc70f60dce97927cd521d3615ef6fea85a45f04de744ef9e9c",
+      "bytes": 2586
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-19/review-board.jpg": {
+      "sha256": "b9137c5db1e9a5c20adf425d1b40b4343c20ff57e9e8b1e9b4ac5a275ae3cb8b",
+      "bytes": 136811
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/draft-board.jpg": {
+      "sha256": "5ded8f5d633b4e59e0b540d0d6d7bb7e1b9e0efa42535f4d4c4fa5c68dfcf6dc",
+      "bytes": 141011
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/input.png": {
+      "sha256": "a74587404d0ede1ad88665cd177bff1cd959bf078c293999cfad4e935894726e",
+      "bytes": 39223
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/ortho-ctc-overlay.png": {
+      "sha256": "197fb44ce63fb4c04d9102dc632a0764fe700c7e720c3ce78ea4edbe5b54e9aa",
+      "bytes": 107065
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/ortho.png": {
+      "sha256": "7b37435152972b3149308a825effcd3b7ef6fd4d3a506f4057ec1cc730af0154",
+      "bytes": 105543
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/paint-diagnostic.png": {
+      "sha256": "719a7eed3476072c6f4a1eb3c8348d1649b5f676848be34deca4e296a5edbe03",
+      "bytes": 94743
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/provenance.json": {
+      "sha256": "7631abda6170343049177797d10323e6584ef699118ec2a0f8fc1142535ec39f",
+      "bytes": 2600
+    },
+    "data/bo-006p0/specimens-v4/BO006P0-20/review-board.jpg": {
+      "sha256": "2e3ea9cc29bf66d0c09303148850f8c228e2d27e6fde51d921bc94c1b653e091",
+      "bytes": 140963
+    },
+    "data/bo-006p0/terrain-projection.json": {
+      "sha256": "fbafe8093ecf4eeaefe3f21d91e766dc43b0031c9465f9df1f971fdd455f7243",
+      "bytes": 15114
+    },
+    "data/bo-006p0/totals.json": {
+      "sha256": "2fdbd6e9e72e531c03f0713df49aefa761828762ac4e33be8b52a31e2abc1d09",
+      "bytes": 860
+    },
+    "data/bo-006p0/wms-plan.json": {
+      "sha256": "b4882abce80ce1eea1a5f990660689798e96057f82cbd2a4aecc3abb2be1fa1e",
+      "bytes": 1441
+    },
+    "docs/bologna-roof-acquire.ts": {
+      "sha256": "6234657b7ede26f30a0f8533d070499292004d3dd13e439d319502ba16341763",
+      "bytes": 5478
+    },
+    "docs/bologna-roof-benchmark-details-1.jpg": {
+      "sha256": "a98756aabe90aa98f118ab0095f46ae376b7763a35a0566b371603a21aef73ba",
+      "bytes": 594527
+    },
+    "docs/bologna-roof-benchmark-details-2.jpg": {
+      "sha256": "c9b8f6d230d5f86c53e6b1fbfae354cdc070a672771fb23dc08c50e27346115c",
+      "bytes": 502797
+    },
+    "docs/bologna-roof-benchmark-details-3.jpg": {
+      "sha256": "d6556e8a48a2ca91859680b35bad66272136149a870f26cef1a5b8a7f98a68e5",
+      "bytes": 565060
+    },
+    "docs/bologna-roof-benchmark-details-4.jpg": {
+      "sha256": "2cdb51297c4b33328bf25b33ba241897fb439fa600410a15ac52b7e198ab0415",
+      "bytes": 453847
+    },
+    "docs/bologna-roof-benchmark-details-5.jpg": {
+      "sha256": "93503edda13c15596bca780432503d75469952293b7f724eac7e373d43790c4d",
+      "bytes": 572471
+    },
+    "docs/bologna-roof-benchmark-details.jpg": {
+      "sha256": "d1907abff056b9d2258c2f328fae4384d875959083598d851f54c6b5cf417067",
+      "bytes": 2332152
+    },
+    "docs/bologna-roof-benchmark-overview.jpg": {
+      "sha256": "df30de74aa7eb319a713ebf5cb220060af93e4b9b772c66e0d99c8b3730108fa",
+      "bytes": 1224785
+    },
+    "docs/bologna-roof-benchmark.md": {
+      "sha256": "ac86a673255296dab7dd195b4450d22cb5b262998ee2b83f058420f7e7e44972",
+      "bytes": 27404
+    },
+    "docs/bologna-roof-benchmark.ts": {
+      "sha256": "a88910ccb6e4bdbf0b95b2f40c2e935db319ee135b3127e3f0bd06433b9fab84",
+      "bytes": 12601
+    },
+    "docs/bologna-roof-check.ts": {
+      "sha256": "f41220ee38408f51457bae8540c70cdba982adbe53032e5cd543ef9646b88bb9",
+      "bytes": 2892
+    },
+    "docs/bologna-roof-checks-final.json": {
+      "sha256": "29b16fa8ed313c0602afeaca9c72a9a12de543e41beea516b8529ecc2e3a8957",
+      "bytes": 4478
+    },
+    "docs/bologna-roof-checks.json": {
+      "sha256": "4b4c998a20fccf5e037a31ef08bed45e672fa204a2fa764f11e8601a77d83cdc",
+      "bytes": 4390
+    },
+    "docs/bologna-roof-common.ts": {
+      "sha256": "db4aae3ac8d9ce155dcbce9fad6ccf4a34617e27558d6e82680b100f36a2e02a",
+      "bytes": 3072
+    },
+    "docs/bologna-roof-final-verification.json": {
+      "sha256": "efb457bce0dd3fd175402058f9edf40d1e3c3ce47d5a5d29fdd0ec674054628f",
+      "bytes": 716
+    },
+    "docs/bologna-roof-observations.json": {
+      "sha256": "c03643a4841bbbd9871ede45dcd031bedc7de1610dcdd79a8326d75d0189e2bb",
+      "bytes": 24478
+    },
+    "docs/bologna-roof-projection.json": {
+      "sha256": "fbafe8093ecf4eeaefe3f21d91e766dc43b0031c9465f9df1f971fdd455f7243",
+      "bytes": 15114
+    },
+    "docs/bologna-roof-projection.ts": {
+      "sha256": "c8406109a8cd6c66f635dd118e8fa694598c4d21feaf9e76d69fda83f3c74215",
+      "bytes": 3116
+    },
+    "docs/bologna-roof-qa.json": {
+      "sha256": "ecbe44157518944c058fcb9eab4557eb24c87d95905f7821e92399464b38356d",
+      "bytes": 30402
+    },
+    "docs/bologna-roof-qa.test.ts": {
+      "sha256": "684d4c8fa6ac9317573cd135f93a6c3a2725206d6d0a080823f7858ecb5d5463",
+      "bytes": 10998
+    },
+    "docs/bologna-roof-registry.ts": {
+      "sha256": "f022dc05d4b0c9514157690f05d3d84b06a860b4340cd3ed65a23ffbf897d6aa",
+      "bytes": 6005
+    },
+    "docs/bologna-roof-sample.csv": {
+      "sha256": "c16b5abf8a4942af7e46e4f5aff4d2b5125ecc5ab2abc8bf97b8399dad2fd078",
+      "bytes": 14381
+    },
+    "docs/bologna-roof-sample.json": {
+      "sha256": "1f1c80532f1791f0102b37919bafe7adc0d0ad5dab6226abd0b43c41aa8de51e",
+      "bytes": 621685
+    },
+    "docs/bologna-roof-sampling.ts": {
+      "sha256": "9f1533dbfb9d91008c8c4e4f25c23d61048cdcc5678f24d70c6680d67ee6b720",
+      "bytes": 10001
+    },
+    "docs/bologna-roof-select.ts": {
+      "sha256": "d950e8d724dd9ad1efb931d86d549de8d30420fdbff30c5f8e8ee69cf361abff",
+      "bytes": 6318
+    },
+    "docs/bologna-roof-source-audit.md": {
+      "sha256": "31426c5f05921da85d7317b1b922cbeae1d63d757fc1f88172bc998210dccbc6",
+      "bytes": 8908
+    },
+    "docs/bologna-roof-source-registry.json": {
+      "sha256": "c4401925c554212ac619736824992d23c2f2e086bbd7a5fa5c84af63b0cb2865",
+      "bytes": 25197
+    },
+    "docs/bologna-roof-terrain-audit.ts": {
+      "sha256": "4b6d2823a95ae50f604e243ebbea03ac2b66f0ad1c50463813e683ee70e7542d",
+      "bytes": 2354
+    },
+    "docs/bologna-roof-verify.ts": {
+      "sha256": "2b4862bfbd9c3a291b0dcbe7d57ed67e03c2080d79e6c079d2eb37e31e1cbee9",
+      "bytes": 1780
+    },
+    "docs/bologna-roof-wms.ts": {
+      "sha256": "c676847ac4b9032382798659a3267ffc573c30b36a37eebe2105cea89d19d3cf",
+      "bytes": 3251
+    },
+    "plans/BO-006P0-roof-truth-visual-benchmark.md": {
+      "sha256": "a9019d6e3a2cb6b979a41b19b4ca23d40d3a80de6c1b1fa5bbee7635ab479c8b",
+      "bytes": 25917
+    }
+  },
+  "protectedPreviousFiles": 1764,
+  "providerImageRequests": 0,
+  "humanAcceptance": "PENDING"
+}

@@ -1,0 +1,21 @@
+{
+  "strictAllRoofScripts": {
+    "command": "node_modules/.bin/tsc --noEmit --target es2022 --module esnext --moduleResolution bundler --allowImportingTsExtensions --strict --skipLibCheck --types node docs/bologna-roof-*.ts",
+    "node": "v24.22.3",
+    "exitCode": 0,
+    "log": "data/bo-006p0/final-typecheck.log",
+    "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "gitDiffCheck": {
+    "command": "git diff --check",
+    "exitCode": 0
+  },
+  "csvRows": 20,
+  "newTextWhitespace": "PASS",
+  "postReportImageInspection": [
+    "bologna-roof-benchmark-overview.jpg",
+    "bologna-roof-benchmark-details-2.jpg"
+  ],
+  "oldDataModified": false,
+  "providerImageRequests": 0
+}

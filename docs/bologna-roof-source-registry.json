@@ -1,0 +1,640 @@
+{
+  "schema": "BO-006P0/source-registry-v1",
+  "sources": [
+    {
+      "id": "RER-BO2023-RGB",
+      "role": "Independent overhead observational reference only",
+      "publisher": "Comune di Bologna; Regione Emilia-Romagna, Settore Trasformazione Digitale, Sistemi Informativi e Data Governance",
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/copy_of_service-24",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsVerified": true,
+      "licenseEvidence": {
+        "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/copy_of_service-24",
+        "path": "data/bo-006p0/references/ortho-catalog.html",
+        "downloadDate": "2026-11-21T08:33:13.236Z",
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "e42870d4a9d85aa7595e869a668cc16f9b346969f9eea7faa180505f5a6491f0",
+        "bytes": 409835
+      },
+      "capabilities": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?service=WMS&request=GetCapabilities",
+        "path": "data/bo-006p0/references/ortho-capabilities.xml",
+        "downloadDate": "2026-11-21T08:33:14.823Z",
+        "contentType": "text/xml",
+        "sha256": "57f16240d97f7d51c352aa8a28d5b0bacd4347a2a85154a57157cbc48342af15",
+        "bytes": 6414
+      },
+      "service": {
+        "version": "1.3.0",
+        "formats": [
+          "image/tiff",
+          "image/png",
+          "image/png24",
+          "image/png32",
+          "image/bmp",
+          "image/gif",
+          "image/jpeg",
+          "image/svg",
+          "image/bil"
+        ],
+        "layers": [
+          {
+            "name": "Comune_BO_2023_RGB",
+            "title": "Comune_BO_2023_RGB",
+            "crs": [
+              "CRS:84",
+              "EPSG:4326",
+              "EPSG:7791",
+              "EPSG:7792",
+              "EPSG:6706",
+              "EPSG:4230",
+              "EPSG:23032",
+              "EPSG:23033",
+              "EPSG:4265",
+              "EPSG:3003",
+              "EPSG:3004",
+              "EPSG:5659",
+              "EPSG:32632",
+              "EPSG:32633",
+              "EPSG:4258",
+              "EPSG:25832",
+              "EPSG:25833",
+              "EPSG:3857",
+              "EPSG:3034",
+              "EPSG:3035"
+            ],
+            "boxes": [
+              {
+                "crs": "CRS:84",
+                "bbox": [
+                  11.210642,
+                  44.416113,
+                  11.443082,
+                  44.565018
+                ]
+              },
+              {
+                "crs": "EPSG:4326",
+                "bbox": [
+                  44.416113,
+                  11.210642,
+                  44.565018,
+                  11.443082
+                ]
+              },
+              {
+                "crs": "EPSG:7791",
+                "bbox": [
+                  675979.95,
+                  4920980.05,
+                  694019.95,
+                  4937020.05
+                ]
+              },
+              {
+                "crs": "EPSG:7792",
+                "bbox": [
+                  198341.922578,
+                  4924267.845403,
+                  217522.060386,
+                  4941598.930845
+                ]
+              },
+              {
+                "crs": "EPSG:6706",
+                "bbox": [
+                  11.210642,
+                  44.416113,
+                  11.443082,
+                  44.565018
+                ]
+              },
+              {
+                "crs": "EPSG:4230",
+                "bbox": [
+                  44.416113,
+                  11.210642,
+                  44.565018,
+                  11.443082
+                ]
+              },
+              {
+                "crs": "EPSG:23032",
+                "bbox": [
+                  675988.103954,
+                  4921070.830285,
+                  694028.936207,
+                  4937111.344166
+                ]
+              },
+              {
+                "crs": "EPSG:23033",
+                "bbox": [
+                  198327.952418,
+                  4924358.78186,
+                  217508.968872,
+                  4941690.429882
+                ]
+              },
+              {
+                "crs": "EPSG:4265",
+                "bbox": [
+                  44.416113,
+                  11.210642,
+                  44.565018,
+                  11.443082
+                ]
+              },
+              {
+                "crs": "EPSG:3003",
+                "bbox": [
+                  1675988.103954,
+                  4921070.830285,
+                  1694028.936207,
+                  4937111.344166
+                ]
+              },
+              {
+                "crs": "EPSG:3004",
+                "bbox": [
+                  2218327.952418,
+                  4924358.78186,
+                  2237508.968872,
+                  4941690.429882
+                ]
+              },
+              {
+                "crs": "EPSG:5659",
+                "bbox": [
+                  676041.103954,
+                  921250.830285,
+                  694081.936207,
+                  937291.344166
+                ]
+              },
+              {
+                "crs": "EPSG:32632",
+                "bbox": [
+                  675979.949999,
+                  4920980.050119,
+                  694019.949998,
+                  4937020.050119
+                ]
+              },
+              {
+                "crs": "EPSG:32633",
+                "bbox": [
+                  198341.922581,
+                  4924267.845522,
+                  217522.060388,
+                  4941598.930964
+                ]
+              },
+              {
+                "crs": "EPSG:4258",
+                "bbox": [
+                  44.416113,
+                  11.210642,
+                  44.565018,
+                  11.443082
+                ]
+              },
+              {
+                "crs": "EPSG:25832",
+                "bbox": [
+                  675979.95,
+                  4920980.05,
+                  694019.95,
+                  4937020.05
+                ]
+              },
+              {
+                "crs": "EPSG:25833",
+                "bbox": [
+                  198341.922578,
+                  4924267.845403,
+                  217522.060386,
+                  4941598.930845
+                ]
+              },
+              {
+                "crs": "EPSG:3857",
+                "bbox": [
+                  1247962.907736,
+                  5530064.114891,
+                  1273838.08068,
+                  5553300.492715
+                ]
+              },
+              {
+                "crs": "EPSG:3034",
+                "bbox": [
+                  1985380.199056,
+                  4093654.466836,
+                  2001143.102589,
+                  4111339.451672
+                ]
+              },
+              {
+                "crs": "EPSG:3035",
+                "bbox": [
+                  2368371.369829,
+                  4417604.680438,
+                  2384570.595977,
+                  4435866.809954
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "layer": "Comune_BO_2023_RGB",
+      "flightDate": [
+        "2023-06-19",
+        "2023-06-26"
+      ],
+      "specificOrthoTileDay": null,
+      "originalPixelGroundM": 0.2,
+      "map": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=Comune_BO_2023_RGB&STYLES=&CRS=EPSG%3A3857&BBOX=1262241%2C5541706%2C1262979%2C5542447&WIDTH=2048&HEIGHT=2048&FORMAT=image%2Fpng&TRANSPARENT=FALSE&EXCEPTIONS=XML",
+        "path": "data/bo-006p0/references/ortho-cluster.png",
+        "downloadDate": "2026-11-21T09:35:53.994Z",
+        "contentType": "image/png",
+        "sha256": "3f025fc4c310f3019385d38b466901586201e162e53e3e272e8cf6b283fb0ac8",
+        "bytes": 9237589
+      },
+      "requestCRS": "EPSG:3857",
+      "requestBbox": [
+        1262241,
+        5541706,
+        1262979,
+        5542447
+      ],
+      "requestedPixelMapM": [
+        0.3603515625,
+        0.36181640625
+      ],
+      "transformations": "Bounded WMS reprojection; cropped, CTC-outlined, labelled and resized for review panels. No isometric warping of orthophoto.",
+      "obligations": "Credit both publishers, source and CC BY 4.0 link; indicate reprojection, crops, overlays and labels; retain date distinction."
+    },
+    {
+      "id": "CTC-local",
+      "url": "https://opendata.comune.bologna.it/explore/dataset/c_a944ctc_edifici_pl/",
+      "publisher": "Comune di Bologna – SIT",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsVerified": true,
+      "snapshot": {
+        "path": "data/raw/bologna-audit/buildings.geojson",
+        "sha256": "38ed98285663d6c3080c1b2f9929e99455d422590af92bd8c3c071bbbb3e465e",
+        "bytes": 47821655
+      },
+      "metadata": {
+        "path": "data/raw/bologna-audit/bologna-buildings-metadata.json",
+        "sha256": "0bedf3b89319e4d774dd7e1db04f4dfa7a1df360f73d6cdd552762e353bc4f62",
+        "bytes": 13155
+      },
+      "datasetUpdated": "2026-10-22T04:04:00.941000+00:00",
+      "downloadDate": "Preserved BO-001 snapshot; audited 2026-11-16, no re-fetch",
+      "referenceCRS": "GeoJSON lon/lat WGS84; millimetre-quantized existing ENU normalization",
+      "absoluteVerticalDatum": "UNRESOLVED; not used",
+      "heightSemantics": "Positive altezza_gr relative eave height; no measured ridge/roof taxonomy",
+      "role": "Identity, footprints, holes and source eaves; not roof truth"
+    },
+    {
+      "id": "OSM-local",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "publisher": "© OpenStreetMap contributors",
+      "snapshot": {
+        "path": "data/bo-003f-landmarks/raw/piazza-maggiore/osm.json",
+        "sha256": "05e7561bac1f3b178a94fab6c3528106b6427d4ed020f4de6c40fc263aae835c",
+        "bytes": 2502799
+      },
+      "role": "Spatial identity/envelope grouping; no photographic roof evidence"
+    },
+    {
+      "id": "procedural-frozen",
+      "url": "../ATTRIBUTION.md",
+      "role": "Existing isometric source comparison, not roof truth",
+      "snapshot": {
+        "sha256": "4fe7341333fb3be87eb2750617d62de9ebbb95fc662a367b14619259492da2b0",
+        "bytes": 1103640
+      },
+      "license": "Project CC BY 4.0 plus OSM/municipal/Copernicus/BO-003F source notices"
+    },
+    {
+      "id": "AI-diagnostic-only",
+      "url": "bologna-paint-offline-report.md",
+      "role": "Illustrated outcome only, never geographic evidence",
+      "snapshot": {
+        "sha256": "161b0f558d15a0a313b39c44ccd41b4c00cc993f4fa357b1ed001f435402ae8e",
+        "bytes": 3000284
+      },
+      "historicalStatus": "FAILED_NO_RETRY",
+      "offlineStatus": "REFINE_REQUIRED",
+      "registration": "NOT_REGISTERED / NOT_APPROVED",
+      "license": "Existing project imagery terms and inherited source notices"
+    },
+    {
+      "id": "RER-DTM2023",
+      "catalog": {
+        "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/altimetria-e-morfologia/service-21",
+        "path": "data/bo-006p0/references/dtm-catalog.html",
+        "downloadDate": "2026-11-21T08:33:16.251Z",
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "992d90e3f05046e0ee7c1ed2a4222343cc6cff16175a474757ccd6e0f9a60dcd",
+        "bytes": 409067
+      },
+      "capabilities": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/dtm_comune_bo_2023?service=WMS&request=GetCapabilities",
+        "path": "data/bo-006p0/references/dtm-capabilities.xml",
+        "downloadDate": "2026-11-21T09:38:33.359Z",
+        "contentType": "text/xml",
+        "sha256": "599455a0b34ea02dd7e6f42552cfc60abcb3f86932aeaceab22cd65b8d33df72",
+        "bytes": 6291
+      },
+      "license": "CC BY 4.0",
+      "role": "BARE_EARTH_ONLY; not downloaded as raster; cannot establish roof/ridge",
+      "flightDate": [
+        "2023-06-19",
+        "2023-06-26"
+      ]
+    },
+    {
+      "id": "RER-LiDAR-coverage",
+      "catalog": {
+        "url": "https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/cartografia-di-base/quadri-di-unione/layer-1740409868.07",
+        "path": "data/bo-006p0/references/lidar-catalog.html",
+        "downloadDate": "2026-11-21T08:33:17.432Z",
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "d28c322558a85b7ec59f79d32c2f02cc09199d21588a01b8a256bbcbc1cd0d75",
+        "bytes": 409776
+      },
+      "capabilities": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?service=WMS&version=1.3.0&request=GetCapabilities",
+        "path": "data/bo-006p0/references/lidar-capabilities.xml",
+        "downloadDate": "2026-11-21T08:33:18.702Z",
+        "contentType": "text/xml",
+        "sha256": "c61d20facab243add06ce144721897fe39b70efa10e83375f8b52770204ed5f1",
+        "bytes": 193130
+      },
+      "featureInfo": {
+        "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=QU_ComuneBO_2023_LiDAR&QUERY_LAYERS=QU_ComuneBO_2023_LiDAR&CRS=EPSG%3A3857&BBOX=1262241%2C5541706%2C1262979%2C5542447&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fplain&FORMAT=image%2Fpng&FEATURE_COUNT=2",
+        "path": "data/bo-006p0/references/lidar-tile-info.txt",
+        "downloadDate": "2026-11-21T09:38:34.649Z",
+        "contentType": "text/plain",
+        "sha256": "678b1cffa591d046e695b63fd4dfbf05c9f027da1868ab1196f977659c185d0a",
+        "bytes": 187
+      },
+      "license": "CC BY 4.0 for coverage metadata",
+      "layer": "QU_ComuneBO_2023_LiDAR",
+      "tileAtQuery": "32_686000_4929000",
+      "tileLiDARDate": "2023-06-24",
+      "role": "Coverage catalogue only",
+      "actualDSMOrLASAccess": "NOT_ACCESSIBLE_FROM_INSPECTED_PUBLIC_RESOURCES",
+      "accessEvidence": "GetFeatureInfo exposes tile ID/date/content but no DSM/LAS URL or values. Public globally inaccessible status is not asserted.",
+      "ridgeHeightMeasured": null
+    },
+    {
+      "id": "Comune-tile-directory",
+      "catalog": {
+        "url": "https://opendata.comune.bologna.it/api/explore/v2.1/catalog/datasets/tile-server-ortofoto-comune-di-bologna",
+        "path": "data/bo-006p0/references/tile-catalog.json",
+        "downloadDate": "2026-11-21T08:33:20.423Z",
+        "contentType": "application/json; charset=utf-8",
+        "sha256": "5a643b1b4c41c58dbb8a8c1f8940bad51ba4fd918136c9af477a3772c7d4589d",
+        "bytes": 9620
+      },
+      "catalogLicense": "Open Database License (ODbL)",
+      "specificImageLicense": "UNKNOWN_NOT_INHERITED_FROM_RER_WMS",
+      "imageDownloadPerformed": false,
+      "role": "Not used; catalogue lists 2017–2026 tile directories but does not establish per-image publication rights"
+    },
+    {
+      "id": "Regional-3D-context",
+      "catalog": {
+        "url": "https://geoportale.regione.emilia-romagna.it/approfondimenti/rer23_24",
+        "path": "data/bo-006p0/references/regional-context.html",
+        "downloadDate": "2026-11-21T08:33:21.835Z",
+        "contentType": "text/html; charset=utf-8",
+        "sha256": "2731381190642d5c37c71b795000eaee03a4792844a9567b2b15706bf4332232",
+        "bytes": 482071
+      },
+      "imageLicense": "NOT_VALIDATED_NOT_USED",
+      "role": "Context page inspected; 2023/24 and 2025/26 are separate epochs; no 3D imagery/models imported"
+    }
+  ],
+  "requestBudget": {
+    "limitRequests": 40,
+    "limitBytes": 52428800,
+    "applicationAttempts": 25,
+    "successfulRequests": 11,
+    "failedAttempts": 14,
+    "downloadedBytes": 11325194,
+    "maximumConcurrency": 1,
+    "browserResearch": "Four official URL opens in one initial web-tool call, including a failed capabilities view; tracked separately from application download attempts",
+    "failureNotes": "Initial sandbox fetch failures consumed 14 attempted slots; elevated requests succeeded. Updated transport retries only transient HTTP responses, at most once; cached files are not replaced."
+  },
+  "requests": [
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/copy_of_service-24",
+      "at": "2026-11-21T08:32:05.141Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/copy_of_service-24",
+      "at": "2026-11-21T08:32:06.026Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?service=WMS&request=GetCapabilities",
+      "at": "2026-11-21T08:32:06.831Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?service=WMS&request=GetCapabilities",
+      "at": "2026-11-21T08:32:07.637Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/altimetria-e-morfologia/service-21",
+      "at": "2026-11-21T08:32:08.442Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/altimetria-e-morfologia/service-21",
+      "at": "2026-11-21T08:32:09.246Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/cartografia-di-base/quadri-di-unione/layer-1740409868.07",
+      "at": "2026-11-21T08:32:10.051Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/cartografia-di-base/quadri-di-unione/layer-1740409868.07",
+      "at": "2026-11-21T08:32:10.857Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?service=WMS&version=1.3.0&request=GetCapabilities",
+      "at": "2026-11-21T08:32:11.662Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?service=WMS&version=1.3.0&request=GetCapabilities",
+      "at": "2026-11-21T08:32:12.467Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://opendata.comune.bologna.it/api/explore/v2.1/catalog/datasets/tile-server-ortofoto-comune-di-bologna",
+      "at": "2026-11-21T08:32:13.275Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://opendata.comune.bologna.it/api/explore/v2.1/catalog/datasets/tile-server-ortofoto-comune-di-bologna",
+      "at": "2026-11-21T08:32:14.077Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/approfondimenti/rer23_24",
+      "at": "2026-11-21T08:32:14.881Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/approfondimenti/rer23_24",
+      "at": "2026-11-21T08:32:15.684Z",
+      "status": "FAILED",
+      "bytes": 0,
+      "error": "fetch failed"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/cartografia-di-base/copy_of_service-24",
+      "at": "2026-11-21T08:33:13.236Z",
+      "status": 200,
+      "bytes": 409835,
+      "sha256": "e42870d4a9d85aa7595e869a668cc16f9b346969f9eea7faa180505f5a6491f0",
+      "contentType": "text/html; charset=utf-8",
+      "path": "data/bo-006p0/references/ortho-catalog.html"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?service=WMS&request=GetCapabilities",
+      "at": "2026-11-21T08:33:14.823Z",
+      "status": 200,
+      "bytes": 6414,
+      "sha256": "57f16240d97f7d51c352aa8a28d5b0bacd4347a2a85154a57157cbc48342af15",
+      "contentType": "text/xml",
+      "path": "data/bo-006p0/references/ortho-capabilities.xml"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/servizi/servizi-ogc/elenco-capabilities-dei-servizi-wms/altimetria-e-morfologia/service-21",
+      "at": "2026-11-21T08:33:16.251Z",
+      "status": 200,
+      "bytes": 409067,
+      "sha256": "992d90e3f05046e0ee7c1ed2a4222343cc6cff16175a474757ccd6e0f9a60dcd",
+      "contentType": "text/html; charset=utf-8",
+      "path": "data/bo-006p0/references/dtm-catalog.html"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/catalogo/dati-cartografici/cartografia-di-base/quadri-di-unione/layer-1740409868.07",
+      "at": "2026-11-21T08:33:17.432Z",
+      "status": 200,
+      "bytes": 409776,
+      "sha256": "d28c322558a85b7ec59f79d32c2f02cc09199d21588a01b8a256bbcbc1cd0d75",
+      "contentType": "text/html; charset=utf-8",
+      "path": "data/bo-006p0/references/lidar-catalog.html"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?service=WMS&version=1.3.0&request=GetCapabilities",
+      "at": "2026-11-21T08:33:18.702Z",
+      "status": 200,
+      "bytes": 193130,
+      "sha256": "c61d20facab243add06ce144721897fe39b70efa10e83375f8b52770204ed5f1",
+      "contentType": "text/xml",
+      "path": "data/bo-006p0/references/lidar-capabilities.xml"
+    },
+    {
+      "url": "https://opendata.comune.bologna.it/api/explore/v2.1/catalog/datasets/tile-server-ortofoto-comune-di-bologna",
+      "at": "2026-11-21T08:33:20.423Z",
+      "status": 200,
+      "bytes": 9620,
+      "sha256": "5a643b1b4c41c58dbb8a8c1f8940bad51ba4fd918136c9af477a3772c7d4589d",
+      "contentType": "application/json; charset=utf-8",
+      "path": "data/bo-006p0/references/tile-catalog.json"
+    },
+    {
+      "url": "https://geoportale.regione.emilia-romagna.it/approfondimenti/rer23_24",
+      "at": "2026-11-21T08:33:21.835Z",
+      "status": 200,
+      "bytes": 482071,
+      "sha256": "2731381190642d5c37c71b795000eaee03a4792844a9567b2b15706bf4332232",
+      "contentType": "text/html; charset=utf-8",
+      "path": "data/bo-006p0/references/regional-context.html"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=Comune_BO_2023_RGB&STYLES=&CRS=EPSG%3A3857&BBOX=1262241%2C5541706%2C1262979%2C5542447&WIDTH=256&HEIGHT=256&FORMAT=image%2Fpng&TRANSPARENT=FALSE&EXCEPTIONS=XML",
+      "at": "2026-11-21T08:37:31.117Z",
+      "status": 200,
+      "bytes": 161214,
+      "sha256": "54cb1e9d7d077749966e720e6aacca86b01060efbc8b249dc56ebcc4c3745faf",
+      "contentType": "image/png",
+      "path": "data/bo-006p0/references/ortho-preview.png"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/comune_bo_2023_rgb?SERVICE=WMS&REQUEST=GetMap&VERSION=1.3.0&LAYERS=Comune_BO_2023_RGB&STYLES=&CRS=EPSG%3A3857&BBOX=1262241%2C5541706%2C1262979%2C5542447&WIDTH=2048&HEIGHT=2048&FORMAT=image%2Fpng&TRANSPARENT=FALSE&EXCEPTIONS=XML",
+      "at": "2026-11-21T09:35:53.994Z",
+      "status": 200,
+      "bytes": 9237589,
+      "sha256": "3f025fc4c310f3019385d38b466901586201e162e53e3e272e8cf6b283fb0ac8",
+      "contentType": "image/png",
+      "path": "data/bo-006p0/references/ortho-cluster.png"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/dtm_comune_bo_2023?service=WMS&request=GetCapabilities",
+      "at": "2026-11-21T09:38:33.359Z",
+      "status": 200,
+      "bytes": 6291,
+      "sha256": "599455a0b34ea02dd7e6f42552cfc60abcb3f86932aeaceab22cd65b8d33df72",
+      "contentType": "text/xml",
+      "path": "data/bo-006p0/references/dtm-capabilities.xml"
+    },
+    {
+      "url": "https://servizigis.regione.emilia-romagna.it/wms/metadati_raster?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&LAYERS=QU_ComuneBO_2023_LiDAR&QUERY_LAYERS=QU_ComuneBO_2023_LiDAR&CRS=EPSG%3A3857&BBOX=1262241%2C5541706%2C1262979%2C5542447&WIDTH=100&HEIGHT=100&I=50&J=50&INFO_FORMAT=text%2Fplain&FORMAT=image%2Fpng&FEATURE_COUNT=2",
+      "at": "2026-11-21T09:38:34.649Z",
+      "status": 200,
+      "bytes": 187,
+      "sha256": "678b1cffa591d046e695b63fd4dfbf05c9f027da1868ab1196f977659c185d0a",
+      "contentType": "text/plain",
+      "path": "data/bo-006p0/references/lidar-tile-info.txt"
+    }
+  ],
+  "activation": "DIAGNOSTIC_BENCHMARK_ONLY; no region/map/footer/renderer source activation. Task restricts writes to new roof artifacts; existing attribution files and map source lists preserved."
+}
