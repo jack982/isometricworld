@@ -1,0 +1,29 @@
+{
+  "schema": "BO-004S-D/visual-review-v1",
+  "alignment": "UNCERTAIN",
+  "topology": "FAIL",
+  "structuralGate": "FAIL",
+  "rejectBlocking": false,
+  "decisionRationale": "Retain an intact, visually promising experiment for refinement. Known roof-plane changes block geographic use; they do not require destruction or rejection of the experimental artifact. No map tile acceptance is given.",
+  "humanAcceptance": "PENDING",
+  "style": {
+    "palette": "STRONG",
+    "houseStyle": "MEDIUM",
+    "historicalAccuracy": "NOT_VERIFIED",
+    "observations": "Warm ochre walls, terracotta, stone paving and rounded deciduous crowns; dense repeated windows and roof texture. No coastline or palms visibly imported. Newly illustrated details are not historical evidence."
+  },
+  "coordinateFrame": "Original 1024x1024 input pixels; candidate shown under the unaccepted full-frame resize hypothesis",
+  "checks": [
+    {"id":"roads","status":"UNCERTAIN","severity":"major","crops":["north-road","west-trees"],"bounds":[[260,0,270,215],[20,300,190,145]],"explanation":"Northern long road and island remain recognizable with similar axes. Texture, curb and adjacent roof changes prevent certification of widths, entrances and all road edges; no authoritative road segmentation was extracted."},
+    {"id":"building-topology","status":"FAIL","severity":"major","crops":["NW-flat-roofs","SW-blocks"],"bounds":[[0,0,310,300],[5,570,290,320]],"explanation":"New pitched roof volumes change visible building mass and silhouette on source-flat blocks. Horizontal footprint merging/subdivision is not established; this failure specifically concerns volume additions above existing masses."},
+    {"id":"roof-planes","status":"FAIL","severity":"blocking","crops":["NW-flat-roofs","central-voids","SW-blocks"],"bounds":[[0,0,310,300],[190,260,350,260],[5,570,290,320]],"explanation":"Several uniformly flat source roof faces acquire ridges, sloping terracotta planes and projecting roof edges. This is a geometry change, not merely recoloring or hatch texture, and overrides the passing edge heuristic."},
+    {"id":"courtyards","status":"UNCERTAIN","severity":"major","crops":["central-voids","NE-courtyard-trees","SE-portico"],"bounds":[[190,260,350,260],[470,90,330,220],[790,870,234,154]],"explanation":"Major voids remain visible, but new sloping roof faces alter their surrounding edges. Exact no-build void connectivity and clearance cannot be certified from textured pixels or the interpolated height guide. No claim that all courtyards were covered is made."},
+    {"id":"san-petronio","status":"UNCERTAIN","severity":"major","crops":["San-Petronio"],"bounds":[[295,550,560,415]],"explanation":"Large nave, stepped side roofs and existing tower remain recognizable. Exact ridge/eave position, roof segmentation and perimeter are not independently verified. The source itself contains estimated BO-003F roof planes; the illustration is not evidence of historical correctness or a newly invented tower."},
+    {"id":"palazzo-accursio","status":"FAIL","severity":"major","crops":["Accursio-tower","NE-courtyard-trees"],"bounds":[[610,270,225,230],[470,90,330,220]],"explanation":"Tower silhouette is broadly recognizable, but surrounding source-flat roof portions gain new pitched/ridged transitions. Added facade and roof detail does not certify historical articulation. No conclusion of an invented clock face is supported."},
+    {"id":"pilot-portico","status":"UNCERTAIN","severity":"blocking","crops":["SE-portico"],"bounds":[[790,870,234,154]],"existingLocator":{"source":"data/bo-004s-paint/candidate/selection.json","label":"Portico 21018 gap","pixel":[874.5774929571722,970.0518719022773]},"explanation":"Existing selection anchor locates the pilot; an open colonnaded void is visible in the crop, with changed roof treatment above it. Occlusion, raster resolution and texture prevent support-by-support clearance validation. The height raster is not an underpass segmentation mask."},
+    {"id":"trees","status":"UNCERTAIN","severity":"major","crops":["NE-courtyard-trees","west-trees"],"bounds":[[470,90,330,220],[20,300,190,145]],"explanation":"Source spheres become larger textured green crowns; northern crown grouping and purple/green source indicators no longer provide reliable one-to-one positional/count evidence. Retention, removal or roof occlusion of individual trees remains unresolved. No palms are visibly introduced in these crops."},
+    {"id":"image-framing","status":"UNCERTAIN","severity":"blocking","crops":["north-road","NW-flat-roofs","SW-blocks","SE-portico"],"bounds":[[0,0,1024,1024]],"explanation":"Full-frame resize is the best exploratory global fit and no constant padding is evidenced. Borders contain scene content, but no reliable distributed authoritative controls certify exact framing or absence of small perimeter loss. Five proposed texture matches have inconsistent residuals; a smooth piazza match is especially suspect."},
+    {"id":"visual-language","status":"PASS","severity":"minor","crops":["NW-flat-roofs","San-Petronio","west-trees"],"bounds":[[0,0,1024,1024]],"explanation":"Illustrated warm ochre/brick/terracotta and pale paving meet the appearance hypothesis. This diagnostic appearance PASS does not approve geometry, specific building materials, species or history."},
+    {"id":"file-format","status":"PASS","severity":"minor","crops":["whole-window"],"bounds":[[0,0,1024,1024]],"explanation":"A deterministic opaque 1024x1024 RGB PNG with no black-band cells is obtainable via full-frame Lanczos3 resize. Raw remains immutable and the original run remains FAILED_NO_RETRY."}
+  ]
+}

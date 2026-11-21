@@ -1,0 +1,1266 @@
+{
+  "schema": "BO-004S-D/v1",
+  "hypothesis": {
+    "rawToInput": {
+      "scale": 0.8165869218500797,
+      "tx": 0,
+      "ty": 0,
+      "kernel": "lanczos3",
+      "extent": "entire raw square",
+      "diagnosticOnly": true,
+      "geographicFidelityAccepted": false
+    },
+    "padding": {
+      "bands": [
+        {
+          "side": "top",
+          "stdev": 42.48639678845591,
+          "contrastFraction": 0.40562830521279275
+        },
+        {
+          "side": "bottom",
+          "stdev": 40.15765915136142,
+          "contrastFraction": 0.44824981113069756
+        },
+        {
+          "side": "left",
+          "stdev": 40.5908764729346,
+          "contrastFraction": 0.4762234533702678
+        },
+        {
+          "side": "right",
+          "stdev": 42.41039918684031,
+          "contrastFraction": 0.4022076722907748
+        }
+      ],
+      "constantBorderSupported": false,
+      "cropTrialJustified": false,
+      "limitation": "3% edge bands test only constant padding; textured padding or small framing loss is not excluded"
+    },
+    "centerCrop": {
+      "tested": false,
+      "reason": "No constant border evidence; center crop would discard perimeter content and has no geographic extent justification"
+    },
+    "identityEdgeCorrelation": 0.4917263527763357,
+    "originalHeuristicThreshold": 0.45,
+    "originalHeuristicOnly": true,
+    "globalExploratoryFit": {
+      "scale": 1,
+      "tx": 0,
+      "ty": 0,
+      "score": 0.4566428650571338,
+      "txInputPixels": 0,
+      "tyInputPixels": 0,
+      "meaning": "Exploratory edge fit, not accepted registration; rounded sampling; no pixels transformed by this fit"
+    },
+    "localProposals": [
+      {
+        "id": "patch-36-36",
+        "source": {
+          "x": 144,
+          "y": 144
+        },
+        "target": {
+          "x": 148,
+          "y": 152
+        },
+        "score": 0.35550398734565625,
+        "peakMargin": 0.06597219492324824,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-80-36",
+        "source": {
+          "x": 320,
+          "y": 144
+        },
+        "target": {
+          "x": 324,
+          "y": 148
+        },
+        "score": 0.5774586774513405,
+        "peakMargin": 0.13559079457937206,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-128-36",
+        "source": {
+          "x": 512,
+          "y": 144
+        },
+        "target": {
+          "x": 512,
+          "y": 144
+        },
+        "score": 0.6777305283065621,
+        "peakMargin": 0.27750144376291275,
+        "eligible": true,
+        "authoritative": false
+      },
+      {
+        "id": "patch-176-36",
+        "source": {
+          "x": 704,
+          "y": 144
+        },
+        "target": {
+          "x": 704,
+          "y": 148
+        },
+        "score": 0.6063567267538473,
+        "peakMargin": 0.11417829212409963,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-220-36",
+        "source": {
+          "x": 880,
+          "y": 144
+        },
+        "target": {
+          "x": 880,
+          "y": 144
+        },
+        "score": 0.3924662435319669,
+        "peakMargin": 0.09998770042567923,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-36-80",
+        "source": {
+          "x": 144,
+          "y": 320
+        },
+        "target": {
+          "x": 148,
+          "y": 328
+        },
+        "score": 0.6655662844658198,
+        "peakMargin": 0.07779681128596849,
+        "eligible": true,
+        "authoritative": false
+      },
+      {
+        "id": "patch-80-80",
+        "source": {
+          "x": 320,
+          "y": 320
+        },
+        "target": {
+          "x": 320,
+          "y": 324
+        },
+        "score": 0.4365078897321945,
+        "peakMargin": 0.06721419304277693,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-128-80",
+        "source": {
+          "x": 512,
+          "y": 320
+        },
+        "target": {
+          "x": 512,
+          "y": 324
+        },
+        "score": 0.33480634820205973,
+        "peakMargin": 0.004550347125548582,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-176-80",
+        "source": {
+          "x": 704,
+          "y": 320
+        },
+        "target": {
+          "x": 704,
+          "y": 320
+        },
+        "score": 0.6718846834274521,
+        "peakMargin": 0.3351163524871529,
+        "eligible": true,
+        "authoritative": false
+      },
+      {
+        "id": "patch-220-80",
+        "source": {
+          "x": 880,
+          "y": 320
+        },
+        "target": {
+          "x": 840,
+          "y": 340
+        },
+        "score": 0.44305708789250076,
+        "peakMargin": 0.02425283615334195,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-36-128",
+        "source": {
+          "x": 144,
+          "y": 512
+        },
+        "target": {
+          "x": 148,
+          "y": 512
+        },
+        "score": 0.6211153744801545,
+        "peakMargin": 0.3088555900440091,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-80-128",
+        "source": {
+          "x": 320,
+          "y": 512
+        },
+        "target": {
+          "x": 324,
+          "y": 516
+        },
+        "score": 0.3785881992530155,
+        "peakMargin": 0.12576728989032154,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-128-128",
+        "source": {
+          "x": 512,
+          "y": 512
+        },
+        "target": {
+          "x": 512,
+          "y": 512
+        },
+        "score": 0.2487738177627756,
+        "peakMargin": 0.004644624484885618,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-176-128",
+        "source": {
+          "x": 704,
+          "y": 512
+        },
+        "target": {
+          "x": 720,
+          "y": 508
+        },
+        "score": 0.4585212710916121,
+        "peakMargin": 0.08599749853996835,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-220-128",
+        "source": {
+          "x": 880,
+          "y": 512
+        },
+        "target": {
+          "x": 884,
+          "y": 512
+        },
+        "score": 0.6520842453948229,
+        "peakMargin": 0.048293585506144376,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-36-176",
+        "source": {
+          "x": 144,
+          "y": 704
+        },
+        "target": {
+          "x": 176,
+          "y": 692
+        },
+        "score": 0.34728126684569594,
+        "peakMargin": 0.006360454558657969,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-80-176",
+        "source": {
+          "x": 320,
+          "y": 704
+        },
+        "target": {
+          "x": 316,
+          "y": 708
+        },
+        "score": 0.599901457364646,
+        "peakMargin": 0.16870704892104227,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-128-176",
+        "source": {
+          "x": 512,
+          "y": 704
+        },
+        "target": {
+          "x": 500,
+          "y": 676
+        },
+        "score": 0.5384348649823026,
+        "peakMargin": 0.0022445792030071354,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-176-176",
+        "source": {
+          "x": 704,
+          "y": 704
+        },
+        "target": {
+          "x": 672,
+          "y": 724
+        },
+        "score": 0.7698629301031178,
+        "peakMargin": 0.0030984023723794607,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-220-176",
+        "source": {
+          "x": 880,
+          "y": 704
+        },
+        "target": {
+          "x": 868,
+          "y": 676
+        },
+        "score": 0.9648978378090433,
+        "peakMargin": 0.06652458571998432,
+        "eligible": true,
+        "authoritative": false
+      },
+      {
+        "id": "patch-36-220",
+        "source": {
+          "x": 144,
+          "y": 880
+        },
+        "target": {
+          "x": 144,
+          "y": 884
+        },
+        "score": 0.4167777149880609,
+        "peakMargin": 0.09303697809349559,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-80-220",
+        "source": {
+          "x": 320,
+          "y": 880
+        },
+        "target": {
+          "x": 320,
+          "y": 884
+        },
+        "score": 0.652900215330963,
+        "peakMargin": 0.34164115647615473,
+        "eligible": true,
+        "authoritative": false
+      },
+      {
+        "id": "patch-128-220",
+        "source": {
+          "x": 512,
+          "y": 880
+        },
+        "target": {
+          "x": 512,
+          "y": 884
+        },
+        "score": 0.5645885535177969,
+        "peakMargin": 0.0001360584301307588,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-176-220",
+        "source": {
+          "x": 704,
+          "y": 880
+        },
+        "target": {
+          "x": 704,
+          "y": 884
+        },
+        "score": 0.5154244354040707,
+        "peakMargin": 0.013431743957856068,
+        "eligible": false,
+        "authoritative": false
+      },
+      {
+        "id": "patch-220-220",
+        "source": {
+          "x": 880,
+          "y": 880
+        },
+        "target": {
+          "x": 872,
+          "y": 876
+        },
+        "score": 0.5109643650165784,
+        "peakMargin": 0.13903105164761587,
+        "eligible": false,
+        "authoritative": false
+      }
+    ],
+    "proposedControlFit": {
+      "status": "FAIL",
+      "scale": 0.9833820176688514,
+      "dx": 6.908406953548081,
+      "dy": 4.670276432031926,
+      "count": 5,
+      "median": 8.662824566451036,
+      "p95": 14.043919611245014,
+      "worst": 21.40442908054508,
+      "residuals": [
+        {
+          "id": "patch-128-36",
+          "source": {
+            "x": 512,
+            "y": 144
+          },
+          "target": {
+            "x": 512,
+            "y": 144
+          },
+          "score": 0.6777305283065621,
+          "peakMargin": 0.27750144376291275,
+          "eligible": true,
+          "authoritative": false,
+          "distance": 2.7831701300203573,
+          "quadrant": "NE"
+        },
+        {
+          "id": "patch-36-80",
+          "source": {
+            "x": 144,
+            "y": 320
+          },
+          "target": {
+            "x": 148,
+            "y": 328
+          },
+          "score": 0.6655662844658198,
+          "peakMargin": 0.07779681128596849,
+          "eligible": true,
+          "authoritative": false,
+          "distance": 8.662824566451036,
+          "quadrant": "NW"
+        },
+        {
+          "id": "patch-176-80",
+          "source": {
+            "x": 704,
+            "y": 320
+          },
+          "target": {
+            "x": 704,
+            "y": 320
+          },
+          "score": 0.6718846834274521,
+          "peakMargin": 0.3351163524871529,
+          "eligible": true,
+          "authoritative": false,
+          "distance": 4.834209351647169,
+          "quadrant": "NE"
+        },
+        {
+          "id": "patch-220-176",
+          "source": {
+            "x": 880,
+            "y": 704
+          },
+          "target": {
+            "x": 868,
+            "y": 676
+          },
+          "score": 0.9648978378090433,
+          "peakMargin": 0.06652458571998432,
+          "eligible": true,
+          "authoritative": false,
+          "distance": 21.40442908054508,
+          "quadrant": "SE"
+        },
+        {
+          "id": "patch-80-220",
+          "source": {
+            "x": 320,
+            "y": 880
+          },
+          "target": {
+            "x": 320,
+            "y": 884
+          },
+          "score": 0.652900215330963,
+          "peakMargin": 0.34164115647615473,
+          "eligible": true,
+          "authoritative": false,
+          "distance": 14.043919611245014,
+          "quadrant": "SW"
+        }
+      ],
+      "meaning": "Input-pixel residuals of proposed texture matches, not surveyed controls; <=6 px does not certify fidelity"
+    },
+    "controlsAuthoritative": false,
+    "alignmentStatus": "UNCERTAIN",
+    "spatialDistribution": "25 patches, five-by-five grid; see per-patch scores, shifts and eligibility",
+    "borders": [
+      {
+        "side": "top",
+        "box": [
+          12,
+          4,
+          232,
+          24
+        ],
+        "correlation": 0.5451269304508233,
+        "geographicCoverage": "UNCERTAIN: appearance edges only, not a coverage proof"
+      },
+      {
+        "side": "bottom",
+        "box": [
+          12,
+          228,
+          232,
+          24
+        ],
+        "correlation": 0.42120686119463646,
+        "geographicCoverage": "UNCERTAIN: appearance edges only, not a coverage proof"
+      },
+      {
+        "side": "left",
+        "box": [
+          4,
+          12,
+          24,
+          232
+        ],
+        "correlation": 0.3758413118009123,
+        "geographicCoverage": "UNCERTAIN: appearance edges only, not a coverage proof"
+      },
+      {
+        "side": "right",
+        "box": [
+          228,
+          12,
+          24,
+          232
+        ],
+        "correlation": 0.552695846568722,
+        "geographicCoverage": "UNCERTAIN: appearance edges only, not a coverage proof"
+      }
+    ],
+    "limitations": [
+      "Texture changes dominate roof-edge measurements",
+      "Patch proposals may match repeated windows or new ridges",
+      "No local warp, crop repair or feature mask applied",
+      "Pixel-precise camera, perimeter and topology remain unverified"
+    ]
+  },
+  "raw": {
+    "format": "png",
+    "width": 1254,
+    "height": 1254,
+    "channels": 3,
+    "space": "srgb",
+    "depth": "uchar",
+    "hasAlpha": false,
+    "alphaMin": 255,
+    "hasProfile": false,
+    "iccBytes": 0,
+    "orientation": null,
+    "blackPixels": 0,
+    "darkCells": 0,
+    "validOpaquePng": true,
+    "pixels": 1572516
+  },
+  "derivative": {
+    "sha256": "161b0f558d15a0a313b39c44ccd41b4c00cc993f4fa357b1ed001f435402ae8e",
+    "bytes": 3000284,
+    "metadata": {
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "channels": 3,
+      "space": "srgb",
+      "depth": "uchar",
+      "hasAlpha": false,
+      "alphaMin": 255,
+      "hasProfile": false,
+      "iccBytes": 0,
+      "orientation": null,
+      "blackPixels": 0,
+      "darkCells": 0,
+      "validOpaquePng": true,
+      "pixels": 1048576
+    }
+  },
+  "evidence": {
+    "rootCause": "UNKNOWN",
+    "summary": "Saved CLI log records a direct copy from a generated PNG and file output reports 1254 x 1254. No log evidence explains the generator size choice. No resizing by saved copy command.",
+    "events": [
+      {
+        "event": "thread.started",
+        "itemType": null,
+        "has1254Mention": false,
+        "has1024Mention": false
+      },
+      {
+        "event": "turn.started",
+        "itemType": null,
+        "has1254Mention": false,
+        "has1024Mention": false
+      },
+      {
+        "event": "item.completed",
+        "itemType": "agent_message",
+        "has1254Mention": false,
+        "has1024Mention": false
+      },
+      {
+        "event": "item.started",
+        "itemType": "command_execution",
+        "has1254Mention": false,
+        "has1024Mention": false
+      },
+      {
+        "event": "item.completed",
+        "itemType": "command_execution",
+        "has1254Mention": false,
+        "has1024Mention": true
+      },
+      {
+        "event": "item.started",
+        "itemType": "command_execution",
+        "has1254Mention": false,
+        "has1024Mention": false
+      },
+      {
+        "event": "item.completed",
+        "itemType": "command_execution",
+        "has1254Mention": true,
+        "has1024Mention": false
+      },
+      {
+        "event": "item.completed",
+        "itemType": "agent_message",
+        "has1254Mention": true,
+        "has1024Mention": true
+      },
+      {
+        "event": "turn.completed",
+        "itemType": null,
+        "has1254Mention": false,
+        "has1024Mention": false
+      }
+    ],
+    "privateLogTextCopied": false
+  },
+  "crops": [
+    {
+      "id": "NW-flat-roofs",
+      "box": [
+        0,
+        0,
+        310,
+        300
+      ],
+      "checks": [
+        "roof-planes",
+        "building-topology"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-paint.png"
+    },
+    {
+      "id": "north-road",
+      "box": [
+        260,
+        0,
+        270,
+        215
+      ],
+      "checks": [
+        "roads",
+        "framing"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/north-road-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/north-road-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/north-road-paint.png"
+    },
+    {
+      "id": "NE-courtyard-trees",
+      "box": [
+        470,
+        90,
+        330,
+        220
+      ],
+      "checks": [
+        "courtyards",
+        "trees"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-paint.png"
+    },
+    {
+      "id": "central-voids",
+      "box": [
+        190,
+        260,
+        350,
+        260
+      ],
+      "checks": [
+        "courtyards",
+        "roof-planes"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/central-voids-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/central-voids-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/central-voids-paint.png"
+    },
+    {
+      "id": "Accursio-tower",
+      "box": [
+        610,
+        270,
+        225,
+        230
+      ],
+      "checks": [
+        "palazzo-accursio"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/Accursio-tower-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/Accursio-tower-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/Accursio-tower-paint.png"
+    },
+    {
+      "id": "west-trees",
+      "box": [
+        20,
+        300,
+        190,
+        145
+      ],
+      "checks": [
+        "trees",
+        "roads"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/west-trees-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/west-trees-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/west-trees-paint.png"
+    },
+    {
+      "id": "SW-blocks",
+      "box": [
+        5,
+        570,
+        290,
+        320
+      ],
+      "checks": [
+        "building-topology",
+        "roof-planes"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/SW-blocks-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/SW-blocks-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/SW-blocks-paint.png"
+    },
+    {
+      "id": "San-Petronio",
+      "box": [
+        295,
+        550,
+        560,
+        415
+      ],
+      "checks": [
+        "san-petronio"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/San-Petronio-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/San-Petronio-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/San-Petronio-paint.png"
+    },
+    {
+      "id": "SE-portico",
+      "box": [
+        790,
+        870,
+        234,
+        154
+      ],
+      "checks": [
+        "pilot-portico",
+        "framing"
+      ],
+      "coordinateFrame": "original input 1024 square; painting full-frame resize hypothesis",
+      "pair": "data/bo-004s-d-offline/diagnostics/SE-portico-pair.png",
+      "source": "data/bo-004s-d-offline/diagnostics/SE-portico-input.png",
+      "candidate": "data/bo-004s-d-offline/diagnostics/SE-portico-paint.png"
+    }
+  ],
+  "preliminary": {
+    "decision": "REFINE_REQUIRED",
+    "format": "FORMAT_RECOVERABLE",
+    "alignment": "UNCERTAIN",
+    "topology": "UNCERTAIN",
+    "humanAcceptance": "PENDING",
+    "humanGate": "HUMAN_ACCEPTANCE_REQUIRED",
+    "seams": "NOT_TESTED",
+    "scalability": "NOT_TESTED",
+    "cost": "NOT_TESTED",
+    "registrationPermitted": false
+  },
+  "historicalRunStatus": "FAILED_NO_RETRY",
+  "humanAcceptance": "PENDING",
+  "providerRequests": 0,
+  "assessment": {
+    "decision": "REFINE_REQUIRED",
+    "format": "FORMAT_RECOVERABLE",
+    "alignment": "UNCERTAIN",
+    "topology": "FAIL",
+    "humanAcceptance": "PENDING",
+    "humanGate": "HUMAN_ACCEPTANCE_REQUIRED",
+    "seams": "NOT_TESTED",
+    "scalability": "NOT_TESTED",
+    "cost": "NOT_TESTED",
+    "registrationPermitted": false
+  },
+  "style": {
+    "palette": "STRONG",
+    "houseStyle": "MEDIUM",
+    "historicalAccuracy": "NOT_VERIFIED",
+    "observations": "Warm ochre walls, terracotta, stone paving and rounded deciduous crowns; dense repeated windows and roof texture. No coastline or palms visibly imported. Newly illustrated details are not historical evidence."
+  },
+  "featureChecks": [
+    {
+      "id": "roads",
+      "status": "UNCERTAIN",
+      "severity": "major",
+      "crops": [
+        "north-road",
+        "west-trees"
+      ],
+      "bounds": [
+        [
+          260,
+          0,
+          270,
+          215
+        ],
+        [
+          20,
+          300,
+          190,
+          145
+        ]
+      ],
+      "explanation": "Northern long road and island remain recognizable with similar axes. Texture, curb and adjacent roof changes prevent certification of widths, entrances and all road edges; no authoritative road segmentation was extracted."
+    },
+    {
+      "id": "building-topology",
+      "status": "FAIL",
+      "severity": "major",
+      "crops": [
+        "NW-flat-roofs",
+        "SW-blocks"
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          310,
+          300
+        ],
+        [
+          5,
+          570,
+          290,
+          320
+        ]
+      ],
+      "explanation": "New pitched roof volumes change visible building mass and silhouette on source-flat blocks. Horizontal footprint merging/subdivision is not established; this failure specifically concerns volume additions above existing masses."
+    },
+    {
+      "id": "roof-planes",
+      "status": "FAIL",
+      "severity": "blocking",
+      "crops": [
+        "NW-flat-roofs",
+        "central-voids",
+        "SW-blocks"
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          310,
+          300
+        ],
+        [
+          190,
+          260,
+          350,
+          260
+        ],
+        [
+          5,
+          570,
+          290,
+          320
+        ]
+      ],
+      "explanation": "Several uniformly flat source roof faces acquire ridges, sloping terracotta planes and projecting roof edges. This is a geometry change, not merely recoloring or hatch texture, and overrides the passing edge heuristic."
+    },
+    {
+      "id": "courtyards",
+      "status": "UNCERTAIN",
+      "severity": "major",
+      "crops": [
+        "central-voids",
+        "NE-courtyard-trees",
+        "SE-portico"
+      ],
+      "bounds": [
+        [
+          190,
+          260,
+          350,
+          260
+        ],
+        [
+          470,
+          90,
+          330,
+          220
+        ],
+        [
+          790,
+          870,
+          234,
+          154
+        ]
+      ],
+      "explanation": "Major voids remain visible, but new sloping roof faces alter their surrounding edges. Exact no-build void connectivity and clearance cannot be certified from textured pixels or the interpolated height guide. No claim that all courtyards were covered is made."
+    },
+    {
+      "id": "san-petronio",
+      "status": "UNCERTAIN",
+      "severity": "major",
+      "crops": [
+        "San-Petronio"
+      ],
+      "bounds": [
+        [
+          295,
+          550,
+          560,
+          415
+        ]
+      ],
+      "explanation": "Large nave, stepped side roofs and existing tower remain recognizable. Exact ridge/eave position, roof segmentation and perimeter are not independently verified. The source itself contains estimated BO-003F roof planes; the illustration is not evidence of historical correctness or a newly invented tower."
+    },
+    {
+      "id": "palazzo-accursio",
+      "status": "FAIL",
+      "severity": "major",
+      "crops": [
+        "Accursio-tower",
+        "NE-courtyard-trees"
+      ],
+      "bounds": [
+        [
+          610,
+          270,
+          225,
+          230
+        ],
+        [
+          470,
+          90,
+          330,
+          220
+        ]
+      ],
+      "explanation": "Tower silhouette is broadly recognizable, but surrounding source-flat roof portions gain new pitched/ridged transitions. Added facade and roof detail does not certify historical articulation. No conclusion of an invented clock face is supported."
+    },
+    {
+      "id": "pilot-portico",
+      "status": "UNCERTAIN",
+      "severity": "blocking",
+      "crops": [
+        "SE-portico"
+      ],
+      "bounds": [
+        [
+          790,
+          870,
+          234,
+          154
+        ]
+      ],
+      "existingLocator": {
+        "source": "data/bo-004s-paint/candidate/selection.json",
+        "label": "Portico 21018 gap",
+        "pixel": [
+          874.5774929571722,
+          970.0518719022773
+        ]
+      },
+      "explanation": "Existing selection anchor locates the pilot; an open colonnaded void is visible in the crop, with changed roof treatment above it. Occlusion, raster resolution and texture prevent support-by-support clearance validation. The height raster is not an underpass segmentation mask."
+    },
+    {
+      "id": "trees",
+      "status": "UNCERTAIN",
+      "severity": "major",
+      "crops": [
+        "NE-courtyard-trees",
+        "west-trees"
+      ],
+      "bounds": [
+        [
+          470,
+          90,
+          330,
+          220
+        ],
+        [
+          20,
+          300,
+          190,
+          145
+        ]
+      ],
+      "explanation": "Source spheres become larger textured green crowns; northern crown grouping and purple/green source indicators no longer provide reliable one-to-one positional/count evidence. Retention, removal or roof occlusion of individual trees remains unresolved. No palms are visibly introduced in these crops."
+    },
+    {
+      "id": "image-framing",
+      "status": "UNCERTAIN",
+      "severity": "blocking",
+      "crops": [
+        "north-road",
+        "NW-flat-roofs",
+        "SW-blocks",
+        "SE-portico"
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      ],
+      "explanation": "Full-frame resize is the best exploratory global fit and no constant padding is evidenced. Borders contain scene content, but no reliable distributed authoritative controls certify exact framing or absence of small perimeter loss. Five proposed texture matches have inconsistent residuals; a smooth piazza match is especially suspect."
+    },
+    {
+      "id": "visual-language",
+      "status": "PASS",
+      "severity": "minor",
+      "crops": [
+        "NW-flat-roofs",
+        "San-Petronio",
+        "west-trees"
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      ],
+      "explanation": "Illustrated warm ochre/brick/terracotta and pale paving meet the appearance hypothesis. This diagnostic appearance PASS does not approve geometry, specific building materials, species or history."
+    },
+    {
+      "id": "file-format",
+      "status": "PASS",
+      "severity": "minor",
+      "crops": [
+        "whole-window"
+      ],
+      "bounds": [
+        [
+          0,
+          0,
+          1024,
+          1024
+        ]
+      ],
+      "explanation": "A deterministic opaque 1024x1024 RGB PNG with no black-band cells is obtainable via full-frame Lanczos3 resize. Raw remains immutable and the original run remains FAILED_NO_RETRY."
+    }
+  ],
+  "reviewer": "Codex offline visual inspection; no human acceptance",
+  "humanGate": "HUMAN_ACCEPTANCE_REQUIRED",
+  "engineering": {
+    "node": "v24.22.3",
+    "results": [
+      {
+        "name": "pipeline-typescript",
+        "command": [
+          "node_modules/.bin/tsc",
+          "--noEmit",
+          "-p",
+          "pipeline"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": null,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/pipeline-typescript.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "web-typescript",
+        "command": [
+          "node_modules/.bin/tsc",
+          "--noEmit",
+          "-p",
+          "web"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": null,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/web-typescript.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "offline-typescript",
+        "command": [
+          "node_modules/.bin/tsc",
+          "--noEmit",
+          "--target",
+          "es2022",
+          "--module",
+          "esnext",
+          "--moduleResolution",
+          "bundler",
+          "--allowImportingTsExtensions",
+          "--strict",
+          "--skipLibCheck",
+          "--types",
+          "node",
+          "docs/bologna-paint-offline-metrics.ts",
+          "docs/bologna-paint-offline-qa.ts",
+          "docs/bologna-paint-offline-qa.test.ts",
+          "docs/bologna-paint-offline-check.ts"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": null,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-typescript.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "offline-and-regressions",
+        "command": [
+          "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+          "--import",
+          "tsx",
+          "--test",
+          "--test-reporter=spec",
+          "--test-skip-pattern=^(new manifest and staged references validate; dry-run cannot start Codex|new execution validates without changing or reopening prior evidence)$",
+          "pipeline/src/bologna.test.ts",
+          "pipeline/src/bologna-architecture.test.ts",
+          "pipeline/src/bologna-fidelity.test.ts",
+          "docs/bologna-coverage-qa.test.ts",
+          "docs/bologna-architecture-qa.test.ts",
+          "docs/bologna-viewer.test.ts",
+          "docs/bologna-paint.test.ts",
+          "docs/bologna-paint-api.test.ts",
+          "docs/bologna-paint-codex.test.ts",
+          "docs/bologna-paint-codex-recovery.test.ts",
+          "docs/bologna-paint-offline-qa.test.ts"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": 139,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-and-regressions.log",
+        "sha256": "277d36cecddecee8c6878f97a7958bd2b2c6b67e0f11d8f2e9dd9f790f3a6bc4"
+      },
+      {
+        "name": "read-only-no-subprocess-preflight",
+        "command": [
+          "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+          "--permission",
+          "--allow-fs-read=/home/jacopo/projects/isometricworld",
+          "--allow-addons",
+          "docs/bologna-paint-offline-qa.ts",
+          "--verify"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": null,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/read-only-no-subprocess-preflight.log",
+        "sha256": "ae2aef4bd763720cfa3796c91437b3065b08435a27bdc0ee3da730f2a225f2e9"
+      },
+      {
+        "name": "diff-check",
+        "command": [
+          "git",
+          "diff",
+          "--check"
+        ],
+        "exitCode": 0,
+        "status": "PASS",
+        "tests": null,
+        "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/diff-check.log",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "excludedUnusedRootTests": [
+      "new manifest and staged references validate; dry-run cannot start Codex",
+      "new execution validates without changing or reopening prior evidence"
+    ],
+    "exclusionReason": "Both live attempts have been consumed; old tests asserting unused roots are inapplicable. Original guards and test files are unchanged.",
+    "protectedFiles": 1645,
+    "providerRequests": 0,
+    "networkRequests": 0
+  },
+  "sourceInventory": {
+    "sha256": "c5de2a163b4169b9c4a39a5934c840deec37e46c3ea33dc26c9216ed08000bbd",
+    "bytes": 316627
+  },
+  "preservation": {
+    "verifiedFiles": 1645,
+    "originalStatus": "FAILED_NO_RETRY"
+  },
+  "registrationApplied": false,
+  "originalQaModified": false
+}

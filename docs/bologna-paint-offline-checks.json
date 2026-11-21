@@ -1,0 +1,124 @@
+{
+  "node": "v24.22.3",
+  "results": [
+    {
+      "name": "pipeline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "pipeline"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": null,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/pipeline-typescript.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "web-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "-p",
+        "web"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": null,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/web-typescript.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "offline-typescript",
+      "command": [
+        "node_modules/.bin/tsc",
+        "--noEmit",
+        "--target",
+        "es2022",
+        "--module",
+        "esnext",
+        "--moduleResolution",
+        "bundler",
+        "--allowImportingTsExtensions",
+        "--strict",
+        "--skipLibCheck",
+        "--types",
+        "node",
+        "docs/bologna-paint-offline-metrics.ts",
+        "docs/bologna-paint-offline-qa.ts",
+        "docs/bologna-paint-offline-qa.test.ts",
+        "docs/bologna-paint-offline-check.ts"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": null,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-typescript.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "offline-and-regressions",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--import",
+        "tsx",
+        "--test",
+        "--test-reporter=spec",
+        "--test-skip-pattern=^(new manifest and staged references validate; dry-run cannot start Codex|new execution validates without changing or reopening prior evidence)$",
+        "pipeline/src/bologna.test.ts",
+        "pipeline/src/bologna-architecture.test.ts",
+        "pipeline/src/bologna-fidelity.test.ts",
+        "docs/bologna-coverage-qa.test.ts",
+        "docs/bologna-architecture-qa.test.ts",
+        "docs/bologna-viewer.test.ts",
+        "docs/bologna-paint.test.ts",
+        "docs/bologna-paint-api.test.ts",
+        "docs/bologna-paint-codex.test.ts",
+        "docs/bologna-paint-codex-recovery.test.ts",
+        "docs/bologna-paint-offline-qa.test.ts"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": 139,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-and-regressions.log",
+      "sha256": "277d36cecddecee8c6878f97a7958bd2b2c6b67e0f11d8f2e9dd9f790f3a6bc4"
+    },
+    {
+      "name": "read-only-no-subprocess-preflight",
+      "command": [
+        "/home/jacopo/.nvm/versions/node/v24.22.3/bin/node",
+        "--permission",
+        "--allow-fs-read=/home/jacopo/projects/isometricworld",
+        "--allow-addons",
+        "docs/bologna-paint-offline-qa.ts",
+        "--verify"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": null,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/read-only-no-subprocess-preflight.log",
+      "sha256": "ae2aef4bd763720cfa3796c91437b3065b08435a27bdc0ee3da730f2a225f2e9"
+    },
+    {
+      "name": "diff-check",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exitCode": 0,
+      "status": "PASS",
+      "tests": null,
+      "log": "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/diff-check.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "excludedUnusedRootTests": [
+    "new manifest and staged references validate; dry-run cannot start Codex",
+    "new execution validates without changing or reopening prior evidence"
+  ],
+  "exclusionReason": "Both live attempts have been consumed; old tests asserting unused roots are inapplicable. Original guards and test files are unchanged.",
+  "protectedFiles": 1645,
+  "providerRequests": 0,
+  "networkRequests": 0
+}

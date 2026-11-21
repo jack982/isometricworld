@@ -1,0 +1,219 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/diff-check.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-and-regressions.log": {
+      "sha256": "277d36cecddecee8c6878f97a7958bd2b2c6b67e0f11d8f2e9dd9f790f3a6bc4",
+      "bytes": 12324
+    },
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/offline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/pipeline-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/read-only-no-subprocess-preflight.log": {
+      "sha256": "ae2aef4bd763720cfa3796c91437b3065b08435a27bdc0ee3da730f2a225f2e9",
+      "bytes": 308
+    },
+    "data/bo-004s-d-offline/checks/2026-11-20T16-42-15.243Z/web-typescript.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "data/bo-004s-d-offline/diagnostics/Accursio-tower-input.png": {
+      "sha256": "3fe69541b9bd0c21732214fa9336edaf1a5beeb9d6c372c88270ec8ee829ec22",
+      "bytes": 65540
+    },
+    "data/bo-004s-d-offline/diagnostics/Accursio-tower-paint.png": {
+      "sha256": "10aec9dca5dcc5834cda8ed66ddb2a76316f0b4245612b6af6148fba236ec1d0",
+      "bytes": 149529
+    },
+    "data/bo-004s-d-offline/diagnostics/Accursio-tower-pair.png": {
+      "sha256": "4d724bc6970e69cc362e08e1003112776d38d2444793c34eee1e026d5b923fcb",
+      "bytes": 394238
+    },
+    "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-input.png": {
+      "sha256": "b2febd483da342c4ec9976f5a53213dbe3fcb98a68633ab2f37b57808c4b53b4",
+      "bytes": 74061
+    },
+    "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-paint.png": {
+      "sha256": "3156161371863de6b1417f54f8f308db122cc7069040d288f3ab3378582a5915",
+      "bytes": 208093
+    },
+    "data/bo-004s-d-offline/diagnostics/NE-courtyard-trees-pair.png": {
+      "sha256": "c643d0a59576af7f8cf383777162654d304d68e947255d7132a10f04df61b5f8",
+      "bytes": 386298
+    },
+    "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-input.png": {
+      "sha256": "824915b919dd5d5a7dca9329b9fab29e74444f4029a8dbb5ba6e4d7e07bc2de0",
+      "bytes": 106956
+    },
+    "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-paint.png": {
+      "sha256": "ae2adcd5f3175827de5836cf423a69c4207643057dd22ac69d78ca0936c0b625",
+      "bytes": 265768
+    },
+    "data/bo-004s-d-offline/diagnostics/NW-flat-roofs-pair.png": {
+      "sha256": "615d4fc549baac718f5c9c31f266f14190f8f5df91ebe03b161581ce33d8c56b",
+      "bytes": 414152
+    },
+    "data/bo-004s-d-offline/diagnostics/SE-portico-input.png": {
+      "sha256": "e4d7fd92d4bc587b2baecc4e67c9dc0484733c3d71cae7818db07ded39fd104d",
+      "bytes": 28940
+    },
+    "data/bo-004s-d-offline/diagnostics/SE-portico-paint.png": {
+      "sha256": "3055713fea5f8c3271cb96e166e949d7f327f0d95456260125c420eaedc11708",
+      "bytes": 102220
+    },
+    "data/bo-004s-d-offline/diagnostics/SE-portico-pair.png": {
+      "sha256": "e602a0e56da447924f61226864d97fe60aff9cae826a1e497c2234e7f1e8f592",
+      "bytes": 340520
+    },
+    "data/bo-004s-d-offline/diagnostics/SW-blocks-input.png": {
+      "sha256": "9500b9974e4be39394fd679ce895aff0c2754b9bdecae032124c50b535a36ead",
+      "bytes": 105516
+    },
+    "data/bo-004s-d-offline/diagnostics/SW-blocks-paint.png": {
+      "sha256": "bcb226837b54c1fb2fc46bebd0e4fb9dc0f7212dfaf31a7a9d5669446592d306",
+      "bytes": 266270
+    },
+    "data/bo-004s-d-offline/diagnostics/SW-blocks-pair.png": {
+      "sha256": "064c56fe4e059ccb8291b59fb00459107968419a6c077c00c7c5d480681d98f4",
+      "bytes": 357994
+    },
+    "data/bo-004s-d-offline/diagnostics/San-Petronio-input.png": {
+      "sha256": "7d51a732a16b411038e8edf876bf888ecbdffe015dd9305a811fdc28aca4a2ea",
+      "bytes": 170210
+    },
+    "data/bo-004s-d-offline/diagnostics/San-Petronio-paint.png": {
+      "sha256": "475331ad6704c4aa5af47e23efbe3356f67dad0dcbb40ad66c90e2cb190f3371",
+      "bytes": 666174
+    },
+    "data/bo-004s-d-offline/diagnostics/San-Petronio-pair.png": {
+      "sha256": "e5e932153224b2e0b8e536a64af84d981d0be5ecb888b483c31394612927b95e",
+      "bytes": 416705
+    },
+    "data/bo-004s-d-offline/diagnostics/alignment-hypotheses.json": {
+      "sha256": "93b8ebaa144032b86226dca8a03f4575ef37ebfff8d103d19fff99c1b6f6326d",
+      "bytes": 12669
+    },
+    "data/bo-004s-d-offline/diagnostics/central-voids-input.png": {
+      "sha256": "998a2a84bf9b0e4a8891545da53ffa651eb55cf843c7da06296e8019ffc0da05",
+      "bytes": 109197
+    },
+    "data/bo-004s-d-offline/diagnostics/central-voids-paint.png": {
+      "sha256": "979d2a7dbf91a06fe8421daa98bf43d338df526d0dd9af6a53e9fb5da203128e",
+      "bytes": 260822
+    },
+    "data/bo-004s-d-offline/diagnostics/central-voids-pair.png": {
+      "sha256": "755c62c315b75b5f555e81bb4ca4c71c274240d26dc297797e006f8b017f5935",
+      "bytes": 424800
+    },
+    "data/bo-004s-d-offline/diagnostics/control-review-overlay.png": {
+      "sha256": "c2f04dbf3c6f5712e9824664ea205680579447c6bc6130c29fe55969c7a2c489",
+      "bytes": 2999915
+    },
+    "data/bo-004s-d-offline/diagnostics/crop-manifest.json": {
+      "sha256": "c09986bb8e423a1b656050ad7d59cf29cb5facdc9f6ebe717cfb4c72ad75e5cc",
+      "bytes": 4243
+    },
+    "data/bo-004s-d-offline/diagnostics/log-evidence.json": {
+      "sha256": "4e9d3cc7648f2df71b2478a74dca79015144f672b7d1619337ea62fd08180db3",
+      "bytes": 1528
+    },
+    "data/bo-004s-d-offline/diagnostics/measurements.json": {
+      "sha256": "a4e2e5d8e3d7762a3e91b4df6179e4211eaec54bead78caa3307830f9006429e",
+      "bytes": 21384
+    },
+    "data/bo-004s-d-offline/diagnostics/north-road-input.png": {
+      "sha256": "98af992a5df654982dc059c022483d44c1b5e851750755726d7913ab764bf86b",
+      "bytes": 45355
+    },
+    "data/bo-004s-d-offline/diagnostics/north-road-paint.png": {
+      "sha256": "07081634b5da7ea0857262963d095fc489cea27b84473188503136d583f0cc79",
+      "bytes": 157368
+    },
+    "data/bo-004s-d-offline/diagnostics/north-road-pair.png": {
+      "sha256": "f39654ffe68d7adc6a5b0faa46cd93341bcbf0a5372d9f3a87561f34026b0979",
+      "bytes": 400187
+    },
+    "data/bo-004s-d-offline/diagnostics/overlay-fixed-1024.png": {
+      "sha256": "fc4f618f1b1bcdb9a46e259ab815781e0a4e3a020c23afb92dcbf3f525c2819a",
+      "bytes": 2992828
+    },
+    "data/bo-004s-d-offline/diagnostics/raw-metadata.json": {
+      "sha256": "9f0b17331fc2081346ceb22b8985f999829178796dd2355812467b4797545e7b",
+      "bytes": 301
+    },
+    "data/bo-004s-d-offline/diagnostics/resized-full-1024.png": {
+      "sha256": "161b0f558d15a0a313b39c44ccd41b4c00cc993f4fa357b1ed001f435402ae8e",
+      "bytes": 3000284
+    },
+    "data/bo-004s-d-offline/diagnostics/west-trees-input.png": {
+      "sha256": "afb2c2cc505acdf513c5d5378f305f3272e73c60087b32a9cecfbcd450d1e8e6",
+      "bytes": 37057
+    },
+    "data/bo-004s-d-offline/diagnostics/west-trees-paint.png": {
+      "sha256": "76cad46b034d8b50457a9aa80874a999ab0dd6a12ae3e9c7b860a1f124fd417c",
+      "bytes": 79988
+    },
+    "data/bo-004s-d-offline/diagnostics/west-trees-pair.png": {
+      "sha256": "702eb8c3e1480fe054344a2fdd70e1e4618b41ecffcd8b4a74f8c4d1aeb3fc3e",
+      "bytes": 460215
+    },
+    "docs/bologna-paint-offline-check.ts": {
+      "sha256": "349ce60b59c1c10823747bdee7540877c99ac6ea763b8e63d94923c8c46fbc5d",
+      "bytes": 2885
+    },
+    "docs/bologna-paint-offline-checks.json": {
+      "sha256": "539d99687dd20b5a0042889992d846c703b93d44e029dee2bc4e6fb66943f80d",
+      "bytes": 4167
+    },
+    "docs/bologna-paint-offline-comparison.jpg": {
+      "sha256": "477180c840c03b88a80741a07ce2d290f7ef9f203ad56c6e57129b13444272e1",
+      "bytes": 1028927
+    },
+    "docs/bologna-paint-offline-crops.jpg": {
+      "sha256": "e0fc0fe1e8bef199ecbfaee79479f06965bd1ebd00ae2ae178b2024bc3bfd53f",
+      "bytes": 848090
+    },
+    "docs/bologna-paint-offline-inventory.json": {
+      "sha256": "c5de2a163b4169b9c4a39a5934c840deec37e46c3ea33dc26c9216ed08000bbd",
+      "bytes": 316627
+    },
+    "docs/bologna-paint-offline-metrics.ts": {
+      "sha256": "1db1332056bfa8b663d5cc29c4f8974b474dd3c0d5e33e8c33e83219174023e6",
+      "bytes": 6697
+    },
+    "docs/bologna-paint-offline-overlay.png": {
+      "sha256": "96634b746e88bb773b41c4297dcf9d636b2ce39902ac6ce2971456711adb8706",
+      "bytes": 3009978
+    },
+    "docs/bologna-paint-offline-qa.json": {
+      "sha256": "23ac87c273ef7f1b6ab0aae3889fc39065b5c380da6ba99df093b0611a58a017",
+      "bytes": 33888
+    },
+    "docs/bologna-paint-offline-qa.test.ts": {
+      "sha256": "1d86fa47b002b17e870ed7401970a20c3f09d6a1dde57a2f474ce14252650f68",
+      "bytes": 6645
+    },
+    "docs/bologna-paint-offline-qa.ts": {
+      "sha256": "68d903907bcb6c4bf2c86e19f41aaffc6b305081f418819639951009cd78bd36",
+      "bytes": 15062
+    },
+    "docs/bologna-paint-offline-report.md": {
+      "sha256": "1c0fe593256e369c087bc6515ce3100274db02d7a713fb272ea02b2198e9db70",
+      "bytes": 19087
+    },
+    "docs/bologna-paint-offline-review.json": {
+      "sha256": "d2db766425bfd6597b4da697583873c7ef73e99d7de775da03253357d26179b0",
+      "bytes": 5633
+    }
+  },
+  "providerRequests": 0,
+  "historicalRunStatus": "FAILED_NO_RETRY"
+}
